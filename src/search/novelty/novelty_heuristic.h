@@ -4,8 +4,15 @@
 #include "../heuristic.h"
 
 namespace novelty {
+enum class AggregationFunction {
+    MIN,
+    MAX,
+    SUM,
+};
+
 class NoveltyHeuristic : public Heuristic {
     const int width;
+    const AggregationFunction aggregation_function;
     const bool debug;
 
     std::vector<int> fact_id_offsets;
