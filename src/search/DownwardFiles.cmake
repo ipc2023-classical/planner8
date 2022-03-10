@@ -602,6 +602,14 @@ fast_downward_plugin(
 )
 
 fast_downward_plugin(
+    NAME NOVELTY
+    HELP "Novelty-based algorithms"
+    SOURCES
+        novelty/novelty_heuristic
+    DEPENDS TASK_PROPERTIES
+)
+
+fast_downward_plugin(
     NAME CORE_TASKS
     HELP "Core task transformations"
     SOURCES
