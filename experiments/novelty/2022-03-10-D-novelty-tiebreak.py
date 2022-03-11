@@ -18,32 +18,22 @@ else:
     ENV = project.LocalEnvironment(processes=2)
 
 CONFIGS = [
-    ("00-novelty", [
-        "--search", """lazy_greedy([novelty(width=2, aggregate=min)],cost_type=one,reopen_closed=false)"""]),
     ("01-ff", [
         "--evaluator", "hff=ff(transform=adapt_costs(one))",
-        "--search", """lazy_greedy([hff],preferred=[hff],cost_type=one,reopen_closed=false)"""]),
-    ("02-ff-novelty", [
+        "--search", """lazy(single(hff), cost_type=one, reopen_closed=false)"""]),
+    ("02-ff-novelty-alt", [
         "--evaluator", "hff=ff(transform=adapt_costs(one))",
-        "--search", """lazy_greedy([hff,novelty(width=2, aggregate=min)],preferred=[hff],
+        "--search", """lazy(alt([single(hff), single(novelty(width=2, aggregate=min))]),
                                 cost_type=one,reopen_closed=false)"""]),
-    ("03-ff-lmc", [
-        "--evaluator",
-        "hlm=lmcount(lm_factory=lm_reasonable_orders_hps(lm_rhw()),transform=adapt_costs(one),pref=false)",
+    ("03-ff-novelty-tb", [
         "--evaluator", "hff=ff(transform=adapt_costs(one))",
-        "--search", """lazy_greedy([hff,hlm],preferred=[hff,hlm],
-                                cost_type=one,reopen_closed=false)"""]),
-    ("04-ff-lmc-novelty", [
-        "--evaluator",
-        "hlm=lmcount(lm_factory=lm_reasonable_orders_hps(lm_rhw()),transform=adapt_costs(one),pref=false)",
-        "--evaluator", "hff=ff(transform=adapt_costs(one))",
-        "--search", """lazy_greedy([hff,hlm,novelty(width=2, aggregate=min)],preferred=[hff,hlm],
+        "--search", """lazy(tiebreaking([hff,novelty(width=2, aggregate=min)]),
                                 cost_type=one,reopen_closed=false)"""]),
 ]
 BUILD_OPTIONS = []
 DRIVER_OPTIONS = ["--overall-time-limit", "5m"]
 REVS = [
-    ("novelty", ""),
+    ("52e6aefa6", ""),
 ]
 ATTRIBUTES = [
     "error",
