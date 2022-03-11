@@ -21,11 +21,17 @@ CONFIGS = [
     ("01-ff", [
         "--evaluator", "hff=ff(transform=adapt_costs(one))",
         "--search", """lazy(single(hff), cost_type=one, reopen_closed=false)"""]),
-    ("02-ff-novelty-alt", [
+    ("02-ff-epsilon", [
+        "--evaluator", "hff=ff(transform=adapt_costs(one))",
+        "--search", """lazy(epsilon_greedy(hff), cost_type=one, reopen_closed=false)"""]),
+    ("03-ff-typed", [
+        "--evaluator", "hff=ff(transform=adapt_costs(one))",
+        "--search", """lazy(alt([single(hff), type_based([hff, g()])]), cost_type=one, reopen_closed=false)"""]),
+    ("04-ff-novelty-alt", [
         "--evaluator", "hff=ff(transform=adapt_costs(one))",
         "--search", """lazy(alt([single(hff), single(novelty(width=2, aggregate=min))]),
                                 cost_type=one,reopen_closed=false)"""]),
-    ("03-ff-novelty-tb", [
+    ("05-ff-novelty-tb", [
         "--evaluator", "hff=ff(transform=adapt_costs(one))",
         "--search", """lazy(tiebreaking([hff,novelty(width=2, aggregate=min)]),
                                 cost_type=one,reopen_closed=false)"""]),
