@@ -90,8 +90,8 @@ project.add_absolute_report(
 
 from downward.reports.compare import ComparativeReport
 exp.add_report(ComparativeReport([
-        ("01-ff", "02-ff-novelty"),
-        ("03-ff-lmc", "04-ff-lmc-novelty"),
+        ("01-ff", "04-ff-novelty-alt"),
+        ("01-ff", "05-ff-novelty-tb"),
     ],
     attributes=ATTRIBUTES, filter=[project.add_evaluations_per_time]
 ))
@@ -103,7 +103,9 @@ def filter_zero_expansions(run):
 
 attributes = ["expansions"]
 pairs = [
-    ("01-ff", "02-ff-novelty"),
+    ("01-ff", "04-ff-novelty-alt"),
+    ("01-ff", "05-ff-novelty-tb"),
+    ("04-ff-novelty-alt", "05-ff-novelty-tb"),
 ]
 suffix = "-rel" if project.RELATIVE else ""
 for algo1, algo2 in pairs:
