@@ -55,7 +55,7 @@ class CEGAR {
       for other subtasks with a single goal fact doesn't hurt and
       simplifies the implementation.
     */
-    void separate_facts_unreachable_before_goal();
+    void separate_facts_unreachable_before_goal() const;
 
     /* Try to convert the abstract solution into a concrete trace. Return the
        first encountered flaw or nullptr if there is no flaw. */
@@ -64,7 +64,7 @@ class CEGAR {
     // Build abstraction.
     void refinement_loop(utils::RandomNumberGenerator &rng);
 
-    void print_statistics();
+    void print_statistics() const;
 
 public:
     CEGAR(
