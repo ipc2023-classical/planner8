@@ -605,7 +605,7 @@ fast_downward_plugin(
     NAME NOVELTY
     HELP "Novelty-based algorithms"
     SOURCES
-        novelty/novelty_heuristic
+        novelty/novelty_evaluator
     DEPENDS TASK_PROPERTIES
 )
 

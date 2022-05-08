@@ -1,5 +1,5 @@
-#ifndef NOVELTY_NOVELTY_HEURISTIC_H
-#define NOVELTY_NOVELTY_HEURISTIC_H
+#ifndef NOVELTY_NOVELTY_EVALUATOR_H
+#define NOVELTY_NOVELTY_EVALUATOR_H
 
 #include "../heuristic.h"
 
@@ -10,7 +10,7 @@ enum class AggregationFunction {
     SUM,
 };
 
-class NoveltyHeuristic : public Heuristic {
+class NoveltyEvaluator : public Heuristic {
     const int width;
     const AggregationFunction aggregation_function;
     const bool debug;
@@ -30,7 +30,7 @@ protected:
     virtual int compute_heuristic(const State &ancestor_state) override;
 
 public:
-    explicit NoveltyHeuristic(const options::Options &opts);
+    explicit NoveltyEvaluator(const options::Options &opts);
 };
 }
 

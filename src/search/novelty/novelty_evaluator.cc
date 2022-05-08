@@ -1,4 +1,4 @@
-#include "novelty_heuristic.h"
+#include "novelty_evaluator.h"
 
 #include "../option_parser.h"
 #include "../plugin.h"
@@ -9,7 +9,7 @@
 using namespace std;
 
 namespace novelty {
-NoveltyHeuristic::NoveltyHeuristic(const Options &opts)
+NoveltyEvaluator::NoveltyEvaluator(const Options &opts)
     : Heuristic(opts),
       width(opts.get<int>("width")),
       aggregation_function(opts.get<AggregationFunction>("aggregate")),
@@ -35,7 +35,7 @@ NoveltyHeuristic::NoveltyHeuristic(const Options &opts)
     }
 }
 
-int NoveltyHeuristic::get_and_increase_fact_pair_novelty(int fact_id1, int fact_id2) {
+int NoveltyEvaluator::get_and_increase_fact_pair_novelty(int fact_id1, int fact_id2) {
     if (fact_id1 > fact_id2) {
         swap(fact_id1, fact_id2);
     }
@@ -56,7 +56,7 @@ static u_int64_t combine_values(uint64_t val1, uint64_t val2, AggregationFunctio
     }
 }
 
-int NoveltyHeuristic::compute_and_increase_novelty(const State &state) {
+int NoveltyEvaluator::compute_and_increase_novelty(const State &state) {
     int num_vars = state.size();
     uint64_t novelty = (aggregation_function == AggregationFunction::MIN)
         ? numeric_limits<uint64_t>::max()
@@ -93,7 +93,7 @@ int NoveltyHeuristic::compute_and_increase_novelty(const State &state) {
     return novelty;
 }
 
-int NoveltyHeuristic::compute_heuristic(const State &state) {
+int NoveltyEvaluator::compute_heuristic(const State &state) {
     // No need to convert ancestor state since we only allow cost transformations.
     int novelty = compute_and_increase_novelty(state);
     if (debug) {
@@ -113,7 +113,7 @@ static shared_ptr<Heuristic> _parse(OptionParser &parser) {
     if (parser.dry_run())
         return nullptr;
     else
-        return make_shared<NoveltyHeuristic>(opts);
+        return make_shared<NoveltyEvaluator>(opts);
 }
 
 static Plugin<Evaluator> _plugin("novelty", _parse);
