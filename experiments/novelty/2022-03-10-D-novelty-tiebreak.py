@@ -46,12 +46,14 @@ ATTRIBUTES = [
     "run_dir",
     "search_start_time",
     "search_start_memory",
+    #"search_time",
     "total_time",
     "h_values",
     "coverage",
+    #"evaluations",
     "expansions",
     "memory",
-    project.EVALUATIONS_PER_TIME,
+    #project.EVALUATIONS_PER_TIME,
 ]
 
 exp = project.FastDownwardExperiment(environment=ENV)
@@ -96,6 +98,9 @@ exp.add_report(ComparativeReport([
     attributes=ATTRIBUTES, filter=[project.add_evaluations_per_time]
 ))
 
+exp.add_report(project.PerDomainComparison(sort=True))
+exp.add_report(project.PerTaskComparison(sort=True, attributes=["expansions"]))
+
 def filter_zero_expansions(run):
     if run.get("expansions") == 0:
         run["expansions"] = None
@@ -103,9 +108,13 @@ def filter_zero_expansions(run):
 
 attributes = ["expansions"]
 pairs = [
+    ("01-ff", "02-ff-epsilon"),
+    ("01-ff", "03-ff-typed"),
     ("01-ff", "04-ff-novelty-alt"),
     ("01-ff", "05-ff-novelty-tb"),
     ("04-ff-novelty-alt", "05-ff-novelty-tb"),
+    ("02-ff-epsilon", "05-ff-novelty-tb"),
+    ("03-ff-typed", "05-ff-novelty-tb"),
 ]
 suffix = "-rel" if project.RELATIVE else ""
 for algo1, algo2 in pairs:

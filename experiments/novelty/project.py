@@ -12,6 +12,9 @@ from lab.environments import BaselSlurmEnvironment, TetralithEnvironment, LocalE
 from lab.experiment import ARGPARSER
 from lab.reports import Attribute, geometric_mean
 
+from reports.per_domain_comparison import PerDomainComparison
+from reports.per_task_comparison import PerTaskComparison
+
 
 # Silence import-unused messages. Experiment scripts may use these imports.
 assert LocalEnvironment and ScatterPlotReport and TaskwiseReport
