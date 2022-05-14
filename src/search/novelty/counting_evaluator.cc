@@ -14,7 +14,11 @@ CountingEvaluator::CountingEvaluator(const Options &opts)
       width(opts.get<int>("width")),
       aggregation_function(opts.get<AggregationFunction>("aggregate")),
       debug(opts.get<utils::Verbosity>("verbosity") == utils::Verbosity::DEBUG) {
-    utils::g_log << "Initializing novelty heuristic..." << endl;
+    use_for_reporting_minima = false;
+    use_for_boosting = false;
+    if (debug) {
+        utils::g_log << "Initializing novelty heuristic..." << endl;
+    }
 
     fact_id_offsets.reserve(task_proxy.get_variables().size());
     int num_facts = 0;
@@ -23,7 +27,9 @@ CountingEvaluator::CountingEvaluator(const Options &opts)
         int domain_size = var.get_domain_size();
         num_facts += domain_size;
     }
-    utils::g_log << "Facts: " << num_facts << endl;
+    if (debug) {
+        utils::g_log << "Facts: " << num_facts << endl;
+    }
 
     fact_novelty.resize(num_facts, 0);
     if (width == 2) {

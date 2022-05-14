@@ -7,6 +7,7 @@
 #include "../option_parser.h"
 #include "../plugin.h"
 
+#include "../novelty/counting_evaluator.h"
 #include "../novelty/novelty_evaluator.h"
 #include "../search_engines/search_common.h"
 #include "../tasks/root_task.h"
@@ -33,10 +34,16 @@ using utils::ExitCode;
     * States in the same bucket with the same novelty value are not chosen randomly.
 */
 namespace type_based_best_first_open_list {
+enum class NoveltyVariant {
+    STANDARD,
+    COUNTING,
+};
+
 template<class Entry>
 class TypeBasedBestFirstOpenList : public OpenList<Entry> {
     shared_ptr<utils::RandomNumberGenerator> rng;
     vector<shared_ptr<Evaluator>> evaluators;
+    const NoveltyVariant novelty_variant;
     const int width;
 
     using Key = vector<int>;
@@ -68,6 +75,7 @@ template<class Entry>
 TypeBasedBestFirstOpenList<Entry>::TypeBasedBestFirstOpenList(const Options &opts)
     : rng(utils::parse_rng_from_options(opts)),
       evaluators(opts.get_list<shared_ptr<Evaluator>>("evaluators")),
+      novelty_variant(opts.get<NoveltyVariant>("novelty")),
       width(opts.get<int>("width")) {
 }
 
@@ -76,9 +84,15 @@ unique_ptr<Evaluator> TypeBasedBestFirstOpenList<Entry>::create_novelty_evaluato
     Options opts;
     opts.set<int>("width", width);
     opts.set<shared_ptr<AbstractTask>>("transform", tasks::g_root_task);
-    opts.set<bool>("cache_estimates", false);
+    opts.set<bool>("cache_estimates", false);  // Caching requires too much memory.
     opts.set<utils::Verbosity>("verbosity", utils::Verbosity::NORMAL);
-    return utils::make_unique_ptr<novelty::NoveltyEvaluator>(opts);
+    if (novelty_variant == NoveltyVariant::STANDARD) {
+        return utils::make_unique_ptr<novelty::NoveltyEvaluator>(opts);
+    } else {
+        assert(novelty_variant == NoveltyVariant::COUNTING);
+        opts.set<novelty::AggregationFunction>("aggregate", novelty::AggregationFunction::MIN);
+        return utils::make_unique_ptr<novelty::CountingEvaluator>(opts);
+    }
 }
 
 template<class Entry>
@@ -206,6 +220,8 @@ static shared_ptr<OpenListFactory> _parse(OptionParser &parser) {
     parser.add_list_option<shared_ptr<Evaluator>>(
         "evaluators",
         "Evaluators used to determine the bucket for each entry.");
+    parser.add_enum_option<NoveltyVariant>(
+        "novelty", {"STANDARD", "COUNTING"}, "type of novelty metric", "STANDARD");
     parser.add_option<int>(
         "width", "maximum conjunction size", "2", Bounds("1", "2"));
 
