@@ -212,5 +212,5 @@ static shared_ptr<OpenListFactory> _parse(OptionParser &parser) {
         return make_shared<TypeBasedBestFirstOpenListFactory>(opts);
 }
 
-static Plugin<OpenListFactory> _plugin("tbfs", _parse);
+static Plugin<OpenListFactory> _plugin("tbbf", _parse);
 }
