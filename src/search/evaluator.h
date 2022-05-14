@@ -13,10 +13,11 @@ class LogProxy;
 }
 
 class Evaluator {
-    const std::string description;
-    const bool use_for_reporting_minima;
-    const bool use_for_boosting;
-    const bool use_for_counting_evaluations;
+protected:
+    std::string description;
+    bool use_for_reporting_minima;
+    bool use_for_boosting;
+    bool use_for_counting_evaluations;
 
 public:
     Evaluator(

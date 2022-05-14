@@ -69,9 +69,9 @@ TypeBasedBestFirstOpenList<Entry>::TypeBasedBestFirstOpenList(const Options &opt
 
 static unique_ptr<Evaluator> create_novelty_evaluator() {
     Options opts;
+    opts.set<int>("width", 2);
     opts.set<shared_ptr<AbstractTask>>("transform", tasks::g_root_task);
     opts.set<bool>("cache_estimates", false);
-    opts.set<int>("width", 2);
     opts.set<utils::Verbosity>("verbosity", utils::Verbosity::NORMAL);
     return utils::make_unique_ptr<novelty::NoveltyEvaluator>(opts);
 }
