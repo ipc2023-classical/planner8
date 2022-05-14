@@ -37,11 +37,14 @@ template<class Entry>
 class TypeBasedBestFirstOpenList : public OpenList<Entry> {
     shared_ptr<utils::RandomNumberGenerator> rng;
     vector<shared_ptr<Evaluator>> evaluators;
+    const int width;
 
     using Key = vector<int>;
     using Bucket = unique_ptr<OpenList<Entry>>;
     vector<pair<Key, Bucket>> keys_and_buckets;
     utils::HashMap<Key, int> key_to_bucket_index;
+
+    unique_ptr<Evaluator> create_novelty_evaluator() const;
 
 protected:
     virtual void do_insertion(
@@ -64,12 +67,14 @@ public:
 template<class Entry>
 TypeBasedBestFirstOpenList<Entry>::TypeBasedBestFirstOpenList(const Options &opts)
     : rng(utils::parse_rng_from_options(opts)),
-      evaluators(opts.get_list<shared_ptr<Evaluator>>("evaluators")) {
+      evaluators(opts.get_list<shared_ptr<Evaluator>>("evaluators")),
+      width(opts.get<int>("width")) {
 }
 
-static unique_ptr<Evaluator> create_novelty_evaluator() {
+template<class Entry>
+unique_ptr<Evaluator> TypeBasedBestFirstOpenList<Entry>::create_novelty_evaluator() const {
     Options opts;
-    opts.set<int>("width", 2);
+    opts.set<int>("width", width);
     opts.set<shared_ptr<AbstractTask>>("transform", tasks::g_root_task);
     opts.set<bool>("cache_estimates", false);
     opts.set<utils::Verbosity>("verbosity", utils::Verbosity::NORMAL);
@@ -201,6 +206,8 @@ static shared_ptr<OpenListFactory> _parse(OptionParser &parser) {
     parser.add_list_option<shared_ptr<Evaluator>>(
         "evaluators",
         "Evaluators used to determine the bucket for each entry.");
+    parser.add_option<int>(
+        "width", "maximum conjunction size", "2", Bounds("1", "2"));
 
     utils::add_rng_options(parser);
 
