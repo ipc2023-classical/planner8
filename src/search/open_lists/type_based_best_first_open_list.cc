@@ -1,12 +1,18 @@
 #include "type_based_best_first_open_list.h"
 
+#include "best_first_open_list.h"
+
 #include "../evaluator.h"
 #include "../open_list.h"
 #include "../option_parser.h"
 #include "../plugin.h"
 
+#include "../novelty/novelty_evaluator.h"
+#include "../search_engines/search_common.h"
+#include "../tasks/root_task.h"
 #include "../utils/collections.h"
 #include "../utils/hash.h"
+#include "../utils/logging.h"
 #include "../utils/markup.h"
 #include "../utils/memory.h"
 #include "../utils/rng.h"
@@ -20,6 +26,12 @@
 using namespace std;
 using utils::ExitCode;
 
+/*
+  Notes:
+
+    * Path-dependent sub-evaluators are not supported at the moment.
+    * States in the same bucket with the same novelty value are not chosen randomly.
+*/
 namespace type_based_best_first_open_list {
 template<class Entry>
 class TypeBasedBestFirstOpenList : public OpenList<Entry> {
@@ -27,7 +39,7 @@ class TypeBasedBestFirstOpenList : public OpenList<Entry> {
     vector<shared_ptr<Evaluator>> evaluators;
 
     using Key = vector<int>;
-    using Bucket = vector<Entry>;
+    using Bucket = unique_ptr<OpenList<Entry>>;
     vector<pair<Key, Bucket>> keys_and_buckets;
     utils::HashMap<Key, int> key_to_bucket_index;
 
@@ -55,6 +67,15 @@ TypeBasedBestFirstOpenList<Entry>::TypeBasedBestFirstOpenList(const Options &opt
       evaluators(opts.get_list<shared_ptr<Evaluator>>("evaluators")) {
 }
 
+static unique_ptr<Evaluator> create_novelty_evaluator() {
+    Options opts;
+    opts.set<shared_ptr<AbstractTask>>("transform", tasks::g_root_task);
+    opts.set<bool>("cache_estimates", false);
+    opts.set<int>("width", 2);
+    opts.set<utils::Verbosity>("verbosity", utils::Verbosity::NORMAL);
+    return utils::make_unique_ptr<novelty::NoveltyEvaluator>(opts);
+}
+
 template<class Entry>
 void TypeBasedBestFirstOpenList<Entry>::do_insertion(
     EvaluationContext &eval_context, const Entry &entry) {
@@ -68,11 +89,17 @@ void TypeBasedBestFirstOpenList<Entry>::do_insertion(
     auto it = key_to_bucket_index.find(key);
     if (it == key_to_bucket_index.end()) {
         key_to_bucket_index[key] = keys_and_buckets.size();
-        keys_and_buckets.push_back(make_pair(move(key), Bucket({entry})));
+
+        shared_ptr<Evaluator> eval = create_novelty_evaluator();
+        shared_ptr<OpenListFactory> factory =
+            search_common::create_standard_scalar_open_list_factory(eval, false);
+        unique_ptr<OpenList<Entry>> sublist = factory->create_open_list<Entry>();
+        sublist->insert(eval_context, entry);
+        keys_and_buckets.push_back(make_pair(move(key), move(sublist)));
     } else {
         size_t bucket_index = it->second;
         assert(utils::in_bounds(bucket_index, keys_and_buckets));
-        keys_and_buckets[bucket_index].second.push_back(entry);
+        keys_and_buckets[bucket_index].second->insert(eval_context, entry);
     }
 }
 
@@ -82,14 +109,14 @@ Entry TypeBasedBestFirstOpenList<Entry>::remove_min() {
     auto &key_and_bucket = keys_and_buckets[bucket_id];
     const Key &min_key = key_and_bucket.first;
     Bucket &bucket = key_and_bucket.second;
-    int pos = rng->random(bucket.size());
-    Entry result = utils::swap_and_pop_from_vector(bucket, pos);
+    Entry result = bucket->remove_min();
 
-    if (bucket.empty()) {
+    if (bucket->empty()) {
         // Swap the empty bucket with the last bucket, then delete it.
         key_to_bucket_index[keys_and_buckets.back().first] = bucket_id;
         key_to_bucket_index.erase(min_key);
-        utils::swap_and_pop_from_vector(keys_and_buckets, bucket_id);
+        keys_and_buckets[bucket_id] = move(keys_and_buckets.back());
+        keys_and_buckets.pop_back();
     }
     return result;
 }
@@ -154,12 +181,13 @@ TypeBasedBestFirstOpenListFactory::create_edge_open_list() {
 
 static shared_ptr<OpenListFactory> _parse(OptionParser &parser) {
     parser.document_synopsis(
-        "Type-based open list",
+        "Type-based best-first open list",
         "Uses multiple evaluators to assign entries to buckets. "
         "All entries in a bucket have the same evaluator values. "
+        "The buckets are ordered by an evaluator function. "
         "When retrieving an entry, a bucket is chosen uniformly at "
-        "random and one of the contained entries is selected "
-        "uniformly randomly. "
+        "random and then the state with the minimum sub-evaluator value is "
+        "selected. "
         "The algorithm is based on" + utils::format_conference_reference(
             {"Fan Xie", "Martin Mueller", "Robert Holte", "Tatsuya Imai"},
             "Type-Based Exploration with Multiple Search Queues for"
