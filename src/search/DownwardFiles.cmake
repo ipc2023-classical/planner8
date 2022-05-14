@@ -169,6 +169,13 @@ fast_downward_plugin(
 )
 
 fast_downward_plugin(
+    NAME TYPE_BASED_BEST_FIRST_OPEN_LIST
+    HELP "Type-based best-first open list"
+    SOURCES
+        open_lists/type_based_best_first_open_list
+)
+
+fast_downward_plugin(
     NAME DYNAMIC_BITSET
     HELP "Poor man's version of boost::dynamic_bitset"
     SOURCES
