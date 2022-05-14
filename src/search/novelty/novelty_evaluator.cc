@@ -14,6 +14,7 @@ NoveltyEvaluator::NoveltyEvaluator(const Options &opts)
       width(opts.get<int>("width")),
       debug(opts.get<utils::Verbosity>("verbosity") == utils::Verbosity::DEBUG) {
     use_for_reporting_minima = false;
+    use_for_boosting = false;
     if (debug) {
         utils::g_log << "Initializing novelty heuristic..." << endl;
     }
