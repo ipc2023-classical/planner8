@@ -87,6 +87,7 @@ unique_ptr<Evaluator> TypeBasedBestFirstOpenList<Entry>::create_novelty_evaluato
     opts.set<bool>("cache_estimates", false);  // Caching requires too much memory.
     opts.set<utils::Verbosity>("verbosity", utils::Verbosity::NORMAL);
     if (novelty_variant == NoveltyVariant::STANDARD) {
+        opts.set<int>("random_seed", -1);
         return utils::make_unique_ptr<novelty::NoveltyEvaluator>(opts);
     } else {
         assert(novelty_variant == NoveltyVariant::COUNTING);

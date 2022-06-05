@@ -5,6 +5,8 @@
 
 #include "../task_utils/task_properties.h"
 #include "../utils/logging.h"
+#include "../utils/rng.h"
+#include "../utils/rng_options.h"
 
 using namespace std;
 
@@ -12,6 +14,7 @@ namespace novelty {
 NoveltyEvaluator::NoveltyEvaluator(const Options &opts)
     : Heuristic(opts),
       width(opts.get<int>("width")),
+      rng(utils::parse_rng_from_options(opts)),
       debug(opts.get<utils::Verbosity>("verbosity") == utils::Verbosity::DEBUG) {
     use_for_reporting_minima = false;
     use_for_boosting = false;
@@ -80,7 +83,8 @@ int NoveltyEvaluator::compute_and_set_novelty(const State &state) {
         }
     }
 
-    return novelty;
+    // Order states with same width randomly.
+    return novelty * 1000 + rng->random(1000);
 }
 
 int NoveltyEvaluator::compute_heuristic(const State &state) {
@@ -95,6 +99,7 @@ int NoveltyEvaluator::compute_heuristic(const State &state) {
 static shared_ptr<Heuristic> _parse(OptionParser &parser) {
     parser.add_option<int>(
         "width", "maximum conjunction size", "2", Bounds("1", "2"));
+    utils::add_rng_options(parser);
     Heuristic::add_options_to_parser(parser);
     utils::add_log_options_to_parser(parser);
     Options opts = parser.parse();

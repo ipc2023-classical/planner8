@@ -3,9 +3,14 @@
 
 #include "../heuristic.h"
 
+namespace utils {
+class RandomNumberGenerator;
+}
+
 namespace novelty {
 class NoveltyEvaluator : public Heuristic {
     const int width;
+    const std::shared_ptr<utils::RandomNumberGenerator> rng;
     const bool debug;
 
     std::vector<int> fact_id_offsets;
