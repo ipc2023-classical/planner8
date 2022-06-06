@@ -83,8 +83,7 @@ int NoveltyEvaluator::compute_and_set_novelty(const State &state) {
         }
     }
 
-    // Order states with same width randomly.
-    return novelty * 1000 + rng->random(1000);
+    return novelty;
 }
 
 int NoveltyEvaluator::compute_heuristic(const State &state) {
