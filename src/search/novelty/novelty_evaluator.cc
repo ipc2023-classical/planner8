@@ -11,6 +11,60 @@
 using namespace std;
 
 namespace novelty {
+template<typename Value>
+FactPairMap<Value>::FactPairMap(TaskProxy task_proxy) {
+    fact_id_offsets.reserve(task_proxy.get_variables().size());
+    int num_facts = 0;
+    for (VariableProxy var : task_proxy.get_variables()) {
+        fact_id_offsets.push_back(num_facts);
+        int domain_size = var.get_domain_size();
+        num_facts += domain_size;
+    }
+
+    int num_vars = task_proxy.get_variables().size();
+    int last_domain_size = task_proxy.get_variables()[num_vars - 1].get_domain_size();
+    // We don't need offsets for facts of the last variable.
+    int num_pair_offsets = num_facts - last_domain_size;
+    pair_offsets.reserve(num_pair_offsets);
+    int current_pair_offset = 0;
+    int num_facts_in_higher_vars = num_facts;
+    int num_pairs = 0;
+    for (int var_id = 0; var_id < num_vars - 1; ++var_id) {  // Skip last var.
+        int domain_size = task_proxy.get_variables()[var_id].get_domain_size();
+        int var_last_fact_id = get_fact_id(FactPair(var_id, domain_size - 1));
+        num_facts_in_higher_vars -= domain_size;
+        num_pairs += (domain_size * num_facts_in_higher_vars);
+        for (int value = 0; value < domain_size; ++value) {
+            pair_offsets.push_back(current_pair_offset - (var_last_fact_id + 1));
+            current_pair_offset += num_facts_in_higher_vars;
+        }
+    }
+    values.resize(num_pairs);
+    assert(static_cast<int>(pair_offsets.size()) == num_pair_offsets);
+    assert(num_facts_in_higher_vars == last_domain_size);
+#ifndef NDEBUG
+    cout << "Pairs: " << num_pairs << endl;
+    cout << "Pair offsets: " << pair_offsets << endl;
+    int expected_id = 0;
+    for (FactProxy fact_proxy1 : task_proxy.get_variables().get_facts()) {
+        FactPair fact1 = fact_proxy1.get_pair();
+        for (FactProxy fact_proxy2 : task_proxy.get_variables().get_facts()) {
+            FactPair fact2 = fact_proxy2.get_pair();
+            if (!(fact1 < fact2) || fact1.var == fact2.var) {
+                continue;
+            }
+            cout << "Fact pair " << fact1 << " & " << fact2 << endl;
+            cout << "Offset: " << pair_offsets[get_fact_id(fact1)] << endl;
+            cout << "ID fact2: " << get_fact_id(fact2) << endl;
+            int id = get_pair_id(fact1, fact2);
+            cout << id << endl;
+            assert(id == expected_id);
+            ++expected_id;
+        }
+    }
+#endif
+}
+
 NoveltyEvaluator::NoveltyEvaluator(const Options &opts)
     : Heuristic(opts),
       width(opts.get<int>("width")),
@@ -35,22 +89,8 @@ NoveltyEvaluator::NoveltyEvaluator(const Options &opts)
 
     seen_facts.resize(num_facts, false);
     if (width == 2) {
-        seen_fact_pairs.resize(num_facts);
-        // We could store only the "triangle" of values instead of the full square.
-        for (int fact_id = 0; fact_id < num_facts; ++fact_id) {
-            seen_fact_pairs[fact_id].resize(num_facts, false);
-        }
+        seen_fact_pairs = utils::make_unique_ptr<FactPairMap<bool>>(task_proxy);
     }
-}
-
-bool NoveltyEvaluator::get_and_set_fact_pair_seen(int fact_id1, int fact_id2) {
-    if (fact_id1 > fact_id2) {
-        swap(fact_id1, fact_id2);
-    }
-    assert(fact_id1 < fact_id2);
-    bool seen = seen_fact_pairs[fact_id1][fact_id2];
-    seen_fact_pairs[fact_id1][fact_id2] = true;
-    return seen;
 }
 
 int NoveltyEvaluator::compute_and_set_novelty(const State &state) {
@@ -61,13 +101,12 @@ int NoveltyEvaluator::compute_and_set_novelty(const State &state) {
     if (width == 2) {
         for (int var1 = 0; var1 < num_vars; ++var1) {
             FactPair fact1 = state[var1].get_pair();
-            int fact_id1 = get_fact_id(fact1);
             for (int var2 = var1 + 1; var2 < num_vars; ++var2) {
                 FactPair fact2 = state[var2].get_pair();
-                int fact_id2 = get_fact_id(fact2);
-                bool seen = get_and_set_fact_pair_seen(fact_id1, fact_id2);
+                bool seen = seen_fact_pairs->get(fact1, fact2);
                 if (!seen) {
                     novelty = 2;
+                    seen_fact_pairs->set(fact1, fact2, true);
                 }
             }
         }
