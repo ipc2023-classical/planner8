@@ -23,6 +23,9 @@ class NoveltyEvaluator : public Heuristic {
 
     bool get_and_set_fact_pair_seen(int fact_id1, int fact_id2);
     int compute_and_set_novelty(const State &state);
+    int compute_and_set_novelty(OperatorID op_id, const State &succ_state);
+
+    void dump_state_and_novelty(const State &state, int novelty) const;
 
 protected:
     virtual int compute_heuristic(const State &ancestor_state) override;

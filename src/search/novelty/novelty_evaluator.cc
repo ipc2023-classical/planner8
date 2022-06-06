@@ -53,15 +53,25 @@ void NoveltyEvaluator::get_path_dependent_evaluators(std::set<Evaluator *> &eval
 
 void NoveltyEvaluator::notify_initial_state(const State &initial_state) {
     int novelty = compute_and_set_novelty(initial_state);
+    assert(heuristic_cache[initial_state].dirty);
     heuristic_cache[initial_state].h = novelty;
     heuristic_cache[initial_state].dirty = false;
+    if (debug) {
+        dump_state_and_novelty(initial_state, novelty);
+    }
 }
 
 void NoveltyEvaluator::notify_state_transition(
-    const State &parent_state, OperatorID op_id, const State &state) {
-    int novelty = compute_and_set_novelty(state);
-    heuristic_cache[state].h = novelty;
-    heuristic_cache[state].dirty = false;
+    const State &, OperatorID op_id, const State &state) {
+    // Only compute novelty for new states.
+    if (heuristic_cache[state].dirty) {
+        int novelty = compute_and_set_novelty(op_id, state);
+        heuristic_cache[state].h = novelty;
+        heuristic_cache[state].dirty = false;
+        if (debug) {
+            dump_state_and_novelty(state, novelty);
+        }
+    }
 }
 
 bool NoveltyEvaluator::get_and_set_fact_pair_seen(int fact_id1, int fact_id2) {
@@ -106,6 +116,54 @@ int NoveltyEvaluator::compute_and_set_novelty(const State &state) {
 
     // Order states with same width randomly.
     return novelty * 1000 + rng->random(1000);
+}
+
+int NoveltyEvaluator::compute_and_set_novelty(OperatorID op_id, const State &succ_state) {
+    int novelty = 3;
+
+    // Check for novelty 2.
+    if (width == 2) {
+        int num_vars = fact_id_offsets.size();
+        for (EffectProxy effect : task_proxy.get_operators()[op_id].get_effects()) {
+            FactPair fact1 = effect.get_fact().get_pair();
+            int fact_id1 = get_fact_id(fact1);
+            for (int var2 = 0; var2 < num_vars; ++var2) {
+                if (fact1.var == var2) {
+                    continue;
+                }
+                FactPair fact2 = succ_state[var2].get_pair();
+                int fact_id2 = get_fact_id(fact2);
+                bool seen = get_and_set_fact_pair_seen(fact_id1, fact_id2);
+                if (!seen) {
+                    novelty = 2;
+                }
+            }
+        }
+    }
+
+    // Check for novelty 1.
+    for (EffectProxy effect : task_proxy.get_operators()[op_id].get_effects()) {
+        FactPair fact = effect.get_fact().get_pair();
+        int fact_id = get_fact_id(fact);
+        if (!seen_facts[fact_id]) {
+            seen_facts[fact_id] = true;
+            novelty = 1;
+        }
+    }
+
+    // Order states with same width randomly.
+    return novelty * 1000 + rng->random(1000);
+}
+
+void NoveltyEvaluator::dump_state_and_novelty(const State &state, int novelty) const {
+    string sep;
+    cout << state.get_id() << " [";
+    for (FactProxy fact_proxy : state) {
+        FactPair fact = fact_proxy.get_pair();
+        cout << sep << fact.value;
+        sep = ", ";
+    }
+    cout << "]: " << novelty << endl;
 }
 
 int NoveltyEvaluator::compute_heuristic(const State &) {

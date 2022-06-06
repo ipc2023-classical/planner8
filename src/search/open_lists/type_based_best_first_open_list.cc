@@ -84,7 +84,7 @@ unique_ptr<Evaluator> TypeBasedBestFirstOpenList<Entry>::create_novelty_evaluato
     Options opts;
     opts.set<int>("width", width);
     opts.set<shared_ptr<AbstractTask>>("transform", tasks::g_root_task);
-    opts.set<bool>("cache_estimates", false);  // Caching requires too much memory.
+    opts.set<bool>("cache_estimates", true);
     opts.set<utils::Verbosity>("verbosity", utils::Verbosity::NORMAL);
     if (novelty_variant == NoveltyVariant::STANDARD) {
         opts.set<int>("random_seed", -1);
