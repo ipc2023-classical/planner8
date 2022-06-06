@@ -47,14 +47,14 @@ ATTRIBUTES = [
     "run_dir",
     "search_start_time",
     "search_start_memory",
-    #"search_time",
+    "search_time",
     "total_time",
     "h_values",
     "coverage",
-    #"evaluations",
+    "evaluations",
     "expansions",
     "memory",
-    #project.EVALUATIONS_PER_TIME,
+    project.EVALUATIONS_PER_TIME,
 ]
 
 exp = project.FastDownwardExperiment(environment=ENV)
@@ -99,7 +99,11 @@ exp.add_report(ComparativeReport([
     attributes=ATTRIBUTES, filter=[project.add_evaluations_per_time]
 ))
 
-exp.add_report(project.PerDomainComparison(sort=True))
+def add_missing_coverage(run):
+    run.setdefault("coverage", 0)
+    return run
+
+exp.add_report(project.PerDomainComparison(sort=True, filter=add_missing_coverage))
 exp.add_report(project.PerTaskComparison(sort=True, attributes=["expansions"]))
 
 def filter_zero_expansions(run):
