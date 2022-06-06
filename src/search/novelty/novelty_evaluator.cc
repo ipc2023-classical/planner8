@@ -21,6 +21,10 @@ NoveltyEvaluator::NoveltyEvaluator(const Options &opts)
     if (debug) {
         utils::g_log << "Initializing novelty heuristic..." << endl;
     }
+    if (!does_cache_estimates()) {
+        cerr << "NoveltyEvaluator needs cache_estimates=true" << endl;
+        utils::exit_with(utils::ExitCode::SEARCH_INPUT_ERROR);
+    }
 
     fact_id_offsets.reserve(task_proxy.get_variables().size());
     int num_facts = 0;
@@ -41,6 +45,23 @@ NoveltyEvaluator::NoveltyEvaluator(const Options &opts)
             seen_fact_pairs[fact_id].resize(num_facts, false);
         }
     }
+}
+
+void NoveltyEvaluator::get_path_dependent_evaluators(std::set<Evaluator *> &evals) {
+    evals.insert(this);
+}
+
+void NoveltyEvaluator::notify_initial_state(const State &initial_state) {
+    int novelty = compute_and_set_novelty(initial_state);
+    heuristic_cache[initial_state].h = novelty;
+    heuristic_cache[initial_state].dirty = false;
+}
+
+void NoveltyEvaluator::notify_state_transition(
+    const State &parent_state, OperatorID op_id, const State &state) {
+    int novelty = compute_and_set_novelty(state);
+    heuristic_cache[state].h = novelty;
+    heuristic_cache[state].dirty = false;
 }
 
 bool NoveltyEvaluator::get_and_set_fact_pair_seen(int fact_id1, int fact_id2) {
@@ -87,13 +108,8 @@ int NoveltyEvaluator::compute_and_set_novelty(const State &state) {
     return novelty * 1000 + rng->random(1000);
 }
 
-int NoveltyEvaluator::compute_heuristic(const State &state) {
-    // No need to convert ancestor state since we only allow cost transformations.
-    int novelty = compute_and_set_novelty(state);
-    if (debug) {
-        cout << novelty << endl;
-    }
-    return novelty;
+int NoveltyEvaluator::compute_heuristic(const State &) {
+    ABORT("Novelty should already be stored in heuristic cache.");
 }
 
 static shared_ptr<Heuristic> _parse(OptionParser &parser) {

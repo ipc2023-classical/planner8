@@ -29,6 +29,12 @@ protected:
 
 public:
     explicit NoveltyEvaluator(const options::Options &opts);
+
+    virtual void get_path_dependent_evaluators(
+        std::set<Evaluator *> &evals) override;
+    virtual void notify_initial_state(const State &initial_state) override;
+    virtual void notify_state_transition(
+        const State &parent_state, OperatorID op_id, const State &state) override;
 };
 }
 
