@@ -107,10 +107,8 @@ def filter_zero_expansions(run):
 
 attributes = ["expansions"]
 pairs = [
-    ("rnd:02-ff-typed", "rnd:03-ff-typed-novelty-1"),
-    ("rnd:02-ff-typed", "rnd:04-ff-typed-novelty-2"),
-    ("rnd:02-ff-typed", "rnd:05-ff-typed-counting-1"),
-    ("rnd:02-ff-typed", "rnd:06-ff-typed-counting-2"),
+    ("map:02-ff-typed", "map:03-ff-typed-novelty-1"),
+    ("map:02-ff-typed", "map:04-ff-typed-novelty-2"),
 ]
 suffix = "-rel" if project.RELATIVE else ""
 for algo1, algo2 in pairs:
