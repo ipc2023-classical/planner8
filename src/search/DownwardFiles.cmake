@@ -614,6 +614,7 @@ fast_downward_plugin(
     SOURCES
         novelty/counting_evaluator
         novelty/novelty_evaluator
+        novelty/novelty_table
     DEPENDS TASK_PROPERTIES
 )
 
