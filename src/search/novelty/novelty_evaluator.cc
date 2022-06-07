@@ -55,6 +55,11 @@ void NoveltyEvaluator::notify_state_transition(
     }
 }
 
+// Add non-novel states to other open lists, but not to the novelty open list.
+bool NoveltyEvaluator::dead_ends_are_reliable() const {
+    return false;
+}
+
 int NoveltyEvaluator::compute_heuristic(const State &) {
     ABORT("Novelty should already be stored in heuristic cache.");
 }
