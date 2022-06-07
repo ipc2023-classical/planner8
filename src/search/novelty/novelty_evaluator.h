@@ -51,6 +51,7 @@ public:
 
 class NoveltyEvaluator : public Heuristic {
     const int width;
+    const bool consider_only_novel_states;
     const std::shared_ptr<utils::RandomNumberGenerator> rng;
     const bool debug;
 

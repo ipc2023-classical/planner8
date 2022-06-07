@@ -68,6 +68,7 @@ NoveltyEvaluator::NoveltyEvaluator(
     const Options &opts, const shared_ptr<FactIndexer> &fact_indexer_)
     : Heuristic(opts),
       width(opts.get<int>("width")),
+      consider_only_novel_states(opts.get<bool>("consider_only_novel_states")),
       rng(utils::parse_rng_from_options(opts)),
       debug(opts.get<utils::Verbosity>("verbosity") == utils::Verbosity::DEBUG),
       fact_indexer(fact_indexer_) {
@@ -120,7 +121,7 @@ void NoveltyEvaluator::notify_state_transition(
 
 int NoveltyEvaluator::compute_and_set_novelty(const State &state) {
     int num_vars = state.size();
-    int novelty = 3;
+    int novelty = consider_only_novel_states ? DEAD_END : 3;
 
     // Check for novelty 2.
     if (width == 2) {
@@ -152,7 +153,7 @@ int NoveltyEvaluator::compute_and_set_novelty(const State &state) {
 }
 
 int NoveltyEvaluator::compute_and_set_novelty(OperatorID op_id, const State &succ_state) {
-    int novelty = 3;
+    int novelty = consider_only_novel_states ? DEAD_END : 3;
 
     // Check for novelty 2.
     if (width == 2) {
@@ -205,6 +206,8 @@ int NoveltyEvaluator::compute_heuristic(const State &) {
 static shared_ptr<Heuristic> _parse(OptionParser &parser) {
     parser.add_option<int>(
         "width", "maximum conjunction size", "2", Bounds("1", "2"));
+    parser.add_option<bool>(
+        "consider_only_novel_states", "assign infinity to non-novel states", "false");
     utils::add_rng_options(parser);
     Heuristic::add_options_to_parser(parser);
     utils::add_log_options_to_parser(parser);
