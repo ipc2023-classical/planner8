@@ -21,15 +21,15 @@ CONFIGS = [
     #("01-ff", [
     #    "--evaluator", "hff=ff(transform=adapt_costs(one))",
     #    "--search", """lazy(single(hff), cost_type=one, reopen_closed=false)"""]),
-    ("02-ff-typed", [
+    #("02-ff-typed", [
+    #    "--evaluator", "hff=ff(transform=adapt_costs(one))",
+    #    "--search", """lazy(alt([single(hff), type_based([hff, g()])]), cost_type=one, reopen_closed=false)"""]),
+    ("03-ff-typed-incomplete-novelty-1-reset", [
         "--evaluator", "hff=ff(transform=adapt_costs(one))",
-        "--search", """lazy(alt([single(hff), type_based([hff, g()])]), cost_type=one, reopen_closed=false)"""]),
-    ("03-ff-typed-incomplete-novelty-1", [
+        "--search", """lazy(alt([single(hff), type_based([hff, g()]), single(novelty(width=1, consider_only_novel_states=true, reset_after_progress=true))]), cost_type=one, reopen_closed=false)"""]),
+    ("04-ff-typed-incomplete-novelty-2-reset", [
         "--evaluator", "hff=ff(transform=adapt_costs(one))",
-        "--search", """lazy(alt([single(hff), type_based([hff, g()]), single(novelty(width=1, consider_only_novel_states=true))]), cost_type=one, reopen_closed=false)"""]),
-    ("04-ff-typed-incomplete-novelty-2", [
-        "--evaluator", "hff=ff(transform=adapt_costs(one))",
-        "--search", """lazy(alt([single(hff), type_based([hff, g()]), single(novelty(width=2, consider_only_novel_states=true))]), cost_type=one, reopen_closed=false)"""]),
+        "--search", """lazy(alt([single(hff), type_based([hff, g()]), single(novelty(width=2, consider_only_novel_states=true, reset_after_progress=true))]), cost_type=one, reopen_closed=false)"""]),
 ]
 BUILD_OPTIONS = []
 DRIVER_OPTIONS = ["--overall-time-limit", "5m"]
