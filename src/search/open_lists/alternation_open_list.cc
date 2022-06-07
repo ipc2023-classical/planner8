@@ -96,6 +96,9 @@ void AlternationOpenList<Entry>::boost_preferred() {
     for (size_t i = 0; i < open_lists.size(); ++i)
         if (open_lists[i]->only_contains_preferred_entries())
             priorities[i] -= boost_amount;
+    for (auto &sublist : open_lists) {
+        sublist->boost_preferred();
+    }
 }
 
 template<class Entry>

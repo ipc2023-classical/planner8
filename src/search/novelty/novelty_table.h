@@ -70,6 +70,7 @@ public:
     int compute_novelty_and_update_table(const State &state);
     int compute_novelty_and_update_table(
         const OperatorProxy &op, const State &succ_state);
+    void reset();
 };
 }
 

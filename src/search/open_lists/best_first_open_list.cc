@@ -35,6 +35,7 @@ public:
     virtual Entry remove_min() override;
     virtual bool empty() const override;
     virtual void clear() override;
+    virtual void boost_preferred() override;
     virtual void get_path_dependent_evaluators(set<Evaluator *> &evals) override;
     virtual bool is_dead_end(
         EvaluationContext &eval_context) const override;
@@ -90,6 +91,11 @@ template<class Entry>
 void BestFirstOpenList<Entry>::clear() {
     buckets.clear();
     size = 0;
+}
+
+template<class Entry>
+void BestFirstOpenList<Entry>::boost_preferred() {
+    evaluator->notify_progress();
 }
 
 template<class Entry>

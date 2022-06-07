@@ -9,6 +9,7 @@ namespace novelty {
 class NoveltyEvaluator : public Heuristic {
     const int width;
     const bool consider_only_novel_states;
+    const bool reset_after_progress;
     const bool debug;
 
     NoveltyTable novelty_table;
@@ -28,6 +29,7 @@ public:
     virtual void notify_initial_state(const State &initial_state) override;
     virtual void notify_state_transition(
         const State &parent_state, OperatorID op_id, const State &state) override;
+    virtual void notify_progress() override;
     virtual bool dead_ends_are_reliable() const override;
 };
 }

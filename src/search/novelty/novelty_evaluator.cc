@@ -14,6 +14,7 @@ NoveltyEvaluator::NoveltyEvaluator(
     : Heuristic(opts),
       width(opts.get<int>("width")),
       consider_only_novel_states(opts.get<bool>("consider_only_novel_states")),
+      reset_after_progress(opts.get<bool>("reset_after_progress")),
       debug(opts.get<utils::Verbosity>("verbosity") == utils::Verbosity::DEBUG),
       novelty_table(task_proxy, width, fact_indexer) {
     use_for_reporting_minima = false;
@@ -55,6 +56,12 @@ void NoveltyEvaluator::notify_state_transition(
     }
 }
 
+void NoveltyEvaluator::notify_progress() {
+    if (reset_after_progress) {
+        novelty_table.reset();
+    }
+}
+
 // Add non-novel states to other open lists, but not to the novelty open list.
 bool NoveltyEvaluator::dead_ends_are_reliable() const {
     return false;
@@ -68,7 +75,13 @@ static shared_ptr<Heuristic> _parse(OptionParser &parser) {
     parser.add_option<int>(
         "width", "maximum conjunction size", "2", Bounds("1", "2"));
     parser.add_option<bool>(
-        "consider_only_novel_states", "assign infinity to non-novel states", "false");
+        "consider_only_novel_states",
+        "assign infinity to non-novel states",
+        "false");
+    parser.add_option<bool>(
+        "reset_after_progress",
+        "reset novelty table when a heuristic makes progress",
+        "false");
     Heuristic::add_options_to_parser(parser);
     utils::add_log_options_to_parser(parser);
     Options opts = parser.parse();

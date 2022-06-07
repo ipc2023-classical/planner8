@@ -86,6 +86,9 @@ public:
     void report_new_minimum_value(
         const EvaluationResult &result, utils::LogProxy &log) const;
 
+    // Called when a heuristic reports a new minimum h value.
+    virtual void notify_progress() {}
+
     const std::string &get_description() const;
     bool is_used_for_reporting_minima() const;
     bool is_used_for_boosting() const;

@@ -47,12 +47,13 @@ FactIndexer::FactIndexer(const TaskProxy &task_proxy) {
             if (!(fact1 < fact2) || fact1.var == fact2.var) {
                 continue;
             }
-            cout << "Fact pair " << fact1 << " & " << fact2 << endl;
-            cout << "Offset: " << pair_offsets[get_fact_id(fact1)] << endl;
-            cout << "ID fact2: " << get_fact_id(fact2) << endl;
             int id = get_pair_id(fact1, fact2);
-            cout << id << endl;
-            assert(id == expected_id);
+            if (false) {
+                cout << "Fact pair " << fact1 << " & " << fact2 << endl;
+                cout << "Offset: " << pair_offsets[get_fact_id(fact1)] << endl;
+                cout << "ID fact2: " << get_fact_id(fact2) << endl;
+                cout << id << endl;
+            }
             ++expected_id;
         }
     }
@@ -68,11 +69,7 @@ NoveltyTable::NoveltyTable(
         cout << "Create fact indexer." << endl;
         fact_indexer = make_shared<FactIndexer>(task_proxy);
     }
-
-    seen_facts.resize(fact_indexer->get_num_facts(), false);
-    if (width == 2) {
-        seen_fact_pairs.resize(fact_indexer->get_num_pairs(), false);
-    }
+    reset();
 }
 
 int NoveltyTable::compute_novelty_and_update_table(const State &state) {
@@ -143,6 +140,13 @@ int NoveltyTable::compute_novelty_and_update_table(
     }
 
     return novelty;
+}
+
+void NoveltyTable::reset() {
+    seen_facts.assign(fact_indexer->get_num_facts(), false);
+    if (width == 2) {
+        seen_fact_pairs.assign(fact_indexer->get_num_pairs(), false);
+    }
 }
 
 void NoveltyTable::dump_state_and_novelty(const State &state, int novelty) const {
