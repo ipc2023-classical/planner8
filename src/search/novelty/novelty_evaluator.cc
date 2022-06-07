@@ -11,12 +11,11 @@
 using namespace std;
 
 namespace novelty {
-template<typename Value>
-FactPairMap<Value>::FactPairMap(TaskProxy task_proxy) {
-    fact_id_offsets.reserve(task_proxy.get_variables().size());
-    int num_facts = 0;
+FactIndexer::FactIndexer(TaskProxy task_proxy) {
+    fact_offsets.reserve(task_proxy.get_variables().size());
+    num_facts = 0;
     for (VariableProxy var : task_proxy.get_variables()) {
-        fact_id_offsets.push_back(num_facts);
+        fact_offsets.push_back(num_facts);
         int domain_size = var.get_domain_size();
         num_facts += domain_size;
     }
@@ -28,7 +27,7 @@ FactPairMap<Value>::FactPairMap(TaskProxy task_proxy) {
     pair_offsets.reserve(num_pair_offsets);
     int current_pair_offset = 0;
     int num_facts_in_higher_vars = num_facts;
-    int num_pairs = 0;
+    num_pairs = 0;
     for (int var_id = 0; var_id < num_vars - 1; ++var_id) {  // Skip last var.
         int domain_size = task_proxy.get_variables()[var_id].get_domain_size();
         int var_last_fact_id = get_fact_id(FactPair(var_id, domain_size - 1));
@@ -39,10 +38,10 @@ FactPairMap<Value>::FactPairMap(TaskProxy task_proxy) {
             current_pair_offset += num_facts_in_higher_vars;
         }
     }
-    values.resize(num_pairs);
     assert(static_cast<int>(pair_offsets.size()) == num_pair_offsets);
     assert(num_facts_in_higher_vars == last_domain_size);
 #ifndef NDEBUG
+    cout << "Facts: " << num_facts << endl;
     cout << "Pairs: " << num_pairs << endl;
     cout << "Pair offsets: " << pair_offsets << endl;
     int expected_id = 0;
@@ -65,31 +64,26 @@ FactPairMap<Value>::FactPairMap(TaskProxy task_proxy) {
 #endif
 }
 
-NoveltyEvaluator::NoveltyEvaluator(const Options &opts)
+NoveltyEvaluator::NoveltyEvaluator(
+    const Options &opts, const shared_ptr<FactIndexer> &fact_indexer_)
     : Heuristic(opts),
       width(opts.get<int>("width")),
       rng(utils::parse_rng_from_options(opts)),
-      debug(opts.get<utils::Verbosity>("verbosity") == utils::Verbosity::DEBUG) {
+      debug(opts.get<utils::Verbosity>("verbosity") == utils::Verbosity::DEBUG),
+      fact_indexer(fact_indexer_) {
     use_for_reporting_minima = false;
     use_for_boosting = false;
     if (debug) {
         utils::g_log << "Initializing novelty heuristic..." << endl;
     }
-
-    fact_id_offsets.reserve(task_proxy.get_variables().size());
-    int num_facts = 0;
-    for (VariableProxy var : task_proxy.get_variables()) {
-        fact_id_offsets.push_back(num_facts);
-        int domain_size = var.get_domain_size();
-        num_facts += domain_size;
-    }
-    if (debug) {
-        utils::g_log << "Facts: " << num_facts << endl;
+    if (!fact_indexer) {
+        cout << "Create fact indexer." << endl;
+        fact_indexer = make_shared<FactIndexer>(task_proxy);
     }
 
-    seen_facts.resize(num_facts, false);
+    seen_facts.resize(fact_indexer->get_num_facts(), false);
     if (width == 2) {
-        seen_fact_pairs = utils::make_unique_ptr<FactPairMap<bool>>(task_proxy);
+        seen_fact_pairs.resize(fact_indexer->get_num_pairs(), false);
     }
 }
 
@@ -103,10 +97,11 @@ int NoveltyEvaluator::compute_and_set_novelty(const State &state) {
             FactPair fact1 = state[var1].get_pair();
             for (int var2 = var1 + 1; var2 < num_vars; ++var2) {
                 FactPair fact2 = state[var2].get_pair();
-                bool seen = seen_fact_pairs->get(fact1, fact2);
+                int pair_id = fact_indexer->get_pair_id(fact1, fact2);
+                bool seen = seen_fact_pairs[pair_id];
                 if (!seen) {
                     novelty = 2;
-                    seen_fact_pairs->set(fact1, fact2, true);
+                    seen_fact_pairs[pair_id] = true;
                 }
             }
         }
@@ -115,7 +110,7 @@ int NoveltyEvaluator::compute_and_set_novelty(const State &state) {
     // Check for novelty 1.
     for (FactProxy fact_proxy : state) {
         FactPair fact = fact_proxy.get_pair();
-        int fact_id = get_fact_id(fact);
+        int fact_id = fact_indexer->get_fact_id(fact);
         if (!seen_facts[fact_id]) {
             seen_facts[fact_id] = true;
             novelty = 1;

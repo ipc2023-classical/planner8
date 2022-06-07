@@ -134,6 +134,7 @@ class TypeBasedBestFirstOpenList : public OpenList<Entry> {
     using Bucket = unique_ptr<OpenList<Entry>>;
     vector<pair<Key, Bucket>> keys_and_buckets;
     utils::HashMap<Key, int> key_to_bucket_index;
+    shared_ptr<novelty::FactIndexer> fact_indexer;
 
     unique_ptr<Evaluator> create_novelty_evaluator() const;
 
@@ -159,7 +160,8 @@ template<class Entry>
 TypeBasedBestFirstOpenList<Entry>::TypeBasedBestFirstOpenList(const Options &opts)
     : rng(utils::parse_rng_from_options(opts)),
       evaluators(opts.get_list<shared_ptr<Evaluator>>("evaluators")),
-      width(opts.get<int>("width")) {
+      width(opts.get<int>("width")),
+      fact_indexer(make_shared<novelty::FactIndexer>(TaskProxy(*tasks::g_root_task))) {
 }
 
 template<class Entry>
@@ -170,7 +172,7 @@ unique_ptr<Evaluator> TypeBasedBestFirstOpenList<Entry>::create_novelty_evaluato
     opts.set<bool>("cache_estimates", false);  // Caching requires too much memory.
     opts.set<utils::Verbosity>("verbosity", utils::Verbosity::NORMAL);
     opts.set<int>("random_seed", -1);
-    return utils::make_unique_ptr<novelty::NoveltyEvaluator>(opts);
+    return utils::make_unique_ptr<novelty::NoveltyEvaluator>(opts, fact_indexer);
 }
 
 template<class Entry>
