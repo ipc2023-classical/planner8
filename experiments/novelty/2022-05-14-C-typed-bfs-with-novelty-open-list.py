@@ -18,9 +18,9 @@ else:
     ENV = project.LocalEnvironment(processes=2)
 
 CONFIGS = [
-    ("01-ff", [
-        "--evaluator", "hff=ff(transform=adapt_costs(one))",
-        "--search", """lazy(single(hff), cost_type=one, reopen_closed=false)"""]),
+    #("01-ff", [
+    #    "--evaluator", "hff=ff(transform=adapt_costs(one))",
+    #    "--search", """lazy(single(hff), cost_type=one, reopen_closed=false)"""]),
     ("02-ff-typed", [
         "--evaluator", "hff=ff(transform=adapt_costs(one))",
         "--search", """lazy(alt([single(hff), type_based([hff, g()])]), cost_type=one, reopen_closed=false)"""]),
@@ -30,17 +30,11 @@ CONFIGS = [
     ("04-ff-typed-novelty-2", [
         "--evaluator", "hff=ff(transform=adapt_costs(one))",
         "--search", """lazy(alt([single(hff), tbbf([hff, g()], width=2)]), cost_type=one, reopen_closed=false)"""]),
-    ("05-ff-typed-counting-1", [
-        "--evaluator", "hff=ff(transform=adapt_costs(one))",
-        "--search", """lazy(alt([single(hff), tbbf([hff, g()], novelty=counting, width=1)]), cost_type=one, reopen_closed=false)"""]),
-    ("06-ff-typed-counting-2", [
-        "--evaluator", "hff=ff(transform=adapt_costs(one))",
-        "--search", """lazy(alt([single(hff), tbbf([hff, g()], novelty=counting, width=2)]), cost_type=one, reopen_closed=false)"""]),
 ]
 BUILD_OPTIONS = []
 DRIVER_OPTIONS = ["--overall-time-limit", "5m"]
 REVS = [
-    ("f4fcd1fe2", "rnd"),
+    ("496d5bec8", "open"),
 ]
 ATTRIBUTES = [
     "error",

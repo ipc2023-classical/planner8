@@ -1,7 +1,5 @@
 #include "type_based_best_first_open_list.h"
 
-#include "best_first_open_list.h"
-
 #include "../evaluator.h"
 #include "../open_list.h"
 #include "../option_parser.h"
@@ -9,7 +7,6 @@
 
 #include "../novelty/counting_evaluator.h"
 #include "../novelty/novelty_evaluator.h"
-#include "../search_engines/search_common.h"
 #include "../tasks/root_task.h"
 #include "../utils/collections.h"
 #include "../utils/hash.h"
@@ -31,25 +28,113 @@ using utils::ExitCode;
   Notes:
 
     * Path-dependent sub-evaluators are not supported at the moment.
-    * States in the same bucket with the same novelty value are not chosen randomly.
 */
 namespace type_based_best_first_open_list {
-enum class NoveltyVariant {
-    STANDARD,
-    COUNTING,
+template<class Entry>
+class NoveltyOpenList : public OpenList<Entry> {
+    using Bucket = vector<Entry>;
+    array<Bucket, 3> novelty_buckets;  // bucket order: novelty 1, 2, 3
+    int size;
+    shared_ptr<Evaluator> novelty_evaluator;
+    shared_ptr<utils::RandomNumberGenerator> rng;
+
+protected:
+    virtual void do_insertion(
+        EvaluationContext &eval_context, const Entry &entry) override;
+
+public:
+    NoveltyOpenList(
+        const shared_ptr<Evaluator> &eval,
+        const shared_ptr<utils::RandomNumberGenerator> &rng);
+
+    virtual Entry remove_min() override;
+    virtual bool empty() const override;
+    virtual void clear() override;
+    virtual void get_path_dependent_evaluators(set<Evaluator *> &evals) override;
+    virtual bool is_dead_end(
+        EvaluationContext &eval_context) const override;
+    virtual bool is_reliable_dead_end(
+        EvaluationContext &eval_context) const override;
 };
+
+
+template<class Entry>
+NoveltyOpenList<Entry>::NoveltyOpenList(
+    const shared_ptr<Evaluator> &evaluator,
+    const shared_ptr<utils::RandomNumberGenerator> &rng)
+    : OpenList<Entry>(false),
+      size(0),
+      novelty_evaluator(evaluator),
+      rng(rng) {
+}
+
+template<class Entry>
+void NoveltyOpenList<Entry>::do_insertion(
+    EvaluationContext &eval_context, const Entry &entry) {
+    int novelty = eval_context.get_evaluator_value(novelty_evaluator.get());
+    int bucket_id = novelty - 1;
+    assert(utils::in_bounds(bucket_id, novelty_buckets));
+    novelty_buckets[bucket_id].push_back(entry);
+    ++size;
+}
+
+template<class Entry>
+Entry NoveltyOpenList<Entry>::remove_min() {
+    assert(size > 0);
+    // Choose bucket with lowest novelty value.
+    for (auto &bucket : novelty_buckets) {
+        if (!bucket.empty()) {
+            // Choose random state from bucket.
+            int pos = rng->random(bucket.size());
+            --size;
+            return utils::swap_and_pop_from_vector(bucket, pos);
+        }
+    }
+    ABORT("All novelty buckets are empty.");
+}
+
+template<class Entry>
+bool NoveltyOpenList<Entry>::empty() const {
+    return size == 0;
+}
+
+template<class Entry>
+void NoveltyOpenList<Entry>::clear() {
+    for (auto &bucket : novelty_buckets) {
+        bucket.clear();
+    }
+    size = 0;
+}
+
+template<class Entry>
+void NoveltyOpenList<Entry>::get_path_dependent_evaluators(
+    set<Evaluator *> &evals) {
+    novelty_evaluator->get_path_dependent_evaluators(evals);
+}
+
+template<class Entry>
+bool NoveltyOpenList<Entry>::is_dead_end(
+    EvaluationContext &eval_context) const {
+    return eval_context.is_evaluator_value_infinite(novelty_evaluator.get());
+}
+
+template<class Entry>
+bool NoveltyOpenList<Entry>::is_reliable_dead_end(
+    EvaluationContext &eval_context) const {
+    return is_dead_end(eval_context) && novelty_evaluator->dead_ends_are_reliable();
+}
 
 template<class Entry>
 class TypeBasedBestFirstOpenList : public OpenList<Entry> {
     shared_ptr<utils::RandomNumberGenerator> rng;
     vector<shared_ptr<Evaluator>> evaluators;
-    const NoveltyVariant novelty_variant;
     const int width;
 
     using Key = vector<int>;
     using Bucket = unique_ptr<OpenList<Entry>>;
     vector<pair<Key, Bucket>> keys_and_buckets;
     utils::HashMap<Key, int> key_to_bucket_index;
+    shared_ptr<novelty::FactIndexer> fact_indexer;
 
     unique_ptr<Evaluator> create_novelty_evaluator() const;
 
@@ -75,8 +160,8 @@ template<class Entry>
 TypeBasedBestFirstOpenList<Entry>::TypeBasedBestFirstOpenList(const Options &opts)
     : rng(utils::parse_rng_from_options(opts)),
       evaluators(opts.get_list<shared_ptr<Evaluator>>("evaluators")),
-      novelty_variant(opts.get<NoveltyVariant>("novelty")),
-      width(opts.get<int>("width")) {
+      width(opts.get<int>("width")),
+      fact_indexer(make_shared<novelty::FactIndexer>(TaskProxy(*tasks::g_root_task))) {
 }
 
 template<class Entry>
@@ -86,14 +171,8 @@ unique_ptr<Evaluator> TypeBasedBestFirstOpenList<Entry>::create_novelty_evaluato
     opts.set<shared_ptr<AbstractTask>>("transform", tasks::g_root_task);
     opts.set<bool>("cache_estimates", true);
     opts.set<utils::Verbosity>("verbosity", utils::Verbosity::NORMAL);
-    if (novelty_variant == NoveltyVariant::STANDARD) {
-        opts.set<int>("random_seed", -1);
-        return utils::make_unique_ptr<novelty::NoveltyEvaluator>(opts);
-    } else {
-        assert(novelty_variant == NoveltyVariant::COUNTING);
-        opts.set<novelty::AggregationFunction>("aggregate", novelty::AggregationFunction::MIN);
-        return utils::make_unique_ptr<novelty::CountingEvaluator>(opts);
-    }
+    opts.set<int>("random_seed", -1);
+    return utils::make_unique_ptr<novelty::NoveltyEvaluator>(opts, fact_indexer);
 }
 
 template<class Entry>
@@ -111,9 +190,8 @@ void TypeBasedBestFirstOpenList<Entry>::do_insertion(
         key_to_bucket_index[key] = keys_and_buckets.size();
 
         shared_ptr<Evaluator> eval = create_novelty_evaluator();
-        shared_ptr<OpenListFactory> factory =
-            search_common::create_standard_scalar_open_list_factory(eval, false);
-        unique_ptr<OpenList<Entry>> sublist = factory->create_open_list<Entry>();
+        unique_ptr<OpenList<Entry>> sublist =
+            utils::make_unique_ptr<NoveltyOpenList<Entry>>(eval, rng);
         sublist->insert(eval_context, entry);
         keys_and_buckets.push_back(make_pair(move(key), move(sublist)));
     } else {
@@ -221,8 +299,6 @@ static shared_ptr<OpenListFactory> _parse(OptionParser &parser) {
     parser.add_list_option<shared_ptr<Evaluator>>(
         "evaluators",
         "Evaluators used to determine the bucket for each entry.");
-    parser.add_enum_option<NoveltyVariant>(
-        "novelty", {"STANDARD", "COUNTING"}, "type of novelty metric", "STANDARD");
     parser.add_option<int>(
         "width", "maximum conjunction size", "2", Bounds("1", "2"));
 
