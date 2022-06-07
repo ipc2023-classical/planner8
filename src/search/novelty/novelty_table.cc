@@ -77,7 +77,7 @@ NoveltyTable::NoveltyTable(
 
 int NoveltyTable::compute_novelty_and_update_table(const State &state) {
     int num_vars = state.size();
-    int novelty = 3;
+    int novelty = UNKNOWN_NOVELTY;
 
     // Check for novelty 2.
     if (width == 2) {
@@ -110,7 +110,7 @@ int NoveltyTable::compute_novelty_and_update_table(const State &state) {
 
 int NoveltyTable::compute_novelty_and_update_table(
     const OperatorProxy &op, const State &succ_state) {
-    int novelty = 3;
+    int novelty = UNKNOWN_NOVELTY;
 
     // Check for novelty 2.
     if (width == 2) {

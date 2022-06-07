@@ -65,6 +65,8 @@ public:
         int width,
         const std::shared_ptr<FactIndexer> &fact_indexer = nullptr);
 
+    static const int UNKNOWN_NOVELTY = 3;
+
     int compute_novelty_and_update_table(const State &state);
     int compute_novelty_and_update_table(
         const OperatorProxy &op, const State &succ_state);

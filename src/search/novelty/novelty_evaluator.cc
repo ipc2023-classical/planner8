@@ -29,7 +29,7 @@ NoveltyEvaluator::NoveltyEvaluator(
 
 void NoveltyEvaluator::set_novelty(const State &state, int novelty) {
     assert(heuristic_cache[state].dirty);
-    if (consider_only_novel_states && novelty == 3) {
+    if (consider_only_novel_states && novelty == NoveltyTable::UNKNOWN_NOVELTY) {
         novelty = DEAD_END;
     }
     heuristic_cache[state].h = novelty;
