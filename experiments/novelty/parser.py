@@ -49,7 +49,7 @@ def main():
         r"f = (\d+) \[1 evaluated, 0 expanded, t=.+s, \d+ KB\]",
         type=int,
     )
-    parser.add_repeated_pattern(
+    parser.add_pattern(
         "time_for_computing_novelty",
         r"Time for computing novelty: (.+)s",
         type=float,
