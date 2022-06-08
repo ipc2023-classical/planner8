@@ -26,6 +26,7 @@ class NoveltyOpenList : public OpenList<Entry> {
     array<Bucket, 3> novelty_buckets;  // bucket order: novelty 1, 2, 3
     int size;
     shared_ptr<Evaluator> novelty_evaluator;
+    const bool clear_after_progress;
     shared_ptr<utils::RandomNumberGenerator> rng;
 
 protected:
@@ -38,6 +39,7 @@ public:
     virtual Entry remove_min() override;
     virtual bool empty() const override;
     virtual void clear() override;
+    virtual void boost_preferred() override;
     virtual void get_path_dependent_evaluators(set<Evaluator *> &evals) override;
     virtual bool is_dead_end(
         EvaluationContext &eval_context) const override;
@@ -51,6 +53,7 @@ NoveltyOpenList<Entry>::NoveltyOpenList(const Options &opts)
     : OpenList<Entry>(false),
       size(0),
       novelty_evaluator(opts.get<shared_ptr<Evaluator>>("evaluator")),
+      clear_after_progress(opts.get<bool>("clear_after_progress")),
       rng(utils::parse_rng_from_options(opts)) {
 }
 
@@ -93,6 +96,14 @@ void NoveltyOpenList<Entry>::clear() {
 }
 
 template<class Entry>
+void NoveltyOpenList<Entry>::boost_preferred() {
+    novelty_evaluator->notify_progress();
+    if (clear_after_progress) {
+        clear();
+    }
+}
+
+template<class Entry>
 void NoveltyOpenList<Entry>::get_path_dependent_evaluators(
     set<Evaluator *> &evals) {
     novelty_evaluator->get_path_dependent_evaluators(evals);
@@ -130,6 +141,10 @@ static shared_ptr<OpenListFactory> _parse(OptionParser &parser) {
     parser.add_option<shared_ptr<Evaluator>>(
         "evaluator",
         "Novelty evaluator.");
+    parser.add_option<bool>(
+        "clear_after_progress",
+        "Clear open list when a heuristic makes progress.",
+        "false");
 
     utils::add_rng_options(parser);
 
