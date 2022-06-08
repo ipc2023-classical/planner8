@@ -148,6 +148,13 @@ fast_downward_plugin(
 )
 
 fast_downward_plugin(
+    NAME NOVELTY_OPEN_LIST
+    HELP "Novelty open list"
+    SOURCES
+        open_lists/novelty_open_list
+)
+
+fast_downward_plugin(
     NAME PARETO_OPEN_LIST
     HELP "Pareto open list"
     SOURCES
