@@ -3,6 +3,8 @@
 
 #include "../task_proxy.h"
 
+#include "../utils/timer.h"
+
 #include <cassert>
 #include <memory>
 #include <vector>
@@ -57,6 +59,8 @@ class NoveltyTable {
     std::vector<bool> seen_facts;
     std::vector<bool> seen_fact_pairs;
 
+    utils::Timer compute_novelty_timer;
+
     void dump_state_and_novelty(const State &state, int novelty) const;
 
 public:
@@ -71,6 +75,8 @@ public:
     int compute_novelty_and_update_table(
         const OperatorProxy &op, const State &succ_state);
     void reset();
+
+    void print_statistics() const;
 };
 }
 

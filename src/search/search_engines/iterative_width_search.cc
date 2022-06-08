@@ -17,8 +17,7 @@ IterativeWidthSearch::IterativeWidthSearch(const Options &opts)
     : SearchEngine(opts),
       width(opts.get<int>("width")),
       debug(opts.get<utils::Verbosity>("verbosity") == utils::Verbosity::DEBUG),
-      novelty_table(task_proxy, width),
-      compute_novelty_timer(false) {
+      novelty_table(task_proxy, width) {
     utils::g_log << "Setting up iterative width search." << endl;
 }
 
@@ -35,21 +34,15 @@ void IterativeWidthSearch::initialize() {
 }
 
 bool IterativeWidthSearch::is_novel(const State &state) {
-    compute_novelty_timer.resume();
-    bool novel = novelty_table.compute_novelty_and_update_table(state) < 3;
-    compute_novelty_timer.stop();
-    return novel;
+    return novelty_table.compute_novelty_and_update_table(state) < 3;
 }
 
 bool IterativeWidthSearch::is_novel(const OperatorProxy &op, const State &succ_state) {
-    compute_novelty_timer.resume();
-    bool novel = novelty_table.compute_novelty_and_update_table(op, succ_state) < 3;
-    compute_novelty_timer.stop();
-    return novel;
+    return novelty_table.compute_novelty_and_update_table(op, succ_state) < 3;
 }
 
 void IterativeWidthSearch::print_statistics() const {
-    utils::g_log << "Time for computing novelty: " << compute_novelty_timer << endl;
+    novelty_table.print_statistics();
     statistics.print_detailed_statistics();
     search_space.print_statistics();
 }

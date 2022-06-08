@@ -23,6 +23,7 @@ public:
     NoveltyEvaluator(
         const options::Options &opts,
         const std::shared_ptr<FactIndexer> &fact_indexer = nullptr);
+    ~NoveltyEvaluator();
 
     virtual void get_path_dependent_evaluators(
         std::set<Evaluator *> &evals) override;

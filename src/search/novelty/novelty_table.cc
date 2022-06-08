@@ -64,7 +64,8 @@ NoveltyTable::NoveltyTable(
     const TaskProxy &task_proxy, int width, const shared_ptr<FactIndexer> &fact_indexer_)
     : width(width),
       debug(false),
-      fact_indexer(fact_indexer_) {
+      fact_indexer(fact_indexer_),
+      compute_novelty_timer(false) {
     if (!fact_indexer) {
         cout << "Create fact indexer." << endl;
         fact_indexer = make_shared<FactIndexer>(task_proxy);
@@ -73,6 +74,7 @@ NoveltyTable::NoveltyTable(
 }
 
 int NoveltyTable::compute_novelty_and_update_table(const State &state) {
+    compute_novelty_timer.resume();
     int num_vars = state.size();
     int novelty = UNKNOWN_NOVELTY;
 
@@ -102,11 +104,13 @@ int NoveltyTable::compute_novelty_and_update_table(const State &state) {
         }
     }
 
+    compute_novelty_timer.stop();
     return novelty;
 }
 
 int NoveltyTable::compute_novelty_and_update_table(
     const OperatorProxy &op, const State &succ_state) {
+    compute_novelty_timer.resume();
     int novelty = UNKNOWN_NOVELTY;
 
     // Check for novelty 2.
@@ -139,6 +143,7 @@ int NoveltyTable::compute_novelty_and_update_table(
         }
     }
 
+    compute_novelty_timer.stop();
     return novelty;
 }
 
@@ -158,5 +163,9 @@ void NoveltyTable::dump_state_and_novelty(const State &state, int novelty) const
         sep = ", ";
     }
     cout << "]: " << novelty << endl;
+}
+
+void NoveltyTable::print_statistics() const {
+    utils::g_log << "Time for computing novelty: " << compute_novelty_timer << endl;
 }
 }

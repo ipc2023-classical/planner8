@@ -4,7 +4,6 @@
 #include "../search_engine.h"
 
 #include "../novelty/novelty_table.h"
-#include "../utils/timer.h"
 
 #include <deque>
 #include <memory>
@@ -21,7 +20,6 @@ class IterativeWidthSearch : public SearchEngine {
 
     std::deque<StateID> open_list;
     novelty::NoveltyTable novelty_table;
-    utils::Timer compute_novelty_timer;
 
     bool is_novel(const State &state);
     bool is_novel(const OperatorProxy &op, const State &succ_state);

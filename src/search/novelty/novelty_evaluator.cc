@@ -28,6 +28,10 @@ NoveltyEvaluator::NoveltyEvaluator(
     }
 }
 
+NoveltyEvaluator::~NoveltyEvaluator() {
+    novelty_table.print_statistics();
+}
+
 void NoveltyEvaluator::set_novelty(const State &state, int novelty) {
     assert(heuristic_cache[state].dirty);
     if (consider_only_novel_states && novelty == NoveltyTable::UNKNOWN_NOVELTY) {
