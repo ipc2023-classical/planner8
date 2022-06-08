@@ -2,7 +2,7 @@ from collections import defaultdict
 import itertools
 import logging
 
-from lab.reports import Table
+from lab.reports import CellFormatter, Table
 
 from downward.reports import PlanningReport
 
@@ -88,16 +88,12 @@ class PerDomainComparison(PlanningReport):
         for algo1, algo2 in itertools.permutations(algorithms, 2):
             num_algo1_better = num_domains_better[(algo1, algo2)]
             num_algo2_better = num_domains_better[(algo2, algo1)]
+            comparison_table.add_cell(algo1, algo2, num_algo1_better)
             if num_algo1_better >= num_algo2_better:
-                if self.output_format == "tex":
-                    content = r" ''\textbf{{{}}}''".format(num_algo1_better)
-                else:
-                    content = r" ''<b>{}</b>''".format(num_algo1_better)
-            else:
-                content = num_algo1_better
-            comparison_table.add_cell(algo1, algo2, content)
+                comparison_table.cell_formatters[algo1][algo2] = CellFormatter(bold=True, align_right=True)
         for algo in algorithms:
-            comparison_table.add_cell(algo, algo, " ''--''")
+            comparison_table.add_cell(algo, algo, "''--''")
+            comparison_table.cell_formatters[algo][algo] = CellFormatter(align_right=True)
 
         total_coverage = dict(
             (algo, sum(domain_and_algorithm_to_coverage[(domain, algo)] for domain in domain_groups))
