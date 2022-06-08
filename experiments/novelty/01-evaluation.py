@@ -27,8 +27,12 @@ exp.add_step(
     "remove-combined-properties", project.remove_file, Path(exp.eval_dir) / "properties"
 )
 
-project.fetch_algorithm(exp, "2022-05-14-C-typed-bfs-with-novelty-open-list", "open:04-ff-typed-novelty-2", new_algo="novelty-2-open")
-project.fetch_algorithm(exp, "2022-05-14-D-typed-bfs-with-novelty-fact-pair-map", "map:04-ff-typed-novelty-2", new_algo="novelty-2-map")
+project.fetch_algorithm(exp, "2022-06-07-A-incomplete-novelty-open-list", "03-ff-typed-incomplete-novelty-1", new_algo="novelty-1-fifo")
+project.fetch_algorithm(exp, "2022-06-07-A-incomplete-novelty-open-list", "04-ff-typed-incomplete-novelty-2", new_algo="novelty-2-fifo")
+#project.fetch_algorithm(exp, "2022-06-07-B-incomplete-novelty-open-list-reset", "03-ff-typed-incomplete-novelty-1-reset", new_algo="novelty-1-reset-fifo")
+#project.fetch_algorithm(exp, "2022-06-07-B-incomplete-novelty-open-list-reset", "04-ff-typed-incomplete-novelty-2-reset", new_algo="novelty-2-reset-fifo")
+project.fetch_algorithm(exp, "2022-06-07-C-incomplete-novelty-open-list-randomize-clear", "ff-typed-novelty-1", new_algo="novelty-1-random")
+project.fetch_algorithm(exp, "2022-06-07-C-incomplete-novelty-open-list-randomize-clear", "ff-typed-novelty-2", new_algo="novelty-2-random")
 
 filters = [project.add_evaluations_per_time]
 
@@ -37,10 +41,16 @@ project.add_absolute_report(
 )
 
 exp.add_report(ComparativeReport([
-        ("novelty-2-open", "novelty-2-map"),
+        ("novelty-1-fifo", "novelty-1-random"),
+        ("novelty-2-fifo", "novelty-2-random"),
     ],
     attributes=ATTRIBUTES, filter=[project.add_evaluations_per_time]
 ))
 
+def add_missing_coverage(run):
+    run.setdefault("coverage", 0)
+    return run
+
+exp.add_report(project.PerDomainComparison(sort=True, filter=add_missing_coverage))
 
 exp.run_steps()

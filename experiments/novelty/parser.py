@@ -50,9 +50,9 @@ def main():
         type=int,
     )
     parser.add_repeated_pattern(
-        "h_values",
-        r"New best heuristic value for .+: (\d+)\n",
-        type=int,
+        "time_for_computing_novelty",
+        r"Time for computing novelty: (.+)s",
+        type=float,
     )
     parser.parse()
 
