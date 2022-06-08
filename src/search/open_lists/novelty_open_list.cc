@@ -22,10 +22,11 @@ using utils::ExitCode;
 namespace novelty_open_list {
 template<class Entry>
 class NoveltyOpenList : public OpenList<Entry> {
-    using Bucket = vector<Entry>;
+    using Bucket = deque<Entry>;
     array<Bucket, 3> novelty_buckets;  // bucket order: novelty 1, 2, 3
     int size;
     shared_ptr<Evaluator> novelty_evaluator;
+    const bool break_ties_randomly;
     const bool clear_after_progress;
     shared_ptr<utils::RandomNumberGenerator> rng;
 
@@ -53,6 +54,7 @@ NoveltyOpenList<Entry>::NoveltyOpenList(const Options &opts)
     : OpenList<Entry>(false),
       size(0),
       novelty_evaluator(opts.get<shared_ptr<Evaluator>>("evaluator")),
+      break_ties_randomly(opts.get<bool>("break_ties_randomly")),
       clear_after_progress(opts.get<bool>("clear_after_progress")),
       rng(utils::parse_rng_from_options(opts)) {
 }
@@ -67,16 +69,32 @@ void NoveltyOpenList<Entry>::do_insertion(
     ++size;
 }
 
+template<typename Container>
+typename Container::value_type swap_and_pop_from_container(
+    Container &container, size_t pos) {
+    assert(utils::in_bounds(pos, container));
+    typename Container::value_type element = container[pos];
+    std::swap(container[pos], container.back());
+    container.pop_back();
+    return element;
+}
+
 template<class Entry>
 Entry NoveltyOpenList<Entry>::remove_min() {
     assert(size > 0);
     // Choose bucket with lowest novelty value.
     for (auto &bucket : novelty_buckets) {
         if (!bucket.empty()) {
-            // Choose random state from bucket.
-            int pos = rng->random(bucket.size());
             --size;
-            return utils::swap_and_pop_from_vector(bucket, pos);
+            if (break_ties_randomly) {
+                // Choose random state from bucket.
+                int pos = rng->random(bucket.size());
+                return swap_and_pop_from_container(bucket, pos);
+            } else {
+                Entry entry = bucket.front();
+                bucket.pop_front();
+                return entry;
+            }
         }
     }
     ABORT("All novelty buckets are empty.");
@@ -141,6 +159,10 @@ static shared_ptr<OpenListFactory> _parse(OptionParser &parser) {
     parser.add_option<shared_ptr<Evaluator>>(
         "evaluator",
         "Novelty evaluator.");
+    parser.add_option<bool>(
+        "break_ties_randomly",
+        "If false, use FIFO for states with equal novelty.",
+        "true");
     parser.add_option<bool>(
         "clear_after_progress",
         "Clear open list when a heuristic makes progress.",
