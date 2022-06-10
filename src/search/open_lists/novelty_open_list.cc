@@ -94,21 +94,21 @@ Entry NoveltyOpenList<Entry>::remove_min() {
         auto &bucket = *it;
         if (!bucket.empty()) {
             --size;
+            Entry entry = bucket.front();
             if (break_ties_randomly) {
                 // Choose random state from bucket.
                 int pos = rng->random(bucket.size());
-                return swap_and_pop_from_container(bucket, pos);
+                entry = swap_and_pop_from_container(bucket, pos);
             } else {
-                Entry entry = bucket.front();
                 bucket.pop_front();
-                // Always keep the first two buckets.
-                int bucket_index = it - novelty_buckets.begin();
-                if (bucket.empty() && bucket_index >= 2) {
-                    novelty_buckets.erase(it);
-                }
-                assert(novelty_buckets.size() >= 2);
-                return entry;
             }
+            // Remove bucket if it's empty, but always keep the first two buckets.
+            int bucket_index = it - novelty_buckets.begin();
+            if (bucket.empty() && bucket_index >= 2) {
+                novelty_buckets.erase(it);
+            }
+            assert(novelty_buckets.size() >= 2);
+            return entry;
         }
     }
     ABORT("All novelty buckets are empty.");
