@@ -39,7 +39,9 @@ REVS = [
     ("647bd0cab", ""),
 ]
 ATTRIBUTES = [
+    "cost",
     "error",
+    "plan_length",
     "run_dir",
     "search_start_time",
     "search_start_memory",
@@ -90,11 +92,30 @@ project.add_absolute_report(
 
 from downward.reports.compare import ComparativeReport
 exp.add_report(ComparativeReport([
-        ("01-ff", "04-ff-novelty-alt"),
-        ("01-ff", "05-ff-novelty-tb"),
+        ("ff-novelty-1", "ff-novelty-1-random"),
+        ("ff-novelty-2", "ff-novelty-2-random"),
+        ("ff-novelty-1-clear", "ff-novelty-1-random-clear"),
+        ("ff-novelty-2-clear", "ff-novelty-2-random-clear"),
+        ("ff-novelty-1-reset", "ff-novelty-1-random-reset"),
+        ("ff-novelty-2-reset", "ff-novelty-2-random-reset"),
+        ("ff-novelty-1-reset-clear", "ff-novelty-1-random-reset-clear"),
+        ("ff-novelty-2-reset-clear", "ff-novelty-2-random-reset-clear"),
     ],
     attributes=ATTRIBUTES, filter=[project.add_evaluations_per_time]
-))
+), name=f"{exp.name}-random")
+
+exp.add_report(ComparativeReport([
+        ("ff-novelty-1", "ff-novelty-1-reset"),
+        ("ff-novelty-2", "ff-novelty-2-reset"),
+        ("ff-novelty-1-clear", "ff-novelty-1-reset-clear"),
+        ("ff-novelty-2-clear", "ff-novelty-2-reset-clear"),
+        ("ff-novelty-1-random", "ff-novelty-1-random-reset"),
+        ("ff-novelty-2-random", "ff-novelty-2-random-reset"),
+        ("ff-novelty-1-random-clear", "ff-novelty-1-random-reset-clear"),
+        ("ff-novelty-2-random-clear", "ff-novelty-2-random-reset-clear"),
+    ],
+    attributes=ATTRIBUTES, filter=[project.add_evaluations_per_time]
+), name=f"{exp.name}-reset")
 
 def add_missing_coverage(run):
     run.setdefault("coverage", 0)
