@@ -103,7 +103,7 @@ Entry NoveltyOpenList<Entry>::remove_min() {
                 bucket.pop_front();
                 // Always keep the first two buckets.
                 int bucket_index = it - novelty_buckets.begin();
-                if (bucket.empty() && bucket_index < 2) {
+                if (bucket.empty() && bucket_index >= 2) {
                     novelty_buckets.erase(it);
                 }
                 assert(novelty_buckets.size() >= 2);
