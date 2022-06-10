@@ -36,7 +36,7 @@ CONFIGS = [
 BUILD_OPTIONS = []
 DRIVER_OPTIONS = ["--overall-time-limit", "5m"]
 REVS = [
-    ("dcd54867e", ""),
+    ("41d35d664", ""),
 ]
 ATTRIBUTES = [
     "cost",
