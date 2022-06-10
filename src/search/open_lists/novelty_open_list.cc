@@ -19,15 +19,21 @@
 using namespace std;
 using utils::ExitCode;
 
+enum class HandleProgress {
+    IGNORE,
+    CLEAR,
+    MOVE,
+};
+
 namespace novelty_open_list {
 template<class Entry>
 class NoveltyOpenList : public OpenList<Entry> {
     using Bucket = deque<Entry>;
-    array<Bucket, 3> novelty_buckets;  // bucket order: novelty 1, 2, 3
+    deque<Bucket> novelty_buckets;
     int size;
     shared_ptr<Evaluator> novelty_evaluator;
     const bool break_ties_randomly;
-    const bool clear_after_progress;
+    const HandleProgress handle_progress;
     shared_ptr<utils::RandomNumberGenerator> rng;
 
 protected:
@@ -52,10 +58,11 @@ public:
 template<class Entry>
 NoveltyOpenList<Entry>::NoveltyOpenList(const Options &opts)
     : OpenList<Entry>(false),
+      novelty_buckets(2),
       size(0),
       novelty_evaluator(opts.get<shared_ptr<Evaluator>>("evaluator")),
       break_ties_randomly(opts.get<bool>("break_ties_randomly")),
-      clear_after_progress(opts.get<bool>("clear_after_progress")),
+      handle_progress(opts.get<HandleProgress>("handle_progress")),
       rng(utils::parse_rng_from_options(opts)) {
 }
 
@@ -83,7 +90,8 @@ template<class Entry>
 Entry NoveltyOpenList<Entry>::remove_min() {
     assert(size > 0);
     // Choose bucket with lowest novelty value.
-    for (auto &bucket : novelty_buckets) {
+    for (auto it = novelty_buckets.begin(); it != novelty_buckets.end(); ++it) {
+        auto &bucket = *it;
         if (!bucket.empty()) {
             --size;
             if (break_ties_randomly) {
@@ -93,6 +101,12 @@ Entry NoveltyOpenList<Entry>::remove_min() {
             } else {
                 Entry entry = bucket.front();
                 bucket.pop_front();
+                // Always keep the first two buckets.
+                int bucket_index = it - novelty_buckets.begin();
+                if (bucket.empty() && bucket_index < 2) {
+                    novelty_buckets.erase(it);
+                }
+                assert(novelty_buckets.size() >= 2);
                 return entry;
             }
         }
@@ -107,6 +121,7 @@ bool NoveltyOpenList<Entry>::empty() const {
 
 template<class Entry>
 void NoveltyOpenList<Entry>::clear() {
+    novelty_buckets.resize(2);
     for (auto &bucket : novelty_buckets) {
         bucket.clear();
     }
@@ -116,8 +131,12 @@ void NoveltyOpenList<Entry>::clear() {
 template<class Entry>
 void NoveltyOpenList<Entry>::boost_preferred() {
     novelty_evaluator->notify_progress();
-    if (clear_after_progress) {
+    if (handle_progress == HandleProgress::CLEAR) {
         clear();
+    } else if (handle_progress == HandleProgress::MOVE) {
+        // Insert new buckets for novelty 1 and 2 states.
+        novelty_buckets.emplace_front();
+        novelty_buckets.emplace_front();
     }
 }
 
@@ -162,11 +181,12 @@ static shared_ptr<OpenListFactory> _parse(OptionParser &parser) {
     parser.add_option<bool>(
         "break_ties_randomly",
         "If false, use FIFO for states with equal novelty.",
-        "true");
-    parser.add_option<bool>(
-        "clear_after_progress",
-        "Clear open list when a heuristic makes progress.",
         "false");
+    parser.add_enum_option<HandleProgress>(
+        "handle_progress",
+        {"ignore", "clear", "move"},
+        "What to do when a heuristic makes progress.",
+        "ignore");
 
     utils::add_rng_options(parser);
 

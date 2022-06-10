@@ -81,7 +81,7 @@ static shared_ptr<Heuristic> _parse(OptionParser &parser) {
     parser.add_option<bool>(
         "consider_only_novel_states",
         "assign infinity to non-novel states",
-        "false");
+        "true");
     parser.add_option<bool>(
         "reset_after_progress",
         "reset novelty table when a heuristic makes progress",
