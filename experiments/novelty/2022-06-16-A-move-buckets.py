@@ -7,9 +7,9 @@ import project
 
 
 REPO = project.get_repo_base()
-BENCHMARKS_DIR = os.environ["AUTOSCALE_BENCHMARKS_AGILE"]
+BENCHMARKS_DIR = os.environ["AUTOSCALE_BENCHMARKS_SAT"]
 if project.REMOTE:
-    SUITE = project.SUITE_SATISFICING
+    SUITE = project.SUITE_AUTOSCALE_SAT
     ENV = project.BaselSlurmEnvironment(email="augusto.blaascorrea@unibas.ch", partition="infai_2")
 else:
     SUITE = ["depots:p01.pddl", "grid:p01.pddl", "gripper:p01.pddl"]
