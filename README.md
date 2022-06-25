@@ -4,7 +4,7 @@ Scorpion is an optimal classical planner that uses saturated cost
 partitioning to combine multiple abstraction heuristics. It also contains
 implementations of many other cost partitioning algorithms over
 abstraction and landmark heuristics. Scorpion is based on the [Fast
-Downward planning system](https://github.com/aibasel/downward) (version 21.12),
+Downward planning system](https://github.com/aibasel/downward) (version 22.06),
 which is described below. We regularly port the latest changes from Fast Downward
 to Scorpion and also try to port Scorpion features back to Fast Downward.
 
@@ -107,6 +107,11 @@ repo](https://bitbucket.org/ipc2018-classical/team44/src/ipc-2018-seq-opt/).
 - If [ccache](https://ccache.dev/) is installed (recommended), Scorpion
   uses it to cache compilation files.
 
+### New translator options
+
+- Use `--dump-predicates` and `--dump-static-atoms` to write files with
+  information that's useful for learning domain control knowledge.
+
 
 ### New plugin options
 
@@ -144,7 +149,8 @@ heuristics.
 - Saturated cost partitioning:
   `scp([cartesian()], ...)` (offline), `scp_online([cartesian()], ...)` (online)
 - (Saturated) post-hoc optimization:
-  `pho([cartesian()], ..., saturated={false,true})` (offline), `operatorcounting([pho_abstraction_constraints([cartesian()], saturated={false,true})])` (online)
+  `pho([cartesian()], ..., saturated={false,true})` (offline),
+  `operatorcounting([pho_abstraction_constraints([cartesian()], saturated={false,true})])` (online)
 
 You can also compute the maximum over abstraction heuristics:
 
@@ -197,6 +203,8 @@ Different cost partitioning algorithms (all need `admissible=true`):
   `brfs()`
 - Depth-first search:
   `dfs()`
+- Exhaustive search (useful for dumping the reachable state space of small input tasks):
+  `dump_reachable_search_space()`
 - IDA* search:
   `idastar(cegar(cache_estimates=false))`
 - Iterative width search:

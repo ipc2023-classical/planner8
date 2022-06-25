@@ -3,13 +3,16 @@
 
 #include "evaluation_result.h"
 
+#include "../utils/logging.h"
+
 #include <set>
 
 class EvaluationContext;
 class State;
 
-namespace utils {
-class LogProxy;
+namespace options {
+class OptionParser;
+class Options;
 }
 
 class Evaluator {
@@ -18,10 +21,11 @@ protected:
     bool use_for_reporting_minima;
     bool use_for_boosting;
     bool use_for_counting_evaluations;
+    mutable utils::LogProxy log;
 
 public:
-    Evaluator(
-        const std::string &description = "<none>",
+    explicit Evaluator(
+        const options::Options &opts,
         bool use_for_reporting_minima = false,
         bool use_for_boosting = false,
         bool use_for_counting_evaluations = false);
@@ -81,10 +85,8 @@ public:
     virtual EvaluationResult compute_result(
         EvaluationContext &eval_context) = 0;
 
-    void report_value_for_initial_state(
-        const EvaluationResult &result, utils::LogProxy &log) const;
-    void report_new_minimum_value(
-        const EvaluationResult &result, utils::LogProxy &log) const;
+    void report_value_for_initial_state(const EvaluationResult &result) const;
+    void report_new_minimum_value(const EvaluationResult &result) const;
 
     // Called when a heuristic reports a new minimum h value.
     virtual void notify_progress() {}
@@ -102,5 +104,7 @@ public:
     */
     virtual int get_cached_estimate(const State &state) const;
 };
+
+extern void add_evaluator_options_to_parser(options::OptionParser &parser);
 
 #endif
