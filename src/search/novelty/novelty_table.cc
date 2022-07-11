@@ -20,8 +20,8 @@ FactIndexer::FactIndexer(const TaskProxy &task_proxy) {
     // We don't need offsets for facts of the last variable.
     int num_pair_offsets = num_facts - last_domain_size;
     pair_offsets.reserve(num_pair_offsets);
-    int current_pair_offset = 0;
-    int num_facts_in_higher_vars = num_facts;
+    int64_t current_pair_offset = 0;
+    int64_t num_facts_in_higher_vars = num_facts;
     num_pairs = 0;
     for (int var_id = 0; var_id < num_vars - 1; ++var_id) {  // Skip last var.
         int domain_size = task_proxy.get_variables()[var_id].get_domain_size();
@@ -39,7 +39,7 @@ FactIndexer::FactIndexer(const TaskProxy &task_proxy) {
     cout << "Facts: " << num_facts << endl;
     cout << "Pairs: " << num_pairs << endl;
     cout << "Pair offsets: " << pair_offsets << endl;
-    int expected_id = 0;
+    int64_t expected_id = 0;
     for (FactProxy fact_proxy1 : task_proxy.get_variables().get_facts()) {
         FactPair fact1 = fact_proxy1.get_pair();
         for (FactProxy fact_proxy2 : task_proxy.get_variables().get_facts()) {
@@ -47,12 +47,14 @@ FactIndexer::FactIndexer(const TaskProxy &task_proxy) {
             if (!(fact1 < fact2) || fact1.var == fact2.var) {
                 continue;
             }
-            int id = get_pair_id(fact1, fact2);
-            if (false) {
+            int64_t id = get_pair_id(fact1, fact2);
+            if (id != expected_id) {
                 cout << "Fact pair " << fact1 << " & " << fact2 << endl;
                 cout << "Offset: " << pair_offsets[get_fact_id(fact1)] << endl;
                 cout << "ID fact2: " << get_fact_id(fact2) << endl;
-                cout << id << endl;
+                cout << "ID: " << id << endl;
+                cout << "Expected id: " << expected_id << endl;
+                ABORT("Pair ID does not match expected value.");
             }
             ++expected_id;
         }
@@ -84,7 +86,7 @@ int NoveltyTable::compute_novelty_and_update_table(const State &state) {
             FactPair fact1 = state[var1].get_pair();
             for (int var2 = var1 + 1; var2 < num_vars; ++var2) {
                 FactPair fact2 = state[var2].get_pair();
-                int pair_id = fact_indexer->get_pair_id(fact1, fact2);
+                int64_t pair_id = fact_indexer->get_pair_id(fact1, fact2);
                 bool seen = seen_fact_pairs[pair_id];
                 if (!seen) {
                     novelty = 2;
@@ -123,7 +125,7 @@ int NoveltyTable::compute_novelty_and_update_table(
                     continue;
                 }
                 FactPair fact2 = succ_state[var2].get_pair();
-                int pair_id = fact_indexer->get_pair_id(fact1, fact2);
+                int64_t pair_id = fact_indexer->get_pair_id(fact1, fact2);
                 bool seen = seen_fact_pairs[pair_id];
                 if (!seen) {
                     novelty = 2;

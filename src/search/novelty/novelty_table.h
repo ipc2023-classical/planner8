@@ -19,18 +19,18 @@ namespace novelty {
 */
 class FactIndexer {
     std::vector<int> fact_offsets;
-    std::vector<int> pair_offsets;
+    std::vector<int64_t> pair_offsets;
     int num_facts;
-    int num_pairs;
+    int64_t num_pairs;
 
 public:
     explicit FactIndexer(const TaskProxy &task_proxy);
 
-    int get_fact_id(FactPair fact) const {
+    int64_t get_fact_id(FactPair fact) const {
         return fact_offsets[fact.var] + fact.value;
     }
 
-    int get_pair_id(FactPair fact1, FactPair fact2) const {
+    int64_t get_pair_id(FactPair fact1, FactPair fact2) const {
         assert(fact1.var != fact2.var);
         if (!(fact1 < fact2)) {
             std::swap(fact1, fact2);
@@ -44,7 +44,7 @@ public:
         return num_facts;
     }
 
-    int get_num_pairs() const {
+    int64_t get_num_pairs() const {
         return num_pairs;
     }
 
