@@ -20,7 +20,7 @@ CONFIGS = [(f"lama-novelty-{novelty}-pref-only-{'-random' if random else ''}{'-r
         "hlm=lmcount(lm_factory=lm_reasonable_orders_hps(lm_rhw()),transform=adapt_costs(one),pref=false)",
         "--evaluator", "hff=ff(transform=adapt_costs(one))",
         "--evaluator", f"novelty_eval=novelty(width={novelty}, consider_only_novel_states=true, reset_after_progress={reset})",
-        "--search", f"""lazy(alt([single(hff), single(hff, pref_only=true), single(hlm), single(hlm, pref_only=true), novelty_open_list(novelty_eval, break_ties_randomly={random}, handle_progress={handle_progress}), novelty_open_list(novelty_eval, break_ties_randomly={random}, handle_progress={handle_progress}, pref_only=true)]), preferred=[hff,hlm], cost_type=one,reopen_closed=false)"""])
+        "--search", f"""lazy(alt([single(hff), single(hff, pref_only=true), single(hlm), single(hlm, pref_only=true), novelty_open_list(novelty_eval, break_ties_randomly={random}, handle_progress={handle_progress}), novelty_open_list(novelty_eval, break_ties_randomly={random}, handle_progress={handle_progress}, pref_only=true)], boost=1000), preferred=[hff,hlm], cost_type=one,reopen_closed=false)"""])
     for novelty in [2]
     for reset in [True]
     for handle_progress in ["move"]
@@ -31,7 +31,7 @@ CONFIGS = [(f"lama-novelty-{novelty}-pref-only-{'-random' if random else ''}{'-r
         "hlm=lmcount(lm_factory=lm_reasonable_orders_hps(lm_rhw()),transform=adapt_costs(one),pref=false)",
         "--evaluator", "hff=ff(transform=adapt_costs(one))",
         "--evaluator", f"novelty_eval=novelty(width={novelty}, consider_only_novel_states=true, reset_after_progress={reset})",
-        "--search", f"""lazy(alt([single(hff), single(hff, pref_only=true), single(hlm), single(hlm, pref_only=true), type_based([hff, g()]), novelty_open_list(novelty_eval, break_ties_randomly={random}, handle_progress={handle_progress}), novelty_open_list(novelty_eval, break_ties_randomly={random}, handle_progress={handle_progress}, pref_only=true)]),preferred=[hff,hlm], cost_type=one,reopen_closed=false)"""])
+        "--search", f"""lazy(alt([single(hff), single(hff, pref_only=true), single(hlm), single(hlm, pref_only=true), type_based([hff, g()]), novelty_open_list(novelty_eval, break_ties_randomly={random}, handle_progress={handle_progress}), novelty_open_list(novelty_eval, break_ties_randomly={random}, handle_progress={handle_progress}, pref_only=true)], boost=1000),preferred=[hff,hlm], cost_type=one,reopen_closed=false)"""])
     for novelty in [2]
     for reset in [True]
     for handle_progress in ["move"]
