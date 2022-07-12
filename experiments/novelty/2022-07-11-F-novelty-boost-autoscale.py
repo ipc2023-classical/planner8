@@ -34,7 +34,7 @@ CONFIGS = [("lama-first",
         "--evaluator",
         "hlm=lmcount(lm_factory=lm_reasonable_orders_hps(lm_rhw()),transform=adapt_costs(one),pref=false)",
         "--evaluator", "hff=ff(transform=adapt_costs(one))",
-        "--search", """lazy(alt([single(hff), single(hff, pref_only=true), single(hlm), single(hlm, pref_only=true), type_based([hff, g()])]),preferred=[hff,hlm], cost_type=one,reopen_closed=false)"""])
+        "--search", """lazy(alt([single(hff), single(hff, pref_only=true), single(hlm), single(hlm, pref_only=true), type_based([hff, g()])], boost=1000),preferred=[hff,hlm], cost_type=one,reopen_closed=false)"""])
 ] + [
     (f"lama-type-based-novelty-{novelty}{'-random' if random else ''}{'-reset' if reset else ''}-{handle_progress}-prefops", [
         "--evaluator",
