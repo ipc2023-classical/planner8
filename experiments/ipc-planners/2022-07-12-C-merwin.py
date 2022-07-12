@@ -50,7 +50,7 @@ DIR = Path(__file__).resolve().parent
 REPO = DIR.parent
 IMAGES_DIR = Path("/infai/blaas/planning/planning-images")
 assert IMAGES_DIR.is_dir(), IMAGES_DIR
-BENCHMARKS_DIR = os.environ["AUTOSCALE_SAT_BENCHMARKS"]
+BENCHMARKS_DIR = os.environ["AUTOSCALE_BENCHMARKS_SAT"]
 MEMORY_LIMIT = 3584
 if RUNNING_ON_CLUSTER:
     SUITE = project.SUITE_AUTOSCALE_SAT
