@@ -34,8 +34,7 @@ CONFIGS = [("lama-first",
 ]
 
 BUILD_OPTIONS = []
-DRIVER_OPTIONS = ["--overall-time-limit", "5m",
-                  "--transform-task", "preprocess-h2"]
+DRIVER_OPTIONS = ["--overall-time-limit", "5m"]
 REVS = [
     ("b59578608", ""),
 ]
