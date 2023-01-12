@@ -58,7 +58,7 @@ project.add_absolute_report(
  	              'lama-first',
  	              'lama-novelty-2-reset-move-prefops',
                       'alt-ff-pareto-novelty-2-lmcount-reset-move-prefops'],
-    name="expansions.html"
+    name="expansions"
 )
 
 
