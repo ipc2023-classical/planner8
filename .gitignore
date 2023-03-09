@@ -7,3 +7,6 @@ __pycache__/
 /experiments/*/data/
 /misc/.tox/
 /misc/autodoc/downward-xmlrpc.secret
+/output.lifted
+/plan
+/plan.*
