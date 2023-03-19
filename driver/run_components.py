@@ -95,6 +95,40 @@ def run_translate(args):
         return (returncode, False)
 
 
+def run_powerlifted(args):
+    logging.info("Translator failed. Running Powerlifted.")
+    try:
+        POWERLIFTED_DIR = os.environ["POWERLIFTED_IPC"]
+    except:
+        logging.error("You should set an environment variable POWERLIFTED_IPC "
+                      "pointing to the repo with the IPC version of Powerlifted.")
+        sys.exit(-1)
+    assert sys.executable, "Path to interpreter could not be found"
+
+    powerlifted = POWERLIFTED_DIR + '/powerlifted.py'
+    domain = args.translate_inputs[0]
+    instance = args.translate_inputs[1]
+    default_configs = ['-d', domain, '-i', instance]
+
+    cmd = [sys.executable] + [powerlifted] + default_configs
+
+    logging.info(f"Executing powerlifted with the following configuration: {default_configs}")
+
+    stderr, returncode = call.get_error_output_and_returncode(
+        "powerlifted",
+        cmd,
+        time_limit=args.overall_time_limit,
+        memory_limit=args.overall_memory_limit)
+
+    returncodes.print_stderr(stderr)
+
+    if returncode == 0:
+        sys.exit(0)
+    else:
+        logging.error("Powerlifted failed!")
+        sys.exit(-1)
+
+
 def transform_task(args):
     logging.info("Run task transformation (%s)." % args.transform_task)
     time_limit = limits.get_time_limit(None, args.overall_time_limit)
