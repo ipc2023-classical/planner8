@@ -1,0 +1,64 @@
+# Stage 1: Compile the planner
+Bootstrap: docker
+From: ubuntu:22.04
+Stage: build
+
+%files
+    . /planner
+
+%post
+    ## Install all necessary dependencies.
+    apt-get update
+    apt-get -y install --no-install-recommends cmake g++ make pypy3
+
+    ## Clear build directory.
+    rm -rf /planner/builds
+
+    ## Build planner.
+    cd /planner
+    pypy3 build.py
+
+# Stage 2: Run the planner
+Bootstrap: docker
+From: ubuntu:22.04
+Stage: run
+
+%files from build
+    /planner/driver
+    /planner/fast-downward.py
+    /planner/builds/release/bin
+
+%post
+    apt-get update
+    apt-get -y install --no-install-recommends pypy3
+    rm -rf /var/lib/apt/lists/*
+
+# The runscript is called whenever the container is used to solve an instance.
+%runscript
+    DOMAINFILE="$1"
+    PROBLEMFILE="$2"
+    PLANFILE="$3"
+
+    pypy3 /planner/fast-downward.py \
+        --plan-file "$PLANFILE" \
+        --alias "seq-agl-scorpion-novelty" \
+        --overall-time-limit 30m \
+        "$DOMAINFILE" \
+        "$PROBLEMFILE"
+
+# Define meta data
+%labels
+Name        Scorpion Novelty Satisficing Track
+Description TODO
+Authors     Augusto Blaas Corrêa <augusto.blaascorrea@unibas.ch>, Jendrik Seipp <jendrik.seipp@liu.se>
+License     GPL 3
+Tracks      agile
+SupportsDerivedPredicates                       yes
+SupportsUniversallyQuantifiedPreconditions      yes
+SupportsExistentiallyQuantifiedPreconditions    yes
+SupportsUniversallyQuantifiedEffects            yes
+SupportsNegativePreconditions                   yes
+SupportsEqualityPreconditions                   yes
+SupportsInequalityPreconditions                 yes
+SupportsConditionalEffects                      yes
+SupportsImplyPreconditions                      yes
