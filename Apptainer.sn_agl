@@ -42,7 +42,7 @@ Stage: run
     pypy3 /planner/fast-downward.py \
         --plan-file "$PLANFILE" \
         --alias "seq-agl-scorpion-novelty" \
-        --overall-time-limit 30m \
+        --overall-time-limit 5m \
         "$DOMAINFILE" \
         "$PROBLEMFILE"
 
