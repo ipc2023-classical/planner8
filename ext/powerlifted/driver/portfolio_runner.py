@@ -1,3 +1,4 @@
+import
 
 from .limits import round_time_limit
 from .utils import get_elapsed_time
@@ -41,7 +42,7 @@ def run(build_dir, options, extra):
         else:
             run_time = compute_run_time(timeout, relative_times, count)
 
-        plan_name = 'plan.'+str(count+1)
+        plan_name = options.plan_file+str(count+1)
         code = run_single_search(build_dir,
                                  run_time,
                                  options.translator_file,

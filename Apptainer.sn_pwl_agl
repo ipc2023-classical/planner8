@@ -9,7 +9,7 @@ Stage: build
 %post
     ## Install all necessary dependencies.
     apt-get update
-    apt-get -y install --no-install-recommends cmake g++ make pypy3 build-essential g++ python3-dev autotools-dev libicu-dev libbz2-dev libboost-all-dev
+    apt-get -y install --no-install-recommends cmake g++ make pypy3 build-essential g++ python3-dev autotools-dev libicu-dev libbz2-dev libboost-all-dev=1.74.0.3ubuntu7 libboost-program-options1.74-dev
 
     ## Clear build directory.
     rm -rf /planner/builds
@@ -36,11 +36,17 @@ Stage: run
     /planner/driver
     /planner/fast-downward.py
     /planner/builds/release/bin
+    /planner/ext
 
 %post
     apt-get update
-    apt-get -y install --no-install-recommends pypy3
+    apt-get -y install --no-install-recommends pypy3 libboost-program-options1.74-dev
     rm -rf /var/lib/apt/lists/*
+
+%environment
+    export POWERLIFTED_IPC=/planner/ext/powerlifted
+    export PATH=$PATH:/planner/ext/clingo/
+    export gringo=/planner/ext/clingo/gringo
 
 # The runscript is called whenever the container is used to solve an instance.
 %runscript

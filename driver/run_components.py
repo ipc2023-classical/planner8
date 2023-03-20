@@ -83,6 +83,7 @@ def run_translate(args):
     if do_print_on_stderr and stderr:
         returncodes.print_stderr(stderr)
 
+    print(returncode)
     if returncode == 0:
         return (0, True)
     elif returncode == 1:

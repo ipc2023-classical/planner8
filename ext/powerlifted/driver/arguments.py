@@ -79,6 +79,8 @@ def parse_options():
                         help='Datalog model for the lifted heuristic.')
     parser.add_argument("--stop-after-first-plan", action="store_true",
                         help="flag if planner should stop after first iteration that finds a plan")
+    parser.add_argument("--plan-file", default="plan",
+                        help="name of the plane file")
     parser.add_argument("--preprocess-task", action="store_true",
                         help="flag if PDDL task should be preprocessed into a STRIPS-like task")
     parser.add_argument("--keep-action-predicates", action="store_true",
