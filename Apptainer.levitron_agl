@@ -44,9 +44,9 @@ Stage: run
     rm -rf /var/lib/apt/lists/*
 
 %environment
+    export CPDDL_BIN=/planner/ext/cpddl/bin
     export POWERLIFTED_IPC=/planner/ext/powerlifted
-    export PATH=$PATH:/planner/ext/clingo/
-    export gringo=/planner/ext/clingo/gringo
+    export PATH=$PATH:/planner/ext/clingo
 
 # The runscript is called whenever the container is used to solve an instance.
 %runscript
@@ -58,25 +58,25 @@ Stage: run
         --overall-memory-limit 7680M \
         --overall-time-limit 5m \
         --translate-time-limit 2m \
-        --transform-task preprocess-h2 \
-        --transform-task-options h2_time_limit,30 \
         --alias seq-sat-lama-2011 \
         --plan-file "$PLANFILE" \
         "$DOMAINFILE" "$PROBLEMFILE" || pypy3 /planner/ext/powerlifted/powerlifted.py \
-        -d $DOMAINFILE -i $PROBLEMFILE --plan-file $PLANFILE --unit-cost
+        -d $DOMAINFILE -i $PROBLEMFILE --plan-file $PLANFILE \
+        --unit-cost --preprocess-task
+   echo "TODO: Use correct aliases and configs!"
 
 # Define meta data
 %labels
 Name        Scorpion Novelty Satisficing Track
 Description TODO
-Authors     Augusto Blaas Corrêa <augusto.blaascorrea@unibas.ch>, Jendrik Seipp <jendrik.seipp@liu.se>
+Authors     Augusto Blaas Corrêa <augusto.blaascorrea@unibas.ch>, Jendrik Seipp <jendrik.seipp@liu.se>, Guillem Frances <>, Markus Hecher <>, Davide Mario Longo <>
 License     GPL 3
 Tracks      agile
 SupportsDerivedPredicates                       yes
 SupportsUniversallyQuantifiedPreconditions      yes
 SupportsExistentiallyQuantifiedPreconditions    yes
 SupportsUniversallyQuantifiedEffects            yes
-SupportsNegativePreconditions                   yes
+SupportsNegativePreconditions                   partially (not supported by some components)
 SupportsEqualityPreconditions                   yes
 SupportsInequalityPreconditions                 yes
 SupportsConditionalEffects                      yes

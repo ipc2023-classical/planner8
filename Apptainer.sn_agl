@@ -27,11 +27,15 @@ Stage: run
     /planner/driver
     /planner/fast-downward.py
     /planner/builds/release/bin
+    /planner/ext/clingo
 
 %post
     apt-get update
     apt-get -y install --no-install-recommends pypy3
     rm -rf /var/lib/apt/lists/*
+
+%environment
+    export PATH=$PATH:/planner/ext/clingo
 
 # The runscript is called whenever the container is used to solve an instance.
 %runscript
@@ -40,17 +44,18 @@ Stage: run
     PLANFILE="$3"
 
     pypy3 /planner/fast-downward.py \
-        --plan-file "$PLANFILE" \
-        --alias "seq-agl-scorpion-novelty" \
+        --overall-memory-limit 7680M \
         --overall-time-limit 5m \
-        "$DOMAINFILE" \
-        "$PROBLEMFILE"
+        --translate-time-limit 2m \
+        --alias seq-sat-scorpion-novelty \
+        --plan-file "$PLANFILE" \
+        "$DOMAINFILE" "$PROBLEMFILE"
 
 # Define meta data
 %labels
 Name        Scorpion Novelty Satisficing Track
 Description TODO
-Authors     Augusto Blaas Corrêa <augusto.blaascorrea@unibas.ch>, Jendrik Seipp <jendrik.seipp@liu.se>
+Authors     Augusto Blaas Corrêa <augusto.blaascorrea@unibas.ch>, Jendrik Seipp <jendrik.seipp@liu.se>, Markus Hecher <>, Davide Mario Longo <>
 License     GPL 3
 Tracks      agile
 SupportsDerivedPredicates                       yes
