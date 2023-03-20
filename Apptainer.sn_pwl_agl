@@ -62,7 +62,8 @@ Stage: run
         --transform-task-options h2_time_limit,30 \
         --alias seq-sat-lama-2011 \
         --plan-file "$PLANFILE" \
-        "$DOMAINFILE" "$PROBLEMFILE"
+        "$DOMAINFILE" "$PROBLEMFILE" || pypy3 /planner/ext/powerlifted/powerlifted.py \
+        -d $DOMAINFILE -i $PROBLEMFILE --plan-file $PLANFILE --unit-cost
 
 # Define meta data
 %labels
