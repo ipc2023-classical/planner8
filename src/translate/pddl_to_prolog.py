@@ -321,12 +321,7 @@ def translate(task):
 
     if options.remove_action_predicates:
         prog.remove_action_predicates()
-    if options.use_direct_lp_encoding:
-        return prog, map_actions
-    prog.split_rules()
-
     return prog, map_actions
-
 
 
 
