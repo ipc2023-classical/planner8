@@ -1,0 +1,246 @@
+data-network p5-3-10-tiny-network-0
+SPARSE-REPRESENTATION
+TYPES 5
+object 0
+data 1
+script 2
+server 3
+numbers 4
+PREDICATES 14
+script-io 0 4 1
+0 0 0 0
+connected 1 2 1
+0 0
+data-size 2 2 1
+0 0
+capacity 3 2 1
+0 0
+sum 4 3 1
+0 0 0
+less-equal 5 2 1
+0 0
+saved 6 2 0
+1 3
+cached 7 2 0
+1 3
+usage 8 2 0
+3 4
+= 9 2 1
+0 0
+type@data 10 1 1
+0
+type@script 11 1 1
+0
+type@server 12 1 1
+0
+type@numbers 13 1 1
+0
+OBJECTS 35
+data-0-3 0 2 1 0
+data-0-5 1 2 1 0
+data-1-2 2 2 1 0
+data-1-4 3 2 1 0
+data-2-1 4 2 1 0
+script1 5 2 0 2
+script2 6 2 0 2
+script3 7 2 0 2
+script4 8 2 0 2
+script5 9 2 0 2
+script6 10 2 0 2
+script7 11 2 0 2
+script8 12 2 0 2
+script9 13 2 0 2
+script10 14 2 0 2
+server1 15 2 0 3
+server2 16 2 0 3
+server3 17 2 0 3
+number0 18 2 4 0
+number1 19 2 4 0
+number2 20 2 4 0
+number3 21 2 4 0
+number4 22 2 4 0
+number5 23 2 4 0
+number6 24 2 4 0
+number7 25 2 4 0
+number8 26 2 4 0
+number9 27 2 4 0
+number10 28 2 4 0
+number11 29 2 4 0
+number12 30 2 4 0
+number13 31 2 4 0
+number14 32 2 4 0
+number15 33 2 4 0
+number16 34 2 4 0
+INITIAL-STATE 162
+=(data-0-3,data-0-3) 0 9 0 2 0 0
+=(data-0-5,data-0-5) 1 9 0 2 1 1
+=(data-1-2,data-1-2) 2 9 0 2 2 2
+=(data-1-4,data-1-4) 3 9 0 2 3 3
+=(data-2-1,data-2-1) 4 9 0 2 4 4
+=(number0,number0) 5 9 0 2 18 18
+=(number1,number1) 6 9 0 2 19 19
+=(number10,number10) 7 9 0 2 28 28
+=(number11,number11) 8 9 0 2 29 29
+=(number12,number12) 9 9 0 2 30 30
+=(number13,number13) 10 9 0 2 31 31
+=(number14,number14) 11 9 0 2 32 32
+=(number15,number15) 12 9 0 2 33 33
+=(number16,number16) 13 9 0 2 34 34
+=(number2,number2) 14 9 0 2 20 20
+=(number3,number3) 15 9 0 2 21 21
+=(number4,number4) 16 9 0 2 22 22
+=(number5,number5) 17 9 0 2 23 23
+=(number6,number6) 18 9 0 2 24 24
+=(number7,number7) 19 9 0 2 25 25
+=(number8,number8) 20 9 0 2 26 26
+=(number9,number9) 21 9 0 2 27 27
+=(script1,script1) 22 9 0 2 5 5
+=(script10,script10) 23 9 0 2 14 14
+=(script2,script2) 24 9 0 2 6 6
+=(script3,script3) 25 9 0 2 7 7
+=(script4,script4) 26 9 0 2 8 8
+=(script5,script5) 27 9 0 2 9 9
+=(script6,script6) 28 9 0 2 10 10
+=(script7,script7) 29 9 0 2 11 11
+=(script8,script8) 30 9 0 2 12 12
+=(script9,script9) 31 9 0 2 13 13
+=(server1,server1) 32 9 0 2 15 15
+=(server2,server2) 33 9 0 2 16 16
+=(server3,server3) 34 9 0 2 17 17
+capacity(server1,number16) 35 3 0 2 15 34
+capacity(server2,number8) 36 3 0 2 16 26
+capacity(server3,number8) 37 3 0 2 17 26
+connected(server1,server2) 38 1 0 2 15 16
+connected(server1,server3) 39 1 0 2 15 17
+connected(server2,server1) 40 1 0 2 16 15
+connected(server3,server1) 41 1 0 2 17 15
+data-size(data-0-3,number4) 42 2 0 2 0 22
+data-size(data-0-5,number5) 43 2 0 2 1 23
+data-size(data-1-2,number4) 44 2 0 2 2 22
+data-size(data-1-4,number1) 45 2 0 2 3 19
+data-size(data-2-1,number4) 46 2 0 2 4 22
+less-equal(number1,number16) 47 5 0 2 19 34
+less-equal(number1,number8) 48 5 0 2 19 26
+less-equal(number10,number16) 49 5 0 2 28 34
+less-equal(number11,number16) 50 5 0 2 29 34
+less-equal(number12,number16) 51 5 0 2 30 34
+less-equal(number13,number16) 52 5 0 2 31 34
+less-equal(number14,number16) 53 5 0 2 32 34
+less-equal(number15,number16) 54 5 0 2 33 34
+less-equal(number16,number16) 55 5 0 2 34 34
+less-equal(number2,number16) 56 5 0 2 20 34
+less-equal(number2,number8) 57 5 0 2 20 26
+less-equal(number3,number16) 58 5 0 2 21 34
+less-equal(number3,number8) 59 5 0 2 21 26
+less-equal(number4,number16) 60 5 0 2 22 34
+less-equal(number4,number8) 61 5 0 2 22 26
+less-equal(number5,number16) 62 5 0 2 23 34
+less-equal(number5,number8) 63 5 0 2 23 26
+less-equal(number6,number16) 64 5 0 2 24 34
+less-equal(number6,number8) 65 5 0 2 24 26
+less-equal(number7,number16) 66 5 0 2 25 34
+less-equal(number7,number8) 67 5 0 2 25 26
+less-equal(number8,number16) 68 5 0 2 26 34
+less-equal(number8,number8) 69 5 0 2 26 26
+less-equal(number9,number16) 70 5 0 2 27 34
+saved(data-0-3,server3) 71 6 0 2 0 17
+saved(data-0-5,server1) 72 6 0 2 1 15
+script-io(script1,data-0-3,data-0-5,data-1-4) 73 0 0 4 5 0 1 3
+script-io(script10,data-1-2,data-1-4,data-2-1) 74 0 0 4 14 2 3 4
+script-io(script2,data-0-5,data-0-3,data-1-2) 75 0 0 4 6 1 0 2
+script-io(script3,data-1-4,data-0-5,data-2-1) 76 0 0 4 7 3 1 4
+script-io(script4,data-0-3,data-0-5,data-1-4) 77 0 0 4 8 0 1 3
+script-io(script5,data-1-2,data-0-5,data-2-1) 78 0 0 4 9 2 1 4
+script-io(script6,data-1-2,data-0-3,data-2-1) 79 0 0 4 10 2 0 4
+script-io(script7,data-0-5,data-0-3,data-1-2) 80 0 0 4 11 1 0 2
+script-io(script8,data-1-4,data-1-2,data-2-1) 81 0 0 4 12 3 2 4
+script-io(script9,data-0-3,data-0-5,data-1-4) 82 0 0 4 13 0 1 3
+sum(number0,number1,number1) 83 4 0 3 18 19 19
+sum(number0,number4,number4) 84 4 0 3 18 22 22
+sum(number0,number5,number5) 85 4 0 3 18 23 23
+sum(number1,number1,number2) 86 4 0 3 19 19 20
+sum(number1,number4,number5) 87 4 0 3 19 22 23
+sum(number1,number5,number6) 88 4 0 3 19 23 24
+sum(number10,number1,number11) 89 4 0 3 28 19 29
+sum(number10,number4,number14) 90 4 0 3 28 22 32
+sum(number10,number5,number15) 91 4 0 3 28 23 33
+sum(number11,number1,number12) 92 4 0 3 29 19 30
+sum(number11,number4,number15) 93 4 0 3 29 22 33
+sum(number11,number5,number16) 94 4 0 3 29 23 34
+sum(number12,number1,number13) 95 4 0 3 30 19 31
+sum(number12,number4,number16) 96 4 0 3 30 22 34
+sum(number13,number1,number14) 97 4 0 3 31 19 32
+sum(number14,number1,number15) 98 4 0 3 32 19 33
+sum(number15,number1,number16) 99 4 0 3 33 19 34
+sum(number2,number1,number3) 100 4 0 3 20 19 21
+sum(number2,number4,number6) 101 4 0 3 20 22 24
+sum(number2,number5,number7) 102 4 0 3 20 23 25
+sum(number3,number1,number4) 103 4 0 3 21 19 22
+sum(number3,number4,number7) 104 4 0 3 21 22 25
+sum(number3,number5,number8) 105 4 0 3 21 23 26
+sum(number4,number1,number5) 106 4 0 3 22 19 23
+sum(number4,number4,number8) 107 4 0 3 22 22 26
+sum(number4,number5,number9) 108 4 0 3 22 23 27
+sum(number5,number1,number6) 109 4 0 3 23 19 24
+sum(number5,number4,number9) 110 4 0 3 23 22 27
+sum(number5,number5,number10) 111 4 0 3 23 23 28
+sum(number6,number1,number7) 112 4 0 3 24 19 25
+sum(number6,number4,number10) 113 4 0 3 24 22 28
+sum(number6,number5,number11) 114 4 0 3 24 23 29
+sum(number7,number1,number8) 115 4 0 3 25 19 26
+sum(number7,number4,number11) 116 4 0 3 25 22 29
+sum(number7,number5,number12) 117 4 0 3 25 23 30
+sum(number8,number1,number9) 118 4 0 3 26 19 27
+sum(number8,number4,number12) 119 4 0 3 26 22 30
+sum(number8,number5,number13) 120 4 0 3 26 23 31
+sum(number9,number1,number10) 121 4 0 3 27 19 28
+sum(number9,number4,number13) 122 4 0 3 27 22 31
+sum(number9,number5,number14) 123 4 0 3 27 23 32
+type@data(data-0-3) 124 10 0 1 0
+type@data(data-0-5) 125 10 0 1 1
+type@data(data-1-2) 126 10 0 1 2
+type@data(data-1-4) 127 10 0 1 3
+type@data(data-2-1) 128 10 0 1 4
+type@numbers(number0) 129 13 0 1 18
+type@numbers(number1) 130 13 0 1 19
+type@numbers(number10) 131 13 0 1 28
+type@numbers(number11) 132 13 0 1 29
+type@numbers(number12) 133 13 0 1 30
+type@numbers(number13) 134 13 0 1 31
+type@numbers(number14) 135 13 0 1 32
+type@numbers(number15) 136 13 0 1 33
+type@numbers(number16) 137 13 0 1 34
+type@numbers(number2) 138 13 0 1 20
+type@numbers(number3) 139 13 0 1 21
+type@numbers(number4) 140 13 0 1 22
+type@numbers(number5) 141 13 0 1 23
+type@numbers(number6) 142 13 0 1 24
+type@numbers(number7) 143 13 0 1 25
+type@numbers(number8) 144 13 0 1 26
+type@numbers(number9) 145 13 0 1 27
+type@script(script1) 146 11 0 1 5
+type@script(script10) 147 11 0 1 14
+type@script(script2) 148 11 0 1 6
+type@script(script3) 149 11 0 1 7
+type@script(script4) 150 11 0 1 8
+type@script(script5) 151 11 0 1 9
+type@script(script6) 152 11 0 1 10
+type@script(script7) 153 11 0 1 11
+type@script(script8) 154 11 0 1 12
+type@script(script9) 155 11 0 1 13
+type@server(server1) 156 12 0 1 15
+type@server(server2) 157 12 0 1 16
+type@server(server3) 158 12 0 1 17
+usage(server1,number0) 159 8 0 2 15 18
+usage(server2,number0) 160 8 0 2 16 18
+usage(server3,number0) 161 8 0 2 17 18
+GOAL 1
+saved(data-2-1,server2) 6 0 2 4 16
+ACTION-SCHEMAS 5
+load 1 6 13 3
+?d 0 1
+?s 1 3
+?size 2 4
+?limit 3 4
+?before 4 4
+?after 5 4
