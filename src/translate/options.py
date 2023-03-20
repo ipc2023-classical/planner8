@@ -50,19 +50,28 @@ def parse_args():
         dest="filter_unimportant_vars", action="store_false",
         help="keep variables that do not influence the goal in the causal graph")
     argparser.add_argument(
+        "--remove-action-predicates",
+        dest="remove_action_predicates", action="store_true",
+        help="remove action predicates from logic program")
+    argparser.add_argument(
+        "--htd",
+        dest="htd", action="store_true",
+        help="use hypertree decomposition to split logic program rules")
+    argparser.add_argument(
+        "--use-direct-lp-encoding",
+        dest="use_direct_lp_encoding", action="store_true",
+        help="use direct task encoding without split as logic programming for grounding step")
+    argparser.add_argument(
         "--dump-task", action="store_true",
         help="dump human-readable SAS+ representation of the task")
-    argparser.add_argument(
-        "--dump-predicates", action="store_true",
-        help="write predicate names and arity to predicates.txt")
-    argparser.add_argument(
-        "--dump-static-atoms", action="store_true",
-        help="write static atoms to static-atoms.txt")
     argparser.add_argument(
         "--layer-strategy", default="min", choices=["min", "max"],
         help="How to assign layers to derived variables. 'min' attempts to put as "
         "many variables into the same layer as possible, while 'max' puts each variable "
         "into its own layer unless it is part of a cycle.")
+    argparser.add_argument(
+        "--random-seed", default=42, type=int,
+        help="random seed used by random library")
     return argparser.parse_args()
 
 

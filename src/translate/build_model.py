@@ -335,9 +335,12 @@ if __name__ == "__main__":
     print("Normalizing...")
     normalize.normalize(task)
     print("Writing rules...")
-    prog = pddl_to_prolog.translate(task)
+    prog, map_actions = pddl_to_prolog.translate(task)
 
-    model = compute_model(prog)
+    with open("output.theory", 'w') as lp_file:
+        prog.dump_sanitized(lp_file)
+
+    model = gringo_app.main([lp_file.name], map_actions)
     for atom in model:
         print(atom)
     print("%d atoms" % len(model))

@@ -17,6 +17,7 @@ from .axioms import PropositionalAxiom
 from .conditions import Literal
 from .conditions import Atom
 from .conditions import NegatedAtom
+from .conditions import InequalityAtom
 from .conditions import Falsity
 from .conditions import Truth
 from .conditions import Conjunction

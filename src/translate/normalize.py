@@ -2,6 +2,7 @@
 
 import copy
 
+import options
 import pddl
 
 class ConditionProxy:
@@ -88,7 +89,7 @@ class GoalConditionProxy(ConditionProxy):
         # (see substitute_complicated_goal)
         assert False, "Disjunctive goals not (yet) implemented."
     def build_rules(self, rules):
-        rule_head = pddl.Atom("@goal-reachable", [])
+        rule_head = pddl.Atom("goal_reachable", [])
         rule_body = condition_to_rule_body([], self.condition)
         rules.append((rule_body, rule_head))
     def get_type_map(self):
@@ -384,10 +385,12 @@ def condition_to_rule_body(parameters, condition):
                 # Use an atom in the body that is always false because
                 # it is not initially true and doesn't occur in the
                 # head of any rule.
-                return [pddl.Atom("@always-false", [])]
+                return [pddl.Atom("__always-false", [])]
             assert isinstance(part, pddl.Literal), "Condition not normalized: %r" % part
             if not part.negated:
                 result.append(part)
+            elif part.predicate == '=' and options.use_direct_lp_encoding:
+                result.append(pddl.InequalityAtom(part.args))
     return result
 
 if __name__ == "__main__":

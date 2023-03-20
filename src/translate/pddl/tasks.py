@@ -21,7 +21,7 @@ class Task:
         self.use_min_cost_metric = use_metric
 
     def add_axiom(self, parameters, condition):
-        name = "new-axiom@%d" % self.axiom_counter
+        name = "new_axiom__%d" % self.axiom_counter
         self.axiom_counter += 1
         axiom = axioms.Axiom(name, parameters, len(parameters), condition)
         self.predicates.append(predicates.Predicate(name, parameters))

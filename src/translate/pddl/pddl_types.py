@@ -14,7 +14,7 @@ def _get_type_predicate_name(type_name):
     # We internally give types predicate names that cannot be confused
     # with non-type predicates. When the input uses a PDDL type as a
     # predicate, we automatically map it to this internal name.
-    return "type@%s" % type_name
+    return "pddl_type_%s" % type_name
 
 
 class Type:
