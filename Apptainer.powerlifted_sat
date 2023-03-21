@@ -1,0 +1,69 @@
+# Stage 1: Compile the planner
+Bootstrap: docker
+From: ubuntu:22.04
+Stage: build
+
+%files
+    . /planner
+
+%post
+    ## Install all necessary dependencies.
+    apt-get update
+    apt-get -y install --no-install-recommends cmake g++ make pypy3 build-essential g++ python3-dev autotools-dev libicu-dev libbz2-dev libboost-all-dev=1.74.0.3ubuntu7 libboost-program-options1.74-dev
+
+    ## Clear build directory.
+    rm -rf /planner/builds
+
+    cd /planner/ext/powerlifted
+    pypy3 build.py
+
+    cd /planner/ext/cpddl
+    make && make -C bin
+
+    cd /planner
+
+
+# Stage 2: Run the planner
+Bootstrap: docker
+From: ubuntu:22.04
+Stage: run
+
+%files from build
+    /planner/ext
+
+%post
+    apt-get update
+    apt-get -y install --no-install-recommends pypy3 libboost-program-options1.74-dev
+    rm -rf /var/lib/apt/lists/*
+
+%environment
+    export CPDDL_BIN=/planner/ext/cpddl/bin
+    export POWERLIFTED_IPC=/planner/ext/powerlifted
+
+# The runscript is called whenever the container is used to solve an instance.
+%runscript
+    DOMAINFILE="$1"
+    PROBLEMFILE="$2"
+    PLANFILE="$3"
+
+    pypy3 /planner/ext/powerlifted/powerlifted.py \
+              -d $DOMAINFILE -i $PROBLEMFILE --plan-file $PLANFILE \
+              --unit-cost --preprocess-task
+   echo "TODO: Use correct aliases and configs!"
+
+# Define meta data
+%labels
+Name        Powerlifted Satisficing Track
+Description TODO
+Authors     Augusto Blaas Corrêa <augusto.blaascorrea@unibas.ch>, Jendrik Seipp <jendrik.seipp@liu.se>, Guillem Frances <>
+License     GPL 3
+Tracks      agile
+SupportsDerivedPredicates                       no
+SupportsUniversallyQuantifiedPreconditions      yes
+SupportsExistentiallyQuantifiedPreconditions    yes
+SupportsUniversallyQuantifiedEffects            yes
+SupportsNegativePreconditions                   no
+SupportsEqualityPreconditions                   yes
+SupportsInequalityPreconditions                 yes
+SupportsConditionalEffects                      yes
+SupportsImplyPreconditions                      yes
