@@ -18,7 +18,8 @@ def preprocess_cpddl(options):
                                    '--pddl-domain-out', new_domain,
                                    '--pddl-problem-out', new_instance,
                                    domain, instance,
-                                   '--pddl-ce'])
+                                   '--pddl-ce'],
+                             stderr=subprocess.STDOUT)
 
     cpddl.communicate()
     if cpddl.returncode != 0:

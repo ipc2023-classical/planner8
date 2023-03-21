@@ -1,6 +1,6 @@
 
 from .limits import round_time_limit
-from .utils import get_elapsed_time
+from .utils import get_elapsed_time, remove_temporary_files
 from .single_search_runner import run_single_search
 
 def compute_run_time(timeout, relative_times, pos):
@@ -60,7 +60,10 @@ def run(build_dir, options, extra):
             if options.validate:
                 validate(options.domain, options.instance, plan_name)
             if options.stop_after_first_plan:
+                remove_temporary_files(options)
                 return code
+
+    remove_temporary_files(options)
     if has_found_plan:
         return 0
     else:
