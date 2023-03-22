@@ -13,4 +13,4 @@ LEVITRON_DATA=../experiments/ipc2023/data/03-levitron-eval/properties-hardest.js
 #./stonesoup.py --track sat ${MAIDU_DATA} 40 | tee stonesoup-maidu-sat.txt
 
 #./batch-stonesoup.sh ${LEVITRON_DATA} sat 1800 | tee batch-stonesoup-levitron-sat.txt
-./stonesoup.py --track sat ${LEVITRON_DATA} 40 | tee stonesoup-levitron-sat.txt
+./stonesoup.py --track sat ${LEVITRON_DATA} 20 | tee stonesoup-levitron-sat.txt
