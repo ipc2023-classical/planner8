@@ -41,8 +41,9 @@ print("Both:", sorted(domains_with_axioms & domains_with_cond_effs))
 for expname in [
     #"powerlifted-htg",
     #"powerlifted-patricks-benchmark",
-    "scorpion-novelty-htg",
+    #"scorpion-novelty-htg",
     "scorpion-novelty-patricks-benchmark",
+    "fdss-patricks-benchmark",
 ]:
     project.fetch_algorithms(exp, expname, filters=[project.strip_properties])
 

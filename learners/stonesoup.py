@@ -130,7 +130,7 @@ class Results(object):
             cost = None
         return dict(
             config=config,
-            options=[config],
+            options=entry.get("component_options", [config]),
             problem="%s:%s" % (domain, problem),
             time=time,
             cost=cost)
@@ -321,7 +321,7 @@ def main():
         results, granularity=args.granularity, timeout=args.portfolio_time)
     portfolio.dump()
     print()
-    print("Time for computing portfolio: {}s".format(time.process_time() - start_time))
+    print("Time for computing portfolio: {:.02f}s".format(time.process_time() - start_time))
     print()
     print("Reducing portfolio...")
     portfolio.reduce_score_based(granularity=1)
