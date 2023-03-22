@@ -3096,7 +3096,7 @@ portfolio for 1800.00 seconds solves 1793 problems with score 1771.86:
       0.00 seconds for powerlifted-ipc-rff-lazy-po-sparse
       0.00 seconds for powerlifted-ipc-rff-lazy-prune-sparse
 
-Time for computing portfolio: 0.49837142999999995s
+Time for computing portfolio: 0.506416577s
 
 Reducing portfolio...
 portfolio for 1764.00 seconds solves 1793 problems with score 1771.86:
