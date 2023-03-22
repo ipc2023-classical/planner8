@@ -1,32 +1,32 @@
+agricola-strips:0-p05.pddl: 4 different costs from 68 to 71
 agricola-strips:0-p07.pddl: 4 different costs from 87 to 96
 agricola-strips:0-p12.pddl: 3 different costs from 69 to 71
-agricola-strips:0-p14.pddl: 5 different costs from 67 to 71
+agricola-strips:0-p13.pddl: 5 different costs from 68 to 72
+agricola-strips:0-p16.pddl: 4 different costs from 68 to 71
 agricola-strips:0-p17.pddl: 5 different costs from 81 to 86
 agricola-strips:0-p22.pddl: 1 different costs from 81 to 81
 agricola-strips:0-p23.pddl: 1 different costs from 98 to 98
 agricola-strips:0-p26.pddl: 1 different costs from 94 to 94
-agricola-strips:1-p05.pddl: 6 different costs from 116 to 126
+agricola-strips:1-p06.pddl: 6 different costs from 124 to 135
+agricola-strips:1-p08.pddl: 6 different costs from 136 to 147
 agricola-strips:1-p10.pddl: 6 different costs from 144 to 156
 agricola-strips:1-p13.pddl: 5 different costs from 67 to 71
-agricola-strips:1-p15.pddl: 6 different costs from 106 to 117
+agricola-strips:1-p16.pddl: 6 different costs from 116 to 126
+agricola-strips:1-p18.pddl: 6 different costs from 115 to 126
 agricola-strips:1-p26.pddl: 6 different costs from 88 to 96
 agricola-strips:1-p27.pddl: 6 different costs from 89 to 96
-agricola-strips:1-p29.pddl: 5 different costs from 119 to 126
+agricola-strips:1-p28.pddl: 4 different costs from 106 to 116
 agricola-strips:2-p06.pddl: 5 different costs from 68 to 72
-agricola-strips:2-p07.pddl: 6 different costs from 81 to 86
 agricola-strips:2-p08.pddl: 5 different costs from 80 to 86
 agricola-strips:2-p09.pddl: 4 different costs from 82 to 86
+agricola-strips:2-p10.pddl: 5 different costs from 89 to 96
 agricola-strips:2-p12.pddl: 7 different costs from 90 to 97
-agricola-strips:2-p14.pddl: 5 different costs from 98 to 106
 agricola-strips:2-p15.pddl: 6 different costs from 99 to 106
+agricola-strips:2-p18.pddl: 6 different costs from 108 to 115
 agricola-strips:2-p20.pddl: 5 different costs from 120 to 127
-agricola-strips:3-p02.pddl: 4 different costs from 68 to 71
-agricola-strips:3-p04.pddl: 8 different costs from 89 to 97
 agricola-strips:3-p05.pddl: 7 different costs from 99 to 107
-agricola-strips:3-p07.pddl: 7 different costs from 117 to 127
+agricola-strips:3-p06.pddl: 7 different costs from 107 to 116
 agricola-strips:3-p08.pddl: 7 different costs from 124 to 135
-agricola-strips:3-p09.pddl: 7 different costs from 134 to 147
-agricola-strips:3-p10.pddl: 7 different costs from 144 to 156
 agricola-strips:3-p13.pddl: 1 different costs from 94 to 94
 airport-strips:0-p02.pddl: 1 different costs from 148 to 148
 airport-strips:0-p03.pddl: 1 different costs from 168 to 168
@@ -54,7 +54,7 @@ airport-strips:2-p08-airport2-p3.pddl: 2 different costs from 62 to 64
 airport-strips:2-p09-airport2-p4.pddl: 3 different costs from 71 to 75
 airport-strips:2-p14-airport3-p3.pddl: 1 different costs from 60 to 60
 airport-strips:2-p15-airport3-p3.pddl: 3 different costs from 58 to 62
-airport-strips:2-p16-airport3-p4.pddl: 3 different costs from 79 to 83
+airport-strips:2-p17-airport3-p5.pddl: 4 different costs from 88 to 94
 airport-strips:2-p18-airport3-p6.pddl: 3 different costs from 109 to 113
 airport-strips:2-p19-airport3-p6.pddl: 1 different costs from 92 to 92
 airport-strips:2-p20-airport3-p7.pddl: 3 different costs from 115 to 119
@@ -68,25 +68,25 @@ barman-strips:1-p09.pddl: 4 different costs from 573 to 653
 barman-strips:1-p10.pddl: 3 different costs from 614 to 687
 barman-strips:1-p11.pddl: 2 different costs from 620 to 799
 barman-strips:1-p21.pddl: 4 different costs from 372 to 390
+barman-strips:2-p1-11-5-15.pddl: 5 different costs from 172 to 197
+barman-strips:2-p1-8-4-10.pddl: 6 different costs from 116 to 181
+barman-strips:2-p2-11-4-15.pddl: 8 different costs from 163 to 208
 barman-strips:2-p2-11-5-15.pddl: 3 different costs from 171 to 225
+barman-strips:2-p2-11-5-17.pddl: 6 different costs from 179 to 208
 barman-strips:2-p3-11-4-15.pddl: 5 different costs from 169 to 195
 barman-strips:2-p3-11-5-15.pddl: 5 different costs from 167 to 194
 barman-strips:2-p3-11-5-16.pddl: 7 different costs from 179 to 208
-barman-strips:2-p4-11-4-14.pddl: 6 different costs from 161 to 232
+barman-strips:2-p3-11-5-17.pddl: 8 different costs from 176 to 214
 barman-strips:2-p4-11-5-15.pddl: 7 different costs from 162 to 239
+barman-strips:2-p5-10-4-13.pddl: 5 different costs from 157 to 180
 barman-strips:2-p5-11-5-16.pddl: 8 different costs from 174 to 261
-barman-strips:3-p739-2.pddl: 7 different costs from 98 to 127
-barman-strips:5-pfile05-019.pddl: 8 different costs from 105 to 210
-barman-strips:6-pfile06-021.pddl: 6 different costs from 120 to 161
-barman-strips:6-pfile06-022.pddl: 6 different costs from 126 to 195
-barman-strips:6-pfile06-023.pddl: 6 different costs from 114 to 171
+barman-strips:3-p839-1.pddl: 8 different costs from 115 to 243
+barman-strips:4-p1-11-4-15.pddl: 8 different costs from 165 to 211
+barman-strips:6-pfile06-024.pddl: 8 different costs from 121 to 164
 barman-strips:6-pfile07-025.pddl: 5 different costs from 143 to 161
-barman-strips:6-pfile07-026.pddl: 6 different costs from 129 to 185
-barman-strips:6-pfile07-028.pddl: 8 different costs from 139 to 234
+barman-strips:6-pfile07-027.pddl: 7 different costs from 135 to 209
 barman-strips:6-pfile08-030.pddl: 6 different costs from 148 to 297
 barman-strips:6-pfile08-031.pddl: 8 different costs from 149 to 182
-barman-strips:6-pfile08-032.pddl: 8 different costs from 148 to 174
-barman-strips:6-pfile10-038.pddl: 7 different costs from 161 to 225
 barman-strips:6-pfile10-040.pddl: 7 different costs from 163 to 233
 blocksworld-large-simple:p-100-2-goal-2.pddl: 1 different costs from 4 to 4
 blocksworld-large-simple:p-100-3-goal-3.pddl: 2 different costs from 10 to 14
@@ -107,13 +107,12 @@ blocksworld-large-simple:p-500-2-goal-2.pddl: 1 different costs from 4 to 4
 blocksworld-large-simple:p-700-2-goal-2.pddl: 1 different costs from 4 to 4
 blocksworld-large-simple:p-900-2-goal-2.pddl: 1 different costs from 4 to 4
 blocksworld-large-simple:p-900-3-goal-3.pddl: 1 different costs from 6 to 6
-blocksworld-strips:0-p02.pddl: 4 different costs from 20 to 26
 blocksworld-strips:0-p04.pddl: 5 different costs from 42 to 58
 blocksworld-strips:0-p05.pddl: 7 different costs from 28 to 48
 blocksworld-strips:0-p09.pddl: 10 different costs from 66 to 98
-blocksworld-strips:0-p11.pddl: 8 different costs from 62 to 92
 blocksworld-strips:0-p12.pddl: 8 different costs from 76 to 146
 blocksworld-strips:0-p16.pddl: 8 different costs from 92 to 174
+blocksworld-strips:0-p22.pddl: 4 different costs from 26 to 38
 blocksworld-strips:0-p27.pddl: 7 different costs from 72 to 140
 blocksworld-strips:1-p04.pddl: 8 different costs from 102 to 162
 blocksworld-strips:1-p05.pddl: 7 different costs from 122 to 260
@@ -129,12 +128,13 @@ blocksworld-strips:1-p19.pddl: 1 different costs from 564 to 564
 blocksworld-strips:1-p20.pddl: 1 different costs from 700 to 700
 blocksworld-strips:1-p23.pddl: 1 different costs from 660 to 660
 blocksworld-strips:2-probBLOCKS-10-0.pddl: 5 different costs from 46 to 86
-blocksworld-strips:2-probBLOCKS-13-0.pddl: 7 different costs from 84 to 104
+blocksworld-strips:2-probBLOCKS-12-0.pddl: 9 different costs from 66 to 112
+blocksworld-strips:2-probBLOCKS-12-1.pddl: 7 different costs from 58 to 86
 blocksworld-strips:2-probBLOCKS-14-1.pddl: 8 different costs from 78 to 142
+blocksworld-strips:2-probBLOCKS-15-1.pddl: 8 different costs from 84 to 152
 blocksworld-strips:2-probBLOCKS-16-1.pddl: 10 different costs from 92 to 176
 blocksworld-strips:2-probBLOCKS-16-2.pddl: 9 different costs from 112 to 184
 blocksworld-strips:2-probBLOCKS-17-0.pddl: 11 different costs from 92 to 212
-blocksworld-strips:2-probBLOCKS-5-2.pddl: 2 different costs from 20 to 24
 blocksworld-strips:2-probBLOCKS-9-0.pddl: 5 different costs from 64 to 84
 blocksworld-strips:2-probBLOCKS-9-2.pddl: 4 different costs from 36 to 62
 briefcaseworld-adl:0-p001.pddl: 1 different costs from 0 to 0
@@ -181,110 +181,37 @@ cavediving-adl:1-p-3_2_2-2-0.45.pddl: 1 different costs from 23 to 23
 cavediving-adl:1-p-3_2_2-2-0.5.pddl: 1 different costs from 23 to 23
 cavediving-adl:1-p-3_2_2-2-0.55.pddl: 1 different costs from 23 to 23
 cavediving-adl:1-p-3_3_2-2-0.4.pddl: 1 different costs from 23 to 23
-childsnack-contents-parsize1-cham3:contentam1-p0.pddl: 1 different costs from 12 to 12
-childsnack-contents-parsize1-cham3:contentam1-p10.pddl: 1 different costs from 12 to 12
-childsnack-contents-parsize1-cham3:contentam1-p15.pddl: 1 different costs from 12 to 12
-childsnack-contents-parsize1-cham3:contentam1-p20.pddl: 1 different costs from 12 to 12
-childsnack-contents-parsize1-cham3:contentam1-p25.pddl: 1 different costs from 12 to 12
-childsnack-contents-parsize1-cham3:contentam1-p5.pddl: 1 different costs from 12 to 12
-childsnack-contents-parsize1-cham3:contentam3-p0.pddl: 1 different costs from 12 to 12
-childsnack-contents-parsize1-cham3:contentam3-p10.pddl: 1 different costs from 12 to 12
-childsnack-contents-parsize1-cham3:contentam3-p15.pddl: 1 different costs from 12 to 12
-childsnack-contents-parsize1-cham3:contentam3-p20.pddl: 1 different costs from 12 to 12
-childsnack-contents-parsize1-cham3:contentam3-p25.pddl: 1 different costs from 12 to 12
-childsnack-contents-parsize1-cham3:contentam3-p5.pddl: 1 different costs from 12 to 12
-childsnack-contents-parsize1-cham5:contentam1-p0.pddl: 1 different costs from 22 to 22
-childsnack-contents-parsize1-cham5:contentam1-p10.pddl: 1 different costs from 22 to 22
-childsnack-contents-parsize1-cham5:contentam1-p15.pddl: 1 different costs from 22 to 22
-childsnack-contents-parsize1-cham5:contentam1-p20.pddl: 1 different costs from 22 to 22
-childsnack-contents-parsize1-cham5:contentam1-p25.pddl: 1 different costs from 22 to 22
-childsnack-contents-parsize1-cham5:contentam1-p5.pddl: 1 different costs from 22 to 22
-childsnack-contents-parsize1-cham5:contentam3-p0.pddl: 5 different costs from 20 to 25
-childsnack-contents-parsize1-cham5:contentam3-p10.pddl: 1 different costs from 22 to 22
-childsnack-contents-parsize1-cham5:contentam3-p15.pddl: 1 different costs from 22 to 22
-childsnack-contents-parsize1-cham5:contentam3-p20.pddl: 1 different costs from 22 to 22
-childsnack-contents-parsize1-cham5:contentam3-p25.pddl: 1 different costs from 22 to 22
-childsnack-contents-parsize1-cham5:contentam3-p5.pddl: 1 different costs from 22 to 22
-childsnack-contents-parsize1-cham7:contentam1-p0.pddl: 1 different costs from 32 to 32
-childsnack-contents-parsize1-cham7:contentam1-p10.pddl: 1 different costs from 32 to 32
-childsnack-contents-parsize1-cham7:contentam1-p15.pddl: 1 different costs from 32 to 32
-childsnack-contents-parsize1-cham7:contentam1-p20.pddl: 1 different costs from 32 to 32
-childsnack-contents-parsize1-cham7:contentam1-p25.pddl: 1 different costs from 32 to 32
-childsnack-contents-parsize1-cham7:contentam1-p5.pddl: 1 different costs from 32 to 32
-childsnack-contents-parsize1-cham7:contentam3-p0.pddl: 7 different costs from 27 to 36
-childsnack-contents-parsize1-cham7:contentam3-p10.pddl: 1 different costs from 32 to 32
-childsnack-contents-parsize1-cham7:contentam3-p15.pddl: 1 different costs from 32 to 32
-childsnack-contents-parsize1-cham7:contentam3-p20.pddl: 1 different costs from 32 to 32
-childsnack-contents-parsize1-cham7:contentam3-p25.pddl: 1 different costs from 32 to 32
-childsnack-contents-parsize1-cham7:contentam3-p5.pddl: 1 different costs from 32 to 32
-childsnack-contents-parsize2-cham3:contentam2-p0.pddl: 1 different costs from 12 to 12
-childsnack-contents-parsize2-cham3:contentam2-p12.pddl: 1 different costs from 12 to 12
-childsnack-contents-parsize2-cham3:contentam2-p16.pddl: 1 different costs from 12 to 12
-childsnack-contents-parsize2-cham3:contentam2-p20.pddl: 1 different costs from 12 to 12
-childsnack-contents-parsize2-cham3:contentam2-p4.pddl: 1 different costs from 12 to 12
-childsnack-contents-parsize2-cham3:contentam2-p8.pddl: 1 different costs from 12 to 12
-childsnack-contents-parsize2-cham3:contentam4-p0.pddl: 2 different costs from 12 to 13
-childsnack-contents-parsize2-cham3:contentam4-p12.pddl: 1 different costs from 12 to 12
-childsnack-contents-parsize2-cham3:contentam4-p16.pddl: 1 different costs from 12 to 12
-childsnack-contents-parsize2-cham3:contentam4-p20.pddl: 1 different costs from 12 to 12
-childsnack-contents-parsize2-cham3:contentam4-p4.pddl: 1 different costs from 12 to 12
-childsnack-contents-parsize2-cham3:contentam4-p8.pddl: 1 different costs from 12 to 12
-childsnack-contents-parsize2-cham5:contentam2-p0.pddl: 1 different costs from 22 to 22
-childsnack-contents-parsize2-cham5:contentam2-p12.pddl: 1 different costs from 22 to 22
-childsnack-contents-parsize2-cham5:contentam2-p16.pddl: 1 different costs from 22 to 22
-childsnack-contents-parsize2-cham5:contentam2-p20.pddl: 1 different costs from 22 to 22
-childsnack-contents-parsize2-cham5:contentam2-p4.pddl: 1 different costs from 22 to 22
-childsnack-contents-parsize2-cham5:contentam2-p8.pddl: 1 different costs from 22 to 22
-childsnack-contents-parsize2-cham5:contentam4-p0.pddl: 4 different costs from 21 to 24
-childsnack-contents-parsize2-cham5:contentam4-p12.pddl: 1 different costs from 22 to 22
-childsnack-contents-parsize2-cham5:contentam4-p16.pddl: 1 different costs from 22 to 22
-childsnack-contents-parsize2-cham5:contentam4-p20.pddl: 1 different costs from 22 to 22
-childsnack-contents-parsize2-cham5:contentam4-p4.pddl: 1 different costs from 22 to 22
-childsnack-contents-parsize2-cham5:contentam4-p8.pddl: 1 different costs from 22 to 22
-childsnack-contents-parsize2-cham7:contentam2-p0.pddl: 1 different costs from 32 to 32
-childsnack-contents-parsize2-cham7:contentam2-p4.pddl: 1 different costs from 32 to 32
-childsnack-contents-parsize2-cham7:contentam2-p8.pddl: 1 different costs from 32 to 32
-childsnack-contents-parsize2-cham7:contentam4-p0.pddl: 3 different costs from 30 to 32
-childsnack-contents-parsize2-cham7:contentam4-p4.pddl: 1 different costs from 32 to 32
-childsnack-contents-parsize2-cham7:contentam4-p8.pddl: 1 different costs from 32 to 32
-childsnack-contents-parsize3-cham3:contentam3-p0.pddl: 1 different costs from 12 to 12
-childsnack-contents-parsize3-cham3:contentam3-p10.pddl: 1 different costs from 12 to 12
-childsnack-contents-parsize3-cham3:contentam3-p2.pddl: 1 different costs from 12 to 12
-childsnack-contents-parsize3-cham3:contentam3-p4.pddl: 1 different costs from 12 to 12
-childsnack-contents-parsize3-cham3:contentam3-p6.pddl: 1 different costs from 12 to 12
-childsnack-contents-parsize3-cham3:contentam3-p8.pddl: 1 different costs from 12 to 12
-childsnack-contents-parsize3-cham3:contentam5-p0.pddl: 2 different costs from 12 to 13
-childsnack-contents-parsize3-cham3:contentam5-p10.pddl: 1 different costs from 12 to 12
-childsnack-contents-parsize3-cham3:contentam5-p2.pddl: 1 different costs from 12 to 12
-childsnack-contents-parsize3-cham3:contentam5-p4.pddl: 1 different costs from 12 to 12
-childsnack-contents-parsize3-cham3:contentam5-p6.pddl: 1 different costs from 12 to 12
-childsnack-contents-parsize3-cham3:contentam5-p8.pddl: 1 different costs from 12 to 12
-childsnack-contents-parsize3-cham5:contentam3-p0.pddl: 1 different costs from 22 to 22
-childsnack-contents-parsize3-cham5:contentam3-p2.pddl: 1 different costs from 22 to 22
-childsnack-contents-parsize3-cham5:contentam3-p4.pddl: 1 different costs from 22 to 22
-childsnack-contents-parsize3-cham5:contentam3-p6.pddl: 1 different costs from 22 to 22
-childsnack-contents-parsize3-cham5:contentam5-p0.pddl: 1 different costs from 21 to 21
-childsnack-contents-parsize3-cham5:contentam5-p2.pddl: 1 different costs from 22 to 22
-childsnack-contents-parsize3-cham5:contentam5-p4.pddl: 1 different costs from 22 to 22
-childsnack-contents-parsize3-cham7:contentam3-p0.pddl: 1 different costs from 32 to 32
-childsnack-contents-parsize3-cham7:contentam5-p0.pddl: 1 different costs from 31 to 31
-childsnack-contents-parsize4-cham3:contentam4-p0.pddl: 1 different costs from 12 to 12
-childsnack-contents-parsize4-cham3:contentam4-p1.pddl: 1 different costs from 12 to 12
-childsnack-contents-parsize4-cham3:contentam4-p2.pddl: 1 different costs from 12 to 12
-childsnack-contents-parsize4-cham3:contentam4-p3.pddl: 1 different costs from 12 to 12
-childsnack-contents-parsize4-cham3:contentam4-p4.pddl: 1 different costs from 12 to 12
-childsnack-contents-parsize4-cham3:contentam4-p5.pddl: 1 different costs from 12 to 12
-childsnack-contents-parsize4-cham3:contentam6-p0.pddl: 1 different costs from 12 to 12
-childsnack-contents-parsize4-cham3:contentam6-p1.pddl: 2 different costs from 12 to 13
-childsnack-contents-parsize4-cham3:contentam6-p2.pddl: 1 different costs from 12 to 12
-childsnack-contents-parsize4-cham3:contentam6-p3.pddl: 1 different costs from 12 to 12
-childsnack-contents-parsize4-cham3:contentam6-p4.pddl: 1 different costs from 12 to 12
-childsnack-contents-parsize4-cham3:contentam6-p5.pddl: 1 different costs from 12 to 12
-childsnack-contents-parsize4-cham5:contentam4-p0.pddl: 1 different costs from 22 to 22
-childsnack-contents-parsize4-cham5:contentam4-p1.pddl: 1 different costs from 22 to 22
-childsnack-contents-parsize4-cham5:contentam6-p0.pddl: 2 different costs from 20 to 22
-childsnack-contents-parsize4-cham5:contentam6-p1.pddl: 1 different costs from 24 to 24
-childsnack-strips:0-p01.pddl: 1 different costs from 8 to 8
+childsnack-contents:childsnack-contents-parsize1-cham7:contentam1-p25.pddl: 1 different costs from 32 to 32
+childsnack-contents:childsnack-contents-parsize1-cham7:contentam3-p25.pddl: 1 different costs from 32 to 32
+childsnack-contents:childsnack-contents-parsize2-cham5:contentam2-p12.pddl: 1 different costs from 22 to 22
+childsnack-contents:childsnack-contents-parsize2-cham5:contentam2-p16.pddl: 1 different costs from 22 to 22
+childsnack-contents:childsnack-contents-parsize2-cham5:contentam2-p20.pddl: 1 different costs from 22 to 22
+childsnack-contents:childsnack-contents-parsize2-cham5:contentam2-p8.pddl: 1 different costs from 22 to 22
+childsnack-contents:childsnack-contents-parsize2-cham5:contentam4-p12.pddl: 1 different costs from 22 to 22
+childsnack-contents:childsnack-contents-parsize2-cham5:contentam4-p16.pddl: 1 different costs from 22 to 22
+childsnack-contents:childsnack-contents-parsize2-cham5:contentam4-p20.pddl: 1 different costs from 22 to 22
+childsnack-contents:childsnack-contents-parsize2-cham5:contentam4-p8.pddl: 1 different costs from 22 to 22
+childsnack-contents:childsnack-contents-parsize2-cham7:contentam2-p4.pddl: 1 different costs from 32 to 32
+childsnack-contents:childsnack-contents-parsize2-cham7:contentam2-p8.pddl: 1 different costs from 32 to 32
+childsnack-contents:childsnack-contents-parsize2-cham7:contentam4-p4.pddl: 1 different costs from 32 to 32
+childsnack-contents:childsnack-contents-parsize2-cham7:contentam4-p8.pddl: 1 different costs from 32 to 32
+childsnack-contents:childsnack-contents-parsize3-cham3:contentam5-p10.pddl: 1 different costs from 12 to 12
+childsnack-contents:childsnack-contents-parsize3-cham5:contentam3-p2.pddl: 1 different costs from 22 to 22
+childsnack-contents:childsnack-contents-parsize3-cham5:contentam3-p4.pddl: 1 different costs from 22 to 22
+childsnack-contents:childsnack-contents-parsize3-cham5:contentam3-p6.pddl: 1 different costs from 22 to 22
+childsnack-contents:childsnack-contents-parsize3-cham5:contentam5-p0.pddl: 1 different costs from 21 to 21
+childsnack-contents:childsnack-contents-parsize3-cham5:contentam5-p2.pddl: 1 different costs from 22 to 22
+childsnack-contents:childsnack-contents-parsize3-cham5:contentam5-p4.pddl: 1 different costs from 22 to 22
+childsnack-contents:childsnack-contents-parsize3-cham7:contentam5-p0.pddl: 1 different costs from 31 to 31
+childsnack-contents:childsnack-contents-parsize4-cham3:contentam4-p5.pddl: 1 different costs from 12 to 12
+childsnack-contents:childsnack-contents-parsize4-cham3:contentam6-p3.pddl: 1 different costs from 12 to 12
+childsnack-contents:childsnack-contents-parsize4-cham3:contentam6-p4.pddl: 1 different costs from 12 to 12
+childsnack-contents:childsnack-contents-parsize4-cham3:contentam6-p5.pddl: 1 different costs from 12 to 12
+childsnack-contents:childsnack-contents-parsize4-cham5:contentam4-p0.pddl: 1 different costs from 22 to 22
+childsnack-contents:childsnack-contents-parsize4-cham5:contentam4-p1.pddl: 1 different costs from 22 to 22
+childsnack-contents:childsnack-contents-parsize4-cham5:contentam6-p0.pddl: 2 different costs from 20 to 22
+childsnack-contents:childsnack-contents-parsize4-cham5:contentam6-p1.pddl: 1 different costs from 24 to 24
+childsnack-strips:0-p03.pddl: 1 different costs from 18 to 18
 childsnack-strips:0-p04.pddl: 1 different costs from 23 to 23
 childsnack-strips:0-p05.pddl: 2 different costs from 28 to 29
 childsnack-strips:0-p06.pddl: 2 different costs from 33 to 35
@@ -314,12 +241,12 @@ childsnack-strips:2-child-snack_pfile06.pddl: 1 different costs from 52 to 52
 childsnack-strips:2-child-snack_pfile07-2.pddl: 1 different costs from 57 to 57
 childsnack-strips:2-child-snack_pfile08.pddl: 1 different costs from 62 to 62
 childsnack-strips:2-child-snack_pfile09-2.pddl: 1 different costs from 67 to 67
+citycar-adl:0-p3-3-3-3-2.pddl: 2 different costs from 22 to 31
 citycar-adl:2-p023.pddl: 3 different costs from 23 to 38
-citycar-adl:2-p028.pddl: 4 different costs from 35 to 73
 citycar-adl:2-p029.pddl: 3 different costs from 43 to 47
 citycar-adl:2-p030.pddl: 3 different costs from 44 to 78
-citycar-adl:2-p032.pddl: 4 different costs from 35 to 54
 citycar-adl:2-p035.pddl: 1 different costs from 16 to 16
+citycar-adl:2-p037.pddl: 3 different costs from 22 to 26
 citycar-adl:2-p039.pddl: 1 different costs from 32 to 32
 citycar-adl:2-p041.pddl: 2 different costs from 31 to 44
 citycar-adl:2-p047.pddl: 1 different costs from 44 to 44
@@ -328,9 +255,9 @@ citycar-adl:2-p051.pddl: 1 different costs from 20 to 20
 citycar-adl:2-p056.pddl: 1 different costs from 27 to 27
 citycar-adl:2-p064.pddl: 1 different costs from 46 to 46
 citycar-adl:2-p163.pddl: 1 different costs from 18 to 18
-citycar-adl:2-p169.pddl: 3 different costs from 33 to 43
+citycar-adl:2-p171.pddl: 3 different costs from 43 to 49
+citycar-adl:2-p173.pddl: 2 different costs from 41 to 50
 citycar-adl:2-p174.pddl: 2 different costs from 37 to 42
-citycar-adl:2-p176.pddl: 2 different costs from 35 to 47
 citycar-adl:2-p177.pddl: 1 different costs from 19 to 19
 citycar-adl:2-p181.pddl: 2 different costs from 23 to 29
 citycar-adl:2-p183.pddl: 4 different costs from 23 to 32
@@ -344,8 +271,8 @@ citycar-adl:2-p193.pddl: 1 different costs from 19 to 19
 citycar-adl:2-p194.pddl: 1 different costs from 19 to 19
 citycar-adl:2-p195.pddl: 1 different costs from 21 to 21
 citycar-adl:2-p197.pddl: 1 different costs from 28 to 28
+data-network-strips:0-p06.pddl: 4 different costs from 16 to 21
 data-network-strips:0-p13.pddl: 6 different costs from 50 to 98
-data-network-strips:0-p15.pddl: 4 different costs from 34 to 54
 data-network-strips:0-p16.pddl: 4 different costs from 57 to 78
 data-network-strips:0-p26.pddl: 5 different costs from 26 to 39
 data-network-strips:0-p27.pddl: 8 different costs from 30 to 61
@@ -374,11 +301,11 @@ data-network-strips:3-p12.pddl: 6 different costs from 36 to 52
 data-network-strips:3-p13.pddl: 5 different costs from 49 to 87
 data-network-strips:3-p14.pddl: 5 different costs from 52 to 112
 data-network-strips:3-p18.pddl: 1 different costs from 227 to 227
-depots-strips:0-p08.pddl: 7 different costs from 54 to 67
 depots-strips:0-p11.pddl: 5 different costs from 79 to 170
 depots-strips:0-p12.pddl: 6 different costs from 88 to 129
-depots-strips:0-p19.pddl: 9 different costs from 66 to 117
+depots-strips:0-p29.pddl: 8 different costs from 71 to 149
 depots-strips:0-p30.pddl: 7 different costs from 71 to 169
+depots-strips:1-p05.pddl: 4 different costs from 36 to 46
 depots-strips:1-p06.pddl: 5 different costs from 60 to 70
 depots-strips:1-p07.pddl: 5 different costs from 56 to 66
 depots-strips:1-p08.pddl: 7 different costs from 58 to 74
@@ -405,7 +332,7 @@ depots-strips:2-p19.pddl: 5 different costs from 50 to 74
 depots-strips:2-p20.pddl: 6 different costs from 105 to 170
 depots-strips:2-p22.pddl: 5 different costs from 125 to 152
 driverlog-strips:0-p03.pddl: 5 different costs from 36 to 46
-driverlog-strips:0-p05.pddl: 6 different costs from 38 to 45
+driverlog-strips:0-p04.pddl: 3 different costs from 38 to 41
 driverlog-strips:0-p09.pddl: 4 different costs from 56 to 65
 driverlog-strips:0-p13.pddl: 5 different costs from 82 to 98
 driverlog-strips:0-p16.pddl: 5 different costs from 97 to 120
@@ -418,14 +345,14 @@ driverlog-strips:0-p25.pddl: 7 different costs from 80 to 132
 driverlog-strips:0-p27.pddl: 4 different costs from 53 to 64
 driverlog-strips:1-p03.pddl: 7 different costs from 108 to 237
 driverlog-strips:1-p04.pddl: 4 different costs from 146 to 211
-driverlog-strips:1-p06.pddl: 6 different costs from 175 to 245
+driverlog-strips:1-p05.pddl: 7 different costs from 137 to 161
 driverlog-strips:1-p07.pddl: 1 different costs from 237 to 237
 driverlog-strips:1-p08.pddl: 2 different costs from 238 to 392
 driverlog-strips:1-p09.pddl: 5 different costs from 238 to 402
 driverlog-strips:1-p10.pddl: 4 different costs from 265 to 294
 driverlog-strips:1-p12.pddl: 1 different costs from 404 to 404
+driverlog-strips:2-p02.pddl: 6 different costs from 21 to 40
 driverlog-strips:2-p05.pddl: 5 different costs from 19 to 25
-driverlog-strips:2-p08.pddl: 7 different costs from 22 to 36
 driverlog-strips:2-p12.pddl: 8 different costs from 41 to 97
 driverlog-strips:2-p13.pddl: 8 different costs from 33 to 110
 driverlog-strips:2-p14.pddl: 6 different costs from 36 to 54
@@ -434,7 +361,6 @@ driverlog-strips:2-p17.pddl: 5 different costs from 102 to 177
 driverlog-strips:2-p18.pddl: 3 different costs from 117 to 134
 driverlog-strips:2-p19.pddl: 2 different costs from 167 to 320
 driverlog-strips:2-p20.pddl: 5 different costs from 147 to 277
-elevators-strips:0-p30.pddl: 6 different costs from 66 to 78
 elevators-strips:1-p04.pddl: 4 different costs from 83 to 135
 elevators-strips:1-p05.pddl: 5 different costs from 106 to 128
 elevators-strips:1-p06.pddl: 4 different costs from 127 to 155
@@ -462,37 +388,38 @@ elevators-strips:3-p16.pddl: 3 different costs from 264 to 281
 elevators-strips:3-p17.pddl: 2 different costs from 301 to 348
 elevators-strips:3-p18.pddl: 1 different costs from 369 to 369
 elevators-strips:3-p20.pddl: 1 different costs from 391 to 391
+elevators-strips:5-p21.pddl: 6 different costs from 72 to 81
 elevators-strips:5-p22.pddl: 6 different costs from 94 to 111
 elevators-strips:5-p23.pddl: 5 different costs from 109 to 141
-ferry-strips:0-p001.pddl: 2 different costs from 10 to 13
-ferry-strips:0-p003.pddl: 2 different costs from 12 to 18
-ferry-strips:0-p007.pddl: 3 different costs from 33 to 40
-ferry-strips:0-p012.pddl: 2 different costs from 8 to 11
+ferry-strips:0-p015.pddl: 4 different costs from 26 to 33
 ferry-strips:0-p018.pddl: 4 different costs from 24 to 32
-ferry-strips:0-p021.pddl: 4 different costs from 39 to 55
-ferry-strips:0-p022.pddl: 6 different costs from 46 to 70
-ferry-strips:0-p024.pddl: 2 different costs from 14 to 20
 ferry-strips:0-p030.pddl: 4 different costs from 34 to 56
-ferry-strips:0-p034.pddl: 4 different costs from 14 to 25
-ferry-strips:0-p039.pddl: 7 different costs from 24 to 33
-ferry-strips:0-p053.pddl: 7 different costs from 35 to 55
-ferry-strips:0-p057.pddl: 2 different costs from 20 to 29
-ferry-strips:0-p060.pddl: 4 different costs from 30 to 40
-ferry-strips:0-p061.pddl: 6 different costs from 32 to 51
-ferry-strips:0-p067.pddl: 3 different costs from 11 to 15
-ferry-strips:0-p068.pddl: 4 different costs from 19 to 23
-ferry-strips:0-p077.pddl: 8 different costs from 53 to 79
-ferry-strips:0-p083.pddl: 7 different costs from 29 to 46
-ferry-strips:0-p087.pddl: 6 different costs from 52 to 67
-ferry-strips:0-p098.pddl: 6 different costs from 41 to 69
-ferry-strips:0-p104.pddl: 5 different costs from 30 to 44
-ferry-strips:0-p105.pddl: 5 different costs from 34 to 53
-ferry-strips:0-p107.pddl: 5 different costs from 36 to 54
+ferry-strips:0-p031.pddl: 4 different costs from 40 to 62
+ferry-strips:0-p032.pddl: 4 different costs from 40 to 70
+ferry-strips:0-p033.pddl: 4 different costs from 47 to 78
+ferry-strips:0-p036.pddl: 5 different costs from 22 to 32
+ferry-strips:0-p038.pddl: 3 different costs from 31 to 46
+ferry-strips:0-p042.pddl: 5 different costs from 44 to 65
+ferry-strips:0-p046.pddl: 1 different costs from 16 to 16
+ferry-strips:0-p049.pddl: 2 different costs from 32 to 35
+ferry-strips:0-p050.pddl: 5 different costs from 35 to 46
+ferry-strips:0-p056.pddl: 3 different costs from 16 to 25
+ferry-strips:0-p066.pddl: 6 different costs from 46 to 73
+ferry-strips:0-p069.pddl: 5 different costs from 23 to 33
+ferry-strips:0-p071.pddl: 5 different costs from 31 to 43
+ferry-strips:0-p075.pddl: 5 different costs from 39 to 62
+ferry-strips:0-p076.pddl: 4 different costs from 44 to 84
+ferry-strips:0-p086.pddl: 6 different costs from 47 to 66
+ferry-strips:0-p090.pddl: 3 different costs from 16 to 23
+ferry-strips:0-p095.pddl: 6 different costs from 33 to 58
+ferry-strips:0-p096.pddl: 4 different costs from 36 to 57
+ferry-strips:0-p106.pddl: 5 different costs from 34 to 47
+ferry-strips:0-p108.pddl: 5 different costs from 40 to 61
 ferry-strips:0-p110.pddl: 5 different costs from 50 to 69
-ferry-strips:0-p117.pddl: 5 different costs from 26 to 39
-ferry-strips:0-p121.pddl: 6 different costs from 45 to 73
-ferry-strips:0-p123.pddl: 4 different costs from 18 to 24
-ferry-strips:0-p127.pddl: 4 different costs from 28 to 36
+ferry-strips:0-p112.pddl: 4 different costs from 18 to 26
+ferry-strips:0-p114.pddl: 5 different costs from 26 to 39
+ferry-strips:0-p116.pddl: 5 different costs from 25 to 34
+ferry-strips:0-p130.pddl: 6 different costs from 46 to 79
 ferry-strips:0-p132.pddl: 4 different costs from 52 to 75
 floortile-strips:0-p01.pddl: 5 different costs from 16 to 21
 floortile-strips:0-p02.pddl: 6 different costs from 23 to 30
@@ -523,6 +450,7 @@ freecell-strips:0-p18.pddl: 9 different costs from 92 to 144
 freecell-strips:0-p20.pddl: 2 different costs from 163 to 169
 freecell-strips:0-p21.pddl: 3 different costs from 168 to 262
 freecell-strips:0-p23.pddl: 4 different costs from 155 to 191
+freecell-strips:0-p25.pddl: 9 different costs from 132 to 208
 freecell-strips:0-p27.pddl: 8 different costs from 88 to 136
 freecell-strips:0-p28.pddl: 3 different costs from 197 to 269
 freecell-strips:0-p30.pddl: 5 different costs from 158 to 207
@@ -532,7 +460,6 @@ freecell-strips:1-p16.pddl: 7 different costs from 95 to 143
 freecell-strips:1-p18.pddl: 6 different costs from 168 to 205
 freecell-strips:1-p20.pddl: 7 different costs from 104 to 147
 freecell-strips:1-p23.pddl: 1 different costs from 204 to 204
-freecell-strips:1-p24.pddl: 7 different costs from 136 to 181
 freecell-strips:2-p18.pddl: 7 different costs from 101 to 154
 freecell-strips:2-p19.pddl: 3 different costs from 139 to 171
 freecell-strips:2-probfreecell-11-1.pddl: 7 different costs from 98 to 153
@@ -568,9 +495,9 @@ ged-strips:1-p27.pddl: 1 different costs from 419 to 419
 ged-strips:1-p28.pddl: 1 different costs from 426 to 426
 ged-strips:1-p29.pddl: 1 different costs from 293 to 293
 ged-strips:1-p30.pddl: 2 different costs from 231 to 297
-ged-strips:3-d-12-2.pddl: 6 different costs from 123 to 213
 ged-strips:3-d-12-3.pddl: 6 different costs from 126 to 166
 ged-strips:3-d-12-5.pddl: 4 different costs from 156 to 236
+ged-strips:3-d-12-6.pddl: 6 different costs from 151 to 209
 ged-strips:3-d-12-7.pddl: 5 different costs from 144 to 191
 ged-strips:3-d-12-8.pddl: 4 different costs from 179 to 200
 ged-strips:3-d-12-9.pddl: 4 different costs from 150 to 199
@@ -580,6 +507,7 @@ genome-edit-distance-split:d-10-5.pddl: 5 different costs from 92 to 194
 genome-edit-distance-split:d-10-6.pddl: 6 different costs from 121 to 160
 genome-edit-distance-split:d-10-8.pddl: 6 different costs from 80 to 150
 genome-edit-distance-split:d-10-9.pddl: 5 different costs from 83 to 134
+genome-edit-distance-split:d-11-5.pddl: 7 different costs from 89 to 168
 genome-edit-distance-split:d-12-1.pddl: 6 different costs from 134 to 184
 genome-edit-distance-split:d-12-2.pddl: 6 different costs from 123 to 213
 genome-edit-distance-split:d-12-3.pddl: 6 different costs from 126 to 166
@@ -602,38 +530,37 @@ genome-edit-distance-split:d-7-10.pddl: 4 different costs from 92 to 160
 genome-edit-distance-split:d-7-12.pddl: 5 different costs from 109 to 181
 genome-edit-distance-split:d-8-10.pddl: 3 different costs from 91 to 135
 genome-edit-distance-split:d-8-12.pddl: 4 different costs from 129 to 153
-genome-edit-distance-split:d-9-10.pddl: 6 different costs from 73 to 144
 genome-edit-distance-split:d-9-12.pddl: 3 different costs from 135 to 231
+genome-edit-distance:d-10-2.pddl: 9 different costs from 61 to 138
+genome-edit-distance:d-10-7.pddl: 10 different costs from 85 to 197
+genome-edit-distance:d-11-1.pddl: 9 different costs from 83 to 175
 genome-edit-distance:d-11-12.pddl: 9 different costs from 88 to 167
-genome-edit-distance:d-11-2.pddl: 9 different costs from 83 to 153
-genome-edit-distance:d-12-1.pddl: 10 different costs from 93 to 234
 genome-edit-distance:d-12-3.pddl: 7 different costs from 111 to 277
+genome-edit-distance:d-12-4.pddl: 9 different costs from 94 to 276
 genome-edit-distance:d-12-5.pddl: 8 different costs from 143 to 299
-genome-edit-distance:d-12-6.pddl: 10 different costs from 131 to 239
-genome-edit-distance:d-12-7.pddl: 10 different costs from 126 to 224
 genome-edit-distance:d-12-8.pddl: 8 different costs from 111 to 240
 genome-edit-distance:d-12-9.pddl: 8 different costs from 126 to 370
-genome-edit-distance:d-13-3.pddl: 8 different costs from 56 to 165
-genome-edit-distance:d-13-5.pddl: 10 different costs from 96 to 179
-genome-edit-distance:d-13-6.pddl: 9 different costs from 73 to 199
-genome-edit-distance:d-13-8.pddl: 10 different costs from 71 to 181
+genome-edit-distance:d-2-6.pddl: 9 different costs from 42 to 144
+genome-edit-distance:d-2-9.pddl: 8 different costs from 36 to 97
 genome-edit-distance:d-3-12.pddl: 8 different costs from 132 to 306
+genome-edit-distance:d-3-5.pddl: 8 different costs from 51 to 87
+genome-edit-distance:d-3-6.pddl: 8 different costs from 52 to 114
 genome-edit-distance:d-4-12.pddl: 9 different costs from 127 to 245
+genome-edit-distance:d-5-1.pddl: 8 different costs from 21 to 62
+genome-edit-distance:d-5-11.pddl: 9 different costs from 73 to 223
 genome-edit-distance:d-5-12.pddl: 9 different costs from 136 to 293
+genome-edit-distance:d-5-13.pddl: 9 different costs from 76 to 153
 genome-edit-distance:d-5-3.pddl: 9 different costs from 46 to 107
-genome-edit-distance:d-5-4.pddl: 8 different costs from 28 to 76
-genome-edit-distance:d-6-11.pddl: 9 different costs from 71 to 167
-genome-edit-distance:d-6-2.pddl: 9 different costs from 43 to 128
-genome-edit-distance:d-6-4.pddl: 7 different costs from 49 to 127
-genome-edit-distance:d-6-8.pddl: 10 different costs from 48 to 160
-genome-edit-distance:d-8-10.pddl: 10 different costs from 71 to 239
+genome-edit-distance:d-7-10.pddl: 9 different costs from 89 to 190
+genome-edit-distance:d-7-12.pddl: 10 different costs from 106 to 248
+genome-edit-distance:d-7-13.pddl: 10 different costs from 68 to 166
+genome-edit-distance:d-8-11.pddl: 10 different costs from 96 to 182
 genome-edit-distance:d-8-12.pddl: 9 different costs from 121 to 332
+genome-edit-distance:d-8-9.pddl: 8 different costs from 23 to 46
+genome-edit-distance:d-9-11.pddl: 8 different costs from 88 to 168
 genome-edit-distance:d-9-12.pddl: 8 different costs from 159 to 295
-genome-edit-distance:d-9-13.pddl: 10 different costs from 75 to 198
-genome-edit-distance:d-9-2.pddl: 8 different costs from 31 to 80
-genome-edit-distance:d-9-4.pddl: 7 different costs from 35 to 73
-genome-edit-distance:d-9-5.pddl: 7 different costs from 56 to 202
-genome-edit-distance:d-9-6.pddl: 10 different costs from 56 to 212
+genome-edit-distance:d-9-3.pddl: 9 different costs from 39 to 75
+genome-edit-distance:d-9-8.pddl: 6 different costs from 23 to 42
 goldminer-strips:0-p023.pddl: 2 different costs from 66 to 177
 goldminer-strips:0-p033.pddl: 2 different costs from 46 to 86
 goldminer-strips:0-p040.pddl: 3 different costs from 29 to 43
@@ -659,27 +586,25 @@ goldminer-strips:0-p103.pddl: 1 different costs from 38 to 38
 goldminer-strips:0-p112.pddl: 1 different costs from 45 to 45
 goldminer-strips:0-p114.pddl: 1 different costs from 56 to 56
 goldminer-strips:0-p117.pddl: 2 different costs from 150 to 297
-goldminer-strips:0-p125.pddl: 2 different costs from 48 to 92
+goldminer-strips:0-p124.pddl: 3 different costs from 32 to 43
 goldminer-strips:0-p136.pddl: 1 different costs from 44 to 44
 goldminer-strips:0-p138.pddl: 1 different costs from 34 to 34
 goldminer-strips:0-p140.pddl: 1 different costs from 113 to 113
 goldminer-strips:0-p142.pddl: 1 different costs from 352 to 352
 grid-strips:1-p05.pddl: 4 different costs from 203 to 399
-grid-strips:1-p06.pddl: 5 different costs from 70 to 159
 grid-strips:1-p07.pddl: 3 different costs from 222 to 245
 grid-strips:1-p11.pddl: 4 different costs from 107 to 194
 grid-strips:2-prob05.pddl: 6 different costs from 139 to 257
 grid-strips:3-p017.pddl: 4 different costs from 82 to 95
-grid-strips:3-p018.pddl: 4 different costs from 82 to 95
+grid-strips:3-p033.pddl: 4 different costs from 52 to 127
 grid-strips:3-p035.pddl: 2 different costs from 80 to 82
-grid-strips:3-p036.pddl: 2 different costs from 80 to 82
-grid-strips:3-p061.pddl: 1 different costs from 66 to 66
+grid-strips:3-p045.pddl: 4 different costs from 48 to 102
 grid-strips:3-p063.pddl: 3 different costs from 47 to 86
 grid-strips:3-p064.pddl: 3 different costs from 47 to 86
 grid-strips:3-p065.pddl: 2 different costs from 64 to 66
-grid-strips:3-p066.pddl: 2 different costs from 64 to 66
 grid-strips:3-p071.pddl: 5 different costs from 54 to 102
 grid-strips:3-p072.pddl: 5 different costs from 54 to 102
+grid-strips:3-p073.pddl: 6 different costs from 60 to 126
 grid-strips:3-p074.pddl: 6 different costs from 60 to 126
 grid-strips:3-p082.pddl: 6 different costs from 97 to 142
 grid-strips:3-p083.pddl: 3 different costs from 91 to 103
@@ -690,20 +615,23 @@ grid-strips:3-p087.pddl: 4 different costs from 106 to 130
 grid-strips:3-p088.pddl: 4 different costs from 106 to 130
 grid-strips:3-p089.pddl: 4 different costs from 100 to 136
 grid-strips:3-p090.pddl: 4 different costs from 100 to 136
-grid-strips:3-p094.pddl: 5 different costs from 101 to 109
+grid-strips:3-p095.pddl: 3 different costs from 89 to 146
 grid-strips:3-p096.pddl: 3 different costs from 89 to 146
 grid-strips:3-p099.pddl: 5 different costs from 104 to 128
 grid-strips:3-p100.pddl: 5 different costs from 104 to 128
-gripper-strips:0-p06.pddl: 2 different costs from 49 to 51
-gripper-strips:0-p08.pddl: 2 different costs from 57 to 59
-gripper-strips:0-p09.pddl: 2 different costs from 61 to 63
+grid-strips:3-p107.pddl: 4 different costs from 87 to 139
+grid-strips:3-p108.pddl: 4 different costs from 87 to 139
+gripper-strips:0-p02.pddl: 2 different costs from 33 to 35
+gripper-strips:0-p03.pddl: 2 different costs from 37 to 39
+gripper-strips:0-p04.pddl: 2 different costs from 41 to 43
 gripper-strips:0-p10.pddl: 2 different costs from 65 to 67
-gripper-strips:0-p19.pddl: 2 different costs from 101 to 103
-gripper-strips:0-p24.pddl: 2 different costs from 121 to 123
-gripper-strips:0-p28.pddl: 2 different costs from 137 to 139
-gripper-strips:1-p05.pddl: 2 different costs from 157 to 159
-gripper-strips:1-p10.pddl: 2 different costs from 257 to 259
+gripper-strips:0-p11.pddl: 2 different costs from 69 to 71
+gripper-strips:0-p13.pddl: 2 different costs from 77 to 79
+gripper-strips:0-p17.pddl: 2 different costs from 93 to 95
+gripper-strips:0-p21.pddl: 2 different costs from 109 to 111
+gripper-strips:1-p09.pddl: 2 different costs from 237 to 239
 gripper-strips:1-p11.pddl: 2 different costs from 277 to 279
+gripper-strips:1-p12.pddl: 2 different costs from 297 to 299
 gripper-strips:1-p13.pddl: 2 different costs from 317 to 319
 gripper-strips:1-p14.pddl: 2 different costs from 337 to 339
 gripper-strips:1-p15.pddl: 2 different costs from 357 to 359
@@ -722,8 +650,7 @@ gripper-strips:1-p27.pddl: 2 different costs from 597 to 599
 gripper-strips:1-p28.pddl: 2 different costs from 617 to 619
 gripper-strips:1-p29.pddl: 2 different costs from 637 to 639
 gripper-strips:1-p30.pddl: 2 different costs from 657 to 659
-gripper-strips:2-prob01.pddl: 2 different costs from 13 to 15
-gripper-strips:2-prob20.pddl: 2 different costs from 165 to 167
+gripper-strips:2-prob18.pddl: 2 different costs from 149 to 151
 hanoi-strips:0-p001.pddl: 1 different costs from 31 to 31
 hanoi-strips:0-p002.pddl: 4 different costs from 63 to 77
 hanoi-strips:0-p003.pddl: 9 different costs from 127 to 207
@@ -747,38 +674,36 @@ hiking-strips:1-p05.pddl: 1 different costs from 115 to 115
 hiking-strips:1-p06.pddl: 1 different costs from 129 to 129
 hiking-strips:1-p07.pddl: 1 different costs from 134 to 134
 hiking-strips:1-p17.pddl: 2 different costs from 81 to 86
-hiking-strips:2-testing-3-4-8.pddl: 3 different costs from 77 to 89
 hiking-strips:2-testing-3-4-9.pddl: 1 different costs from 82 to 82
 hiking-strips:4-ptesting-3-4-8.pddl: 1 different costs from 69 to 69
+hiking-strips:5-p031.pddl: 2 different costs from 65 to 95
 hiking-strips:5-p032.pddl: 1 different costs from 85 to 85
 hiking-strips:5-p040.pddl: 1 different costs from 82 to 82
+hiking-strips:5-p048.pddl: 2 different costs from 71 to 114
 hiking-strips:5-p055.pddl: 1 different costs from 69 to 69
 hiking-strips:5-p063.pddl: 1 different costs from 69 to 69
-hiking-strips:5-p064.pddl: 1 different costs from 71 to 71
 hiking-strips:5-p072.pddl: 2 different costs from 105 to 106
 hiking-strips:5-p080.pddl: 2 different costs from 89 to 93
 hiking-strips:5-p087.pddl: 1 different costs from 82 to 82
 hiking-strips:5-p088.pddl: 2 different costs from 89 to 93
 hiking-strips:5-p095.pddl: 2 different costs from 79 to 83
-hiking-strips:5-p101.pddl: 3 different costs from 53 to 64
+hiking-strips:5-p102.pddl: 2 different costs from 70 to 74
 hiking-strips:5-p103.pddl: 1 different costs from 84 to 84
 hiking-strips:5-p104.pddl: 1 different costs from 92 to 92
 hiking-strips:5-p110.pddl: 1 different costs from 68 to 68
 hiking-strips:5-p111.pddl: 2 different costs from 82 to 93
 logistics-large-simple:p-a1-c1-s1000-p10-t1-g2-goal-2.pddl: 1 different costs from 8 to 8
 logistics-large-simple:p-a1-c1-s1000-p10-t1-g3-goal-3.pddl: 1 different costs from 12 to 12
+logistics-large-simple:p-a1-c1-s1000-p10-t1-g4-goal-4.pddl: 1 different costs from 16 to 16
 logistics-large-simple:p-a1-c1-s1500-p10-t1-g2-goal-2.pddl: 1 different costs from 8 to 8
 logistics-large-simple:p-a1-c1-s1500-p10-t1-g3-goal-3.pddl: 1 different costs from 12 to 12
 logistics-large-simple:p-a1-c1-s1500-p10-t1-g4-goal-4.pddl: 1 different costs from 16 to 16
 logistics-large-simple:p-a1-c1-s1750-p10-t1-g2-goal-2.pddl: 1 different costs from 8 to 8
 logistics-large-simple:p-a1-c1-s1750-p10-t1-g3-goal-3.pddl: 1 different costs from 12 to 12
 logistics-large-simple:p-a1-c1-s1750-p10-t1-g4-goal-4.pddl: 1 different costs from 16 to 16
-logistics-large-simple:p-a1-c1-s2000-p10-t1-g1-goal-1.pddl: 1 different costs from 4 to 4
-logistics-large-simple:p-a1-c1-s2000-p10-t1-g2-goal-2.pddl: 1 different costs from 8 to 8
 logistics-large-simple:p-a1-c1-s2000-p10-t1-g3-goal-3.pddl: 1 different costs from 12 to 12
 logistics-large-simple:p-a1-c1-s2000-p10-t1-g4-goal-4.pddl: 1 different costs from 16 to 16
 logistics-large-simple:p-a1-c2-s1000-p10-t2-g1-goal-1.pddl: 1 different costs from 4 to 4
-logistics-large-simple:p-a1-c2-s1000-p10-t2-g2-goal-2.pddl: 1 different costs from 8 to 8
 logistics-large-simple:p-a1-c2-s1000-p10-t2-g3-goal-3.pddl: 1 different costs from 12 to 12
 logistics-large-simple:p-a1-c2-s1000-p10-t2-g4-goal-4.pddl: 1 different costs from 16 to 16
 logistics-large-simple:p-a1-c2-s1250-p10-t2-g1-goal-1.pddl: 1 different costs from 4 to 4
@@ -789,14 +714,16 @@ logistics-large-simple:p-a1-c2-s1500-p10-t2-g1-goal-1.pddl: 1 different costs fr
 logistics-large-simple:p-a1-c2-s1500-p10-t2-g2-goal-2.pddl: 1 different costs from 8 to 8
 logistics-large-simple:p-a1-c2-s1500-p10-t2-g3-goal-3.pddl: 1 different costs from 12 to 12
 logistics-large-simple:p-a1-c2-s1500-p10-t2-g4-goal-4.pddl: 1 different costs from 16 to 16
+logistics-large-simple:p-a1-c2-s1750-p10-t2-g1-goal-1.pddl: 1 different costs from 4 to 4
 logistics-large-simple:p-a1-c2-s1750-p10-t2-g2-goal-2.pddl: 1 different costs from 8 to 8
 logistics-large-simple:p-a1-c2-s1750-p10-t2-g3-goal-3.pddl: 1 different costs from 12 to 12
 logistics-large-simple:p-a1-c2-s1750-p10-t2-g4-goal-4.pddl: 1 different costs from 16 to 16
 logistics-large-simple:p-a1-c2-s2000-p10-t2-g1-goal-1.pddl: 1 different costs from 4 to 4
 logistics-large-simple:p-a1-c2-s2000-p10-t2-g2-goal-2.pddl: 1 different costs from 8 to 8
+logistics-large-simple:p-a1-c2-s2000-p10-t2-g3-goal-3.pddl: 1 different costs from 12 to 12
 logistics-large-simple:p-a1-c2-s2000-p10-t2-g4-goal-4.pddl: 1 different costs from 16 to 16
 logistics-strips:0-p15.pddl: 5 different costs from 80 to 99
-logistics-strips:0-p16.pddl: 6 different costs from 87 to 107
+logistics-strips:0-p21.pddl: 5 different costs from 55 to 78
 logistics-strips:0-p22.pddl: 6 different costs from 71 to 94
 logistics-strips:0-p30.pddl: 6 different costs from 75 to 92
 logistics-strips:1-p01.pddl: 5 different costs from 32 to 36
@@ -805,7 +732,6 @@ logistics-strips:1-p03.pddl: 4 different costs from 90 to 94
 logistics-strips:1-p04.pddl: 4 different costs from 132 to 141
 logistics-strips:1-p05.pddl: 4 different costs from 175 to 194
 logistics-strips:1-p06.pddl: 1 different costs from 218 to 218
-logistics-strips:2-prob04.pddl: 5 different costs from 65 to 71
 logistics-strips:2-prob06.pddl: 4 different costs from 74 to 80
 logistics-strips:2-prob08.pddl: 3 different costs from 41 to 46
 logistics-strips:2-prob09.pddl: 4 different costs from 92 to 102
@@ -825,9 +751,10 @@ logistics-strips:2-prob25.pddl: 2 different costs from 210 to 213
 logistics-strips:2-prob26.pddl: 2 different costs from 222 to 238
 logistics-strips:2-prob27.pddl: 1 different costs from 174 to 174
 logistics-strips:2-prob30.pddl: 2 different costs from 157 to 158
+logistics-strips:2-prob35.pddl: 5 different costs from 31 to 36
 miconic-fulladl-adl:0-f12-1.pddl: 3 different costs from 41 to 43
 miconic-fulladl-adl:0-f12-3.pddl: 2 different costs from 40 to 42
-miconic-fulladl-adl:0-f16-0.pddl: 2 different costs from 54 to 56
+miconic-fulladl-adl:0-f14-3.pddl: 3 different costs from 43 to 48
 miconic-fulladl-adl:0-f18-2.pddl: 4 different costs from 60 to 68
 miconic-fulladl-adl:0-f19-4.pddl: 2 different costs from 62 to 64
 miconic-fulladl-adl:0-f20-4.pddl: 3 different costs from 66 to 70
@@ -845,8 +772,8 @@ miconic-fulladl-adl:0-f26-2.pddl: 2 different costs from 82 to 84
 miconic-fulladl-adl:0-f26-3.pddl: 3 different costs from 82 to 86
 miconic-fulladl-adl:0-f26-4.pddl: 2 different costs from 84 to 86
 miconic-fulladl-adl:0-f27-0.pddl: 3 different costs from 90 to 94
-miconic-fulladl-adl:0-f27-3.pddl: 2 different costs from 84 to 88
 miconic-fulladl-adl:0-f28-0.pddl: 1 different costs from 98 to 98
+miconic-fulladl-adl:0-f28-1.pddl: 2 different costs from 92 to 94
 miconic-fulladl-adl:0-f28-2.pddl: 1 different costs from 84 to 84
 miconic-fulladl-adl:0-f29-0.pddl: 1 different costs from 108 to 108
 miconic-fulladl-adl:0-f29-1.pddl: 1 different costs from 92 to 92
@@ -855,10 +782,11 @@ miconic-fulladl-adl:0-f30-0.pddl: 1 different costs from 98 to 98
 miconic-fulladl-adl:0-f30-1.pddl: 1 different costs from 102 to 102
 miconic-fulladl-adl:0-f30-3.pddl: 1 different costs from 104 to 104
 miconic-fulladl-adl:0-f30-4.pddl: 1 different costs from 100 to 100
-miconic-strips:0-p08.pddl: 4 different costs from 65 to 72
-miconic-strips:0-p19.pddl: 6 different costs from 134 to 151
-miconic-strips:0-p29.pddl: 6 different costs from 195 to 213
-miconic-strips:1-p05.pddl: 4 different costs from 109 to 128
+miconic-strips:0-p04.pddl: 5 different costs from 39 to 45
+miconic-strips:0-p21.pddl: 6 different costs from 138 to 157
+miconic-strips:1-p01.pddl: 3 different costs from 54 to 62
+miconic-strips:1-p03.pddl: 6 different costs from 81 to 97
+miconic-strips:1-p09.pddl: 5 different costs from 167 to 199
 miconic-strips:1-p20.pddl: 5 different costs from 334 to 389
 miconic-strips:1-p21.pddl: 5 different costs from 341 to 415
 miconic-strips:1-p22.pddl: 5 different costs from 362 to 422
@@ -870,21 +798,20 @@ miconic-strips:1-p27.pddl: 4 different costs from 442 to 459
 miconic-strips:1-p28.pddl: 3 different costs from 458 to 462
 miconic-strips:1-p29.pddl: 2 different costs from 464 to 468
 miconic-strips:1-p30.pddl: 4 different costs from 486 to 493
-miconic-strips:2-s10-1.pddl: 3 different costs from 34 to 37
-miconic-strips:2-s10-4.pddl: 2 different costs from 34 to 37
-miconic-strips:2-s12-2.pddl: 4 different costs from 42 to 45
-miconic-strips:2-s13-1.pddl: 4 different costs from 47 to 51
-miconic-strips:2-s15-1.pddl: 3 different costs from 58 to 60
-miconic-strips:2-s15-2.pddl: 4 different costs from 53 to 57
-miconic-strips:2-s24-2.pddl: 4 different costs from 85 to 93
-miconic-strips:2-s26-0.pddl: 2 different costs from 91 to 98
+miconic-strips:2-s10-0.pddl: 3 different costs from 33 to 39
+miconic-strips:2-s10-2.pddl: 3 different costs from 35 to 37
+miconic-strips:2-s13-4.pddl: 3 different costs from 46 to 50
+miconic-strips:2-s18-2.pddl: 4 different costs from 62 to 68
+miconic-strips:2-s18-4.pddl: 6 different costs from 61 to 69
+miconic-strips:2-s2-0.pddl: 1 different costs from 8 to 8
 miconic-strips:2-s26-2.pddl: 3 different costs from 96 to 100
-miconic-strips:2-s28-0.pddl: 4 different costs from 103 to 108
-miconic-strips:2-s30-3.pddl: 4 different costs from 107 to 112
-miconic-strips:2-s4-4.pddl: 2 different costs from 15 to 16
-miconic-strips:2-s5-0.pddl: 3 different costs from 18 to 20
-miconic-strips:2-s6-4.pddl: 2 different costs from 23 to 24
-miconic-strips:2-s8-1.pddl: 2 different costs from 28 to 29
+miconic-strips:2-s26-4.pddl: 4 different costs from 87 to 96
+miconic-strips:2-s5-2.pddl: 3 different costs from 16 to 18
+miconic-strips:2-s5-4.pddl: 2 different costs from 18 to 19
+miconic-strips:2-s6-0.pddl: 3 different costs from 20 to 22
+miconic-strips:2-s6-3.pddl: 2 different costs from 21 to 23
+miconic-strips:2-s7-4.pddl: 2 different costs from 26 to 27
+miconic-strips:2-s9-3.pddl: 2 different costs from 32 to 36
 movie-strips:0-prob01.pddl: 1 different costs from 7 to 7
 movie-strips:0-prob02.pddl: 1 different costs from 7 to 7
 movie-strips:0-prob03.pddl: 1 different costs from 7 to 7
@@ -917,16 +844,16 @@ movie-strips:0-prob29.pddl: 1 different costs from 7 to 7
 movie-strips:0-prob30.pddl: 1 different costs from 7 to 7
 mprime-strips:0-p07.pddl: 1 different costs from 15 to 15
 mprime-strips:0-p09.pddl: 5 different costs from 29 to 33
-mprime-strips:0-p14.pddl: 7 different costs from 21 to 40
 mprime-strips:0-p18.pddl: 1 different costs from 34 to 34
-mprime-strips:0-p20.pddl: 6 different costs from 42 to 85
 mprime-strips:0-p21.pddl: 3 different costs from 57 to 68
 mprime-strips:0-p22.pddl: 5 different costs from 32 to 38
 mprime-strips:0-p25.pddl: 5 different costs from 24 to 29
 mprime-strips:0-p26.pddl: 3 different costs from 34 to 36
+mprime-strips:0-p28.pddl: 3 different costs from 31 to 37
 mprime-strips:0-p29.pddl: 2 different costs from 39 to 41
 mprime-strips:0-p30.pddl: 5 different costs from 30 to 49
 mprime-strips:1-p03.pddl: 3 different costs from 36 to 47
+mprime-strips:1-p06.pddl: 4 different costs from 43 to 49
 mprime-strips:1-p07.pddl: 4 different costs from 33 to 40
 mprime-strips:1-p08.pddl: 2 different costs from 93 to 100
 mprime-strips:1-p09.pddl: 3 different costs from 82 to 86
@@ -970,12 +897,10 @@ no-mprime-strips:0-prob03.pddl: 1 different costs from 4 to 4
 no-mprime-strips:0-prob04.pddl: 2 different costs from 8 to 9
 no-mprime-strips:0-prob05.pddl: 2 different costs from 11 to 14
 no-mprime-strips:0-prob06.pddl: 3 different costs from 21 to 28
-no-mprime-strips:0-prob07.pddl: 2 different costs from 5 to 6
 no-mprime-strips:0-prob08.pddl: 3 different costs from 6 to 8
 no-mprime-strips:0-prob09.pddl: 4 different costs from 8 to 12
 no-mprime-strips:0-prob10.pddl: 3 different costs from 8 to 21
 no-mprime-strips:0-prob11.pddl: 4 different costs from 7 to 14
-no-mprime-strips:0-prob12.pddl: 2 different costs from 6 to 8
 no-mprime-strips:0-prob13.pddl: 3 different costs from 16 to 20
 no-mprime-strips:0-prob14.pddl: 3 different costs from 11 to 29
 no-mprime-strips:0-prob15.pddl: 2 different costs from 6 to 7
@@ -990,10 +915,12 @@ no-mprime-strips:0-prob25.pddl: 2 different costs from 4 to 6
 no-mprime-strips:0-prob26.pddl: 3 different costs from 6 to 8
 no-mprime-strips:0-prob27.pddl: 2 different costs from 5 to 7
 no-mprime-strips:0-prob28.pddl: 3 different costs from 7 to 12
+no-mprime-strips:0-prob29.pddl: 3 different costs from 4 to 6
 no-mprime-strips:0-prob30.pddl: 3 different costs from 9 to 11
 no-mprime-strips:0-prob31.pddl: 2 different costs from 4 to 5
 no-mprime-strips:0-prob32.pddl: 2 different costs from 7 to 8
 no-mprime-strips:0-prob33.pddl: 3 different costs from 13 to 15
+no-mprime-strips:0-prob34.pddl: 1 different costs from 4 to 4
 no-mystery-strips:0-prob01.pddl: 1 different costs from 5 to 5
 no-mystery-strips:0-prob02.pddl: 4 different costs from 8 to 12
 no-mystery-strips:0-prob03.pddl: 2 different costs from 4 to 6
@@ -1028,7 +955,6 @@ nomystery-strips:1-p01.pddl: 3 different costs from 39 to 44
 nomystery-strips:1-p02.pddl: 3 different costs from 49 to 60
 nomystery-strips:1-p03.pddl: 2 different costs from 68 to 69
 nomystery-strips:1-p04.pddl: 1 different costs from 72 to 72
-nomystery-strips:2-p03.pddl: 2 different costs from 15 to 19
 nomystery-strips:2-p04.pddl: 3 different costs from 20 to 23
 nomystery-strips:2-p05.pddl: 3 different costs from 26 to 30
 nomystery-strips:2-p06.pddl: 2 different costs from 31 to 33
@@ -1037,6 +963,7 @@ nomystery-strips:2-p11.pddl: 2 different costs from 12 to 13
 nomystery-strips:2-p14.pddl: 2 different costs from 19 to 20
 nomystery-strips:2-p15.pddl: 1 different costs from 25 to 25
 nomystery-strips:2-p19.pddl: 1 different costs from 39 to 39
+nomystery-strips:3-p02.pddl: 4 different costs from 22 to 25
 nomystery-strips:3-p03.pddl: 4 different costs from 30 to 35
 nomystery-strips:3-p04.pddl: 3 different costs from 34 to 37
 nomystery-strips:3-p05.pddl: 1 different costs from 36 to 36
@@ -1208,12 +1135,12 @@ organic-synthesis-split-strips:2-p12.pddl: 1 different costs from 59 to 59
 organic-synthesis-split-strips:2-p14.pddl: 1 different costs from 26 to 26
 organic-synthesis-split-strips:3-p06.pddl: 1 different costs from 28 to 28
 organic-synthesis-split-strips:3-p07.pddl: 1 different costs from 51 to 51
+organic-synthesis-strips:0-p01.pddl: 1 different costs from 1 to 1
 organic-synthesis-strips:0-p02.pddl: 1 different costs from 1 to 1
 organic-synthesis-strips:0-p05.pddl: 1 different costs from 2 to 2
 organic-synthesis-strips:0-p06.pddl: 1 different costs from 2 to 2
 organic-synthesis-strips:0-p07.pddl: 1 different costs from 2 to 2
 organic-synthesis-strips:0-p08.pddl: 1 different costs from 2 to 2
-organic-synthesis-strips:0-p10.pddl: 1 different costs from 2 to 2
 organic-synthesis-strips:0-p12.pddl: 1 different costs from 2 to 2
 organic-synthesis-strips:0-p13.pddl: 2 different costs from 2 to 3
 organic-synthesis-strips:0-p14.pddl: 1 different costs from 2 to 2
@@ -1222,12 +1149,12 @@ organic-synthesis-strips:0-p17.pddl: 1 different costs from 3 to 3
 organic-synthesis-strips:0-p18.pddl: 1 different costs from 3 to 3
 organic-synthesis-strips:0-p19.pddl: 1 different costs from 4 to 4
 organic-synthesis-strips:0-p20.pddl: 1 different costs from 5 to 5
-organic-synthesis-strips:1-p01.pddl: 1 different costs from 2 to 2
+organic-synthesis-strips:1-p02.pddl: 1 different costs from 2 to 2
 organic-synthesis-strips:1-p03.pddl: 1 different costs from 2 to 2
 organic-synthesis-strips:1-p04.pddl: 1 different costs from 2 to 2
 organic-synthesis-strips:1-p05.pddl: 1 different costs from 2 to 2
+organic-synthesis-strips:1-p06.pddl: 1 different costs from 2 to 2
 organic-synthesis-strips:1-p07.pddl: 1 different costs from 2 to 2
-organic-synthesis-strips:1-p08.pddl: 1 different costs from 2 to 2
 organic-synthesis-strips:1-p09.pddl: 2 different costs from 3 to 4
 organic-synthesis-strips:1-p10.pddl: 1 different costs from 4 to 4
 organic-synthesis-strips:1-p11.pddl: 1 different costs from 5 to 5
@@ -1239,12 +1166,12 @@ organic-synthesis-strips:1-p17.pddl: 1 different costs from 9 to 9
 organic-synthesis-strips:1-p18.pddl: 1 different costs from 13 to 13
 organic-synthesis-strips:1-p19.pddl: 1 different costs from 9 to 9
 parcprinter-strips:0-p03.pddl: 1 different costs from 22 to 22
-parcprinter-strips:0-p06.pddl: 1 different costs from 25 to 25
+parcprinter-strips:0-p05.pddl: 1 different costs from 17 to 17
 parcprinter-strips:0-p07.pddl: 3 different costs from 29 to 35
 parcprinter-strips:0-p08.pddl: 1 different costs from 29 to 29
+parcprinter-strips:0-p09.pddl: 1 different costs from 43 to 43
 parcprinter-strips:0-p10.pddl: 3 different costs from 36 to 42
 parcprinter-strips:0-p11.pddl: 2 different costs from 43 to 46
-parcprinter-strips:0-p12.pddl: 1 different costs from 50 to 50
 parcprinter-strips:0-p13.pddl: 1 different costs from 33 to 33
 parcprinter-strips:0-p15.pddl: 4 different costs from 50 to 65
 parcprinter-strips:0-p16.pddl: 3 different costs from 57 to 66
@@ -1255,7 +1182,6 @@ parcprinter-strips:0-p20.pddl: 3 different costs from 71 to 77
 parcprinter-strips:0-p21.pddl: 1 different costs from 72 to 72
 parcprinter-strips:0-p22.pddl: 1 different costs from 84 to 84
 parcprinter-strips:0-p23.pddl: 1 different costs from 49 to 49
-parcprinter-strips:0-p24.pddl: 1 different costs from 75 to 75
 parcprinter-strips:0-p25.pddl: 5 different costs from 85 to 97
 parcprinter-strips:0-p26.pddl: 1 different costs from 89 to 89
 parcprinter-strips:0-p27.pddl: 1 different costs from 65 to 65
@@ -1268,6 +1194,7 @@ parcprinter-strips:1-p15.pddl: 3 different costs from 60 to 69
 parcprinter-strips:1-p23.pddl: 4 different costs from 106 to 127
 parcprinter-strips:1-p24.pddl: 1 different costs from 89 to 89
 parcprinter-strips:1-p26.pddl: 1 different costs from 89 to 89
+parcprinter-strips:2-p10.pddl: 1 different costs from 40 to 40
 parking-strips:1-p15.pddl: 4 different costs from 148 to 154
 parking-strips:1-p16.pddl: 4 different costs from 157 to 163
 parking-strips:1-p17.pddl: 4 different costs from 144 to 161
@@ -1279,7 +1206,7 @@ parking-strips:1-p22.pddl: 4 different costs from 189 to 206
 parking-strips:1-p23.pddl: 1 different costs from 229 to 229
 parking-strips:1-p24.pddl: 3 different costs from 188 to 192
 parking-strips:1-p25.pddl: 3 different costs from 216 to 230
-parking-strips:3-p_32_1.pddl: 6 different costs from 92 to 126
+parking-strips:3-p_32_2.pddl: 6 different costs from 82 to 133
 parking-strips:3-p_32_3.pddl: 3 different costs from 93 to 109
 parking-strips:3-p_34_1.pddl: 4 different costs from 94 to 132
 parking-strips:3-p_34_2.pddl: 5 different costs from 75 to 129
@@ -1291,12 +1218,12 @@ parking-strips:3-p_38_2.pddl: 3 different costs from 119 to 144
 parking-strips:3-p_38_3.pddl: 5 different costs from 80 to 127
 parking-strips:3-p_40_2.pddl: 3 different costs from 95 to 117
 parking-strips:3-p_40_3.pddl: 4 different costs from 116 to 143
+parking-strips:5-pfile09-034.pddl: 5 different costs from 70 to 101
 parking-strips:5-pfile10-040.pddl: 5 different costs from 62 to 93
 parking-strips:5-pfile11-041.pddl: 5 different costs from 84 to 105
 parking-strips:5-pfile11-043.pddl: 6 different costs from 71 to 107
 parking-strips:5-pfile11-044.pddl: 5 different costs from 79 to 111
 parking-strips:5-pfile12-045.pddl: 5 different costs from 68 to 113
-parking-strips:5-pfile12-046.pddl: 6 different costs from 80 to 107
 parking-strips:5-pfile13-049.pddl: 4 different costs from 62 to 111
 pathways-noneg-adl:0-p01.pddl: 2 different costs from 6 to 9
 pathways-noneg-adl:0-p02.pddl: 4 different costs from 12 to 15
@@ -1325,9 +1252,9 @@ pathways-noneg-adl:0-p27.pddl: 12 different costs from 244 to 270
 pathways-noneg-adl:0-p28.pddl: 11 different costs from 239 to 253
 pathways-noneg-adl:0-p29.pddl: 6 different costs from 278 to 287
 pathways-noneg-adl:0-p30.pddl: 6 different costs from 309 to 326
-pathways-strips:0-p17.pddl: 1 different costs from 45 to 45
-pathways-strips:0-p22.pddl: 1 different costs from 45 to 45
+pathways-strips:0-p19.pddl: 1 different costs from 45 to 45
 pathways-strips:0-p23.pddl: 1 different costs from 45 to 45
+pathways-strips:0-p26.pddl: 1 different costs from 45 to 45
 pathways-strips:0-p30.pddl: 3 different costs from 188 to 197
 pathways-strips:1-p03.pddl: 3 different costs from 18 to 27
 pathways-strips:1-p04.pddl: 4 different costs from 17 to 21
@@ -1355,36 +1282,36 @@ pathways-strips:1-p27.pddl: 9 different costs from 253 to 273
 pathways-strips:1-p28.pddl: 9 different costs from 233 to 253
 pathways-strips:1-p29.pddl: 8 different costs from 275 to 289
 pathways-strips:1-p30.pddl: 6 different costs from 309 to 334
-pegsol-strips:0-p03.pddl: 4 different costs from 19 to 22
-pegsol-strips:0-p04.pddl: 1 different costs from 13 to 13
 pegsol-strips:0-p05.pddl: 1 different costs from 9 to 9
+pegsol-strips:0-p07.pddl: 2 different costs from 9 to 10
 pegsol-strips:0-p09.pddl: 1 different costs from 9 to 9
 pegsol-strips:0-p12.pddl: 4 different costs from 18 to 21
 pegsol-strips:0-p14.pddl: 1 different costs from 13 to 13
-pegsol-strips:0-p16.pddl: 2 different costs from 16 to 17
+pegsol-strips:0-p18.pddl: 1 different costs from 20 to 20
+pegsol-strips:0-p19.pddl: 2 different costs from 21 to 22
 pegsol-strips:0-p20.pddl: 3 different costs from 22 to 24
 pegsol-strips:0-p22.pddl: 3 different costs from 19 to 21
 pegsol-strips:0-p23.pddl: 3 different costs from 26 to 30
-pegsol-strips:0-p25.pddl: 9 different costs from 26 to 35
 pegsol-strips:0-p26.pddl: 8 different costs from 30 to 41
 pegsol-strips:0-p28.pddl: 7 different costs from 41 to 48
 pegsol-strips:0-p29.pddl: 6 different costs from 38 to 45
 pegsol-strips:0-p30.pddl: 5 different costs from 52 to 57
+pegsol-strips:1-p04.pddl: 4 different costs from 17 to 20
 pegsol-strips:1-p07.pddl: 1 different costs from 10 to 10
-pegsol-strips:1-p09.pddl: 3 different costs from 16 to 19
 pegsol-strips:1-p13.pddl: 1 different costs from 10 to 10
 pegsol-strips:1-p14.pddl: 2 different costs from 16 to 17
 pegsol-strips:1-p17.pddl: 4 different costs from 26 to 29
-pegsol-strips:1-p19.pddl: 2 different costs from 15 to 16
-pegsol-strips:1-p21.pddl: 5 different costs from 26 to 30
+pegsol-strips:1-p24.pddl: 4 different costs from 27 to 30
 pegsol-strips:1-p25.pddl: 4 different costs from 17 to 21
+pegsol-strips:1-p26.pddl: 2 different costs from 14 to 15
 pegsol-strips:2-p02.pddl: 4 different costs from 25 to 28
 pegsol-strips:2-p04.pddl: 5 different costs from 23 to 28
 pegsol-strips:2-p06.pddl: 5 different costs from 24 to 28
-pegsol-strips:2-p08.pddl: 6 different costs from 23 to 29
-pegsol-strips:3-p15.pddl: 4 different costs from 21 to 26
+pegsol-strips:2-p07.pddl: 5 different costs from 22 to 27
+pegsol-strips:2-p13.pddl: 5 different costs from 29 to 33
 pegsol-strips:4-p06.pddl: 6 different costs from 12 to 17
-pegsol-strips:4-p12.pddl: 4 different costs from 20 to 24
+pegsol-strips:4-p08.pddl: 3 different costs from 18 to 21
+pegsol-strips:4-p15.pddl: 5 different costs from 23 to 27
 petri-net-alignment-strips:0-p01.pddl: 3 different costs from 240 to 242
 petri-net-alignment-strips:0-p02.pddl: 4 different costs from 287 to 307
 petri-net-alignment-strips:0-p03.pddl: 4 different costs from 342 to 360
@@ -1465,6 +1392,7 @@ pipesworld-tankage-nosplit:p46-net5-b26-g6-t50.pddl: 1 different costs from 59 t
 pipesworld-tankage-nosplit:p48-net5-b28-g7-t50.pddl: 2 different costs from 75 to 121
 pipesworld-tankage-nosplit:p49-net5-b30-g6-t50.pddl: 3 different costs from 33 to 49
 pipesworld-tankage-nosplit:p50-net5-b30-g8-t50.pddl: 2 different costs from 38 to 49
+pipesworld-tankage-strips:0-p11.pddl: 3 different costs from 26 to 58
 pipesworld-tankage-strips:0-p12.pddl: 6 different costs from 42 to 58
 pipesworld-tankage-strips:0-p13.pddl: 3 different costs from 20 to 26
 pipesworld-tankage-strips:0-p15.pddl: 6 different costs from 38 to 72
@@ -1485,7 +1413,6 @@ pipesworld-tankage-strips:1-p20.pddl: 6 different costs from 52 to 85
 pipesworld-tankage-strips:1-p21.pddl: 6 different costs from 39 to 90
 pipesworld-tankage-strips:1-p22.pddl: 6 different costs from 44 to 105
 pipesworld-tankage-strips:1-p23.pddl: 3 different costs from 51 to 83
-pipesworld-tankage-strips:1-p24.pddl: 8 different costs from 41 to 67
 pipesworld-tankage-strips:1-p25.pddl: 2 different costs from 30 to 32
 pipesworld-tankage-strips:1-p26.pddl: 3 different costs from 65 to 85
 pipesworld-tankage-strips:1-p27.pddl: 3 different costs from 42 to 48
@@ -1495,7 +1422,6 @@ pipesworld-tankage-strips:1-p30.pddl: 5 different costs from 40 to 75
 pipesworld-tankage-strips:2-p44-net5-b24-g5-t80.pddl: 1 different costs from 86 to 86
 pipesworld-tankage-strips:2-p49-net5-b30-g6-t50.pddl: 2 different costs from 40 to 87
 pipesworld-tankage-strips:2-p50-net5-b30-g8-t50.pddl: 3 different costs from 65 to 73
-psr-small-strips:0-p02-s5-n1-l3-f30.pddl: 1 different costs from 11 to 11
 psr-small-strips:0-p03-s7-n1-l3-f70.pddl: 1 different costs from 11 to 11
 psr-small-strips:0-p05-s9-n1-l4-f30.pddl: 1 different costs from 11 to 11
 psr-small-strips:0-p07-s11-n1-l4-f70.pddl: 1 different costs from 11 to 11
@@ -1504,9 +1430,9 @@ psr-small-strips:0-p11-s18-n2-l2-f50.pddl: 1 different costs from 19 to 19
 psr-small-strips:0-p13-s22-n2-l3-f50.pddl: 1 different costs from 15 to 15
 psr-small-strips:0-p15-s24-n2-l4-f10.pddl: 2 different costs from 10 to 11
 psr-small-strips:0-p16-s29-n2-l5-f30.pddl: 1 different costs from 25 to 25
+psr-small-strips:0-p18-s31-n2-l5-f70.pddl: 1 different costs from 12 to 12
 psr-small-strips:0-p19-s33-n3-l2-f30.pddl: 2 different costs from 25 to 31
 psr-small-strips:0-p22-s37-n3-l3-f30.pddl: 1 different costs from 33 to 33
-psr-small-strips:0-p25-s40-n3-l4-f10.pddl: 1 different costs from 9 to 9
 psr-small-strips:0-p27-s42-n3-l4-f50.pddl: 1 different costs from 21 to 21
 psr-small-strips:0-p28-s43-n3-l4-f70.pddl: 1 different costs from 14 to 14
 psr-small-strips:0-p29-s45-n3-l5-f30.pddl: 2 different costs from 21 to 27
@@ -1517,6 +1443,7 @@ psr-small-strips:0-p33-s51-n4-l2-f70.pddl: 1 different costs from 21 to 21
 psr-small-strips:0-p34-s55-n4-l3-f70.pddl: 1 different costs from 21 to 21
 psr-small-strips:0-p35-s57-n5-l2-f30.pddl: 3 different costs from 22 to 27
 psr-small-strips:0-p36-s65-n6-l2-f30.pddl: 3 different costs from 22 to 32
+psr-small-strips:0-p39-s79-n3-l3-f70.pddl: 1 different costs from 23 to 23
 psr-small-strips:0-p40-s80-n3-l4-f10.pddl: 1 different costs from 20 to 20
 psr-small-strips:0-p42-s82-n3-l4-f50.pddl: 1 different costs from 30 to 30
 psr-small-strips:0-p43-s83-n3-l4-f70.pddl: 1 different costs from 20 to 20
@@ -1533,7 +1460,6 @@ rovers-large-simple:p-r1-w1500-o1-1-g8-goal-8.pddl: 4 different costs from 91 to
 rovers-large-simple:p-r1-w2000-o1-1-g4-goal-4.pddl: 2 different costs from 38 to 40
 rovers-large-simple:p-r1-w2000-o1-1-g6-goal-6.pddl: 1 different costs from 75 to 75
 rovers-large-simple:p-r1-w2000-o1-1-g8-goal-8.pddl: 2 different costs from 105 to 107
-rovers-large-simple:p-r1-w2500-o1-1-g2-goal-2.pddl: 1 different costs from 22 to 22
 rovers-large-simple:p-r1-w2500-o1-1-g4-goal-4.pddl: 2 different costs from 36 to 50
 rovers-large-simple:p-r1-w2500-o1-1-g6-goal-6.pddl: 4 different costs from 82 to 88
 rovers-large-simple:p-r1-w2500-o1-1-g8-goal-8.pddl: 3 different costs from 104 to 116
@@ -1543,6 +1469,7 @@ rovers-large-simple:p-r1-w3000-o1-1-g8-goal-8.pddl: 2 different costs from 72 to
 rovers-large-simple:p-r1-w3500-o1-1-g4-goal-4.pddl: 1 different costs from 45 to 45
 rovers-large-simple:p-r1-w3500-o1-1-g6-goal-6.pddl: 4 different costs from 61 to 77
 rovers-large-simple:p-r1-w3500-o1-1-g8-goal-8.pddl: 3 different costs from 87 to 109
+rovers-large-simple:p-r1-w4000-o1-1-g2-goal-2.pddl: 1 different costs from 19 to 19
 rovers-large-simple:p-r1-w4000-o1-1-g4-goal-4.pddl: 2 different costs from 43 to 47
 rovers-large-simple:p-r1-w4000-o1-1-g6-goal-6.pddl: 4 different costs from 62 to 92
 rovers-large-simple:p-r1-w4000-o1-1-g8-goal-8.pddl: 3 different costs from 102 to 128
@@ -1585,18 +1512,16 @@ rovers-strips:2-p37.pddl: 3 different costs from 360 to 390
 rovers-strips:2-p38.pddl: 3 different costs from 301 to 320
 rovers-strips:2-p39.pddl: 1 different costs from 392 to 392
 rovers-strips:2-p40.pddl: 3 different costs from 355 to 374
+satellite-strips:1-p08.pddl: 2 different costs from 46 to 47
 satellite-strips:1-p09.pddl: 2 different costs from 52 to 53
 satellite-strips:1-p10.pddl: 2 different costs from 50 to 52
-satellite-strips:1-p12.pddl: 2 different costs from 61 to 62
-satellite-strips:1-p13.pddl: 1 different costs from 63 to 63
+satellite-strips:1-p11.pddl: 2 different costs from 59 to 60
 satellite-strips:1-p14.pddl: 1 different costs from 68 to 68
 satellite-strips:1-p15.pddl: 2 different costs from 73 to 78
 satellite-strips:1-p16.pddl: 1 different costs from 79 to 79
-satellite-strips:1-p18.pddl: 2 different costs from 89 to 91
+satellite-strips:1-p17.pddl: 1 different costs from 85 to 85
 satellite-strips:1-p19.pddl: 1 different costs from 98 to 98
-satellite-strips:1-p20.pddl: 1 different costs from 104 to 104
 satellite-strips:1-p21.pddl: 3 different costs from 102 to 125
-satellite-strips:1-p22.pddl: 3 different costs from 104 to 107
 satellite-strips:1-p23.pddl: 1 different costs from 114 to 114
 satellite-strips:1-p24.pddl: 3 different costs from 116 to 119
 satellite-strips:1-p25.pddl: 2 different costs from 126 to 127
@@ -1607,17 +1532,20 @@ satellite-strips:1-p29.pddl: 2 different costs from 134 to 135
 satellite-strips:1-p30.pddl: 1 different costs from 145 to 145
 satellite-strips:2-p25-HC-pfile5.pddl: 1 different costs from 127 to 127
 satellite-strips:2-p26-HC-pfile6.pddl: 2 different costs from 138 to 139
+satellite-strips:2-p27-HC-pfile7.pddl: 2 different costs from 138 to 139
 satellite-strips:2-p28-HC-pfile8.pddl: 1 different costs from 194 to 194
 satellite-strips:2-p29-HC-pfile9.pddl: 3 different costs from 189 to 192
 satellite-strips:2-p30-HC-pfile10.pddl: 2 different costs from 229 to 230
 satellite-strips:2-p31-HC-pfile11.pddl: 2 different costs from 270 to 271
 satellite-strips:2-p32-HC-pfile12.pddl: 2 different costs from 367 to 368
 satellite-strips:2-p33-HC-pfile13.pddl: 1 different costs from 469 to 469
+satellite-strips:2-p34-HC-pfile14.pddl: 3 different costs from 291 to 293
 satellite-strips:2-p35-HC-pfile15.pddl: 2 different costs from 381 to 382
 satellite-strips:2-p36-HC-pfile16.pddl: 2 different costs from 363 to 365
-scanalyzer-strips:0-p02.pddl: 2 different costs from 10 to 12
+scanalyzer-strips:0-p06.pddl: 5 different costs from 42 to 54
+scanalyzer-strips:0-p08.pddl: 1 different costs from 8 to 8
 scanalyzer-strips:0-p16.pddl: 3 different costs from 10 to 18
-scanalyzer-strips:0-p20.pddl: 3 different costs from 18 to 34
+scanalyzer-strips:0-p24.pddl: 2 different costs from 28 to 52
 scanalyzer-strips:0-p30.pddl: 2 different costs from 40 to 76
 scanalyzer-strips:1-p08.pddl: 1 different costs from 62 to 62
 scanalyzer-strips:1-p09.pddl: 1 different costs from 68 to 68
@@ -1642,13 +1570,14 @@ scanalyzer-strips:1-p27.pddl: 1 different costs from 176 to 176
 scanalyzer-strips:1-p28.pddl: 1 different costs from 182 to 182
 scanalyzer-strips:1-p29.pddl: 1 different costs from 188 to 188
 scanalyzer-strips:1-p30.pddl: 1 different costs from 194 to 194
-scanalyzer-strips:2-p11.pddl: 2 different costs from 10 to 14
 scanalyzer-strips:2-p13.pddl: 6 different costs from 38 to 60
 scanalyzer-strips:3-p20.pddl: 7 different costs from 79 to 137
 schedule-adl:0-probschedule-8-0.pddl: 1 different costs from 9 to 9
+schedule-adl:1-p005.pddl: 1 different costs from 11 to 11
+schedule-adl:1-p008.pddl: 1 different costs from 13 to 13
 schedule-adl:1-p011.pddl: 2 different costs from 14 to 16
-schedule-adl:1-p014.pddl: 1 different costs from 9 to 9
 schedule-adl:1-p021.pddl: 1 different costs from 9 to 9
+schedule-adl:1-p026.pddl: 1 different costs from 19 to 19
 schedule-adl:1-p029.pddl: 2 different costs from 15 to 17
 schedule-adl:1-p033.pddl: 1 different costs from 15 to 15
 schedule-adl:1-p035.pddl: 1 different costs from 12 to 12
@@ -1660,17 +1589,15 @@ schedule-adl:1-p063.pddl: 1 different costs from 16 to 16
 schedule-adl:1-p075.pddl: 1 different costs from 15 to 15
 schedule-adl:1-p077.pddl: 1 different costs from 23 to 23
 schedule-adl:1-p082.pddl: 1 different costs from 14 to 14
+schedule-adl:1-p091.pddl: 2 different costs from 23 to 25
 schedule-adl:1-p097.pddl: 1 different costs from 25 to 25
 schedule-adl:1-p100.pddl: 2 different costs from 24 to 26
-schedule-adl:1-p101.pddl: 1 different costs from 20 to 20
 schedule-adl:1-p102.pddl: 1 different costs from 14 to 14
 schedule-adl:1-p105.pddl: 1 different costs from 20 to 20
-schedule-adl:1-p131.pddl: 1 different costs from 17 to 17
-schedule-adl:1-p133.pddl: 1 different costs from 19 to 19
-schedule-adl:1-p134.pddl: 1 different costs from 15 to 15
 schedule-adl:1-p136.pddl: 1 different costs from 26 to 26
 schedule-adl:1-p139.pddl: 2 different costs from 25 to 28
 schedule-adl:1-p148.pddl: 2 different costs from 17 to 21
+schedule-adl:1-p154.pddl: 1 different costs from 23 to 23
 schedule-adl:1-p157.pddl: 1 different costs from 20 to 20
 schedule-adl:1-p161.pddl: 1 different costs from 20 to 20
 schedule-adl:1-p163.pddl: 1 different costs from 27 to 27
@@ -1687,7 +1614,7 @@ snake-strips:1-p16.pddl: 1 different costs from 110 to 110
 snake-strips:1-p17.pddl: 1 different costs from 134 to 134
 snake-strips:1-p18.pddl: 1 different costs from 139 to 139
 snake-strips:1-p19.pddl: 1 different costs from 162 to 162
-snake-strips:1-p20.pddl: 1 different costs from 176 to 176
+snake-strips:1-p21.pddl: 1 different costs from 176 to 176
 snake-strips:1-p22.pddl: 1 different costs from 214 to 214
 snake-strips:1-p23.pddl: 1 different costs from 234 to 234
 snake-strips:1-p24.pddl: 1 different costs from 208 to 208
@@ -1695,6 +1622,7 @@ snake-strips:1-p25.pddl: 1 different costs from 230 to 230
 snake-strips:1-p26.pddl: 1 different costs from 250 to 250
 snake-strips:1-p27.pddl: 1 different costs from 313 to 313
 snake-strips:1-p28.pddl: 1 different costs from 351 to 351
+snake-strips:1-p29.pddl: 1 different costs from 375 to 375
 snake-strips:1-p30.pddl: 1 different costs from 349 to 349
 snake-strips:2-p14.pddl: 1 different costs from 108 to 108
 snake-strips:3-p04.pddl: 1 different costs from 125 to 125
@@ -1703,7 +1631,6 @@ snake-strips:3-p12.pddl: 1 different costs from 112 to 112
 snake-strips:3-p13.pddl: 1 different costs from 143 to 143
 snake-strips:3-p14.pddl: 1 different costs from 194 to 194
 snake-strips:3-p16.pddl: 1 different costs from 103 to 103
-snake-strips:3-p17.pddl: 1 different costs from 163 to 163
 snake-strips:3-p19.pddl: 1 different costs from 318 to 318
 sokoban-strips:0-p02.pddl: 1 different costs from 228 to 228
 sokoban-strips:0-p04.pddl: 8 different costs from 82 to 150
@@ -1715,16 +1642,16 @@ sokoban-strips:0-p20.pddl: 1 different costs from 307 to 307
 sokoban-strips:0-p23.pddl: 8 different costs from 100 to 257
 sokoban-strips:0-p24.pddl: 3 different costs from 47 to 83
 sokoban-strips:0-p28.pddl: 2 different costs from 83 to 91
-sokoban-strips:1-p03.pddl: 8 different costs from 31 to 73
-sokoban-strips:1-p04.pddl: 10 different costs from 94 to 162
 sokoban-strips:1-p09.pddl: 4 different costs from 167 to 259
 sokoban-strips:1-p13.pddl: 1 different costs from 72 to 72
 sokoban-strips:1-p14.pddl: 7 different costs from 45 to 91
 sokoban-strips:1-p15.pddl: 5 different costs from 41 to 103
 sokoban-strips:1-p21.pddl: 6 different costs from 88 to 120
+sokoban-strips:2-p01.pddl: 3 different costs from 35 to 42
 sokoban-strips:2-p02.pddl: 4 different costs from 92 to 106
 sokoban-strips:2-p05.pddl: 3 different costs from 168 to 238
 sokoban-strips:2-p06.pddl: 4 different costs from 265 to 430
+sokoban-strips:2-p08.pddl: 6 different costs from 92 to 128
 sokoban-strips:2-p10.pddl: 5 different costs from 25 to 55
 sokoban-strips:2-p13.pddl: 6 different costs from 80 to 134
 sokoban-strips:2-p15.pddl: 1 different costs from 228 to 228
@@ -1787,6 +1714,7 @@ tetris-strips:1-p19.pddl: 2 different costs from 49 to 78
 tetris-strips:1-p20.pddl: 1 different costs from 235 to 235
 tetris-strips:1-p22.pddl: 6 different costs from 43 to 51
 thoughtful-strips:0-p08.pddl: 4 different costs from 110 to 119
+thoughtful-strips:0-p09.pddl: 4 different costs from 87 to 96
 thoughtful-strips:0-p12.pddl: 5 different costs from 108 to 164
 thoughtful-strips:0-p14.pddl: 5 different costs from 105 to 142
 thoughtful-strips:0-p15.pddl: 5 different costs from 128 to 176
@@ -1811,7 +1739,6 @@ thoughtful-strips:1-p28.pddl: 5 different costs from 88 to 108
 thoughtful-strips:1-p30.pddl: 3 different costs from 124 to 139
 thoughtful-strips:3-target-typed-21.pddl: 1 different costs from 128 to 128
 thoughtful-strips:3-target-typed-22.pddl: 1 different costs from 123 to 123
-thoughtful-strips:3-target-typed-23.pddl: 5 different costs from 114 to 137
 thoughtful-strips:3-target-typed-24.pddl: 4 different costs from 110 to 157
 thoughtful-strips:3-target-typed-25.pddl: 6 different costs from 106 to 126
 thoughtful-strips:3-target-typed-26.pddl: 5 different costs from 111 to 142
@@ -1848,6 +1775,7 @@ tidybot-strips:4-p18.pddl: 3 different costs from 58 to 69
 tidybot-strips:4-p19.pddl: 3 different costs from 170 to 222
 tpp-strips:0-p13.pddl: 4 different costs from 334 to 466
 tpp-strips:0-p14.pddl: 4 different costs from 388 to 448
+tpp-strips:0-p17.pddl: 4 different costs from 470 to 648
 tpp-strips:0-p18.pddl: 2 different costs from 475 to 573
 tpp-strips:0-p19.pddl: 3 different costs from 728 to 744
 tpp-strips:0-p20.pddl: 2 different costs from 684 to 710
@@ -1857,7 +1785,6 @@ tpp-strips:0-p23.pddl: 1 different costs from 923 to 923
 tpp-strips:0-p24.pddl: 2 different costs from 823 to 1115
 tpp-strips:0-p26.pddl: 2 different costs from 925 to 1321
 tpp-strips:0-p28.pddl: 2 different costs from 1339 to 1355
-tpp-strips:1-p15.pddl: 4 different costs from 262 to 308
 tpp-strips:1-p17.pddl: 4 different costs from 365 to 479
 tpp-strips:1-p18.pddl: 3 different costs from 416 to 440
 tpp-strips:1-p19.pddl: 4 different costs from 227 to 274
@@ -1870,12 +1797,13 @@ tpp-strips:1-p25.pddl: 2 different costs from 437 to 581
 tpp-strips:1-p26.pddl: 1 different costs from 478 to 478
 tpp-strips:1-p28.pddl: 1 different costs from 396 to 396
 tpp-strips:1-p29.pddl: 1 different costs from 552 to 552
-tpp-strips:2-p20.pddl: 4 different costs from 150 to 242
+tpp-strips:2-p24.pddl: 5 different costs from 159 to 217
 tpp-strips:2-p25.pddl: 3 different costs from 197 to 247
 tpp-strips:2-p26.pddl: 4 different costs from 196 to 238
 tpp-strips:2-p28.pddl: 4 different costs from 230 to 296
 tpp-strips:2-p29.pddl: 4 different costs from 247 to 381
 tpp-strips:2-p30.pddl: 2 different costs from 268 to 347
+transport-strips:1-p12.pddl: 4 different costs from 189 to 221
 transport-strips:1-p13.pddl: 2 different costs from 246 to 266
 transport-strips:1-p14.pddl: 2 different costs from 337 to 396
 transport-strips:1-p15.pddl: 4 different costs from 352 to 359
@@ -1896,9 +1824,8 @@ transport-strips:3-p17.pddl: 2 different costs from 420 to 464
 transport-strips:3-p18.pddl: 2 different costs from 484 to 541
 transport-strips:3-p19.pddl: 2 different costs from 404 to 439
 transport-strips:5-p04.pddl: 4 different costs from 151 to 199
-transport-strips:5-p05.pddl: 4 different costs from 217 to 288
-transport-strips:5-p06.pddl: 4 different costs from 170 to 366
 transport-strips:5-p07.pddl: 6 different costs from 290 to 449
+transport-strips:5-p09.pddl: 4 different costs from 297 to 363
 transport-strips:5-p14.pddl: 3 different costs from 477 to 729
 transport-strips:5-p15.pddl: 3 different costs from 532 to 720
 transport-strips:5-p16.pddl: 2 different costs from 594 to 662
@@ -1924,175 +1851,46 @@ trucks-strips:0-p06.pddl: 3 different costs from 34 to 36
 trucks-strips:0-p07.pddl: 1 different costs from 26 to 26
 trucks-strips:0-p08.pddl: 4 different costs from 30 to 35
 trucks-strips:0-p09.pddl: 2 different costs from 32 to 35
-visitall-multidimensional-3-dim-visitall-CLOSE-g1:p0.pddl: 1 different costs from 3 to 3
-visitall-multidimensional-3-dim-visitall-CLOSE-g1:p1.pddl: 1 different costs from 4 to 4
-visitall-multidimensional-3-dim-visitall-CLOSE-g1:p2.pddl: 1 different costs from 5 to 5
-visitall-multidimensional-3-dim-visitall-CLOSE-g1:p3.pddl: 1 different costs from 7 to 7
-visitall-multidimensional-3-dim-visitall-CLOSE-g1:p4.pddl: 1 different costs from 11 to 11
-visitall-multidimensional-3-dim-visitall-CLOSE-g1:p5.pddl: 1 different costs from 3 to 3
-visitall-multidimensional-3-dim-visitall-CLOSE-g1:p6.pddl: 1 different costs from 6 to 6
-visitall-multidimensional-3-dim-visitall-CLOSE-g1:p7.pddl: 1 different costs from 15 to 15
-visitall-multidimensional-3-dim-visitall-CLOSE-g1:p8.pddl: 1 different costs from 12 to 12
-visitall-multidimensional-3-dim-visitall-CLOSE-g1:p9.pddl: 1 different costs from 11 to 11
-visitall-multidimensional-3-dim-visitall-CLOSE-g2:p0.pddl: 1 different costs from 5 to 5
-visitall-multidimensional-3-dim-visitall-CLOSE-g2:p1.pddl: 1 different costs from 7 to 7
-visitall-multidimensional-3-dim-visitall-CLOSE-g2:p2.pddl: 1 different costs from 15 to 15
-visitall-multidimensional-3-dim-visitall-CLOSE-g2:p3.pddl: 1 different costs from 19 to 19
-visitall-multidimensional-3-dim-visitall-CLOSE-g2:p4.pddl: 1 different costs from 19 to 19
-visitall-multidimensional-3-dim-visitall-CLOSE-g2:p5.pddl: 1 different costs from 12 to 12
-visitall-multidimensional-3-dim-visitall-CLOSE-g2:p6.pddl: 1 different costs from 14 to 14
-visitall-multidimensional-3-dim-visitall-CLOSE-g2:p7.pddl: 1 different costs from 49 to 49
-visitall-multidimensional-3-dim-visitall-CLOSE-g2:p8.pddl: 1 different costs from 28 to 28
-visitall-multidimensional-3-dim-visitall-CLOSE-g2:p9.pddl: 1 different costs from 30 to 30
-visitall-multidimensional-3-dim-visitall-CLOSE-g3:p0.pddl: 2 different costs from 7 to 9
-visitall-multidimensional-3-dim-visitall-CLOSE-g3:p1.pddl: 3 different costs from 13 to 17
-visitall-multidimensional-3-dim-visitall-CLOSE-g3:p2.pddl: 2 different costs from 24 to 26
-visitall-multidimensional-3-dim-visitall-CLOSE-g3:p3.pddl: 4 different costs from 23 to 31
-visitall-multidimensional-3-dim-visitall-CLOSE-g3:p4.pddl: 1 different costs from 23 to 23
-visitall-multidimensional-3-dim-visitall-CLOSE-g3:p5.pddl: 3 different costs from 13 to 17
-visitall-multidimensional-3-dim-visitall-CLOSE-g3:p6.pddl: 2 different costs from 43 to 47
-visitall-multidimensional-3-dim-visitall-CLOSE-g3:p7.pddl: 2 different costs from 13 to 15
-visitall-multidimensional-3-dim-visitall-CLOSE-g3:p8.pddl: 3 different costs from 30 to 34
-visitall-multidimensional-3-dim-visitall-CLOSE-g3:p9.pddl: 2 different costs from 31 to 35
-visitall-multidimensional-3-dim-visitall-FAR-g1:p0.pddl: 1 different costs from 15 to 15
-visitall-multidimensional-3-dim-visitall-FAR-g1:p1.pddl: 1 different costs from 31 to 31
-visitall-multidimensional-3-dim-visitall-FAR-g1:p2.pddl: 1 different costs from 50 to 50
-visitall-multidimensional-3-dim-visitall-FAR-g1:p3.pddl: 1 different costs from 54 to 54
-visitall-multidimensional-3-dim-visitall-FAR-g1:p4.pddl: 1 different costs from 79 to 79
-visitall-multidimensional-3-dim-visitall-FAR-g1:p5.pddl: 1 different costs from 97 to 97
-visitall-multidimensional-3-dim-visitall-FAR-g1:p6.pddl: 1 different costs from 102 to 102
-visitall-multidimensional-3-dim-visitall-FAR-g1:p7.pddl: 1 different costs from 126 to 126
-visitall-multidimensional-3-dim-visitall-FAR-g1:p8.pddl: 1 different costs from 127 to 127
-visitall-multidimensional-3-dim-visitall-FAR-g1:p9.pddl: 1 different costs from 169 to 169
-visitall-multidimensional-3-dim-visitall-FAR-g2:p0.pddl: 1 different costs from 15 to 15
-visitall-multidimensional-3-dim-visitall-FAR-g2:p1.pddl: 1 different costs from 33 to 33
-visitall-multidimensional-3-dim-visitall-FAR-g2:p2.pddl: 2 different costs from 51 to 53
-visitall-multidimensional-3-dim-visitall-FAR-g2:p3.pddl: 2 different costs from 69 to 77
-visitall-multidimensional-3-dim-visitall-FAR-g2:p4.pddl: 2 different costs from 74 to 76
-visitall-multidimensional-3-dim-visitall-FAR-g2:p5.pddl: 1 different costs from 105 to 105
-visitall-multidimensional-3-dim-visitall-FAR-g2:p6.pddl: 1 different costs from 128 to 128
-visitall-multidimensional-3-dim-visitall-FAR-g2:p7.pddl: 1 different costs from 138 to 138
-visitall-multidimensional-3-dim-visitall-FAR-g2:p8.pddl: 2 different costs from 164 to 166
-visitall-multidimensional-3-dim-visitall-FAR-g2:p9.pddl: 1 different costs from 180 to 180
-visitall-multidimensional-3-dim-visitall-FAR-g3:p0.pddl: 1 different costs from 17 to 17
-visitall-multidimensional-3-dim-visitall-FAR-g3:p1.pddl: 2 different costs from 37 to 43
-visitall-multidimensional-3-dim-visitall-FAR-g3:p2.pddl: 2 different costs from 53 to 55
-visitall-multidimensional-3-dim-visitall-FAR-g3:p3.pddl: 3 different costs from 73 to 93
-visitall-multidimensional-3-dim-visitall-FAR-g3:p4.pddl: 3 different costs from 94 to 102
-visitall-multidimensional-3-dim-visitall-FAR-g3:p5.pddl: 2 different costs from 110 to 114
-visitall-multidimensional-3-dim-visitall-FAR-g3:p6.pddl: 2 different costs from 131 to 141
-visitall-multidimensional-3-dim-visitall-FAR-g3:p7.pddl: 2 different costs from 142 to 144
-visitall-multidimensional-3-dim-visitall-FAR-g3:p8.pddl: 1 different costs from 211 to 211
-visitall-multidimensional-3-dim-visitall-FAR-g3:p9.pddl: 1 different costs from 178 to 178
-visitall-multidimensional-4-dim-visitall-CLOSE-g1:p0.pddl: 1 different costs from 4 to 4
-visitall-multidimensional-4-dim-visitall-CLOSE-g1:p1.pddl: 1 different costs from 5 to 5
-visitall-multidimensional-4-dim-visitall-CLOSE-g1:p2.pddl: 1 different costs from 7 to 7
-visitall-multidimensional-4-dim-visitall-CLOSE-g1:p3.pddl: 1 different costs from 4 to 4
-visitall-multidimensional-4-dim-visitall-CLOSE-g1:p4.pddl: 1 different costs from 3 to 3
-visitall-multidimensional-4-dim-visitall-CLOSE-g1:p5.pddl: 1 different costs from 3 to 3
-visitall-multidimensional-4-dim-visitall-CLOSE-g1:p6.pddl: 1 different costs from 13 to 13
-visitall-multidimensional-4-dim-visitall-CLOSE-g1:p7.pddl: 1 different costs from 14 to 14
-visitall-multidimensional-4-dim-visitall-CLOSE-g1:p8.pddl: 1 different costs from 14 to 14
-visitall-multidimensional-4-dim-visitall-CLOSE-g1:p9.pddl: 1 different costs from 16 to 16
-visitall-multidimensional-4-dim-visitall-CLOSE-g2:p0.pddl: 1 different costs from 6 to 6
-visitall-multidimensional-4-dim-visitall-CLOSE-g2:p1.pddl: 1 different costs from 5 to 5
-visitall-multidimensional-4-dim-visitall-CLOSE-g2:p2.pddl: 1 different costs from 8 to 8
-visitall-multidimensional-4-dim-visitall-CLOSE-g2:p3.pddl: 2 different costs from 13 to 15
-visitall-multidimensional-4-dim-visitall-CLOSE-g2:p4.pddl: 1 different costs from 12 to 12
-visitall-multidimensional-4-dim-visitall-CLOSE-g2:p5.pddl: 1 different costs from 11 to 11
-visitall-multidimensional-4-dim-visitall-CLOSE-g2:p6.pddl: 1 different costs from 11 to 11
-visitall-multidimensional-4-dim-visitall-CLOSE-g2:p7.pddl: 1 different costs from 21 to 21
-visitall-multidimensional-4-dim-visitall-CLOSE-g2:p8.pddl: 2 different costs from 15 to 17
-visitall-multidimensional-4-dim-visitall-CLOSE-g2:p9.pddl: 1 different costs from 22 to 22
-visitall-multidimensional-4-dim-visitall-CLOSE-g3:p0.pddl: 1 different costs from 10 to 10
-visitall-multidimensional-4-dim-visitall-CLOSE-g3:p1.pddl: 3 different costs from 12 to 16
-visitall-multidimensional-4-dim-visitall-CLOSE-g3:p2.pddl: 3 different costs from 17 to 21
-visitall-multidimensional-4-dim-visitall-CLOSE-g3:p3.pddl: 2 different costs from 33 to 35
-visitall-multidimensional-4-dim-visitall-CLOSE-g3:p4.pddl: 2 different costs from 12 to 14
-visitall-multidimensional-4-dim-visitall-CLOSE-g3:p5.pddl: 1 different costs from 20 to 20
-visitall-multidimensional-4-dim-visitall-CLOSE-g3:p6.pddl: 2 different costs from 34 to 36
-visitall-multidimensional-4-dim-visitall-CLOSE-g3:p7.pddl: 2 different costs from 32 to 34
-visitall-multidimensional-4-dim-visitall-CLOSE-g3:p8.pddl: 1 different costs from 43 to 43
-visitall-multidimensional-4-dim-visitall-CLOSE-g3:p9.pddl: 2 different costs from 11 to 13
-visitall-multidimensional-4-dim-visitall-FAR-g1:p0.pddl: 1 different costs from 19 to 19
-visitall-multidimensional-4-dim-visitall-FAR-g1:p1.pddl: 1 different costs from 28 to 28
-visitall-multidimensional-4-dim-visitall-FAR-g1:p2.pddl: 1 different costs from 50 to 50
-visitall-multidimensional-4-dim-visitall-FAR-g1:p3.pddl: 1 different costs from 65 to 65
-visitall-multidimensional-4-dim-visitall-FAR-g1:p4.pddl: 1 different costs from 74 to 74
-visitall-multidimensional-4-dim-visitall-FAR-g1:p5.pddl: 1 different costs from 91 to 91
-visitall-multidimensional-4-dim-visitall-FAR-g1:p6.pddl: 1 different costs from 88 to 88
-visitall-multidimensional-4-dim-visitall-FAR-g2:p0.pddl: 1 different costs from 21 to 21
-visitall-multidimensional-4-dim-visitall-FAR-g2:p1.pddl: 2 different costs from 36 to 42
-visitall-multidimensional-4-dim-visitall-FAR-g2:p2.pddl: 1 different costs from 56 to 56
-visitall-multidimensional-4-dim-visitall-FAR-g2:p3.pddl: 2 different costs from 76 to 78
-visitall-multidimensional-4-dim-visitall-FAR-g2:p4.pddl: 1 different costs from 87 to 87
-visitall-multidimensional-4-dim-visitall-FAR-g2:p5.pddl: 1 different costs from 95 to 95
-visitall-multidimensional-4-dim-visitall-FAR-g2:p6.pddl: 1 different costs from 113 to 113
-visitall-multidimensional-4-dim-visitall-FAR-g3:p0.pddl: 1 different costs from 23 to 23
-visitall-multidimensional-4-dim-visitall-FAR-g3:p1.pddl: 2 different costs from 37 to 44
-visitall-multidimensional-4-dim-visitall-FAR-g3:p2.pddl: 3 different costs from 55 to 61
-visitall-multidimensional-4-dim-visitall-FAR-g3:p3.pddl: 1 different costs from 89 to 89
-visitall-multidimensional-4-dim-visitall-FAR-g3:p4.pddl: 1 different costs from 103 to 103
-visitall-multidimensional-4-dim-visitall-FAR-g3:p5.pddl: 1 different costs from 103 to 103
-visitall-multidimensional-4-dim-visitall-FAR-g3:p6.pddl: 1 different costs from 119 to 119
-visitall-multidimensional-5-dim-visitall-CLOSE-g1:p0.pddl: 1 different costs from 4 to 4
-visitall-multidimensional-5-dim-visitall-CLOSE-g1:p1.pddl: 1 different costs from 3 to 3
-visitall-multidimensional-5-dim-visitall-CLOSE-g1:p2.pddl: 1 different costs from 5 to 5
-visitall-multidimensional-5-dim-visitall-CLOSE-g1:p3.pddl: 1 different costs from 6 to 6
-visitall-multidimensional-5-dim-visitall-CLOSE-g1:p4.pddl: 1 different costs from 5 to 5
-visitall-multidimensional-5-dim-visitall-CLOSE-g1:p5.pddl: 1 different costs from 3 to 3
-visitall-multidimensional-5-dim-visitall-CLOSE-g1:p6.pddl: 1 different costs from 7 to 7
-visitall-multidimensional-5-dim-visitall-CLOSE-g1:p7.pddl: 1 different costs from 8 to 8
-visitall-multidimensional-5-dim-visitall-CLOSE-g1:p8.pddl: 1 different costs from 3 to 3
-visitall-multidimensional-5-dim-visitall-CLOSE-g1:p9.pddl: 1 different costs from 13 to 13
-visitall-multidimensional-5-dim-visitall-CLOSE-g2:p0.pddl: 1 different costs from 6 to 6
-visitall-multidimensional-5-dim-visitall-CLOSE-g2:p1.pddl: 1 different costs from 10 to 10
-visitall-multidimensional-5-dim-visitall-CLOSE-g2:p2.pddl: 1 different costs from 5 to 5
-visitall-multidimensional-5-dim-visitall-CLOSE-g2:p3.pddl: 1 different costs from 16 to 16
-visitall-multidimensional-5-dim-visitall-CLOSE-g2:p4.pddl: 1 different costs from 10 to 10
-visitall-multidimensional-5-dim-visitall-CLOSE-g2:p5.pddl: 1 different costs from 17 to 17
-visitall-multidimensional-5-dim-visitall-CLOSE-g2:p6.pddl: 1 different costs from 13 to 13
-visitall-multidimensional-5-dim-visitall-CLOSE-g2:p7.pddl: 1 different costs from 22 to 22
-visitall-multidimensional-5-dim-visitall-CLOSE-g2:p8.pddl: 1 different costs from 21 to 21
-visitall-multidimensional-5-dim-visitall-CLOSE-g2:p9.pddl: 1 different costs from 13 to 13
-visitall-multidimensional-5-dim-visitall-CLOSE-g3:p0.pddl: 2 different costs from 10 to 12
-visitall-multidimensional-5-dim-visitall-CLOSE-g3:p1.pddl: 2 different costs from 9 to 11
-visitall-multidimensional-5-dim-visitall-CLOSE-g3:p2.pddl: 2 different costs from 13 to 15
-visitall-multidimensional-5-dim-visitall-CLOSE-g3:p3.pddl: 1 different costs from 12 to 12
-visitall-multidimensional-5-dim-visitall-CLOSE-g3:p4.pddl: 1 different costs from 13 to 13
-visitall-multidimensional-5-dim-visitall-CLOSE-g3:p5.pddl: 2 different costs from 24 to 26
-visitall-multidimensional-5-dim-visitall-CLOSE-g3:p6.pddl: 2 different costs from 19 to 21
-visitall-multidimensional-5-dim-visitall-CLOSE-g3:p7.pddl: 3 different costs from 11 to 15
-visitall-multidimensional-5-dim-visitall-CLOSE-g3:p8.pddl: 2 different costs from 10 to 12
-visitall-multidimensional-5-dim-visitall-CLOSE-g3:p9.pddl: 1 different costs from 9 to 9
-visitall-multidimensional-5-dim-visitall-FAR-g1:p0.pddl: 1 different costs from 24 to 24
-visitall-multidimensional-5-dim-visitall-FAR-g1:p1.pddl: 1 different costs from 35 to 35
-visitall-multidimensional-5-dim-visitall-FAR-g1:p2.pddl: 1 different costs from 37 to 37
-visitall-multidimensional-5-dim-visitall-FAR-g1:p3.pddl: 1 different costs from 49 to 49
-visitall-multidimensional-5-dim-visitall-FAR-g1:p4.pddl: 1 different costs from 60 to 60
-visitall-multidimensional-5-dim-visitall-FAR-g1:p5.pddl: 1 different costs from 65 to 65
-visitall-multidimensional-5-dim-visitall-FAR-g2:p0.pddl: 2 different costs from 26 to 28
-visitall-multidimensional-5-dim-visitall-FAR-g2:p1.pddl: 2 different costs from 35 to 37
-visitall-multidimensional-5-dim-visitall-FAR-g2:p2.pddl: 2 different costs from 47 to 49
-visitall-multidimensional-5-dim-visitall-FAR-g2:p3.pddl: 1 different costs from 59 to 59
-visitall-multidimensional-5-dim-visitall-FAR-g2:p4.pddl: 1 different costs from 64 to 64
-visitall-multidimensional-5-dim-visitall-FAR-g2:p5.pddl: 1 different costs from 78 to 78
-visitall-multidimensional-5-dim-visitall-FAR-g3:p0.pddl: 1 different costs from 28 to 28
-visitall-multidimensional-5-dim-visitall-FAR-g3:p1.pddl: 4 different costs from 40 to 48
-visitall-multidimensional-5-dim-visitall-FAR-g3:p2.pddl: 1 different costs from 50 to 50
-visitall-multidimensional-5-dim-visitall-FAR-g3:p3.pddl: 1 different costs from 61 to 61
-visitall-multidimensional-5-dim-visitall-FAR-g3:p4.pddl: 1 different costs from 66 to 66
-visitall-multidimensional-5-dim-visitall-FAR-g3:p5.pddl: 1 different costs from 79 to 79
+visitall-multidimensional:visitall-multidimensional-3-dim-visitall-CLOSE-g2:p7.pddl: 1 different costs from 49 to 49
+visitall-multidimensional:visitall-multidimensional-3-dim-visitall-CLOSE-g3:p6.pddl: 2 different costs from 43 to 47
+visitall-multidimensional:visitall-multidimensional-3-dim-visitall-FAR-g1:p9.pddl: 1 different costs from 169 to 169
+visitall-multidimensional:visitall-multidimensional-3-dim-visitall-FAR-g2:p8.pddl: 2 different costs from 164 to 166
+visitall-multidimensional:visitall-multidimensional-3-dim-visitall-FAR-g2:p9.pddl: 1 different costs from 180 to 180
+visitall-multidimensional:visitall-multidimensional-3-dim-visitall-FAR-g3:p6.pddl: 2 different costs from 131 to 141
+visitall-multidimensional:visitall-multidimensional-3-dim-visitall-FAR-g3:p8.pddl: 1 different costs from 211 to 211
+visitall-multidimensional:visitall-multidimensional-3-dim-visitall-FAR-g3:p9.pddl: 1 different costs from 178 to 178
+visitall-multidimensional:visitall-multidimensional-4-dim-visitall-CLOSE-g3:p8.pddl: 1 different costs from 43 to 43
+visitall-multidimensional:visitall-multidimensional-4-dim-visitall-FAR-g1:p5.pddl: 1 different costs from 91 to 91
+visitall-multidimensional:visitall-multidimensional-4-dim-visitall-FAR-g1:p6.pddl: 1 different costs from 88 to 88
+visitall-multidimensional:visitall-multidimensional-4-dim-visitall-FAR-g2:p3.pddl: 2 different costs from 76 to 78
+visitall-multidimensional:visitall-multidimensional-4-dim-visitall-FAR-g2:p4.pddl: 1 different costs from 87 to 87
+visitall-multidimensional:visitall-multidimensional-4-dim-visitall-FAR-g2:p5.pddl: 1 different costs from 95 to 95
+visitall-multidimensional:visitall-multidimensional-4-dim-visitall-FAR-g2:p6.pddl: 1 different costs from 113 to 113
+visitall-multidimensional:visitall-multidimensional-4-dim-visitall-FAR-g3:p3.pddl: 1 different costs from 89 to 89
+visitall-multidimensional:visitall-multidimensional-4-dim-visitall-FAR-g3:p4.pddl: 1 different costs from 103 to 103
+visitall-multidimensional:visitall-multidimensional-4-dim-visitall-FAR-g3:p5.pddl: 1 different costs from 103 to 103
+visitall-multidimensional:visitall-multidimensional-4-dim-visitall-FAR-g3:p6.pddl: 1 different costs from 119 to 119
+visitall-multidimensional:visitall-multidimensional-5-dim-visitall-CLOSE-g3:p5.pddl: 2 different costs from 24 to 26
+visitall-multidimensional:visitall-multidimensional-5-dim-visitall-FAR-g1:p3.pddl: 1 different costs from 49 to 49
+visitall-multidimensional:visitall-multidimensional-5-dim-visitall-FAR-g1:p4.pddl: 1 different costs from 60 to 60
+visitall-multidimensional:visitall-multidimensional-5-dim-visitall-FAR-g1:p5.pddl: 1 different costs from 65 to 65
+visitall-multidimensional:visitall-multidimensional-5-dim-visitall-FAR-g2:p2.pddl: 2 different costs from 47 to 49
+visitall-multidimensional:visitall-multidimensional-5-dim-visitall-FAR-g2:p3.pddl: 1 different costs from 59 to 59
+visitall-multidimensional:visitall-multidimensional-5-dim-visitall-FAR-g2:p4.pddl: 1 different costs from 64 to 64
+visitall-multidimensional:visitall-multidimensional-5-dim-visitall-FAR-g2:p5.pddl: 1 different costs from 78 to 78
+visitall-multidimensional:visitall-multidimensional-5-dim-visitall-FAR-g3:p3.pddl: 1 different costs from 61 to 61
+visitall-multidimensional:visitall-multidimensional-5-dim-visitall-FAR-g3:p4.pddl: 1 different costs from 66 to 66
+visitall-multidimensional:visitall-multidimensional-5-dim-visitall-FAR-g3:p5.pddl: 1 different costs from 79 to 79
 visitall-strips:1-p14.pddl: 1 different costs from 2217 to 2217
 visitall-strips:1-p15.pddl: 1 different costs from 2563 to 2563
 visitall-strips:1-p16.pddl: 1 different costs from 2888 to 2888
-visitall-strips:1-p17.pddl: 1 different costs from 3211 to 3211
 visitall-strips:1-p18.pddl: 1 different costs from 3542 to 3542
 visitall-strips:1-p19.pddl: 1 different costs from 4045 to 4045
 visitall-strips:1-p20.pddl: 1 different costs from 4365 to 4365
-visitall-strips:1-p22.pddl: 1 different costs from 5230 to 5230
+visitall-strips:1-p21.pddl: 1 different costs from 4674 to 4674
 visitall-strips:1-p23.pddl: 1 different costs from 5720 to 5720
 visitall-strips:1-p25.pddl: 1 different costs from 6664 to 6664
+visitall-strips:1-p26.pddl: 1 different costs from 7024 to 7024
 visitall-strips:1-p27.pddl: 1 different costs from 7745 to 7745
 visitall-strips:1-p28.pddl: 1 different costs from 8091 to 8091
 visitall-strips:1-p29.pddl: 1 different costs from 8857 to 8857
@@ -2100,9 +1898,8 @@ visitall-strips:1-p30.pddl: 1 different costs from 9380 to 9380
 visitall-strips:3-pfile50.pddl: 1 different costs from 3244 to 3244
 visitall-strips:3-pfile51.pddl: 1 different costs from 3390 to 3390
 visitall-strips:3-pfile52.pddl: 1 different costs from 3420 to 3420
+visitall-strips:3-pfile53.pddl: 1 different costs from 3635 to 3635
 visitall-strips:3-pfile54.pddl: 1 different costs from 3714 to 3714
-visitall-strips:3-pfile55.pddl: 1 different costs from 3885 to 3885
-visitall-strips:3-pfile56.pddl: 1 different costs from 4011 to 4011
 visitall-strips:3-pfile57.pddl: 1 different costs from 4178 to 4178
 visitall-strips:3-pfile58.pddl: 1 different costs from 4268 to 4268
 visitall-strips:3-pfile59.pddl: 1 different costs from 4414 to 4414
@@ -2113,14 +1910,13 @@ visitall-strips:3-pfile63.pddl: 1 different costs from 5128 to 5128
 visitall-strips:3-pfile64.pddl: 1 different costs from 5210 to 5210
 visitall-strips:3-pfile65.pddl: 1 different costs from 5387 to 5387
 visitall-strips:5-problem46.pddl: 1 different costs from 2626 to 2626
+visitall-strips:5-problem48.pddl: 1 different costs from 2918 to 2918
 woodworking-strips:0-p13.pddl: 3 different costs from 41 to 43
 woodworking-strips:0-p23.pddl: 3 different costs from 54 to 59
 woodworking-strips:0-p25.pddl: 4 different costs from 46 to 49
 woodworking-strips:0-p26.pddl: 3 different costs from 53 to 57
-woodworking-strips:0-p27.pddl: 5 different costs from 54 to 59
 woodworking-strips:0-p29.pddl: 1 different costs from 44 to 44
 woodworking-strips:0-p30.pddl: 2 different costs from 61 to 64
-woodworking-strips:1-p04.pddl: 2 different costs from 66 to 67
 woodworking-strips:1-p06.pddl: 4 different costs from 122 to 127
 woodworking-strips:1-p07.pddl: 3 different costs from 129 to 131
 woodworking-strips:1-p08.pddl: 5 different costs from 190 to 197
@@ -2131,11 +1927,13 @@ woodworking-strips:1-p19.pddl: 2 different costs from 231 to 237
 woodworking-strips:1-p21.pddl: 2 different costs from 261 to 271
 woodworking-strips:3-p02.pddl: 2 different costs from 62 to 63
 woodworking-strips:3-p03.pddl: 5 different costs from 69 to 78
+woodworking-strips:3-p05.pddl: 4 different costs from 90 to 100
 woodworking-strips:3-p06.pddl: 2 different costs from 83 to 84
 woodworking-strips:3-p08.pddl: 4 different costs from 77 to 81
 woodworking-strips:3-p09.pddl: 3 different costs from 60 to 67
 woodworking-strips:3-p11.pddl: 3 different costs from 91 to 94
 woodworking-strips:3-p12.pddl: 3 different costs from 83 to 90
+woodworking-strips:3-p13.pddl: 3 different costs from 98 to 100
 woodworking-strips:3-p14.pddl: 1 different costs from 76 to 76
 woodworking-strips:3-p15.pddl: 3 different costs from 105 to 108
 woodworking-strips:3-p16.pddl: 2 different costs from 95 to 96
@@ -2143,58 +1941,58 @@ woodworking-strips:3-p19.pddl: 4 different costs from 63 to 68
 woodworking-strips:3-p20.pddl: 4 different costs from 59 to 62
 woodworking-strips:5-p06.pddl: 4 different costs from 43 to 50
 woodworking-strips:5-p30.pddl: 4 different costs from 73 to 88
-2145 problems
+1943 problems
 22 configs
-47190 results
-2145 problems solved by someone
-1564 problems solved by powerlifted-ipc-add-alt-bfws1-sparse
-1528 problems solved by powerlifted-ipc-add-alt-bfws2-sparse
-753 problems solved by powerlifted-ipc-add-gbfs-sparse
-1251 problems solved by powerlifted-ipc-add-lazy-po-sparse
-1162 problems solved by powerlifted-ipc-add-lazy-prune-sparse
-1013 problems solved by powerlifted-ipc-blind-bfws1-sparse
-1280 problems solved by powerlifted-ipc-blind-bfws2-sparse
-85 problems solved by powerlifted-ipc-blind-iw1-sparse
-354 problems solved by powerlifted-ipc-blind-iw1gc-sparse
-199 problems solved by powerlifted-ipc-blind-iw2-sparse
-1057 problems solved by powerlifted-ipc-blind-iw2gc-sparse
+42746 results
+1943 problems solved by someone
+1361 problems solved by powerlifted-ipc-add-alt-bfws1-sparse
+1325 problems solved by powerlifted-ipc-add-alt-bfws2-sparse
+611 problems solved by powerlifted-ipc-add-gbfs-sparse
+1051 problems solved by powerlifted-ipc-add-lazy-po-sparse
+961 problems solved by powerlifted-ipc-add-lazy-prune-sparse
+860 problems solved by powerlifted-ipc-blind-bfws1-sparse
+1099 problems solved by powerlifted-ipc-blind-bfws2-sparse
+36 problems solved by powerlifted-ipc-blind-iw1-sparse
+225 problems solved by powerlifted-ipc-blind-iw1gc-sparse
+124 problems solved by powerlifted-ipc-blind-iw2-sparse
+878 problems solved by powerlifted-ipc-blind-iw2gc-sparse
 3 problems solved by powerlifted-ipc-blind-lazy-prune-sparse
-1584 problems solved by powerlifted-ipc-ff-alt-bfws1-sparse
-1550 problems solved by powerlifted-ipc-ff-alt-bfws2-sparse
-785 problems solved by powerlifted-ipc-ff-gbfs-sparse
-1365 problems solved by powerlifted-ipc-ff-lazy-po-sparse
-1276 problems solved by powerlifted-ipc-ff-lazy-prune-sparse
-1588 problems solved by powerlifted-ipc-rff-alt-bfws1-sparse
-1555 problems solved by powerlifted-ipc-rff-alt-bfws2-sparse
-767 problems solved by powerlifted-ipc-rff-gbfs-sparse
-1328 problems solved by powerlifted-ipc-rff-lazy-po-sparse
-1230 problems solved by powerlifted-ipc-rff-lazy-prune-sparse
-1453.35 score by powerlifted-ipc-add-alt-bfws1-sparse
-1420.13 score by powerlifted-ipc-add-alt-bfws2-sparse
-715.62 score by powerlifted-ipc-add-gbfs-sparse
-1134.35 score by powerlifted-ipc-add-lazy-po-sparse
-1050.58 score by powerlifted-ipc-add-lazy-prune-sparse
-961.13 score by powerlifted-ipc-blind-bfws1-sparse
-1209.59 score by powerlifted-ipc-blind-bfws2-sparse
-85.00 score by powerlifted-ipc-blind-iw1-sparse
-350.00 score by powerlifted-ipc-blind-iw1gc-sparse
-197.27 score by powerlifted-ipc-blind-iw2-sparse
-997.35 score by powerlifted-ipc-blind-iw2gc-sparse
+1386 problems solved by powerlifted-ipc-ff-alt-bfws1-sparse
+1350 problems solved by powerlifted-ipc-ff-alt-bfws2-sparse
+662 problems solved by powerlifted-ipc-ff-gbfs-sparse
+1170 problems solved by powerlifted-ipc-ff-lazy-po-sparse
+1080 problems solved by powerlifted-ipc-ff-lazy-prune-sparse
+1387 problems solved by powerlifted-ipc-rff-alt-bfws1-sparse
+1353 problems solved by powerlifted-ipc-rff-alt-bfws2-sparse
+639 problems solved by powerlifted-ipc-rff-gbfs-sparse
+1137 problems solved by powerlifted-ipc-rff-lazy-po-sparse
+1036 problems solved by powerlifted-ipc-rff-lazy-prune-sparse
+1255.94 score by powerlifted-ipc-add-alt-bfws1-sparse
+1221.96 score by powerlifted-ipc-add-alt-bfws2-sparse
+575.71 score by powerlifted-ipc-add-gbfs-sparse
+936.79 score by powerlifted-ipc-add-lazy-po-sparse
+851.27 score by powerlifted-ipc-add-lazy-prune-sparse
+809.93 score by powerlifted-ipc-blind-bfws1-sparse
+1030.81 score by powerlifted-ipc-blind-bfws2-sparse
+36.00 score by powerlifted-ipc-blind-iw1-sparse
+221.43 score by powerlifted-ipc-blind-iw1gc-sparse
+122.30 score by powerlifted-ipc-blind-iw2-sparse
+820.21 score by powerlifted-ipc-blind-iw2gc-sparse
 3.00 score by powerlifted-ipc-blind-lazy-prune-sparse
-1485.15 score by powerlifted-ipc-ff-alt-bfws1-sparse
-1448.92 score by powerlifted-ipc-ff-alt-bfws2-sparse
-747.34 score by powerlifted-ipc-ff-gbfs-sparse
-1249.53 score by powerlifted-ipc-ff-lazy-po-sparse
-1164.52 score by powerlifted-ipc-ff-lazy-prune-sparse
-1484.62 score by powerlifted-ipc-rff-alt-bfws1-sparse
-1451.56 score by powerlifted-ipc-rff-alt-bfws2-sparse
-730.42 score by powerlifted-ipc-rff-gbfs-sparse
-1211.83 score by powerlifted-ipc-rff-lazy-po-sparse
-1119.18 score by powerlifted-ipc-rff-lazy-prune-sparse
-Max problems solved by single config: 1588
-Max score by single config: 1485.153149604072
+1290.96 score by powerlifted-ipc-ff-alt-bfws1-sparse
+1252.91 score by powerlifted-ipc-ff-alt-bfws2-sparse
+627.92 score by powerlifted-ipc-ff-gbfs-sparse
+1060.42 score by powerlifted-ipc-ff-lazy-po-sparse
+974.13 score by powerlifted-ipc-ff-lazy-prune-sparse
+1288.28 score by powerlifted-ipc-rff-alt-bfws1-sparse
+1254.12 score by powerlifted-ipc-rff-alt-bfws2-sparse
+605.57 score by powerlifted-ipc-rff-gbfs-sparse
+1026.72 score by powerlifted-ipc-rff-lazy-po-sparse
+931.14 score by powerlifted-ipc-rff-lazy-prune-sparse
+Max problems solved by single config: 1387
+Max score by single config: 1290.9641698398088
 Computing portfolio using IPC scores...
-portfolio for 0.00 seconds solves 128 problems with score 0.00:
+portfolio for 0.00 seconds solves 93 problems with score 0.00:
       0.00 seconds for powerlifted-ipc-add-alt-bfws1-sparse
       0.00 seconds for powerlifted-ipc-add-alt-bfws2-sparse
       0.00 seconds for powerlifted-ipc-add-gbfs-sparse
@@ -2218,7 +2016,7 @@ portfolio for 0.00 seconds solves 128 problems with score 0.00:
       0.00 seconds for powerlifted-ipc-rff-lazy-po-sparse
       0.00 seconds for powerlifted-ipc-rff-lazy-prune-sparse
 
-portfolio for 40.00 seconds solves 1138 problems with score 1072.28:
+portfolio for 40.00 seconds solves 965 problems with score 903.11:
       0.00 seconds for powerlifted-ipc-add-alt-bfws1-sparse
       0.00 seconds for powerlifted-ipc-add-alt-bfws2-sparse
       0.00 seconds for powerlifted-ipc-add-gbfs-sparse
@@ -2242,7 +2040,7 @@ portfolio for 40.00 seconds solves 1138 problems with score 1072.28:
       0.00 seconds for powerlifted-ipc-rff-lazy-po-sparse
       0.00 seconds for powerlifted-ipc-rff-lazy-prune-sparse
 
-portfolio for 80.00 seconds solves 1379 problems with score 1321.49:
+portfolio for 80.00 seconds solves 1179 problems with score 1124.39:
       0.00 seconds for powerlifted-ipc-add-alt-bfws1-sparse
       0.00 seconds for powerlifted-ipc-add-alt-bfws2-sparse
       0.00 seconds for powerlifted-ipc-add-gbfs-sparse
@@ -2266,11 +2064,11 @@ portfolio for 80.00 seconds solves 1379 problems with score 1321.49:
       0.00 seconds for powerlifted-ipc-rff-lazy-po-sparse
       0.00 seconds for powerlifted-ipc-rff-lazy-prune-sparse
 
-portfolio for 120.00 seconds solves 1466 problems with score 1408.98:
+portfolio for 120.00 seconds solves 1272 problems with score 1212.48:
       0.00 seconds for powerlifted-ipc-add-alt-bfws1-sparse
       0.00 seconds for powerlifted-ipc-add-alt-bfws2-sparse
       0.00 seconds for powerlifted-ipc-add-gbfs-sparse
-     40.00 seconds for powerlifted-ipc-add-lazy-po-sparse
+      0.00 seconds for powerlifted-ipc-add-lazy-po-sparse
       0.00 seconds for powerlifted-ipc-add-lazy-prune-sparse
       0.00 seconds for powerlifted-ipc-blind-bfws1-sparse
      40.00 seconds for powerlifted-ipc-blind-bfws2-sparse
@@ -2284,13 +2082,13 @@ portfolio for 120.00 seconds solves 1466 problems with score 1408.98:
       0.00 seconds for powerlifted-ipc-ff-gbfs-sparse
       0.00 seconds for powerlifted-ipc-ff-lazy-po-sparse
       0.00 seconds for powerlifted-ipc-ff-lazy-prune-sparse
-     40.00 seconds for powerlifted-ipc-rff-alt-bfws1-sparse
+     80.00 seconds for powerlifted-ipc-rff-alt-bfws1-sparse
       0.00 seconds for powerlifted-ipc-rff-alt-bfws2-sparse
       0.00 seconds for powerlifted-ipc-rff-gbfs-sparse
       0.00 seconds for powerlifted-ipc-rff-lazy-po-sparse
       0.00 seconds for powerlifted-ipc-rff-lazy-prune-sparse
 
-portfolio for 160.00 seconds solves 1536 problems with score 1476.03:
+portfolio for 160.00 seconds solves 1338 problems with score 1280.30:
       0.00 seconds for powerlifted-ipc-add-alt-bfws1-sparse
       0.00 seconds for powerlifted-ipc-add-alt-bfws2-sparse
       0.00 seconds for powerlifted-ipc-add-gbfs-sparse
@@ -2314,7 +2112,7 @@ portfolio for 160.00 seconds solves 1536 problems with score 1476.03:
       0.00 seconds for powerlifted-ipc-rff-lazy-po-sparse
       0.00 seconds for powerlifted-ipc-rff-lazy-prune-sparse
 
-portfolio for 200.00 seconds solves 1585 problems with score 1527.45:
+portfolio for 200.00 seconds solves 1386 problems with score 1330.53:
       0.00 seconds for powerlifted-ipc-add-alt-bfws1-sparse
       0.00 seconds for powerlifted-ipc-add-alt-bfws2-sparse
       0.00 seconds for powerlifted-ipc-add-gbfs-sparse
@@ -2338,7 +2136,7 @@ portfolio for 200.00 seconds solves 1585 problems with score 1527.45:
       0.00 seconds for powerlifted-ipc-rff-lazy-po-sparse
       0.00 seconds for powerlifted-ipc-rff-lazy-prune-sparse
 
-portfolio for 240.00 seconds solves 1623 problems with score 1570.48:
+portfolio for 240.00 seconds solves 1424 problems with score 1372.93:
       0.00 seconds for powerlifted-ipc-add-alt-bfws1-sparse
       0.00 seconds for powerlifted-ipc-add-alt-bfws2-sparse
       0.00 seconds for powerlifted-ipc-add-gbfs-sparse
@@ -2362,7 +2160,7 @@ portfolio for 240.00 seconds solves 1623 problems with score 1570.48:
       0.00 seconds for powerlifted-ipc-rff-lazy-po-sparse
       0.00 seconds for powerlifted-ipc-rff-lazy-prune-sparse
 
-portfolio for 280.00 seconds solves 1656 problems with score 1602.39:
+portfolio for 280.00 seconds solves 1458 problems with score 1405.60:
       0.00 seconds for powerlifted-ipc-add-alt-bfws1-sparse
       0.00 seconds for powerlifted-ipc-add-alt-bfws2-sparse
       0.00 seconds for powerlifted-ipc-add-gbfs-sparse
@@ -2386,7 +2184,7 @@ portfolio for 280.00 seconds solves 1656 problems with score 1602.39:
       0.00 seconds for powerlifted-ipc-rff-lazy-po-sparse
       0.00 seconds for powerlifted-ipc-rff-lazy-prune-sparse
 
-portfolio for 320.00 seconds solves 1680 problems with score 1632.11:
+portfolio for 320.00 seconds solves 1481 problems with score 1434.61:
      40.00 seconds for powerlifted-ipc-add-alt-bfws1-sparse
       0.00 seconds for powerlifted-ipc-add-alt-bfws2-sparse
       0.00 seconds for powerlifted-ipc-add-gbfs-sparse
@@ -2410,7 +2208,7 @@ portfolio for 320.00 seconds solves 1680 problems with score 1632.11:
       0.00 seconds for powerlifted-ipc-rff-lazy-po-sparse
       0.00 seconds for powerlifted-ipc-rff-lazy-prune-sparse
 
-portfolio for 360.00 seconds solves 1704 problems with score 1656.86:
+portfolio for 360.00 seconds solves 1505 problems with score 1459.24:
      40.00 seconds for powerlifted-ipc-add-alt-bfws1-sparse
       0.00 seconds for powerlifted-ipc-add-alt-bfws2-sparse
       0.00 seconds for powerlifted-ipc-add-gbfs-sparse
@@ -2434,7 +2232,7 @@ portfolio for 360.00 seconds solves 1704 problems with score 1656.86:
       0.00 seconds for powerlifted-ipc-rff-lazy-po-sparse
       0.00 seconds for powerlifted-ipc-rff-lazy-prune-sparse
 
-portfolio for 400.00 seconds solves 1728 problems with score 1680.91:
+portfolio for 400.00 seconds solves 1529 problems with score 1483.22:
      40.00 seconds for powerlifted-ipc-add-alt-bfws1-sparse
       0.00 seconds for powerlifted-ipc-add-alt-bfws2-sparse
       0.00 seconds for powerlifted-ipc-add-gbfs-sparse
@@ -2458,7 +2256,7 @@ portfolio for 400.00 seconds solves 1728 problems with score 1680.91:
       0.00 seconds for powerlifted-ipc-rff-lazy-po-sparse
       0.00 seconds for powerlifted-ipc-rff-lazy-prune-sparse
 
-portfolio for 440.00 seconds solves 1748 problems with score 1700.49:
+portfolio for 440.00 seconds solves 1549 problems with score 1502.70:
      40.00 seconds for powerlifted-ipc-add-alt-bfws1-sparse
       0.00 seconds for powerlifted-ipc-add-alt-bfws2-sparse
       0.00 seconds for powerlifted-ipc-add-gbfs-sparse
@@ -2482,7 +2280,7 @@ portfolio for 440.00 seconds solves 1748 problems with score 1700.49:
       0.00 seconds for powerlifted-ipc-rff-lazy-po-sparse
       0.00 seconds for powerlifted-ipc-rff-lazy-prune-sparse
 
-portfolio for 480.00 seconds solves 1766 problems with score 1719.97:
+portfolio for 480.00 seconds solves 1567 problems with score 1522.12:
      40.00 seconds for powerlifted-ipc-add-alt-bfws1-sparse
       0.00 seconds for powerlifted-ipc-add-alt-bfws2-sparse
       0.00 seconds for powerlifted-ipc-add-gbfs-sparse
@@ -2506,7 +2304,7 @@ portfolio for 480.00 seconds solves 1766 problems with score 1719.97:
       0.00 seconds for powerlifted-ipc-rff-lazy-po-sparse
       0.00 seconds for powerlifted-ipc-rff-lazy-prune-sparse
 
-portfolio for 520.00 seconds solves 1785 problems with score 1739.44:
+portfolio for 520.00 seconds solves 1586 problems with score 1541.36:
      40.00 seconds for powerlifted-ipc-add-alt-bfws1-sparse
       0.00 seconds for powerlifted-ipc-add-alt-bfws2-sparse
       0.00 seconds for powerlifted-ipc-add-gbfs-sparse
@@ -2530,34 +2328,10 @@ portfolio for 520.00 seconds solves 1785 problems with score 1739.44:
       0.00 seconds for powerlifted-ipc-rff-lazy-po-sparse
       0.00 seconds for powerlifted-ipc-rff-lazy-prune-sparse
 
-portfolio for 560.00 seconds solves 1791 problems with score 1753.02:
+portfolio for 560.00 seconds solves 1599 problems with score 1555.56:
      40.00 seconds for powerlifted-ipc-add-alt-bfws1-sparse
       0.00 seconds for powerlifted-ipc-add-alt-bfws2-sparse
-     40.00 seconds for powerlifted-ipc-add-gbfs-sparse
-     40.00 seconds for powerlifted-ipc-add-lazy-po-sparse
-      0.00 seconds for powerlifted-ipc-add-lazy-prune-sparse
-      0.00 seconds for powerlifted-ipc-blind-bfws1-sparse
-    200.00 seconds for powerlifted-ipc-blind-bfws2-sparse
-      0.00 seconds for powerlifted-ipc-blind-iw1-sparse
-      0.00 seconds for powerlifted-ipc-blind-iw1gc-sparse
-      0.00 seconds for powerlifted-ipc-blind-iw2-sparse
-      0.00 seconds for powerlifted-ipc-blind-iw2gc-sparse
-      0.00 seconds for powerlifted-ipc-blind-lazy-prune-sparse
-      0.00 seconds for powerlifted-ipc-ff-alt-bfws1-sparse
-      0.00 seconds for powerlifted-ipc-ff-alt-bfws2-sparse
-      0.00 seconds for powerlifted-ipc-ff-gbfs-sparse
-     40.00 seconds for powerlifted-ipc-ff-lazy-po-sparse
-      0.00 seconds for powerlifted-ipc-ff-lazy-prune-sparse
-    200.00 seconds for powerlifted-ipc-rff-alt-bfws1-sparse
-      0.00 seconds for powerlifted-ipc-rff-alt-bfws2-sparse
-      0.00 seconds for powerlifted-ipc-rff-gbfs-sparse
-      0.00 seconds for powerlifted-ipc-rff-lazy-po-sparse
-      0.00 seconds for powerlifted-ipc-rff-lazy-prune-sparse
-
-portfolio for 600.00 seconds solves 1803 problems with score 1766.08:
-     40.00 seconds for powerlifted-ipc-add-alt-bfws1-sparse
-      0.00 seconds for powerlifted-ipc-add-alt-bfws2-sparse
-     40.00 seconds for powerlifted-ipc-add-gbfs-sparse
+      0.00 seconds for powerlifted-ipc-add-gbfs-sparse
      40.00 seconds for powerlifted-ipc-add-lazy-po-sparse
       0.00 seconds for powerlifted-ipc-add-lazy-prune-sparse
      40.00 seconds for powerlifted-ipc-blind-bfws1-sparse
@@ -2578,7 +2352,31 @@ portfolio for 600.00 seconds solves 1803 problems with score 1766.08:
       0.00 seconds for powerlifted-ipc-rff-lazy-po-sparse
       0.00 seconds for powerlifted-ipc-rff-lazy-prune-sparse
 
-portfolio for 640.00 seconds solves 1818 problems with score 1781.38:
+portfolio for 600.00 seconds solves 1612 problems with score 1568.86:
+     40.00 seconds for powerlifted-ipc-add-alt-bfws1-sparse
+      0.00 seconds for powerlifted-ipc-add-alt-bfws2-sparse
+      0.00 seconds for powerlifted-ipc-add-gbfs-sparse
+     40.00 seconds for powerlifted-ipc-add-lazy-po-sparse
+      0.00 seconds for powerlifted-ipc-add-lazy-prune-sparse
+     80.00 seconds for powerlifted-ipc-blind-bfws1-sparse
+    200.00 seconds for powerlifted-ipc-blind-bfws2-sparse
+      0.00 seconds for powerlifted-ipc-blind-iw1-sparse
+      0.00 seconds for powerlifted-ipc-blind-iw1gc-sparse
+      0.00 seconds for powerlifted-ipc-blind-iw2-sparse
+      0.00 seconds for powerlifted-ipc-blind-iw2gc-sparse
+      0.00 seconds for powerlifted-ipc-blind-lazy-prune-sparse
+      0.00 seconds for powerlifted-ipc-ff-alt-bfws1-sparse
+      0.00 seconds for powerlifted-ipc-ff-alt-bfws2-sparse
+      0.00 seconds for powerlifted-ipc-ff-gbfs-sparse
+     40.00 seconds for powerlifted-ipc-ff-lazy-po-sparse
+      0.00 seconds for powerlifted-ipc-ff-lazy-prune-sparse
+    200.00 seconds for powerlifted-ipc-rff-alt-bfws1-sparse
+      0.00 seconds for powerlifted-ipc-rff-alt-bfws2-sparse
+      0.00 seconds for powerlifted-ipc-rff-gbfs-sparse
+      0.00 seconds for powerlifted-ipc-rff-lazy-po-sparse
+      0.00 seconds for powerlifted-ipc-rff-lazy-prune-sparse
+
+portfolio for 640.00 seconds solves 1617 problems with score 1581.43:
      40.00 seconds for powerlifted-ipc-add-alt-bfws1-sparse
       0.00 seconds for powerlifted-ipc-add-alt-bfws2-sparse
      40.00 seconds for powerlifted-ipc-add-gbfs-sparse
@@ -2602,7 +2400,7 @@ portfolio for 640.00 seconds solves 1818 problems with score 1781.38:
       0.00 seconds for powerlifted-ipc-rff-lazy-po-sparse
       0.00 seconds for powerlifted-ipc-rff-lazy-prune-sparse
 
-portfolio for 680.00 seconds solves 1828 problems with score 1790.52:
+portfolio for 680.00 seconds solves 1627 problems with score 1590.42:
      40.00 seconds for powerlifted-ipc-add-alt-bfws1-sparse
       0.00 seconds for powerlifted-ipc-add-alt-bfws2-sparse
      40.00 seconds for powerlifted-ipc-add-gbfs-sparse
@@ -2626,7 +2424,7 @@ portfolio for 680.00 seconds solves 1828 problems with score 1790.52:
       0.00 seconds for powerlifted-ipc-rff-lazy-po-sparse
       0.00 seconds for powerlifted-ipc-rff-lazy-prune-sparse
 
-portfolio for 720.00 seconds solves 1838 problems with score 1800.31:
+portfolio for 720.00 seconds solves 1637 problems with score 1600.20:
      40.00 seconds for powerlifted-ipc-add-alt-bfws1-sparse
       0.00 seconds for powerlifted-ipc-add-alt-bfws2-sparse
      40.00 seconds for powerlifted-ipc-add-gbfs-sparse
@@ -2650,7 +2448,7 @@ portfolio for 720.00 seconds solves 1838 problems with score 1800.31:
       0.00 seconds for powerlifted-ipc-rff-lazy-po-sparse
       0.00 seconds for powerlifted-ipc-rff-lazy-prune-sparse
 
-portfolio for 760.00 seconds solves 1853 problems with score 1814.34:
+portfolio for 760.00 seconds solves 1652 problems with score 1614.24:
      40.00 seconds for powerlifted-ipc-add-alt-bfws1-sparse
       0.00 seconds for powerlifted-ipc-add-alt-bfws2-sparse
      40.00 seconds for powerlifted-ipc-add-gbfs-sparse
@@ -2674,7 +2472,7 @@ portfolio for 760.00 seconds solves 1853 problems with score 1814.34:
       0.00 seconds for powerlifted-ipc-rff-lazy-po-sparse
       0.00 seconds for powerlifted-ipc-rff-lazy-prune-sparse
 
-portfolio for 800.00 seconds solves 1865 problems with score 1825.52:
+portfolio for 800.00 seconds solves 1664 problems with score 1625.42:
      40.00 seconds for powerlifted-ipc-add-alt-bfws1-sparse
       0.00 seconds for powerlifted-ipc-add-alt-bfws2-sparse
      40.00 seconds for powerlifted-ipc-add-gbfs-sparse
@@ -2698,7 +2496,7 @@ portfolio for 800.00 seconds solves 1865 problems with score 1825.52:
       0.00 seconds for powerlifted-ipc-rff-lazy-po-sparse
       0.00 seconds for powerlifted-ipc-rff-lazy-prune-sparse
 
-portfolio for 840.00 seconds solves 1871 problems with score 1834.16:
+portfolio for 840.00 seconds solves 1670 problems with score 1634.14:
      40.00 seconds for powerlifted-ipc-add-alt-bfws1-sparse
       0.00 seconds for powerlifted-ipc-add-alt-bfws2-sparse
      40.00 seconds for powerlifted-ipc-add-gbfs-sparse
@@ -2722,13 +2520,13 @@ portfolio for 840.00 seconds solves 1871 problems with score 1834.16:
       0.00 seconds for powerlifted-ipc-rff-lazy-po-sparse
       0.00 seconds for powerlifted-ipc-rff-lazy-prune-sparse
 
-portfolio for 880.00 seconds solves 1879 problems with score 1841.82:
+portfolio for 880.00 seconds solves 1678 problems with score 1642.35:
      40.00 seconds for powerlifted-ipc-add-alt-bfws1-sparse
       0.00 seconds for powerlifted-ipc-add-alt-bfws2-sparse
      40.00 seconds for powerlifted-ipc-add-gbfs-sparse
-     80.00 seconds for powerlifted-ipc-add-lazy-po-sparse
+     40.00 seconds for powerlifted-ipc-add-lazy-po-sparse
       0.00 seconds for powerlifted-ipc-add-lazy-prune-sparse
-     80.00 seconds for powerlifted-ipc-blind-bfws1-sparse
+    120.00 seconds for powerlifted-ipc-blind-bfws1-sparse
     200.00 seconds for powerlifted-ipc-blind-bfws2-sparse
       0.00 seconds for powerlifted-ipc-blind-iw1-sparse
       0.00 seconds for powerlifted-ipc-blind-iw1gc-sparse
@@ -2746,13 +2544,13 @@ portfolio for 880.00 seconds solves 1879 problems with score 1841.82:
       0.00 seconds for powerlifted-ipc-rff-lazy-po-sparse
       0.00 seconds for powerlifted-ipc-rff-lazy-prune-sparse
 
-portfolio for 920.00 seconds solves 1883 problems with score 1849.25:
+portfolio for 920.00 seconds solves 1686 problems with score 1650.00:
      40.00 seconds for powerlifted-ipc-add-alt-bfws1-sparse
       0.00 seconds for powerlifted-ipc-add-alt-bfws2-sparse
      40.00 seconds for powerlifted-ipc-add-gbfs-sparse
      80.00 seconds for powerlifted-ipc-add-lazy-po-sparse
       0.00 seconds for powerlifted-ipc-add-lazy-prune-sparse
-     80.00 seconds for powerlifted-ipc-blind-bfws1-sparse
+    120.00 seconds for powerlifted-ipc-blind-bfws1-sparse
     200.00 seconds for powerlifted-ipc-blind-bfws2-sparse
       0.00 seconds for powerlifted-ipc-blind-iw1-sparse
       0.00 seconds for powerlifted-ipc-blind-iw1gc-sparse
@@ -2766,11 +2564,11 @@ portfolio for 920.00 seconds solves 1883 problems with score 1849.25:
       0.00 seconds for powerlifted-ipc-ff-lazy-prune-sparse
     360.00 seconds for powerlifted-ipc-rff-alt-bfws1-sparse
       0.00 seconds for powerlifted-ipc-rff-alt-bfws2-sparse
-     40.00 seconds for powerlifted-ipc-rff-gbfs-sparse
+      0.00 seconds for powerlifted-ipc-rff-gbfs-sparse
       0.00 seconds for powerlifted-ipc-rff-lazy-po-sparse
       0.00 seconds for powerlifted-ipc-rff-lazy-prune-sparse
 
-portfolio for 960.00 seconds solves 1890 problems with score 1856.46:
+portfolio for 960.00 seconds solves 1690 problems with score 1657.23:
      40.00 seconds for powerlifted-ipc-add-alt-bfws1-sparse
       0.00 seconds for powerlifted-ipc-add-alt-bfws2-sparse
      40.00 seconds for powerlifted-ipc-add-gbfs-sparse
@@ -2794,7 +2592,7 @@ portfolio for 960.00 seconds solves 1890 problems with score 1856.46:
       0.00 seconds for powerlifted-ipc-rff-lazy-po-sparse
       0.00 seconds for powerlifted-ipc-rff-lazy-prune-sparse
 
-portfolio for 1000.00 seconds solves 1892 problems with score 1862.57:
+portfolio for 1000.00 seconds solves 1692 problems with score 1663.41:
      40.00 seconds for powerlifted-ipc-add-alt-bfws1-sparse
       0.00 seconds for powerlifted-ipc-add-alt-bfws2-sparse
      40.00 seconds for powerlifted-ipc-add-gbfs-sparse
@@ -2818,7 +2616,31 @@ portfolio for 1000.00 seconds solves 1892 problems with score 1862.57:
       0.00 seconds for powerlifted-ipc-rff-lazy-po-sparse
       0.00 seconds for powerlifted-ipc-rff-lazy-prune-sparse
 
-portfolio for 1040.00 seconds solves 1897 problems with score 1867.91:
+portfolio for 1040.00 seconds solves 1697 problems with score 1669.79:
+     40.00 seconds for powerlifted-ipc-add-alt-bfws1-sparse
+      0.00 seconds for powerlifted-ipc-add-alt-bfws2-sparse
+     40.00 seconds for powerlifted-ipc-add-gbfs-sparse
+     80.00 seconds for powerlifted-ipc-add-lazy-po-sparse
+      0.00 seconds for powerlifted-ipc-add-lazy-prune-sparse
+    120.00 seconds for powerlifted-ipc-blind-bfws1-sparse
+    200.00 seconds for powerlifted-ipc-blind-bfws2-sparse
+      0.00 seconds for powerlifted-ipc-blind-iw1-sparse
+      0.00 seconds for powerlifted-ipc-blind-iw1gc-sparse
+      0.00 seconds for powerlifted-ipc-blind-iw2-sparse
+      0.00 seconds for powerlifted-ipc-blind-iw2gc-sparse
+      0.00 seconds for powerlifted-ipc-blind-lazy-prune-sparse
+      0.00 seconds for powerlifted-ipc-ff-alt-bfws1-sparse
+     80.00 seconds for powerlifted-ipc-ff-alt-bfws2-sparse
+      0.00 seconds for powerlifted-ipc-ff-gbfs-sparse
+     80.00 seconds for powerlifted-ipc-ff-lazy-po-sparse
+      0.00 seconds for powerlifted-ipc-ff-lazy-prune-sparse
+    360.00 seconds for powerlifted-ipc-rff-alt-bfws1-sparse
+      0.00 seconds for powerlifted-ipc-rff-alt-bfws2-sparse
+     40.00 seconds for powerlifted-ipc-rff-gbfs-sparse
+      0.00 seconds for powerlifted-ipc-rff-lazy-po-sparse
+      0.00 seconds for powerlifted-ipc-rff-lazy-prune-sparse
+
+portfolio for 1080.00 seconds solves 1702 problems with score 1675.13:
      40.00 seconds for powerlifted-ipc-add-alt-bfws1-sparse
       0.00 seconds for powerlifted-ipc-add-alt-bfws2-sparse
      40.00 seconds for powerlifted-ipc-add-gbfs-sparse
@@ -2832,7 +2654,7 @@ portfolio for 1040.00 seconds solves 1897 problems with score 1867.91:
       0.00 seconds for powerlifted-ipc-blind-iw2gc-sparse
       0.00 seconds for powerlifted-ipc-blind-lazy-prune-sparse
       0.00 seconds for powerlifted-ipc-ff-alt-bfws1-sparse
-     40.00 seconds for powerlifted-ipc-ff-alt-bfws2-sparse
+     80.00 seconds for powerlifted-ipc-ff-alt-bfws2-sparse
       0.00 seconds for powerlifted-ipc-ff-gbfs-sparse
      80.00 seconds for powerlifted-ipc-ff-lazy-po-sparse
       0.00 seconds for powerlifted-ipc-ff-lazy-prune-sparse
@@ -2842,7 +2664,7 @@ portfolio for 1040.00 seconds solves 1897 problems with score 1867.91:
       0.00 seconds for powerlifted-ipc-rff-lazy-po-sparse
       0.00 seconds for powerlifted-ipc-rff-lazy-prune-sparse
 
-portfolio for 1080.00 seconds solves 1905 problems with score 1876.09:
+portfolio for 1120.00 seconds solves 1709 problems with score 1682.32:
      40.00 seconds for powerlifted-ipc-add-alt-bfws1-sparse
       0.00 seconds for powerlifted-ipc-add-alt-bfws2-sparse
      40.00 seconds for powerlifted-ipc-add-gbfs-sparse
@@ -2856,7 +2678,7 @@ portfolio for 1080.00 seconds solves 1905 problems with score 1876.09:
       0.00 seconds for powerlifted-ipc-blind-iw2gc-sparse
       0.00 seconds for powerlifted-ipc-blind-lazy-prune-sparse
       0.00 seconds for powerlifted-ipc-ff-alt-bfws1-sparse
-     40.00 seconds for powerlifted-ipc-ff-alt-bfws2-sparse
+     80.00 seconds for powerlifted-ipc-ff-alt-bfws2-sparse
       0.00 seconds for powerlifted-ipc-ff-gbfs-sparse
      80.00 seconds for powerlifted-ipc-ff-lazy-po-sparse
       0.00 seconds for powerlifted-ipc-ff-lazy-prune-sparse
@@ -2866,7 +2688,7 @@ portfolio for 1080.00 seconds solves 1905 problems with score 1876.09:
       0.00 seconds for powerlifted-ipc-rff-lazy-po-sparse
       0.00 seconds for powerlifted-ipc-rff-lazy-prune-sparse
 
-portfolio for 1120.00 seconds solves 1910 problems with score 1881.37:
+portfolio for 1160.00 seconds solves 1714 problems with score 1686.88:
      40.00 seconds for powerlifted-ipc-add-alt-bfws1-sparse
       0.00 seconds for powerlifted-ipc-add-alt-bfws2-sparse
      40.00 seconds for powerlifted-ipc-add-gbfs-sparse
@@ -2880,33 +2702,9 @@ portfolio for 1120.00 seconds solves 1910 problems with score 1881.37:
       0.00 seconds for powerlifted-ipc-blind-iw2gc-sparse
       0.00 seconds for powerlifted-ipc-blind-lazy-prune-sparse
       0.00 seconds for powerlifted-ipc-ff-alt-bfws1-sparse
-     40.00 seconds for powerlifted-ipc-ff-alt-bfws2-sparse
+     80.00 seconds for powerlifted-ipc-ff-alt-bfws2-sparse
       0.00 seconds for powerlifted-ipc-ff-gbfs-sparse
-    120.00 seconds for powerlifted-ipc-ff-lazy-po-sparse
-      0.00 seconds for powerlifted-ipc-ff-lazy-prune-sparse
-    360.00 seconds for powerlifted-ipc-rff-alt-bfws1-sparse
-      0.00 seconds for powerlifted-ipc-rff-alt-bfws2-sparse
-     40.00 seconds for powerlifted-ipc-rff-gbfs-sparse
-      0.00 seconds for powerlifted-ipc-rff-lazy-po-sparse
-      0.00 seconds for powerlifted-ipc-rff-lazy-prune-sparse
-
-portfolio for 1160.00 seconds solves 1915 problems with score 1885.93:
-     40.00 seconds for powerlifted-ipc-add-alt-bfws1-sparse
-      0.00 seconds for powerlifted-ipc-add-alt-bfws2-sparse
-     40.00 seconds for powerlifted-ipc-add-gbfs-sparse
-     80.00 seconds for powerlifted-ipc-add-lazy-po-sparse
-      0.00 seconds for powerlifted-ipc-add-lazy-prune-sparse
-    120.00 seconds for powerlifted-ipc-blind-bfws1-sparse
-    280.00 seconds for powerlifted-ipc-blind-bfws2-sparse
-      0.00 seconds for powerlifted-ipc-blind-iw1-sparse
-      0.00 seconds for powerlifted-ipc-blind-iw1gc-sparse
-      0.00 seconds for powerlifted-ipc-blind-iw2-sparse
-      0.00 seconds for powerlifted-ipc-blind-iw2gc-sparse
-      0.00 seconds for powerlifted-ipc-blind-lazy-prune-sparse
-      0.00 seconds for powerlifted-ipc-ff-alt-bfws1-sparse
-     40.00 seconds for powerlifted-ipc-ff-alt-bfws2-sparse
-      0.00 seconds for powerlifted-ipc-ff-gbfs-sparse
-    120.00 seconds for powerlifted-ipc-ff-lazy-po-sparse
+     80.00 seconds for powerlifted-ipc-ff-lazy-po-sparse
       0.00 seconds for powerlifted-ipc-ff-lazy-prune-sparse
     400.00 seconds for powerlifted-ipc-rff-alt-bfws1-sparse
       0.00 seconds for powerlifted-ipc-rff-alt-bfws2-sparse
@@ -2914,7 +2712,7 @@ portfolio for 1160.00 seconds solves 1915 problems with score 1885.93:
       0.00 seconds for powerlifted-ipc-rff-lazy-po-sparse
       0.00 seconds for powerlifted-ipc-rff-lazy-prune-sparse
 
-portfolio for 1200.00 seconds solves 1923 problems with score 1893.94:
+portfolio for 1200.00 seconds solves 1722 problems with score 1694.90:
      40.00 seconds for powerlifted-ipc-add-alt-bfws1-sparse
       0.00 seconds for powerlifted-ipc-add-alt-bfws2-sparse
      40.00 seconds for powerlifted-ipc-add-gbfs-sparse
@@ -2928,9 +2726,9 @@ portfolio for 1200.00 seconds solves 1923 problems with score 1893.94:
       0.00 seconds for powerlifted-ipc-blind-iw2gc-sparse
       0.00 seconds for powerlifted-ipc-blind-lazy-prune-sparse
       0.00 seconds for powerlifted-ipc-ff-alt-bfws1-sparse
-     40.00 seconds for powerlifted-ipc-ff-alt-bfws2-sparse
+     80.00 seconds for powerlifted-ipc-ff-alt-bfws2-sparse
       0.00 seconds for powerlifted-ipc-ff-gbfs-sparse
-    120.00 seconds for powerlifted-ipc-ff-lazy-po-sparse
+     80.00 seconds for powerlifted-ipc-ff-lazy-po-sparse
       0.00 seconds for powerlifted-ipc-ff-lazy-prune-sparse
     440.00 seconds for powerlifted-ipc-rff-alt-bfws1-sparse
       0.00 seconds for powerlifted-ipc-rff-alt-bfws2-sparse
@@ -2938,31 +2736,7 @@ portfolio for 1200.00 seconds solves 1923 problems with score 1893.94:
       0.00 seconds for powerlifted-ipc-rff-lazy-po-sparse
       0.00 seconds for powerlifted-ipc-rff-lazy-prune-sparse
 
-portfolio for 1240.00 seconds solves 1930 problems with score 1900.98:
-     40.00 seconds for powerlifted-ipc-add-alt-bfws1-sparse
-      0.00 seconds for powerlifted-ipc-add-alt-bfws2-sparse
-     40.00 seconds for powerlifted-ipc-add-gbfs-sparse
-     80.00 seconds for powerlifted-ipc-add-lazy-po-sparse
-      0.00 seconds for powerlifted-ipc-add-lazy-prune-sparse
-    120.00 seconds for powerlifted-ipc-blind-bfws1-sparse
-    280.00 seconds for powerlifted-ipc-blind-bfws2-sparse
-      0.00 seconds for powerlifted-ipc-blind-iw1-sparse
-      0.00 seconds for powerlifted-ipc-blind-iw1gc-sparse
-      0.00 seconds for powerlifted-ipc-blind-iw2-sparse
-      0.00 seconds for powerlifted-ipc-blind-iw2gc-sparse
-      0.00 seconds for powerlifted-ipc-blind-lazy-prune-sparse
-      0.00 seconds for powerlifted-ipc-ff-alt-bfws1-sparse
-     40.00 seconds for powerlifted-ipc-ff-alt-bfws2-sparse
-      0.00 seconds for powerlifted-ipc-ff-gbfs-sparse
-    120.00 seconds for powerlifted-ipc-ff-lazy-po-sparse
-      0.00 seconds for powerlifted-ipc-ff-lazy-prune-sparse
-    480.00 seconds for powerlifted-ipc-rff-alt-bfws1-sparse
-      0.00 seconds for powerlifted-ipc-rff-alt-bfws2-sparse
-     40.00 seconds for powerlifted-ipc-rff-gbfs-sparse
-      0.00 seconds for powerlifted-ipc-rff-lazy-po-sparse
-      0.00 seconds for powerlifted-ipc-rff-lazy-prune-sparse
-
-portfolio for 1280.00 seconds solves 1933 problems with score 1905.18:
+portfolio for 1240.00 seconds solves 1729 problems with score 1701.95:
      40.00 seconds for powerlifted-ipc-add-alt-bfws1-sparse
       0.00 seconds for powerlifted-ipc-add-alt-bfws2-sparse
      40.00 seconds for powerlifted-ipc-add-gbfs-sparse
@@ -2978,7 +2752,7 @@ portfolio for 1280.00 seconds solves 1933 problems with score 1905.18:
       0.00 seconds for powerlifted-ipc-ff-alt-bfws1-sparse
      80.00 seconds for powerlifted-ipc-ff-alt-bfws2-sparse
       0.00 seconds for powerlifted-ipc-ff-gbfs-sparse
-    120.00 seconds for powerlifted-ipc-ff-lazy-po-sparse
+     80.00 seconds for powerlifted-ipc-ff-lazy-po-sparse
       0.00 seconds for powerlifted-ipc-ff-lazy-prune-sparse
     480.00 seconds for powerlifted-ipc-rff-alt-bfws1-sparse
       0.00 seconds for powerlifted-ipc-rff-alt-bfws2-sparse
@@ -2986,13 +2760,13 @@ portfolio for 1280.00 seconds solves 1933 problems with score 1905.18:
       0.00 seconds for powerlifted-ipc-rff-lazy-po-sparse
       0.00 seconds for powerlifted-ipc-rff-lazy-prune-sparse
 
-portfolio for 1320.00 seconds solves 1937 problems with score 1909.21:
+portfolio for 1280.00 seconds solves 1732 problems with score 1705.76:
      40.00 seconds for powerlifted-ipc-add-alt-bfws1-sparse
       0.00 seconds for powerlifted-ipc-add-alt-bfws2-sparse
      40.00 seconds for powerlifted-ipc-add-gbfs-sparse
      80.00 seconds for powerlifted-ipc-add-lazy-po-sparse
       0.00 seconds for powerlifted-ipc-add-lazy-prune-sparse
-    160.00 seconds for powerlifted-ipc-blind-bfws1-sparse
+    120.00 seconds for powerlifted-ipc-blind-bfws1-sparse
     280.00 seconds for powerlifted-ipc-blind-bfws2-sparse
       0.00 seconds for powerlifted-ipc-blind-iw1-sparse
       0.00 seconds for powerlifted-ipc-blind-iw1gc-sparse
@@ -3002,69 +2776,21 @@ portfolio for 1320.00 seconds solves 1937 problems with score 1909.21:
       0.00 seconds for powerlifted-ipc-ff-alt-bfws1-sparse
      80.00 seconds for powerlifted-ipc-ff-alt-bfws2-sparse
       0.00 seconds for powerlifted-ipc-ff-gbfs-sparse
-    120.00 seconds for powerlifted-ipc-ff-lazy-po-sparse
+     80.00 seconds for powerlifted-ipc-ff-lazy-po-sparse
       0.00 seconds for powerlifted-ipc-ff-lazy-prune-sparse
     480.00 seconds for powerlifted-ipc-rff-alt-bfws1-sparse
       0.00 seconds for powerlifted-ipc-rff-alt-bfws2-sparse
-     40.00 seconds for powerlifted-ipc-rff-gbfs-sparse
+     80.00 seconds for powerlifted-ipc-rff-gbfs-sparse
       0.00 seconds for powerlifted-ipc-rff-lazy-po-sparse
       0.00 seconds for powerlifted-ipc-rff-lazy-prune-sparse
 
-portfolio for 1360.00 seconds solves 1942 problems with score 1914.21:
+portfolio for 1320.00 seconds solves 1735 problems with score 1709.42:
      40.00 seconds for powerlifted-ipc-add-alt-bfws1-sparse
       0.00 seconds for powerlifted-ipc-add-alt-bfws2-sparse
      40.00 seconds for powerlifted-ipc-add-gbfs-sparse
      80.00 seconds for powerlifted-ipc-add-lazy-po-sparse
       0.00 seconds for powerlifted-ipc-add-lazy-prune-sparse
-    200.00 seconds for powerlifted-ipc-blind-bfws1-sparse
-    280.00 seconds for powerlifted-ipc-blind-bfws2-sparse
-      0.00 seconds for powerlifted-ipc-blind-iw1-sparse
-      0.00 seconds for powerlifted-ipc-blind-iw1gc-sparse
-      0.00 seconds for powerlifted-ipc-blind-iw2-sparse
-      0.00 seconds for powerlifted-ipc-blind-iw2gc-sparse
-      0.00 seconds for powerlifted-ipc-blind-lazy-prune-sparse
-      0.00 seconds for powerlifted-ipc-ff-alt-bfws1-sparse
-     80.00 seconds for powerlifted-ipc-ff-alt-bfws2-sparse
-      0.00 seconds for powerlifted-ipc-ff-gbfs-sparse
-    120.00 seconds for powerlifted-ipc-ff-lazy-po-sparse
-      0.00 seconds for powerlifted-ipc-ff-lazy-prune-sparse
-    480.00 seconds for powerlifted-ipc-rff-alt-bfws1-sparse
-      0.00 seconds for powerlifted-ipc-rff-alt-bfws2-sparse
-     40.00 seconds for powerlifted-ipc-rff-gbfs-sparse
-      0.00 seconds for powerlifted-ipc-rff-lazy-po-sparse
-      0.00 seconds for powerlifted-ipc-rff-lazy-prune-sparse
-
-portfolio for 1400.00 seconds solves 1945 problems with score 1918.16:
-     40.00 seconds for powerlifted-ipc-add-alt-bfws1-sparse
-     40.00 seconds for powerlifted-ipc-add-alt-bfws2-sparse
-     40.00 seconds for powerlifted-ipc-add-gbfs-sparse
-     80.00 seconds for powerlifted-ipc-add-lazy-po-sparse
-      0.00 seconds for powerlifted-ipc-add-lazy-prune-sparse
-    200.00 seconds for powerlifted-ipc-blind-bfws1-sparse
-    280.00 seconds for powerlifted-ipc-blind-bfws2-sparse
-      0.00 seconds for powerlifted-ipc-blind-iw1-sparse
-      0.00 seconds for powerlifted-ipc-blind-iw1gc-sparse
-      0.00 seconds for powerlifted-ipc-blind-iw2-sparse
-      0.00 seconds for powerlifted-ipc-blind-iw2gc-sparse
-      0.00 seconds for powerlifted-ipc-blind-lazy-prune-sparse
-      0.00 seconds for powerlifted-ipc-ff-alt-bfws1-sparse
-     80.00 seconds for powerlifted-ipc-ff-alt-bfws2-sparse
-      0.00 seconds for powerlifted-ipc-ff-gbfs-sparse
-    120.00 seconds for powerlifted-ipc-ff-lazy-po-sparse
-      0.00 seconds for powerlifted-ipc-ff-lazy-prune-sparse
-    480.00 seconds for powerlifted-ipc-rff-alt-bfws1-sparse
-      0.00 seconds for powerlifted-ipc-rff-alt-bfws2-sparse
-     40.00 seconds for powerlifted-ipc-rff-gbfs-sparse
-      0.00 seconds for powerlifted-ipc-rff-lazy-po-sparse
-      0.00 seconds for powerlifted-ipc-rff-lazy-prune-sparse
-
-portfolio for 1440.00 seconds solves 1948 problems with score 1921.96:
-     40.00 seconds for powerlifted-ipc-add-alt-bfws1-sparse
-     40.00 seconds for powerlifted-ipc-add-alt-bfws2-sparse
-     40.00 seconds for powerlifted-ipc-add-gbfs-sparse
-     80.00 seconds for powerlifted-ipc-add-lazy-po-sparse
-      0.00 seconds for powerlifted-ipc-add-lazy-prune-sparse
-    200.00 seconds for powerlifted-ipc-blind-bfws1-sparse
+    120.00 seconds for powerlifted-ipc-blind-bfws1-sparse
     280.00 seconds for powerlifted-ipc-blind-bfws2-sparse
       0.00 seconds for powerlifted-ipc-blind-iw1-sparse
       0.00 seconds for powerlifted-ipc-blind-iw1gc-sparse
@@ -3082,13 +2808,37 @@ portfolio for 1440.00 seconds solves 1948 problems with score 1921.96:
       0.00 seconds for powerlifted-ipc-rff-lazy-po-sparse
       0.00 seconds for powerlifted-ipc-rff-lazy-prune-sparse
 
-portfolio for 1480.00 seconds solves 1951 problems with score 1925.55:
+portfolio for 1360.00 seconds solves 1738 problems with score 1713.05:
+     40.00 seconds for powerlifted-ipc-add-alt-bfws1-sparse
+     40.00 seconds for powerlifted-ipc-add-alt-bfws2-sparse
+     40.00 seconds for powerlifted-ipc-add-gbfs-sparse
+     80.00 seconds for powerlifted-ipc-add-lazy-po-sparse
+      0.00 seconds for powerlifted-ipc-add-lazy-prune-sparse
+    120.00 seconds for powerlifted-ipc-blind-bfws1-sparse
+    280.00 seconds for powerlifted-ipc-blind-bfws2-sparse
+      0.00 seconds for powerlifted-ipc-blind-iw1-sparse
+      0.00 seconds for powerlifted-ipc-blind-iw1gc-sparse
+      0.00 seconds for powerlifted-ipc-blind-iw2-sparse
+      0.00 seconds for powerlifted-ipc-blind-iw2gc-sparse
+      0.00 seconds for powerlifted-ipc-blind-lazy-prune-sparse
+      0.00 seconds for powerlifted-ipc-ff-alt-bfws1-sparse
+     80.00 seconds for powerlifted-ipc-ff-alt-bfws2-sparse
+      0.00 seconds for powerlifted-ipc-ff-gbfs-sparse
+    120.00 seconds for powerlifted-ipc-ff-lazy-po-sparse
+      0.00 seconds for powerlifted-ipc-ff-lazy-prune-sparse
+    480.00 seconds for powerlifted-ipc-rff-alt-bfws1-sparse
+      0.00 seconds for powerlifted-ipc-rff-alt-bfws2-sparse
+     80.00 seconds for powerlifted-ipc-rff-gbfs-sparse
+      0.00 seconds for powerlifted-ipc-rff-lazy-po-sparse
+      0.00 seconds for powerlifted-ipc-rff-lazy-prune-sparse
+
+portfolio for 1400.00 seconds solves 1741 problems with score 1716.67:
      40.00 seconds for powerlifted-ipc-add-alt-bfws1-sparse
      80.00 seconds for powerlifted-ipc-add-alt-bfws2-sparse
      40.00 seconds for powerlifted-ipc-add-gbfs-sparse
      80.00 seconds for powerlifted-ipc-add-lazy-po-sparse
       0.00 seconds for powerlifted-ipc-add-lazy-prune-sparse
-    200.00 seconds for powerlifted-ipc-blind-bfws1-sparse
+    120.00 seconds for powerlifted-ipc-blind-bfws1-sparse
     280.00 seconds for powerlifted-ipc-blind-bfws2-sparse
       0.00 seconds for powerlifted-ipc-blind-iw1-sparse
       0.00 seconds for powerlifted-ipc-blind-iw1gc-sparse
@@ -3106,13 +2856,13 @@ portfolio for 1480.00 seconds solves 1951 problems with score 1925.55:
       0.00 seconds for powerlifted-ipc-rff-lazy-po-sparse
       0.00 seconds for powerlifted-ipc-rff-lazy-prune-sparse
 
-portfolio for 1520.00 seconds solves 1956 problems with score 1930.97:
+portfolio for 1440.00 seconds solves 1745 problems with score 1721.27:
      40.00 seconds for powerlifted-ipc-add-alt-bfws1-sparse
     120.00 seconds for powerlifted-ipc-add-alt-bfws2-sparse
      40.00 seconds for powerlifted-ipc-add-gbfs-sparse
      80.00 seconds for powerlifted-ipc-add-lazy-po-sparse
       0.00 seconds for powerlifted-ipc-add-lazy-prune-sparse
-    200.00 seconds for powerlifted-ipc-blind-bfws1-sparse
+    120.00 seconds for powerlifted-ipc-blind-bfws1-sparse
     280.00 seconds for powerlifted-ipc-blind-bfws2-sparse
       0.00 seconds for powerlifted-ipc-blind-iw1-sparse
       0.00 seconds for powerlifted-ipc-blind-iw1gc-sparse
@@ -3130,13 +2880,13 @@ portfolio for 1520.00 seconds solves 1956 problems with score 1930.97:
       0.00 seconds for powerlifted-ipc-rff-lazy-po-sparse
       0.00 seconds for powerlifted-ipc-rff-lazy-prune-sparse
 
-portfolio for 1560.00 seconds solves 1961 problems with score 1936.87:
+portfolio for 1480.00 seconds solves 1749 problems with score 1726.17:
      40.00 seconds for powerlifted-ipc-add-alt-bfws1-sparse
     160.00 seconds for powerlifted-ipc-add-alt-bfws2-sparse
      40.00 seconds for powerlifted-ipc-add-gbfs-sparse
      80.00 seconds for powerlifted-ipc-add-lazy-po-sparse
       0.00 seconds for powerlifted-ipc-add-lazy-prune-sparse
-    200.00 seconds for powerlifted-ipc-blind-bfws1-sparse
+    120.00 seconds for powerlifted-ipc-blind-bfws1-sparse
     280.00 seconds for powerlifted-ipc-blind-bfws2-sparse
       0.00 seconds for powerlifted-ipc-blind-iw1-sparse
       0.00 seconds for powerlifted-ipc-blind-iw1gc-sparse
@@ -3154,13 +2904,13 @@ portfolio for 1560.00 seconds solves 1961 problems with score 1936.87:
       0.00 seconds for powerlifted-ipc-rff-lazy-po-sparse
       0.00 seconds for powerlifted-ipc-rff-lazy-prune-sparse
 
-portfolio for 1600.00 seconds solves 1966 problems with score 1942.29:
+portfolio for 1520.00 seconds solves 1754 problems with score 1731.46:
      40.00 seconds for powerlifted-ipc-add-alt-bfws1-sparse
     200.00 seconds for powerlifted-ipc-add-alt-bfws2-sparse
      40.00 seconds for powerlifted-ipc-add-gbfs-sparse
      80.00 seconds for powerlifted-ipc-add-lazy-po-sparse
       0.00 seconds for powerlifted-ipc-add-lazy-prune-sparse
-    200.00 seconds for powerlifted-ipc-blind-bfws1-sparse
+    120.00 seconds for powerlifted-ipc-blind-bfws1-sparse
     280.00 seconds for powerlifted-ipc-blind-bfws2-sparse
       0.00 seconds for powerlifted-ipc-blind-iw1-sparse
       0.00 seconds for powerlifted-ipc-blind-iw1gc-sparse
@@ -3178,13 +2928,13 @@ portfolio for 1600.00 seconds solves 1966 problems with score 1942.29:
       0.00 seconds for powerlifted-ipc-rff-lazy-po-sparse
       0.00 seconds for powerlifted-ipc-rff-lazy-prune-sparse
 
-portfolio for 1640.00 seconds solves 1973 problems with score 1950.23:
+portfolio for 1560.00 seconds solves 1762 problems with score 1740.02:
      40.00 seconds for powerlifted-ipc-add-alt-bfws1-sparse
     240.00 seconds for powerlifted-ipc-add-alt-bfws2-sparse
      40.00 seconds for powerlifted-ipc-add-gbfs-sparse
      80.00 seconds for powerlifted-ipc-add-lazy-po-sparse
       0.00 seconds for powerlifted-ipc-add-lazy-prune-sparse
-    200.00 seconds for powerlifted-ipc-blind-bfws1-sparse
+    120.00 seconds for powerlifted-ipc-blind-bfws1-sparse
     280.00 seconds for powerlifted-ipc-blind-bfws2-sparse
       0.00 seconds for powerlifted-ipc-blind-iw1-sparse
       0.00 seconds for powerlifted-ipc-blind-iw1gc-sparse
@@ -3202,13 +2952,13 @@ portfolio for 1640.00 seconds solves 1973 problems with score 1950.23:
       0.00 seconds for powerlifted-ipc-rff-lazy-po-sparse
       0.00 seconds for powerlifted-ipc-rff-lazy-prune-sparse
 
-portfolio for 1680.00 seconds solves 1979 problems with score 1956.47:
+portfolio for 1600.00 seconds solves 1768 problems with score 1746.26:
      40.00 seconds for powerlifted-ipc-add-alt-bfws1-sparse
     280.00 seconds for powerlifted-ipc-add-alt-bfws2-sparse
      40.00 seconds for powerlifted-ipc-add-gbfs-sparse
      80.00 seconds for powerlifted-ipc-add-lazy-po-sparse
       0.00 seconds for powerlifted-ipc-add-lazy-prune-sparse
-    200.00 seconds for powerlifted-ipc-blind-bfws1-sparse
+    120.00 seconds for powerlifted-ipc-blind-bfws1-sparse
     280.00 seconds for powerlifted-ipc-blind-bfws2-sparse
       0.00 seconds for powerlifted-ipc-blind-iw1-sparse
       0.00 seconds for powerlifted-ipc-blind-iw1gc-sparse
@@ -3226,13 +2976,13 @@ portfolio for 1680.00 seconds solves 1979 problems with score 1956.47:
       0.00 seconds for powerlifted-ipc-rff-lazy-po-sparse
       0.00 seconds for powerlifted-ipc-rff-lazy-prune-sparse
 
-portfolio for 1720.00 seconds solves 1985 problems with score 1962.37:
+portfolio for 1640.00 seconds solves 1775 problems with score 1752.84:
      40.00 seconds for powerlifted-ipc-add-alt-bfws1-sparse
     320.00 seconds for powerlifted-ipc-add-alt-bfws2-sparse
      40.00 seconds for powerlifted-ipc-add-gbfs-sparse
      80.00 seconds for powerlifted-ipc-add-lazy-po-sparse
       0.00 seconds for powerlifted-ipc-add-lazy-prune-sparse
-    200.00 seconds for powerlifted-ipc-blind-bfws1-sparse
+    120.00 seconds for powerlifted-ipc-blind-bfws1-sparse
     280.00 seconds for powerlifted-ipc-blind-bfws2-sparse
       0.00 seconds for powerlifted-ipc-blind-iw1-sparse
       0.00 seconds for powerlifted-ipc-blind-iw1gc-sparse
@@ -3250,13 +3000,13 @@ portfolio for 1720.00 seconds solves 1985 problems with score 1962.37:
       0.00 seconds for powerlifted-ipc-rff-lazy-po-sparse
       0.00 seconds for powerlifted-ipc-rff-lazy-prune-sparse
 
-portfolio for 1760.00 seconds solves 1991 problems with score 1969.15:
+portfolio for 1680.00 seconds solves 1781 problems with score 1759.14:
      40.00 seconds for powerlifted-ipc-add-alt-bfws1-sparse
     360.00 seconds for powerlifted-ipc-add-alt-bfws2-sparse
      40.00 seconds for powerlifted-ipc-add-gbfs-sparse
      80.00 seconds for powerlifted-ipc-add-lazy-po-sparse
       0.00 seconds for powerlifted-ipc-add-lazy-prune-sparse
-    200.00 seconds for powerlifted-ipc-blind-bfws1-sparse
+    120.00 seconds for powerlifted-ipc-blind-bfws1-sparse
     280.00 seconds for powerlifted-ipc-blind-bfws2-sparse
       0.00 seconds for powerlifted-ipc-blind-iw1-sparse
       0.00 seconds for powerlifted-ipc-blind-iw1gc-sparse
@@ -3274,13 +3024,13 @@ portfolio for 1760.00 seconds solves 1991 problems with score 1969.15:
       0.00 seconds for powerlifted-ipc-rff-lazy-po-sparse
       0.00 seconds for powerlifted-ipc-rff-lazy-prune-sparse
 
-portfolio for 1800.00 seconds solves 1994 problems with score 1972.31:
+portfolio for 1720.00 seconds solves 1784 problems with score 1762.30:
      40.00 seconds for powerlifted-ipc-add-alt-bfws1-sparse
     360.00 seconds for powerlifted-ipc-add-alt-bfws2-sparse
      40.00 seconds for powerlifted-ipc-add-gbfs-sparse
      80.00 seconds for powerlifted-ipc-add-lazy-po-sparse
       0.00 seconds for powerlifted-ipc-add-lazy-prune-sparse
-    200.00 seconds for powerlifted-ipc-blind-bfws1-sparse
+    120.00 seconds for powerlifted-ipc-blind-bfws1-sparse
     280.00 seconds for powerlifted-ipc-blind-bfws2-sparse
       0.00 seconds for powerlifted-ipc-blind-iw1-sparse
       0.00 seconds for powerlifted-ipc-blind-iw1gc-sparse
@@ -3298,16 +3048,64 @@ portfolio for 1800.00 seconds solves 1994 problems with score 1972.31:
       0.00 seconds for powerlifted-ipc-rff-lazy-po-sparse
       0.00 seconds for powerlifted-ipc-rff-lazy-prune-sparse
 
-Time for computing portfolio: 0.5611337829999998s
+portfolio for 1760.00 seconds solves 1789 problems with score 1767.81:
+     40.00 seconds for powerlifted-ipc-add-alt-bfws1-sparse
+    360.00 seconds for powerlifted-ipc-add-alt-bfws2-sparse
+     40.00 seconds for powerlifted-ipc-add-gbfs-sparse
+     80.00 seconds for powerlifted-ipc-add-lazy-po-sparse
+      0.00 seconds for powerlifted-ipc-add-lazy-prune-sparse
+    120.00 seconds for powerlifted-ipc-blind-bfws1-sparse
+    280.00 seconds for powerlifted-ipc-blind-bfws2-sparse
+      0.00 seconds for powerlifted-ipc-blind-iw1-sparse
+      0.00 seconds for powerlifted-ipc-blind-iw1gc-sparse
+      0.00 seconds for powerlifted-ipc-blind-iw2-sparse
+      0.00 seconds for powerlifted-ipc-blind-iw2gc-sparse
+      0.00 seconds for powerlifted-ipc-blind-lazy-prune-sparse
+      0.00 seconds for powerlifted-ipc-ff-alt-bfws1-sparse
+     80.00 seconds for powerlifted-ipc-ff-alt-bfws2-sparse
+      0.00 seconds for powerlifted-ipc-ff-gbfs-sparse
+    200.00 seconds for powerlifted-ipc-ff-lazy-po-sparse
+      0.00 seconds for powerlifted-ipc-ff-lazy-prune-sparse
+    480.00 seconds for powerlifted-ipc-rff-alt-bfws1-sparse
+      0.00 seconds for powerlifted-ipc-rff-alt-bfws2-sparse
+     80.00 seconds for powerlifted-ipc-rff-gbfs-sparse
+      0.00 seconds for powerlifted-ipc-rff-lazy-po-sparse
+      0.00 seconds for powerlifted-ipc-rff-lazy-prune-sparse
+
+portfolio for 1800.00 seconds solves 1793 problems with score 1771.86:
+     40.00 seconds for powerlifted-ipc-add-alt-bfws1-sparse
+    360.00 seconds for powerlifted-ipc-add-alt-bfws2-sparse
+     40.00 seconds for powerlifted-ipc-add-gbfs-sparse
+     80.00 seconds for powerlifted-ipc-add-lazy-po-sparse
+      0.00 seconds for powerlifted-ipc-add-lazy-prune-sparse
+    120.00 seconds for powerlifted-ipc-blind-bfws1-sparse
+    280.00 seconds for powerlifted-ipc-blind-bfws2-sparse
+      0.00 seconds for powerlifted-ipc-blind-iw1-sparse
+      0.00 seconds for powerlifted-ipc-blind-iw1gc-sparse
+      0.00 seconds for powerlifted-ipc-blind-iw2-sparse
+      0.00 seconds for powerlifted-ipc-blind-iw2gc-sparse
+      0.00 seconds for powerlifted-ipc-blind-lazy-prune-sparse
+      0.00 seconds for powerlifted-ipc-ff-alt-bfws1-sparse
+     80.00 seconds for powerlifted-ipc-ff-alt-bfws2-sparse
+      0.00 seconds for powerlifted-ipc-ff-gbfs-sparse
+    240.00 seconds for powerlifted-ipc-ff-lazy-po-sparse
+      0.00 seconds for powerlifted-ipc-ff-lazy-prune-sparse
+    480.00 seconds for powerlifted-ipc-rff-alt-bfws1-sparse
+      0.00 seconds for powerlifted-ipc-rff-alt-bfws2-sparse
+     80.00 seconds for powerlifted-ipc-rff-gbfs-sparse
+      0.00 seconds for powerlifted-ipc-rff-lazy-po-sparse
+      0.00 seconds for powerlifted-ipc-rff-lazy-prune-sparse
+
+Time for computing portfolio: 0.49837142999999995s
 
 Reducing portfolio...
-portfolio for 1767.00 seconds solves 1994 problems with score 1972.31:
+portfolio for 1764.00 seconds solves 1793 problems with score 1771.86:
      38.00 seconds for powerlifted-ipc-add-alt-bfws1-sparse
     359.00 seconds for powerlifted-ipc-add-alt-bfws2-sparse
      29.00 seconds for powerlifted-ipc-add-gbfs-sparse
      80.00 seconds for powerlifted-ipc-add-lazy-po-sparse
       0.00 seconds for powerlifted-ipc-add-lazy-prune-sparse
-    197.00 seconds for powerlifted-ipc-blind-bfws1-sparse
+    116.00 seconds for powerlifted-ipc-blind-bfws1-sparse
     278.00 seconds for powerlifted-ipc-blind-bfws2-sparse
       0.00 seconds for powerlifted-ipc-blind-iw1-sparse
       0.00 seconds for powerlifted-ipc-blind-iw1gc-sparse
@@ -3317,7 +3115,7 @@ portfolio for 1767.00 seconds solves 1994 problems with score 1972.31:
       0.00 seconds for powerlifted-ipc-ff-alt-bfws1-sparse
      74.00 seconds for powerlifted-ipc-ff-alt-bfws2-sparse
       0.00 seconds for powerlifted-ipc-ff-gbfs-sparse
-    156.00 seconds for powerlifted-ipc-ff-lazy-po-sparse
+    234.00 seconds for powerlifted-ipc-ff-lazy-po-sparse
       0.00 seconds for powerlifted-ipc-ff-lazy-prune-sparse
     476.00 seconds for powerlifted-ipc-rff-alt-bfws1-sparse
       0.00 seconds for powerlifted-ipc-rff-alt-bfws2-sparse
@@ -3327,10 +3125,10 @@ portfolio for 1767.00 seconds solves 1994 problems with score 1972.31:
 
 Sort by decreasing coverage
 """
-Coverage: 1994
+Coverage: 1793
 Granularity: 40s
-Runtime: 1767s
-Score: 1972.3060909954834
+Runtime: 1764s
+Score: 1771.8566815015024
 """
 
 TRACK = "sat"
@@ -3344,13 +3142,13 @@ CONFIGS = [
     # powerlifted-ipc-add-alt-bfws2-sparse
     (359, ['powerlifted-ipc-add-alt-bfws2-sparse']),
     # powerlifted-ipc-ff-lazy-po-sparse
-    (156, ['powerlifted-ipc-ff-lazy-po-sparse']),
+    (234, ['powerlifted-ipc-ff-lazy-po-sparse']),
     # powerlifted-ipc-blind-bfws2-sparse
     (278, ['powerlifted-ipc-blind-bfws2-sparse']),
     # powerlifted-ipc-add-lazy-po-sparse
     (80, ['powerlifted-ipc-add-lazy-po-sparse']),
     # powerlifted-ipc-blind-bfws1-sparse
-    (197, ['powerlifted-ipc-blind-bfws1-sparse']),
+    (116, ['powerlifted-ipc-blind-bfws1-sparse']),
     # powerlifted-ipc-rff-gbfs-sparse
     (80, ['powerlifted-ipc-rff-gbfs-sparse']),
     # powerlifted-ipc-add-gbfs-sparse
@@ -3369,7 +3167,6 @@ Unsolved problems:
    briefcaseworld-adl:0-p015.pddl      {powerlifted-ipc-blind-bfws1-sparse: 398.72, powerlifted-ipc-blind-bfws2-sparse: 395.21, powerlifted-ipc-blind-iw2gc-sparse: 399.54}
    briefcaseworld-adl:1-p15.pddl       {powerlifted-ipc-blind-bfws1-sparse: 458.10, powerlifted-ipc-blind-bfws2-sparse: 453.74, powerlifted-ipc-blind-iw2gc-sparse: 452.77}
    childsnack-strips:0-p07.pddl        {powerlifted-ipc-rff-lazy-po-sparse: 592.44, powerlifted-ipc-rff-lazy-prune-sparse: 597.01}
-   childsnack-strips:2-child-snack_pfile03.pddl {powerlifted-ipc-ff-lazy-po-sparse: 190.63, powerlifted-ipc-ff-lazy-prune-sparse: 190.98, powerlifted-ipc-rff-lazy-po-sparse: 189.96, powerlifted-ipc-rff-lazy-prune-sparse: 185.37}
    citycar-adl:2-p048.pddl             {powerlifted-ipc-add-lazy-prune-sparse: 199.03, powerlifted-ipc-ff-alt-bfws1-sparse: 268.24}
    citycar-adl:2-p188.pddl             {powerlifted-ipc-ff-alt-bfws1-sparse: 417.43}
    citycar-adl:2-p197.pddl             {powerlifted-ipc-blind-iw2gc-sparse: 180.53}
@@ -3388,14 +3185,10 @@ Unsolved problems:
    elevators-strips:3-p18.pddl         {powerlifted-ipc-add-alt-bfws1-sparse: 474.42}
    elevators-strips:3-p20.pddl         {powerlifted-ipc-add-alt-bfws1-sparse: 570.53}
    floortile-strips:2-p01-4-3-2.pddl   {powerlifted-ipc-add-lazy-po-sparse: 312.77, powerlifted-ipc-add-lazy-prune-sparse: 310.49, powerlifted-ipc-ff-lazy-po-sparse: 357.35, powerlifted-ipc-ff-lazy-prune-sparse: 353.13, powerlifted-ipc-rff-lazy-po-sparse: 344.28, powerlifted-ipc-rff-lazy-prune-sparse: 358.13}
-   floortile-strips:2-p03-4-3-2.pddl   {powerlifted-ipc-add-gbfs-sparse: 212.61, powerlifted-ipc-add-lazy-po-sparse: 201.39, powerlifted-ipc-add-lazy-prune-sparse: 204.07, powerlifted-ipc-ff-alt-bfws2-sparse: 378.56, powerlifted-ipc-ff-lazy-po-sparse: 233.47, powerlifted-ipc-ff-lazy-prune-sparse: 224.05, powerlifted-ipc-rff-lazy-po-sparse: 148.11, powerlifted-ipc-rff-lazy-prune-sparse: 146.11}
    floortile-strips:4-opt-p02-003.pddl {powerlifted-ipc-add-lazy-po-sparse: 347.42, powerlifted-ipc-add-lazy-prune-sparse: 346.71, powerlifted-ipc-ff-lazy-po-sparse: 393.27, powerlifted-ipc-ff-lazy-prune-sparse: 387.34, powerlifted-ipc-rff-lazy-po-sparse: 379.17, powerlifted-ipc-rff-lazy-prune-sparse: 384.80}
-   floortile-strips:4-opt-p02-004.pddl {powerlifted-ipc-add-lazy-po-sparse: 189.02, powerlifted-ipc-add-lazy-prune-sparse: 188.85, powerlifted-ipc-ff-lazy-po-sparse: 208.42, powerlifted-ipc-ff-lazy-prune-sparse: 206.26, powerlifted-ipc-rff-lazy-po-sparse: 192.45, powerlifted-ipc-rff-lazy-prune-sparse: 194.69}
-   floortile-strips:5-seq-p01-002.pddl {powerlifted-ipc-add-lazy-po-sparse: 290.44, powerlifted-ipc-add-lazy-prune-sparse: 287.24, powerlifted-ipc-ff-lazy-po-sparse: 160.16, powerlifted-ipc-ff-lazy-prune-sparse: 162.68, powerlifted-ipc-rff-lazy-po-sparse: 210.65, powerlifted-ipc-rff-lazy-prune-sparse: 209.77}
    floortile-strips:5-seq-p02-003.pddl {powerlifted-ipc-rff-lazy-po-sparse: 452.64, powerlifted-ipc-rff-lazy-prune-sparse: 448.89}
    floortile-strips:5-seq-p03-006.pddl {powerlifted-ipc-ff-lazy-po-sparse: 544.18, powerlifted-ipc-ff-lazy-prune-sparse: 545.89}
    freecell-strips:0-p08.pddl          {powerlifted-ipc-blind-bfws2-sparse: 408.75, powerlifted-ipc-ff-lazy-po-sparse: 567.78, powerlifted-ipc-ff-lazy-prune-sparse: 554.93}
-   freecell-strips:0-p14.pddl          {powerlifted-ipc-add-alt-bfws2-sparse: 414.37, powerlifted-ipc-ff-lazy-po-sparse: 227.79, powerlifted-ipc-ff-lazy-prune-sparse: 220.14}
    goldminer-strips:0-p103.pddl        {powerlifted-ipc-add-alt-bfws2-sparse: 560.91, powerlifted-ipc-ff-alt-bfws2-sparse: 550.96, powerlifted-ipc-rff-alt-bfws2-sparse: 554.54}
    goldminer-strips:0-p114.pddl        {powerlifted-ipc-add-alt-bfws2-sparse: 556.01, powerlifted-ipc-ff-alt-bfws2-sparse: 549.21, powerlifted-ipc-rff-alt-bfws2-sparse: 520.97}
    goldminer-strips:0-p138.pddl        {powerlifted-ipc-add-alt-bfws2-sparse: 489.98, powerlifted-ipc-ff-alt-bfws2-sparse: 425.21, powerlifted-ipc-rff-alt-bfws2-sparse: 416.33}
@@ -3405,7 +3198,6 @@ Unsolved problems:
    hiking-strips:0-p21.pddl            {powerlifted-ipc-add-alt-bfws2-sparse: 597.85}
    hiking-strips:1-p07.pddl            {powerlifted-ipc-add-alt-bfws2-sparse: 516.60}
    hiking-strips:1-p17.pddl            {powerlifted-ipc-ff-alt-bfws2-sparse: 189.02, powerlifted-ipc-rff-alt-bfws2-sparse: 307.42}
-   hiking-strips:2-testing-3-4-8.pddl  {powerlifted-ipc-add-alt-bfws2-sparse: 595.64, powerlifted-ipc-ff-alt-bfws2-sparse: 176.71, powerlifted-ipc-rff-alt-bfws2-sparse: 174.91}
    hiking-strips:2-testing-3-4-9.pddl  {powerlifted-ipc-ff-alt-bfws2-sparse: 440.84}
    hiking-strips:4-ptesting-3-4-8.pddl {powerlifted-ipc-ff-alt-bfws2-sparse: 348.76}
    hiking-strips:5-p032.pddl           {powerlifted-ipc-add-alt-bfws2-sparse: 527.27}
@@ -3416,6 +3208,7 @@ Unsolved problems:
    hiking-strips:5-p080.pddl           {powerlifted-ipc-ff-alt-bfws2-sparse: 216.41, powerlifted-ipc-rff-alt-bfws2-sparse: 411.43}
    hiking-strips:5-p088.pddl           {powerlifted-ipc-ff-alt-bfws2-sparse: 256.15, powerlifted-ipc-rff-alt-bfws2-sparse: 533.23}
    hiking-strips:5-p095.pddl           {powerlifted-ipc-ff-alt-bfws2-sparse: 141.57, powerlifted-ipc-rff-alt-bfws2-sparse: 504.58}
+   hiking-strips:5-p102.pddl           {powerlifted-ipc-ff-alt-bfws1-sparse: 542.53, powerlifted-ipc-ff-alt-bfws2-sparse: 332.94, powerlifted-ipc-rff-alt-bfws2-sparse: 328.39}
    hiking-strips:5-p103.pddl           {powerlifted-ipc-ff-alt-bfws2-sparse: 400.95}
    hiking-strips:5-p104.pddl           {powerlifted-ipc-ff-alt-bfws2-sparse: 376.41}
    hiking-strips:5-p110.pddl           {powerlifted-ipc-ff-alt-bfws2-sparse: 210.87, powerlifted-ipc-rff-alt-bfws2-sparse: 216.15}
@@ -3425,12 +3218,10 @@ Unsolved problems:
    miconic-fulladl-adl:0-f29-1.pddl    {powerlifted-ipc-blind-bfws2-sparse: 383.65}
    mprime-strips:0-p18.pddl            {powerlifted-ipc-add-gbfs-sparse: 269.56}
    mprime-strips:1-p14.pddl            {powerlifted-ipc-add-gbfs-sparse: 297.93}
-   nomystery-strips:3-p05.pddl         {powerlifted-ipc-ff-lazy-po-sparse: 184.45, powerlifted-ipc-ff-lazy-prune-sparse: 185.26, powerlifted-ipc-rff-lazy-po-sparse: 194.65, powerlifted-ipc-rff-lazy-prune-sparse: 192.82}
    npuzzle-strips:0-p021.pddl          {powerlifted-ipc-ff-alt-bfws1-sparse: 187.56, powerlifted-ipc-ff-alt-bfws2-sparse: 186.08, powerlifted-ipc-ff-gbfs-sparse: 495.83, powerlifted-ipc-ff-lazy-po-sparse: 420.72, powerlifted-ipc-ff-lazy-prune-sparse: 422.98}
    npuzzle-strips:0-p023.pddl          {powerlifted-ipc-rff-lazy-po-sparse: 359.21, powerlifted-ipc-rff-lazy-prune-sparse: 365.15}
    npuzzle-strips:0-p024.pddl          {powerlifted-ipc-ff-lazy-po-sparse: 418.11, powerlifted-ipc-ff-lazy-prune-sparse: 367.46}
    openstacks-adl:1-p04.pddl           {powerlifted-ipc-add-lazy-po-sparse: 505.63, powerlifted-ipc-add-lazy-prune-sparse: 515.65, powerlifted-ipc-ff-lazy-po-sparse: 395.46, powerlifted-ipc-ff-lazy-prune-sparse: 407.62, powerlifted-ipc-rff-lazy-po-sparse: 412.33, powerlifted-ipc-rff-lazy-prune-sparse: 419.40}
-   openstacks-adl:1-p18.pddl           {powerlifted-ipc-blind-bfws2-sparse: 430.81, powerlifted-ipc-blind-iw2gc-sparse: 462.38, powerlifted-ipc-ff-lazy-po-sparse: 174.98, powerlifted-ipc-ff-lazy-prune-sparse: 181.26, powerlifted-ipc-rff-lazy-po-sparse: 177.98, powerlifted-ipc-rff-lazy-prune-sparse: 183.41}
    openstacks-adl:1-p19.pddl           {powerlifted-ipc-ff-lazy-po-sparse: 576.53, powerlifted-ipc-ff-lazy-prune-sparse: 561.77, powerlifted-ipc-rff-lazy-po-sparse: 584.55}
    openstacks-adl:3-p25.pddl           {powerlifted-ipc-blind-bfws1-sparse: 476.94}
    openstacks-adl:3-p26.pddl           {powerlifted-ipc-blind-bfws1-sparse: 436.34}
@@ -3461,9 +3252,8 @@ Unsolved problems:
    satellite-strips:2-p33-HC-pfile13.pddl {powerlifted-ipc-add-alt-bfws1-sparse: 201.20}
    schedule-adl:0-probschedule-8-0.pddl {powerlifted-ipc-blind-iw2gc-sparse: 12.03}
    schedule-adl:1-p105.pddl            {powerlifted-ipc-blind-iw2gc-sparse: 371.30}
-   schedule-adl:1-p131.pddl            {powerlifted-ipc-blind-bfws2-sparse: 554.53, powerlifted-ipc-blind-iw2gc-sparse: 545.84}
-   schedule-adl:1-p133.pddl            {powerlifted-ipc-blind-bfws2-sparse: 506.29, powerlifted-ipc-blind-iw2gc-sparse: 518.21}
    schedule-adl:1-p148.pddl            {powerlifted-ipc-blind-bfws2-sparse: 341.70, powerlifted-ipc-blind-iw2gc-sparse: 279.76}
+   schedule-adl:1-p154.pddl            {powerlifted-ipc-blind-bfws2-sparse: 488.39, powerlifted-ipc-blind-iw2gc-sparse: 519.90}
    schedule-adl:1-p157.pddl            {powerlifted-ipc-blind-bfws2-sparse: 301.01, powerlifted-ipc-blind-iw2gc-sparse: 294.81}
    schedule-adl:1-p161.pddl            {powerlifted-ipc-blind-bfws1-sparse: 460.32, powerlifted-ipc-blind-bfws2-sparse: 400.45}
    schedule-adl:1-p163.pddl            {powerlifted-ipc-blind-bfws2-sparse: 473.81}
@@ -3483,8 +3273,8 @@ Unsolved problems:
    tidybot-strips:1-p19.pddl           {powerlifted-ipc-ff-lazy-po-sparse: 446.89, powerlifted-ipc-ff-lazy-prune-sparse: 461.57, powerlifted-ipc-rff-lazy-po-sparse: 442.43, powerlifted-ipc-rff-lazy-prune-sparse: 464.11}
    tidybot-strips:1-p23.pddl           {powerlifted-ipc-add-alt-bfws1-sparse: 544.27}
    tidybot-strips:1-p25.pddl           {powerlifted-ipc-ff-alt-bfws1-sparse: 472.43, powerlifted-ipc-rff-alt-bfws1-sparse: 521.92, powerlifted-ipc-rff-alt-bfws2-sparse: 565.21}
+   tidybot-strips:4-p19.pddl           {powerlifted-ipc-blind-bfws1-sparse: 182.74, powerlifted-ipc-blind-bfws2-sparse: 488.12, powerlifted-ipc-ff-alt-bfws1-sparse: 587.50, powerlifted-ipc-rff-alt-bfws1-sparse: 506.19}
    tpp-strips:0-p23.pddl               {powerlifted-ipc-rff-lazy-po-sparse: 522.65, powerlifted-ipc-rff-lazy-prune-sparse: 534.39}
-   tpp-strips:1-p23.pddl               {powerlifted-ipc-add-lazy-po-sparse: 584.00, powerlifted-ipc-add-lazy-prune-sparse: 509.21, powerlifted-ipc-ff-alt-bfws1-sparse: 387.93, powerlifted-ipc-ff-lazy-po-sparse: 216.84, powerlifted-ipc-ff-lazy-prune-sparse: 225.19, powerlifted-ipc-rff-alt-bfws1-sparse: 534.57, powerlifted-ipc-rff-lazy-po-sparse: 218.00, powerlifted-ipc-rff-lazy-prune-sparse: 235.78}
    tpp-strips:1-p24.pddl               {powerlifted-ipc-ff-lazy-po-sparse: 428.12, powerlifted-ipc-ff-lazy-prune-sparse: 576.43, powerlifted-ipc-rff-lazy-po-sparse: 515.04, powerlifted-ipc-rff-lazy-prune-sparse: 432.78}
    tpp-strips:1-p25.pddl               {powerlifted-ipc-add-lazy-po-sparse: 515.68, powerlifted-ipc-add-lazy-prune-sparse: 559.17, powerlifted-ipc-ff-lazy-po-sparse: 313.52, powerlifted-ipc-ff-lazy-prune-sparse: 316.76, powerlifted-ipc-rff-lazy-po-sparse: 284.94, powerlifted-ipc-rff-lazy-prune-sparse: 280.24}
    tpp-strips:1-p26.pddl               {powerlifted-ipc-ff-lazy-po-sparse: 387.88, powerlifted-ipc-ff-lazy-prune-sparse: 412.68, powerlifted-ipc-rff-lazy-po-sparse: 435.72, powerlifted-ipc-rff-lazy-prune-sparse: 412.22}
@@ -3502,25 +3292,32 @@ Unsolved problems:
    transport-strips:5-p20.pddl         {powerlifted-ipc-add-alt-bfws1-sparse: 479.60, powerlifted-ipc-add-alt-bfws2-sparse: 505.59, powerlifted-ipc-add-lazy-po-sparse: 352.59, powerlifted-ipc-add-lazy-prune-sparse: 452.67}
    trucks-adl:0-p07.pddl               {powerlifted-ipc-ff-alt-bfws1-sparse: 517.37}
    trucks-adl:0-p11.pddl               {powerlifted-ipc-add-lazy-po-sparse: 415.13}
+   visitall-multidimensional:visitall-multidimensional-4-dim-visitall-FAR-g1:p6.pddl {powerlifted-ipc-blind-bfws1-sparse: 147.67, powerlifted-ipc-blind-iw1-sparse: 147.66, powerlifted-ipc-blind-iw1gc-sparse: 146.95}
+   visitall-multidimensional:visitall-multidimensional-4-dim-visitall-FAR-g2:p6.pddl {powerlifted-ipc-blind-bfws1-sparse: 155.27, powerlifted-ipc-blind-iw1gc-sparse: 153.76}
+   visitall-multidimensional:visitall-multidimensional-4-dim-visitall-FAR-g3:p6.pddl {powerlifted-ipc-blind-bfws1-sparse: 158.87, powerlifted-ipc-blind-iw1gc-sparse: 155.08}
+   visitall-multidimensional:visitall-multidimensional-5-dim-visitall-FAR-g1:p5.pddl {powerlifted-ipc-blind-bfws1-sparse: 195.41, powerlifted-ipc-blind-iw1-sparse: 190.94, powerlifted-ipc-blind-iw1gc-sparse: 191.95}
+   visitall-multidimensional:visitall-multidimensional-5-dim-visitall-FAR-g2:p5.pddl {powerlifted-ipc-blind-bfws1-sparse: 196.32, powerlifted-ipc-blind-iw1gc-sparse: 188.26}
+   visitall-multidimensional:visitall-multidimensional-5-dim-visitall-FAR-g3:p5.pddl {powerlifted-ipc-blind-bfws1-sparse: 195.77, powerlifted-ipc-blind-iw1gc-sparse: 192.75}
+   visitall-strips:1-p23.pddl          {powerlifted-ipc-blind-bfws1-sparse: 179.63, powerlifted-ipc-blind-iw1gc-sparse: 180.47}
    visitall-strips:1-p25.pddl          {powerlifted-ipc-blind-bfws1-sparse: 261.07, powerlifted-ipc-blind-iw1gc-sparse: 251.88}
+   visitall-strips:1-p26.pddl          {powerlifted-ipc-blind-bfws1-sparse: 231.70, powerlifted-ipc-blind-iw1gc-sparse: 222.44}
    visitall-strips:1-p27.pddl          {powerlifted-ipc-blind-bfws1-sparse: 384.78, powerlifted-ipc-blind-iw1gc-sparse: 367.98}
    visitall-strips:1-p28.pddl          {powerlifted-ipc-blind-bfws1-sparse: 368.74, powerlifted-ipc-blind-iw1gc-sparse: 373.35}
    visitall-strips:1-p29.pddl          {powerlifted-ipc-blind-bfws1-sparse: 444.21, powerlifted-ipc-blind-iw1gc-sparse: 434.00}
    visitall-strips:1-p30.pddl          {powerlifted-ipc-blind-bfws1-sparse: 533.70, powerlifted-ipc-blind-iw1gc-sparse: 512.37}
    woodworking-strips:0-p29.pddl       {powerlifted-ipc-ff-gbfs-sparse: 31.94}
-   woodworking-strips:1-p21.pddl       {powerlifted-ipc-add-lazy-po-sparse: 141.89, powerlifted-ipc-add-lazy-prune-sparse: 141.90, powerlifted-ipc-ff-lazy-po-sparse: 189.77, powerlifted-ipc-ff-lazy-prune-sparse: 174.38, powerlifted-ipc-rff-lazy-po-sparse: 138.60, powerlifted-ipc-rff-lazy-prune-sparse: 142.00}
-(151 problems)
+(150 problems)
 
 Marginal contributions:
-     5 problems / 5.80 score from powerlifted-ipc-add-alt-bfws1-sparse
-    47 problems / 52.07 score from powerlifted-ipc-add-alt-bfws2-sparse
-     4 problems / 9.66 score from powerlifted-ipc-add-gbfs-sparse
-    20 problems / 21.14 score from powerlifted-ipc-add-lazy-po-sparse
-    38 problems / 39.25 score from powerlifted-ipc-blind-bfws1-sparse
-    86 problems / 93.35 score from powerlifted-ipc-blind-bfws2-sparse
-     2 problems / 6.67 score from powerlifted-ipc-ff-alt-bfws2-sparse
-    24 problems / 30.70 score from powerlifted-ipc-ff-lazy-po-sparse
-    85 problems / 88.25 score from powerlifted-ipc-rff-alt-bfws1-sparse
-     7 problems / 10.84 score from powerlifted-ipc-rff-gbfs-sparse
+     5 problems / 5.89 score from powerlifted-ipc-add-alt-bfws1-sparse
+    46 problems / 49.85 score from powerlifted-ipc-add-alt-bfws2-sparse
+     3 problems / 8.68 score from powerlifted-ipc-add-gbfs-sparse
+    19 problems / 20.12 score from powerlifted-ipc-add-lazy-po-sparse
+    29 problems / 30.28 score from powerlifted-ipc-blind-bfws1-sparse
+    89 problems / 96.51 score from powerlifted-ipc-blind-bfws2-sparse
+     1 problems / 6.12 score from powerlifted-ipc-ff-alt-bfws2-sparse
+    32 problems / 39.81 score from powerlifted-ipc-ff-lazy-po-sparse
+    76 problems / 79.85 score from powerlifted-ipc-rff-alt-bfws1-sparse
+     7 problems / 10.62 score from powerlifted-ipc-rff-gbfs-sparse
 
-Final score: 1972.3060909954834    Configs: 10    Min time: 29    Max time: 476
+Final score: 1771.8566815015024    Configs: 10    Min time: 29    Max time: 476

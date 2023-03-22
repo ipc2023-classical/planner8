@@ -1,3 +1,4 @@
+from collections import defaultdict
 from pathlib import Path
 import platform
 import re
@@ -6,6 +7,7 @@ import sys
 import traceback
 
 from downward.experiment import FastDownwardExperiment
+from downward.reports import PlanningReport
 from downward.reports.absolute import AbsoluteReport
 from downward.reports.scatter import ScatterPlotReport
 from downward.reports.taskwise import TaskwiseReport
@@ -119,12 +121,41 @@ def remove_file(path: Path):
         pass
 
 
+def remove_properties(eval_dir: Path):
+    for name in ["properties", "properties.xz"]:
+        try:
+            (eval_dir / name).unlink()
+        except FileNotFoundError:
+            pass
+
+
+def compress(path: Path):
+    subprocess.run(["xz", "--force", str(path)])
+
+
 def add_evaluations_per_time(run):
     evaluations = run.get("evaluations")
     time = run.get("search_time")
     if evaluations is not None and evaluations >= 100 and time:
         run["evaluations_per_time"] = evaluations / time
     return run
+
+
+def strip_properties(run):
+    # Combine some domains.
+    for name in ["childsnack-contents", "visitall-multidimensional"]:
+        if run["domain"].startswith(name):
+            run["problem"] = f"{run['domain']}:{run['problem']}"
+            run["domain"] = name
+
+    # For Powerlifted.
+    if run.get("coverage") and "search_time" in run and "total_time" not in run:
+        run["total_time"] = run["search_time"]
+    stripped_run = {}
+    for attribute in ["id", "error", "domain", "problem", "algorithm", "component_options", "cost", "coverage", "memory", "run_dir", "total_time"]:
+        if attribute in run:
+            stripped_run[attribute] = run[attribute]
+    return stripped_run
 
 
 def _get_exp_dir_relative_to_repo():
@@ -170,6 +201,26 @@ def fetch_algorithm(exp, expname, algo, *, new_algo=None):
     )
 
 
+def fetch_algorithms(exp, expname, *, algos=None, name=None, filters=None):
+    """
+    Fetch multiple or all algorithms.
+    """
+    assert not expname.rstrip("/").endswith("-eval")
+    algos = set(algos or [])
+    filters = filters or []
+    if algos:
+        def algo_filter(run):
+            return run["algorithm"] in algos
+        filters.append(algo_filter)
+
+    exp.add_fetcher(
+        f"data/{expname}-eval",
+        filter=filters,
+        name=name or f"fetch-from-{expname}",
+        merge=True,
+    )
+
+
 def add_absolute_report(exp, *, name=None, outfile=None, **kwargs):
     report = AbsoluteReport(**kwargs)
     if name and not outfile:
@@ -186,7 +237,7 @@ def add_absolute_report(exp, *, name=None, outfile=None, **kwargs):
     exp.add_report(report, name=name, outfile=outfile)
     if not REMOTE:
         exp.add_step(f"open-{name}", subprocess.call, ["xdg-open", outfile])
-    exp.add_step(f"publish-{name}", subprocess.call, ["publish", outfile])
+    #exp.add_step(f"publish-{name}", subprocess.call, ["publish", outfile])
 
 
 def add_scatter_plot_reports(exp, algorithm_pairs, attributes, *, filter=None):
@@ -197,7 +248,30 @@ def add_scatter_plot_reports(exp, algorithm_pairs, attributes, *, filter=None):
                     get_category=None if TEX else lambda run1, run2: run1["domain"],
                     attributes=[attribute],
                     filter_algorithm=[algo1, algo2],
-                    filter=[add_evaluations_per_time, group_domains] + tools.make_list(filter),
+                    filter=[add_evaluations_per_time] + tools.make_list(filter),
                     format="tex" if TEX else "png",
                 ),
                 name=f"{exp.name}-{algo1}-{algo2}-{attribute}{'-relative' if RELATIVE else ''}")
+
+
+class Hardest30Report(PlanningReport):
+    """
+    Keep the 30 tasks from each domain that are solved by the fewest number of planners.
+    """
+    def get_text(self):
+        solved_by = defaultdict(int)
+        for run in self.props.values():
+            if run.get("coverage"):
+                solved_by[(run["domain"], run["problem"])] += 1
+        hardest_tasks = {}
+        for domain, problems in sorted(self.domains.items()):
+            solved_problems = [problem for problem in problems if solved_by[(domain, problem)] > 0]
+            solved_problems.sort(key=lambda problem: solved_by[(domain, problem)])
+            hardest_tasks[domain] = set(solved_problems[:30])
+        for domain, problems in sorted(self.domains.items()):
+            print(domain, len(problems), len(hardest_tasks[domain]))
+        new_props = tools.Properties()
+        for key, run in self.props.items():
+            if run["problem"] in hardest_tasks[run["domain"]]:
+                new_props[key] = run
+        return str(new_props)
