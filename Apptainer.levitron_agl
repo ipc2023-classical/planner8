@@ -58,7 +58,7 @@ Stage: run
         --overall-memory-limit 7680M \
         --overall-time-limit 5m \
         --translate-time-limit 150 \
-        --alias seq-sat-lama-2011 \
+        --alias seq-agl-maidu \
         --plan-file "$PLANFILE" \
         "$DOMAINFILE" "$PROBLEMFILE" || pypy3 /planner/ext/powerlifted/powerlifted.py \
         -d $DOMAINFILE -i $PROBLEMFILE --plan-file $PLANFILE \
@@ -76,7 +76,7 @@ SupportsDerivedPredicates                       yes
 SupportsUniversallyQuantifiedPreconditions      yes
 SupportsExistentiallyQuantifiedPreconditions    yes
 SupportsUniversallyQuantifiedEffects            yes
-SupportsNegativePreconditions                   partially (not supported by some components)
+SupportsNegativePreconditions                   partially, not supported by some components
 SupportsEqualityPreconditions                   yes
 SupportsInequalityPreconditions                 yes
 SupportsConditionalEffects                      yes

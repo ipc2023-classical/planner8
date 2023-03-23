@@ -49,7 +49,7 @@ Stage: run
         --translate-time-limit 15m \
         --transform-task preprocess-h2 \
         --transform-task-options h2_time_limit,180 \
-        --alias seq-sat-scorpion-novelty \
+        --alias seq-sat-maidu \
         --plan-file "$PLANFILE" \
         "$DOMAINFILE" "$PROBLEMFILE"
 

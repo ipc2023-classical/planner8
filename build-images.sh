@@ -1,10 +1,10 @@
 #! /usr/bin/env bash
 
-echo "Building image for Scorpion Novelty - Satisficing Track"
-apptainer build scorpion-novelty-sat.sif Apptainer.sn_sat
+echo "Building image for Scorpion Maidu - Satisficing Track"
+apptainer build maidu-sat.sif Apptainer.maidu_sat
 
-echo "Building image for Scorpion Novelty - Agile Track"
-apptainer build scorpion-novelty-agl.sif Apptainer.sn_agl
+echo "Building image for Scorpion Maidu - Agile Track"
+apptainer build maidu-agl.sif Apptainer.maidu_agl
 
 echo "Building image for Powerlifted - Satisficing Track"
 apptainer build powerlifted-sat.sif Apptainer.powerlifted_sat

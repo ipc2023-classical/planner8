@@ -47,7 +47,7 @@ Stage: run
         --overall-memory-limit 7680M \
         --overall-time-limit 5m \
         --translate-time-limit 2m \
-        --alias seq-sat-scorpion-novelty \
+        --alias seq-agl-maidu \
         --plan-file "$PLANFILE" \
         "$DOMAINFILE" "$PROBLEMFILE"
 

@@ -60,7 +60,7 @@ Stage: run
         --translate-time-limit 15m \
         --transform-task preprocess-h2 \
         --transform-task-options h2_time_limit,180 \
-        --alias seq-levitron-sat \
+        --alias seq-sat-maidu \
         --plan-file "$PLANFILE" \
         "$DOMAINFILE" "$PROBLEMFILE" || pypy3 /planner/ext/powerlifted/powerlifted.py \
         -d $DOMAINFILE -i $PROBLEMFILE --plan-file $PLANFILE \
