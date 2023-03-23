@@ -67,7 +67,9 @@ Stage: run
         --translate-time-limit 150 \
         --alias seq-agl-maidu \
         --plan-file "$PLANFILE" \
-        "$DOMAINFILE" "$PROBLEMFILE" || pypy3 /planner/ext/powerlifted/powerlifted.py \
+        "$DOMAINFILE" "$PROBLEMFILE" \
+        --translate-options --invariant-generation-max-candidates 0 || \
+        pypy3 /planner/ext/powerlifted/powerlifted.py \
         -d $DOMAINFILE -i $PROBLEMFILE --plan-file $PLANFILE \
         --iteration alt-bfws1,ff,yannakakis,1 \
         --iteration bfws1,blind,yannakakis,1 \

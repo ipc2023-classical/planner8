@@ -17,7 +17,7 @@ Stage: build
     ## Build planner.
     cd /planner
     pypy3 build.py
-    strip --strip-all /planner/ext/powerlifted/builds/release/search/search
+    strip --strip-all /planner/builds/release/bin/downward
 
 # Stage 2: Run the planner
 Bootstrap: docker
@@ -50,7 +50,8 @@ Stage: run
         --translate-time-limit 2m \
         --alias seq-agl-maidu \
         --plan-file "$PLANFILE" \
-        "$DOMAINFILE" "$PROBLEMFILE"
+        "$DOMAINFILE" "$PROBLEMFILE" \
+        --translate-options --invariant-generation-max-candidates 0
 
 # Define meta data
 %labels
