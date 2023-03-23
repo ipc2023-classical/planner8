@@ -71,13 +71,14 @@ Stage: run
               --iteration lazy-po,add,yannakakis,7 \
               --iteration gbfs,rff,yannakakis,9 \
               --iteration alt-bfws1,rff,yannakakis,10 \
-              --unit-cost --preprocess-task --only-effects-novelty-check
+              --unit-cost --preprocess-task --only-effects-novelty-check \
+              --time-limit 300
 
 # Define meta data
 %labels
 Name        Powerlifted Agile
 Description Powerlifted planner using a sequential portfolio configuration
-Authors     Augusto B. Corrêa <augusto.blaascorrea@unibas.ch>, Jendrik Seipp <jendrik.seipp@liu.se>, Guillem Francès <guillem.frances@gmail.com>, Markus Hecher <hecher@mit.edu>, Davide Mario Longo <davidem.longo@gmail.com>
+Authors     Augusto B. Corrêa <augusto.blaascorrea@unibas.ch>, Guillem Francès <guillem.frances@gmail.com>, Markus Hecher <hecher@mit.edu>, Davide Mario Longo <davidem.longo@gmail.com>, Jendrik Seipp <jendrik.seipp@liu.se>
 License     GPL 3
 Tracks      agile
 SupportsDerivedPredicates                       no

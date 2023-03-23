@@ -58,13 +58,14 @@ Stage: run
               --iteration bfws1,blind,yannakakis,116 \
               --iteration gbfs,rff,yannakakis,80 \
               --iteration gbfs,add,yannakakis,29 \
-              --unit-cost --preprocess-task --only-effects-novelty-check
+              --unit-cost --preprocess-task --only-effects-novelty-check \
+              --time-limit 1800
 
 # Define meta data
 %labels
 Name        Powerlifted Satisficing
 Description Powerlifted planner using a sequential portfolio configuration
-Authors     Augusto B. Corrêa <augusto.blaascorrea@unibas.ch>, Jendrik Seipp <jendrik.seipp@liu.se>, Guillem Francès <guillem.frances@gmail.com>, Markus Hecher <hecher@mit.edu>, Davide Mario Longo <davidem.longo@gmail.com>
+Authors     Augusto B. Corrêa <augusto.blaascorrea@unibas.ch>, Guillem Francès <guillem.frances@gmail.com>, Markus Hecher <hecher@mit.edu>, Davide Mario Longo <davidem.longo@gmail.com>, Jendrik Seipp <jendrik.seipp@liu.se>
 License     GPL 3
 Tracks      satisficing
 SupportsDerivedPredicates                       no

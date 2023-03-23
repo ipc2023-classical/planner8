@@ -55,7 +55,7 @@ Stage: run
 %labels
 Name        Scorpion Maidu Agile
 Description Version of the Scorpion planner using width-search algorithms
-Authors     Augusto B. Corrêa <augusto.blaascorrea@unibas.ch>, Jendrik Seipp <jendrik.seipp@liu.se>, Guillem Francès <guillem.frances@gmail.com>, Markus Hecher <hecher@mit.edu>, Davide Mario Longo <davidem.longo@gmail.com>
+Authors     Augusto B. Corrêa <augusto.blaascorrea@unibas.ch>, Guillem Francès <guillem.frances@gmail.com>, Markus Hecher <hecher@mit.edu>, Davide Mario Longo <davidem.longo@gmail.com>, Jendrik Seipp <jendrik.seipp@liu.se>
 License     GPL 3
 Tracks      agile
 SupportsDerivedPredicates                       yes

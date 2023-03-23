@@ -64,14 +64,25 @@ Stage: run
         --plan-file "$PLANFILE" \
         "$DOMAINFILE" "$PROBLEMFILE" || pypy3 /planner/ext/powerlifted/powerlifted.py \
         -d $DOMAINFILE -i $PROBLEMFILE --plan-file $PLANFILE \
-        --unit-cost --preprocess-task
-   echo "TODO: Use correct aliases and configs!"
+        --iteration alt-bfws1,rff,yannak     akis,476 \
+        --iteration alt-bfws1,add,yannakakis,38 \
+        --iteration alt-bfws2,ff,yannakakis,74 \
+        --iteration alt-bfws2,add,yannakakis,359 \
+        --iteration lazy-po,ff,yannakakis,234 \
+        --iteration bfws2,blind,yannakakis,278 \
+        --iteration lazy-po,add,yannakakis,80 \
+        --iteration bfws1,blind,yannakakis,116 \
+        --iteration gbfs,rff,yannakakis,80 \
+        --iteration gbfs,add,yannakakis,29 \
+        --unit-cost --preprocess-task --only-effects-novelty-check \
+        --time-limit 1800
+
 
 # Define meta data
 %labels
 Name        Levitron Satisficing
 Description Hybrid planner using both the grounded planner Scorpion Maidu and the lifted planner Powerlifted
-Authors     Augusto B. Corrêa <augusto.blaascorrea@unibas.ch>, Jendrik Seipp <jendrik.seipp@liu.se>, Guillem Francès <guillem.frances@gmail.com>, Markus Hecher <hecher@mit.edu>, Davide Mario Longo <davidem.longo@gmail.com>
+Authors     Augusto B. Corrêa <augusto.blaascorrea@unibas.ch>, Guillem Francès <guillem.frances@gmail.com>, Markus Hecher <hecher@mit.edu>, Davide Mario Longo <davidem.longo@gmail.com>, Jendrik Seipp <jendrik.seipp@liu.se>
 License     GPL 3
 Tracks      satisficing
 SupportsDerivedPredicates                       yes
