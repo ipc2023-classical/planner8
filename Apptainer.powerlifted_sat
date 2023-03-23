@@ -16,9 +16,15 @@ Stage: build
 
     cd /planner/ext/powerlifted
     pypy3 build.py
+    strip --strip-all /planner/ext/powerlifted/builds/release/search/search
 
     cd /planner/ext/cpddl
     make && make -C bin
+    strip --strip-all /planner/ext/cpddl/bin/pddl \
+                      /planner/ext/cpddl/bin/pddl-fdr \
+                      /planner/ext/cpddl/bin/pddl-lplan \
+                      /planner/ext/cpddl/bin/pddl-pddl \
+                      /planner/ext/cpddl/bin/pddl-symba \
 
     cd /planner
 
