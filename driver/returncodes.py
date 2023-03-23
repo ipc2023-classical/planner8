@@ -71,6 +71,10 @@ def generate_portfolio_exitcode(exitcodes):
     exitcodes = set(exitcodes)
     unrecoverable_codes = [code for code in exitcodes if is_unrecoverable(code)]
 
+    # HACK Just so Powerlifted does not run
+    if 0 in exitcodes:
+        return (SUCCESS, True)
+
     # There are unrecoverable exit codes.
     if unrecoverable_codes:
         print("Error: Unexpected exit codes: {}".format(unrecoverable_codes))
