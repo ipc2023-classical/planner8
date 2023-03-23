@@ -1,0 +1,2681 @@
+agricola-strips:0-p07.pddl: 8 different costs from 6779 to 6937
+agricola-strips:0-p14.pddl: 6 different costs from 5984 to 6169
+agricola-strips:0-p21.pddl: 15 different costs from 849 to 1089
+agricola-strips:0-p22.pddl: 12 different costs from 1040 to 1338
+agricola-strips:0-p23.pddl: 15 different costs from 966 to 1689
+agricola-strips:0-p24.pddl: 11 different costs from 1216 to 1693
+agricola-strips:0-p25.pddl: 8 different costs from 1418 to 1829
+agricola-strips:0-p26.pddl: 11 different costs from 1356 to 1685
+agricola-strips:0-p27.pddl: 10 different costs from 1273 to 1822
+agricola-strips:0-p28.pddl: 5 different costs from 1623 to 2157
+agricola-strips:0-p29.pddl: 4 different costs from 1690 to 2120
+agricola-strips:0-p30.pddl: 6 different costs from 1667 to 2186
+agricola-strips:1-p07.pddl: 7 different costs from 4653 to 4664
+agricola-strips:1-p08.pddl: 9 different costs from 5792 to 5802
+agricola-strips:1-p09.pddl: 10 different costs from 6931 to 6947
+agricola-strips:1-p10.pddl: 11 different costs from 7298 to 8209
+agricola-strips:1-p20.pddl: 10 different costs from 7300 to 8935
+agricola-strips:1-p29.pddl: 8 different costs from 7220 to 7231
+agricola-strips:1-p30.pddl: 10 different costs from 7646 to 7659
+agricola-strips:3-p03.pddl: 6 different costs from 4733 to 4915
+agricola-strips:3-p05.pddl: 8 different costs from 5467 to 5477
+agricola-strips:3-p06.pddl: 12 different costs from 5831 to 6564
+agricola-strips:3-p07.pddl: 11 different costs from 6200 to 6213
+agricola-strips:3-p08.pddl: 11 different costs from 6567 to 6580
+agricola-strips:3-p09.pddl: 6 different costs from 6933 to 6941
+agricola-strips:3-p10.pddl: 9 different costs from 7298 to 7317
+agricola-strips:3-p11.pddl: 7 different costs from 911 to 1063
+agricola-strips:3-p12.pddl: 9 different costs from 1159 to 1314
+agricola-strips:3-p13.pddl: 12 different costs from 1018 to 1594
+airport-adl:0-p03-airport1-p2.pddl: 1 different costs from 17 to 17
+airport-adl:0-p06-airport2-p2.pddl: 2 different costs from 41 to 43
+airport-adl:0-p07-airport2-p2.pddl: 2 different costs from 41 to 43
+airport-adl:0-p15-airport3-p3.pddl: 3 different costs from 58 to 62
+airport-adl:0-p18-airport3-p6.pddl: 4 different costs from 107 to 113
+airport-adl:0-p20-airport3-p7.pddl: 5 different costs from 115 to 121
+airport-adl:0-p22-airport4halfMUC-p3.pddl: 2 different costs from 148 to 150
+airport-adl:0-p24-airport4halfMUC-p4.pddl: 2 different costs from 162 to 164
+airport-adl:0-p25-airport4halfMUC-p5.pddl: 3 different costs from 212 to 215
+airport-adl:0-p26-airport4halfMUC-p6.pddl: 3 different costs from 220 to 288
+airport-adl:0-p27-airport4halfMUC-p6.pddl: 3 different costs from 246 to 248
+airport-adl:0-p28-airport4halfMUC-p7.pddl: 2 different costs from 294 to 296
+airport-adl:0-p29-airport4halfMUC-p8.pddl: 4 different costs from 308 to 376
+airport-adl:0-p30-airport4halfMUC-p8.pddl: 2 different costs from 310 to 311
+airport-adl:0-p31-airport4halfMUC-p9.pddl: 4 different costs from 358 to 425
+airport-adl:0-p32-airport4halfMUC-p10.pddl: 5 different costs from 390 to 522
+airport-adl:0-p33-airport4halfMUC-p10.pddl: 3 different costs from 393 to 397
+airport-adl:0-p34-airport4halfMUC-p11.pddl: 4 different costs from 429 to 435
+airport-adl:0-p35-airport4halfMUC-p12.pddl: 1 different costs from 435 to 435
+airport-adl:0-p39-airport5MUC-p4.pddl: 12 different costs from 210 to 286
+airport-adl:0-p40-airport5MUC-p4.pddl: 7 different costs from 191 to 265
+airport-adl:0-p41-airport5MUC-p4.pddl: 5 different costs from 179 to 260
+airport-adl:0-p42-airport5MUC-p5.pddl: 10 different costs from 259 to 486
+airport-adl:0-p43-airport5MUC-p5.pddl: 10 different costs from 224 to 364
+airport-adl:0-p44-airport5MUC-p5.pddl: 6 different costs from 229 to 335
+airport-adl:0-p45-airport5MUC-p6.pddl: 7 different costs from 253 to 461
+airport-adl:0-p46-airport5MUC-p6.pddl: 7 different costs from 292 to 498
+airport-adl:0-p47-airport5MUC-p8.pddl: 3 different costs from 394 to 398
+airport-adl:0-p48-airport5MUC-p9.pddl: 1 different costs from 432 to 432
+airport-adl:0-p49-airport5MUC-p10.pddl: 1 different costs from 459 to 459
+airport-strips:0-p01.pddl: 2 different costs from 101 to 103
+airport-strips:0-p04.pddl: 2 different costs from 162 to 164
+airport-strips:0-p05.pddl: 3 different costs from 212 to 216
+airport-strips:0-p06.pddl: 4 different costs from 220 to 290
+airport-strips:0-p07.pddl: 6 different costs from 246 to 316
+airport-strips:0-p08.pddl: 4 different costs from 294 to 366
+airport-strips:0-p09.pddl: 5 different costs from 308 to 580
+airport-strips:0-p10.pddl: 4 different costs from 312 to 384
+airport-strips:0-p11.pddl: 1 different costs from 358 to 358
+airport-strips:0-p12.pddl: 1 different costs from 390 to 390
+airport-strips:0-p19.pddl: 10 different costs from 210 to 394
+airport-strips:0-p20.pddl: 14 different costs from 191 to 265
+airport-strips:0-p21.pddl: 6 different costs from 179 to 305
+airport-strips:0-p22.pddl: 7 different costs from 261 to 430
+airport-strips:0-p23.pddl: 9 different costs from 224 to 377
+airport-strips:0-p24.pddl: 7 different costs from 229 to 368
+airport-strips:0-p25.pddl: 6 different costs from 251 to 390
+airport-strips:0-p26.pddl: 7 different costs from 296 to 559
+airport-strips:0-p27.pddl: 2 different costs from 394 to 463
+airport-strips:0-p28.pddl: 1 different costs from 492 to 492
+airport-strips:0-p29.pddl: 1 different costs from 553 to 553
+airport-strips:2-p03-airport1-p2.pddl: 2 different costs from 17 to 28
+airport-strips:2-p04-airport2-p1.pddl: 1 different costs from 20 to 20
+airport-strips:2-p06-airport2-p2.pddl: 2 different costs from 41 to 43
+airport-strips:2-p11-airport3-p1.pddl: 2 different costs from 21 to 23
+airport-strips:2-p12-airport3-p2.pddl: 2 different costs from 39 to 41
+airport-strips:2-p13-airport3-p2.pddl: 2 different costs from 37 to 39
+airport-strips:2-p17-airport3-p5.pddl: 4 different costs from 88 to 94
+airport-strips:2-p18-airport3-p6.pddl: 4 different costs from 107 to 113
+airport-strips:2-p20-airport3-p7.pddl: 5 different costs from 115 to 123
+assembly-adl:0-prob01.pddl: 8 different costs from 28 to 970
+assembly-adl:0-prob02.pddl: 9 different costs from 27 to 142
+assembly-adl:0-prob03.pddl: 6 different costs from 32 to 475
+assembly-adl:0-prob04.pddl: 12 different costs from 33 to 1843
+assembly-adl:0-prob05.pddl: 12 different costs from 37 to 752
+assembly-adl:0-prob06.pddl: 8 different costs from 36 to 432
+assembly-adl:0-prob07.pddl: 11 different costs from 47 to 175
+assembly-adl:0-prob08.pddl: 13 different costs from 44 to 740
+assembly-adl:0-prob09.pddl: 11 different costs from 48 to 1201
+assembly-adl:0-prob10.pddl: 11 different costs from 47 to 1442
+assembly-adl:0-prob11.pddl: 11 different costs from 55 to 409
+assembly-adl:0-prob12.pddl: 10 different costs from 57 to 273
+assembly-adl:0-prob13.pddl: 15 different costs from 59 to 402
+assembly-adl:0-prob14.pddl: 10 different costs from 62 to 91
+assembly-adl:0-prob15.pddl: 9 different costs from 68 to 236
+assembly-adl:0-prob16.pddl: 6 different costs from 74 to 110
+assembly-adl:0-prob17.pddl: 13 different costs from 73 to 612
+assembly-adl:0-prob18.pddl: 9 different costs from 77 to 127
+assembly-adl:0-prob19.pddl: 13 different costs from 71 to 253
+assembly-adl:0-prob20.pddl: 9 different costs from 80 to 148
+assembly-adl:0-prob21.pddl: 6 different costs from 75 to 307
+assembly-adl:0-prob22.pddl: 5 different costs from 78 to 182
+assembly-adl:0-prob23.pddl: 10 different costs from 96 to 202
+assembly-adl:0-prob24.pddl: 6 different costs from 97 to 481
+assembly-adl:0-prob25.pddl: 10 different costs from 99 to 928
+assembly-adl:0-prob26.pddl: 7 different costs from 95 to 140
+assembly-adl:0-prob27.pddl: 8 different costs from 110 to 529
+assembly-adl:0-prob28.pddl: 6 different costs from 95 to 479
+assembly-adl:0-prob29.pddl: 3 different costs from 96 to 287
+assembly-adl:0-prob30.pddl: 13 different costs from 108 to 392
+barman-strips:1-p09.pddl: 8 different costs from 513 to 640
+barman-strips:1-p10.pddl: 7 different costs from 540 to 686
+barman-strips:1-p11.pddl: 8 different costs from 638 to 769
+barman-strips:1-p12.pddl: 7 different costs from 639 to 829
+barman-strips:1-p13.pddl: 6 different costs from 801 to 890
+barman-strips:1-p14.pddl: 6 different costs from 841 to 947
+barman-strips:1-p15.pddl: 7 different costs from 901 to 1017
+barman-strips:1-p16.pddl: 6 different costs from 854 to 1128
+barman-strips:1-p17.pddl: 5 different costs from 968 to 1085
+barman-strips:1-p18.pddl: 7 different costs from 948 to 1294
+barman-strips:1-p19.pddl: 7 different costs from 994 to 1342
+barman-strips:1-p20.pddl: 4 different costs from 363 to 389
+barman-strips:1-p21.pddl: 4 different costs from 402 to 430
+barman-strips:1-p22.pddl: 4 different costs from 428 to 454
+barman-strips:1-p24.pddl: 4 different costs from 450 to 504
+barman-strips:1-p25.pddl: 3 different costs from 470 to 494
+barman-strips:1-p26.pddl: 2 different costs from 478 to 494
+barman-strips:1-p27.pddl: 2 different costs from 494 to 499
+barman-strips:1-p28.pddl: 4 different costs from 514 to 564
+barman-strips:1-p29.pddl: 2 different costs from 566 to 580
+barman-strips:1-p30.pddl: 4 different costs from 530 to 582
+barman-strips:2-p3-11-5-15.pddl: 7 different costs from 174 to 222
+barman-strips:2-p3-11-5-16.pddl: 7 different costs from 173 to 231
+barman-strips:2-p3-11-5-17.pddl: 7 different costs from 190 to 310
+barman-strips:2-p4-11-5-15.pddl: 8 different costs from 162 to 223
+barman-strips:6-pfile09-033.pddl: 7 different costs from 376 to 504
+barman-strips:6-pfile09-035.pddl: 5 different costs from 379 to 451
+barman-strips:6-pfile09-036.pddl: 7 different costs from 377 to 444
+barman-strips:6-pfile10-037.pddl: 6 different costs from 394 to 441
+barman-strips:6-pfile10-038.pddl: 8 different costs from 400 to 544
+blocksworld-strips:0-p16.pddl: 22 different costs from 64 to 326
+blocksworld-strips:0-p17.pddl: 23 different costs from 68 to 242
+blocksworld-strips:0-p29.pddl: 21 different costs from 64 to 164
+blocksworld-strips:1-p04.pddl: 29 different costs from 66 to 244
+blocksworld-strips:1-p05.pddl: 20 different costs from 72 to 304
+blocksworld-strips:1-p06.pddl: 18 different costs from 98 to 254
+blocksworld-strips:1-p07.pddl: 13 different costs from 152 to 452
+blocksworld-strips:1-p08.pddl: 13 different costs from 162 to 402
+blocksworld-strips:1-p09.pddl: 11 different costs from 162 to 346
+blocksworld-strips:1-p10.pddl: 10 different costs from 158 to 354
+blocksworld-strips:1-p11.pddl: 8 different costs from 372 to 760
+blocksworld-strips:1-p12.pddl: 11 different costs from 222 to 488
+blocksworld-strips:1-p13.pddl: 11 different costs from 222 to 588
+blocksworld-strips:1-p14.pddl: 8 different costs from 484 to 828
+blocksworld-strips:1-p15.pddl: 11 different costs from 258 to 712
+blocksworld-strips:1-p16.pddl: 9 different costs from 574 to 924
+blocksworld-strips:1-p17.pddl: 5 different costs from 656 to 828
+blocksworld-strips:1-p18.pddl: 7 different costs from 314 to 710
+blocksworld-strips:1-p19.pddl: 5 different costs from 782 to 940
+blocksworld-strips:1-p20.pddl: 4 different costs from 362 to 796
+blocksworld-strips:1-p21.pddl: 6 different costs from 378 to 814
+blocksworld-strips:1-p22.pddl: 5 different costs from 566 to 1014
+blocksworld-strips:1-p23.pddl: 7 different costs from 402 to 860
+blocksworld-strips:1-p24.pddl: 3 different costs from 446 to 472
+blocksworld-strips:1-p25.pddl: 1 different costs from 446 to 446
+blocksworld-strips:1-p26.pddl: 3 different costs from 470 to 492
+blocksworld-strips:1-p27.pddl: 1 different costs from 522 to 522
+blocksworld-strips:1-p28.pddl: 1 different costs from 662 to 662
+blocksworld-strips:1-p30.pddl: 1 different costs from 1244 to 1244
+briefcaseworld-adl:0-p056.pddl: 11 different costs from 186 to 283
+briefcaseworld-adl:0-p059.pddl: 13 different costs from 209 to 303
+briefcaseworld-adl:0-p060.pddl: 9 different costs from 217 to 305
+briefcaseworld-adl:0-p061.pddl: 7 different costs from 212 to 333
+briefcaseworld-adl:0-p062.pddl: 7 different costs from 215 to 329
+briefcaseworld-adl:0-p063.pddl: 7 different costs from 217 to 321
+briefcaseworld-adl:0-p064.pddl: 8 different costs from 226 to 328
+briefcaseworld-adl:0-p065.pddl: 9 different costs from 225 to 308
+briefcaseworld-adl:0-p066.pddl: 7 different costs from 234 to 323
+briefcaseworld-adl:0-p067.pddl: 4 different costs from 231 to 265
+briefcaseworld-adl:0-p068.pddl: 5 different costs from 245 to 376
+briefcaseworld-adl:0-p069.pddl: 5 different costs from 243 to 285
+briefcaseworld-adl:0-p070.pddl: 4 different costs from 237 to 308
+briefcaseworld-adl:0-p071.pddl: 4 different costs from 240 to 300
+briefcaseworld-adl:0-p072.pddl: 4 different costs from 246 to 308
+briefcaseworld-adl:0-p073.pddl: 4 different costs from 256 to 286
+briefcaseworld-adl:0-p074.pddl: 4 different costs from 263 to 346
+briefcaseworld-adl:0-p075.pddl: 5 different costs from 267 to 401
+briefcaseworld-adl:0-p076.pddl: 4 different costs from 267 to 337
+briefcaseworld-adl:0-p077.pddl: 4 different costs from 269 to 352
+briefcaseworld-adl:0-p078.pddl: 5 different costs from 273 to 301
+briefcaseworld-adl:0-p079.pddl: 4 different costs from 281 to 380
+briefcaseworld-adl:0-p080.pddl: 4 different costs from 281 to 381
+briefcaseworld-adl:0-p081.pddl: 4 different costs from 285 to 336
+briefcaseworld-adl:0-p082.pddl: 4 different costs from 282 to 367
+briefcaseworld-adl:0-p083.pddl: 4 different costs from 288 to 386
+briefcaseworld-adl:0-p084.pddl: 4 different costs from 292 to 377
+briefcaseworld-adl:0-p085.pddl: 4 different costs from 288 to 342
+briefcaseworld-adl:0-p086.pddl: 4 different costs from 304 to 363
+briefcaseworld-adl:0-p087.pddl: 4 different costs from 301 to 370
+caldera-adl:0-p03.pddl: 1 different costs from 7 to 7
+caldera-adl:0-p04.pddl: 1 different costs from 7 to 7
+caldera-adl:0-p09.pddl: 4 different costs from 15 to 19
+caldera-adl:0-p10.pddl: 3 different costs from 15 to 17
+caldera-adl:0-p11.pddl: 3 different costs from 15 to 17
+caldera-adl:0-p12.pddl: 3 different costs from 16 to 18
+caldera-adl:0-p13.pddl: 3 different costs from 19 to 21
+caldera-adl:0-p14.pddl: 4 different costs from 20 to 23
+caldera-adl:0-p15.pddl: 3 different costs from 20 to 22
+caldera-adl:0-p16.pddl: 3 different costs from 19 to 21
+caldera-adl:0-p17.pddl: 5 different costs from 25 to 29
+caldera-adl:0-p18.pddl: 5 different costs from 25 to 29
+caldera-adl:0-p19.pddl: 4 different costs from 23 to 27
+caldera-adl:0-p20.pddl: 3 different costs from 23 to 25
+caldera-adl:1-p03.pddl: 4 different costs from 16 to 19
+caldera-adl:1-p04.pddl: 4 different costs from 16 to 20
+caldera-adl:1-p05.pddl: 2 different costs from 19 to 20
+caldera-adl:1-p06.pddl: 5 different costs from 20 to 24
+caldera-adl:1-p07.pddl: 5 different costs from 25 to 30
+caldera-adl:1-p08.pddl: 5 different costs from 24 to 28
+caldera-adl:1-p09.pddl: 5 different costs from 29 to 33
+caldera-adl:1-p10.pddl: 5 different costs from 27 to 31
+caldera-adl:1-p11.pddl: 4 different costs from 32 to 36
+caldera-adl:1-p12.pddl: 3 different costs from 32 to 34
+caldera-adl:1-p13.pddl: 4 different costs from 36 to 39
+caldera-adl:1-p14.pddl: 5 different costs from 38 to 42
+caldera-adl:1-p15.pddl: 5 different costs from 44 to 48
+caldera-adl:1-p16.pddl: 4 different costs from 42 to 45
+caldera-adl:1-p17.pddl: 3 different costs from 44 to 46
+caldera-adl:1-p18.pddl: 3 different costs from 45 to 47
+caldera-split-adl:0-p01.pddl: 2 different costs from 42 to 48
+caldera-split-adl:0-p02.pddl: 3 different costs from 42 to 54
+caldera-split-adl:0-p03.pddl: 4 different costs from 42 to 60
+caldera-split-adl:0-p04.pddl: 3 different costs from 42 to 54
+caldera-split-adl:0-p05.pddl: 6 different costs from 72 to 102
+caldera-split-adl:0-p07.pddl: 7 different costs from 66 to 102
+caldera-split-adl:0-p09.pddl: 7 different costs from 96 to 132
+caldera-split-adl:0-p10.pddl: 6 different costs from 90 to 120
+caldera-split-adl:0-p11.pddl: 8 different costs from 90 to 132
+caldera-split-adl:0-p12.pddl: 7 different costs from 96 to 132
+caldera-split-adl:0-p13.pddl: 6 different costs from 114 to 144
+caldera-split-adl:0-p14.pddl: 6 different costs from 120 to 156
+caldera-split-adl:0-p15.pddl: 7 different costs from 120 to 156
+caldera-split-adl:0-p16.pddl: 7 different costs from 114 to 156
+caldera-split-adl:0-p17.pddl: 3 different costs from 174 to 186
+caldera-split-adl:0-p18.pddl: 5 different costs from 150 to 180
+caldera-split-adl:0-p19.pddl: 3 different costs from 156 to 168
+caldera-split-adl:0-p20.pddl: 4 different costs from 144 to 168
+caldera-split-adl:1-p01.pddl: 7 different costs from 66 to 102
+caldera-split-adl:1-p03.pddl: 7 different costs from 96 to 132
+caldera-split-adl:1-p04.pddl: 7 different costs from 96 to 132
+caldera-split-adl:1-p05.pddl: 5 different costs from 114 to 144
+caldera-split-adl:1-p06.pddl: 5 different costs from 126 to 150
+caldera-split-adl:1-p07.pddl: 4 different costs from 168 to 186
+caldera-split-adl:1-p08.pddl: 3 different costs from 174 to 186
+caldera-split-adl:1-p09.pddl: 1 different costs from 216 to 216
+caldera-split-adl:1-p10.pddl: 3 different costs from 168 to 186
+caldera-split-adl:1-p11.pddl: 2 different costs from 204 to 228
+caldera-split-adl:1-p12.pddl: 1 different costs from 222 to 222
+cavediving-adl:0-testing05A_easy.pddl: 6 different costs from 94 to 104
+cavediving-adl:0-testing06A_easy.pddl: 6 different costs from 95 to 105
+cavediving-adl:0-testing08_easy.pddl: 6 different costs from 90 to 100
+cavediving-adl:0-testing20A_easy.pddl: 7 different costs from 98 to 108
+cavediving-adl:1-p-2_2-2-0.45.pddl: 7 different costs from 82 to 92
+cavediving-adl:1-p-2_2-2-0.6.pddl: 7 different costs from 86 to 96
+cavediving-adl:1-p-2_2_2-2-0.45.pddl: 7 different costs from 86 to 96
+cavediving-adl:1-p-2_2_2-2-0.55.pddl: 6 different costs from 83 to 93
+cavediving-adl:1-p-2_2_2-2-0.6.pddl: 4 different costs from 82 to 92
+cavediving-adl:1-p-2_2_2-2_2-0.4.pddl: 1 different costs from 225 to 225
+cavediving-adl:1-p-2_2_2-2_2-0.55.pddl: 1 different costs from 199 to 199
+cavediving-adl:1-p-2_2_2-2_2-0.6.pddl: 1 different costs from 174 to 174
+cavediving-adl:1-p-2_2_2_2-2-0.4.pddl: 6 different costs from 131 to 138
+cavediving-adl:1-p-2_2_2_2-2-0.5.pddl: 7 different costs from 91 to 101
+cavediving-adl:1-p-2_2_2_2-2-0.55.pddl: 6 different costs from 131 to 139
+cavediving-adl:1-p-2_2_2_2-2-0.6.pddl: 6 different costs from 89 to 99
+cavediving-adl:1-p-2_2_2_2-2_2-0.4.pddl: 1 different costs from 256 to 256
+cavediving-adl:1-p-3_2-2-0.5.pddl: 6 different costs from 84 to 94
+cavediving-adl:1-p-3_2-2-0.55.pddl: 6 different costs from 83 to 93
+cavediving-adl:1-p-3_2-2-0.6.pddl: 6 different costs from 82 to 92
+cavediving-adl:1-p-3_2_2-2-0.4.pddl: 6 different costs from 88 to 98
+cavediving-adl:1-p-3_2_2-2-0.6.pddl: 7 different costs from 81 to 91
+cavediving-adl:1-p-3_2_2-2_2-0.5.pddl: 1 different costs from 193 to 193
+cavediving-adl:1-p-3_2_2-2_2-0.6.pddl: 1 different costs from 178 to 178
+cavediving-adl:1-p-3_3_2-2-0.45.pddl: 6 different costs from 87 to 97
+cavediving-adl:1-p-3_3_2-2-0.5.pddl: 4 different costs from 87 to 97
+cavediving-adl:1-p-3_3_2-2-0.55.pddl: 6 different costs from 83 to 93
+cavediving-adl:1-p-3_3_2-2-0.6.pddl: 8 different costs from 86 to 96
+childsnack-strips:0-p21.pddl: 4 different costs from 53 to 65
+childsnack-strips:0-p23.pddl: 4 different costs from 70 to 81
+childsnack-strips:0-p24.pddl: 3 different costs from 73 to 76
+childsnack-strips:0-p25.pddl: 2 different costs from 77 to 84
+childsnack-strips:1-p09.pddl: 1 different costs from 79 to 79
+childsnack-strips:1-p11.pddl: 3 different costs from 95 to 109
+childsnack-strips:1-p12.pddl: 1 different costs from 100 to 100
+childsnack-strips:1-p13.pddl: 1 different costs from 116 to 116
+childsnack-strips:1-p14.pddl: 1 different costs from 123 to 123
+childsnack-strips:1-p15.pddl: 1 different costs from 128 to 128
+childsnack-strips:1-p16.pddl: 1 different costs from 131 to 131
+childsnack-strips:1-p18.pddl: 1 different costs from 139 to 139
+childsnack-strips:1-p23.pddl: 1 different costs from 108 to 108
+childsnack-strips:1-p24.pddl: 1 different costs from 115 to 115
+childsnack-strips:1-p25.pddl: 1 different costs from 118 to 118
+childsnack-strips:1-p26.pddl: 1 different costs from 124 to 124
+childsnack-strips:1-p27.pddl: 1 different costs from 131 to 131
+childsnack-strips:1-p28.pddl: 1 different costs from 141 to 141
+childsnack-strips:1-p29.pddl: 1 different costs from 133 to 133
+childsnack-strips:1-p30.pddl: 1 different costs from 141 to 141
+childsnack-strips:2-child-snack_pfile08.pddl: 2 different costs from 65 to 68
+childsnack-strips:2-child-snack_pfile09-2.pddl: 2 different costs from 68 to 78
+childsnack-strips:2-child-snack_pfile09.pddl: 1 different costs from 70 to 70
+childsnack-strips:2-child-snack_pfile10.pddl: 1 different costs from 86 to 86
+childsnack-strips:3-child-snack_pfile11.pddl: 1 different costs from 81 to 81
+childsnack-strips:3-child-snack_pfile12.pddl: 1 different costs from 83 to 83
+childsnack-strips:3-child-snack_pfile13.pddl: 1 different costs from 91 to 91
+childsnack-strips:3-child-snack_pfile14.pddl: 1 different costs from 94 to 94
+childsnack-strips:3-child-snack_pfile15-2.pddl: 1 different costs from 102 to 102
+childsnack-strips:3-child-snack_pfile19.pddl: 2 different costs from 118 to 133
+citycar-adl:2-p099.pddl: 1 different costs from 486 to 486
+citycar-adl:2-p113.pddl: 1 different costs from 989 to 989
+citycar-adl:2-p115.pddl: 1 different costs from 416 to 416
+citycar-adl:2-p116.pddl: 1 different costs from 738 to 738
+citycar-adl:2-p121.pddl: 1 different costs from 718 to 718
+citycar-adl:2-p129.pddl: 1 different costs from 366 to 366
+citycar-adl:2-p131.pddl: 1 different costs from 609 to 609
+citycar-adl:2-p132.pddl: 1 different costs from 456 to 456
+citycar-adl:2-p137.pddl: 1 different costs from 276 to 276
+citycar-adl:2-p138.pddl: 1 different costs from 642 to 642
+citycar-adl:2-p144.pddl: 1 different costs from 710 to 710
+citycar-adl:2-p231.pddl: 1 different costs from 700 to 700
+citycar-adl:2-p239.pddl: 1 different costs from 518 to 518
+citycar-adl:2-p249.pddl: 1 different costs from 1212 to 1212
+citycar-adl:2-p260.pddl: 1 different costs from 761 to 761
+citycar-adl:2-p264.pddl: 1 different costs from 761 to 761
+citycar-adl:2-p266.pddl: 1 different costs from 732 to 732
+citycar-adl:2-p267.pddl: 1 different costs from 336 to 336
+citycar-adl:2-p269.pddl: 1 different costs from 1050 to 1050
+citycar-adl:2-p272.pddl: 1 different costs from 500 to 500
+citycar-adl:2-p274.pddl: 1 different costs from 550 to 550
+citycar-adl:2-p281.pddl: 1 different costs from 365 to 365
+citycar-adl:2-p286.pddl: 1 different costs from 569 to 569
+data-network-strips:1-p06.pddl: 12 different costs from 1346 to 2608
+data-network-strips:1-p08.pddl: 14 different costs from 580 to 2530
+data-network-strips:1-p10.pddl: 13 different costs from 1283 to 2444
+data-network-strips:1-p11.pddl: 10 different costs from 1039 to 2404
+data-network-strips:1-p12.pddl: 8 different costs from 1377 to 4173
+data-network-strips:1-p13.pddl: 6 different costs from 1765 to 3382
+data-network-strips:1-p14.pddl: 9 different costs from 1262 to 3741
+data-network-strips:1-p15.pddl: 1 different costs from 4487 to 4487
+data-network-strips:1-p16.pddl: 3 different costs from 3675 to 5863
+data-network-strips:1-p17.pddl: 10 different costs from 946 to 1677
+data-network-strips:1-p18.pddl: 13 different costs from 622 to 2428
+data-network-strips:1-p19.pddl: 7 different costs from 1840 to 3602
+data-network-strips:1-p21.pddl: 2 different costs from 3358 to 3418
+data-network-strips:1-p22.pddl: 7 different costs from 2042 to 2987
+data-network-strips:1-p24.pddl: 3 different costs from 1624 to 2382
+data-network-strips:1-p27.pddl: 2 different costs from 2025 to 2635
+data-network-strips:1-p28.pddl: 1 different costs from 4757 to 4757
+data-network-strips:1-p29.pddl: 1 different costs from 4599 to 4599
+data-network-strips:3-p01.pddl: 14 different costs from 583 to 1440
+data-network-strips:3-p04.pddl: 12 different costs from 878 to 1780
+data-network-strips:3-p05.pddl: 11 different costs from 799 to 1399
+data-network-strips:3-p06.pddl: 4 different costs from 2439 to 2963
+data-network-strips:3-p07.pddl: 3 different costs from 1069 to 2226
+data-network-strips:3-p08.pddl: 6 different costs from 1873 to 2312
+data-network-strips:3-p09.pddl: 8 different costs from 1746 to 3147
+data-network-strips:3-p13.pddl: 17 different costs from 881 to 5892
+data-network-strips:3-p15.pddl: 7 different costs from 2004 to 3101
+data-network-strips:3-p17.pddl: 2 different costs from 3682 to 4583
+data-network-strips:3-p18.pddl: 1 different costs from 2286 to 2286
+depots-strips:0-p09.pddl: 29 different costs from 48 to 140
+depots-strips:0-p10.pddl: 26 different costs from 58 to 307
+depots-strips:0-p11.pddl: 21 different costs from 58 to 117
+depots-strips:0-p12.pddl: 13 different costs from 70 to 106
+depots-strips:0-p21.pddl: 25 different costs from 60 to 141
+depots-strips:0-p29.pddl: 25 different costs from 60 to 143
+depots-strips:0-p30.pddl: 16 different costs from 58 to 138
+depots-strips:1-p05.pddl: 10 different costs from 34 to 44
+depots-strips:1-p06.pddl: 13 different costs from 53 to 77
+depots-strips:1-p07.pddl: 13 different costs from 52 to 64
+depots-strips:1-p08.pddl: 10 different costs from 59 to 77
+depots-strips:1-p09.pddl: 12 different costs from 72 to 107
+depots-strips:1-p10.pddl: 10 different costs from 72 to 114
+depots-strips:1-p11.pddl: 10 different costs from 89 to 112
+depots-strips:1-p12.pddl: 8 different costs from 84 to 104
+depots-strips:1-p13.pddl: 1 different costs from 111 to 111
+depots-strips:1-p14.pddl: 5 different costs from 121 to 136
+depots-strips:1-p15.pddl: 7 different costs from 98 to 114
+depots-strips:1-p17.pddl: 1 different costs from 143 to 143
+depots-strips:2-p06.pddl: 14 different costs from 60 to 191
+depots-strips:2-p09.pddl: 29 different costs from 65 to 271
+depots-strips:2-p12.pddl: 13 different costs from 62 to 107
+depots-strips:2-p14.pddl: 16 different costs from 30 to 295
+depots-strips:2-p15.pddl: 21 different costs from 81 to 152
+depots-strips:2-p18.pddl: 20 different costs from 56 to 87
+depots-strips:2-p19.pddl: 16 different costs from 37 to 346
+depots-strips:2-p20.pddl: 8 different costs from 83 to 147
+depots-strips:2-p22.pddl: 5 different costs from 113 to 133
+driverlog-strips:1-p03.pddl: 35 different costs from 81 to 178
+driverlog-strips:1-p04.pddl: 28 different costs from 101 to 213
+driverlog-strips:1-p06.pddl: 29 different costs from 141 to 307
+driverlog-strips:1-p07.pddl: 28 different costs from 186 to 356
+driverlog-strips:1-p08.pddl: 25 different costs from 175 to 374
+driverlog-strips:1-p09.pddl: 27 different costs from 187 to 376
+driverlog-strips:1-p10.pddl: 24 different costs from 202 to 534
+driverlog-strips:1-p11.pddl: 20 different costs from 249 to 468
+driverlog-strips:1-p12.pddl: 12 different costs from 386 to 633
+driverlog-strips:1-p13.pddl: 8 different costs from 343 to 665
+driverlog-strips:1-p14.pddl: 8 different costs from 381 to 697
+driverlog-strips:1-p15.pddl: 9 different costs from 419 to 619
+driverlog-strips:1-p16.pddl: 7 different costs from 439 to 743
+driverlog-strips:1-p17.pddl: 7 different costs from 452 to 688
+driverlog-strips:1-p18.pddl: 6 different costs from 432 to 660
+driverlog-strips:1-p19.pddl: 2 different costs from 759 to 784
+driverlog-strips:1-p20.pddl: 6 different costs from 720 to 829
+driverlog-strips:1-p21.pddl: 7 different costs from 502 to 786
+driverlog-strips:1-p22.pddl: 3 different costs from 769 to 849
+driverlog-strips:1-p23.pddl: 2 different costs from 806 to 822
+driverlog-strips:1-p24.pddl: 3 different costs from 912 to 998
+driverlog-strips:1-p25.pddl: 6 different costs from 796 to 892
+driverlog-strips:1-p26.pddl: 5 different costs from 873 to 1008
+driverlog-strips:1-p27.pddl: 1 different costs from 1127 to 1127
+driverlog-strips:1-p28.pddl: 1 different costs from 1026 to 1026
+driverlog-strips:2-p16.pddl: 18 different costs from 114 to 158
+driverlog-strips:2-p18.pddl: 28 different costs from 87 to 227
+driverlog-strips:2-p19.pddl: 21 different costs from 140 to 259
+driverlog-strips:2-p20.pddl: 26 different costs from 110 to 210
+elevators-strips:1-p09.pddl: 19 different costs from 1241 to 3301
+elevators-strips:1-p11.pddl: 18 different costs from 1745 to 3104
+elevators-strips:1-p13.pddl: 17 different costs from 2434 to 4859
+elevators-strips:1-p14.pddl: 17 different costs from 1935 to 4510
+elevators-strips:1-p15.pddl: 17 different costs from 2637 to 6050
+elevators-strips:1-p16.pddl: 18 different costs from 2431 to 7099
+elevators-strips:1-p17.pddl: 15 different costs from 3051 to 6973
+elevators-strips:1-p18.pddl: 12 different costs from 3156 to 5808
+elevators-strips:1-p19.pddl: 12 different costs from 3621 to 6052
+elevators-strips:1-p20.pddl: 11 different costs from 5111 to 9444
+elevators-strips:1-p21.pddl: 11 different costs from 4966 to 8329
+elevators-strips:1-p22.pddl: 9 different costs from 5303 to 7236
+elevators-strips:1-p23.pddl: 10 different costs from 5380 to 7457
+elevators-strips:1-p24.pddl: 8 different costs from 5556 to 8775
+elevators-strips:1-p25.pddl: 4 different costs from 6790 to 10642
+elevators-strips:1-p26.pddl: 7 different costs from 5905 to 9392
+elevators-strips:1-p27.pddl: 3 different costs from 9161 to 11354
+elevators-strips:1-p28.pddl: 4 different costs from 9199 to 12129
+elevators-strips:1-p29.pddl: 5 different costs from 8938 to 12014
+elevators-strips:1-p30.pddl: 4 different costs from 9745 to 13815
+elevators-strips:3-p11.pddl: 16 different costs from 881 to 2491
+elevators-strips:3-p12.pddl: 15 different costs from 899 to 2532
+elevators-strips:3-p13.pddl: 16 different costs from 1043 to 2442
+elevators-strips:3-p14.pddl: 16 different costs from 1030 to 2211
+elevators-strips:3-p15.pddl: 15 different costs from 1180 to 2112
+elevators-strips:3-p16.pddl: 15 different costs from 1284 to 2399
+elevators-strips:3-p17.pddl: 16 different costs from 1348 to 2801
+elevators-strips:3-p18.pddl: 17 different costs from 1624 to 4366
+elevators-strips:3-p19.pddl: 12 different costs from 2159 to 4901
+elevators-strips:3-p20.pddl: 13 different costs from 1819 to 2595
+ferry-strips:0-p004.pddl: 9 different costs from 23 to 31
+ferry-strips:0-p008.pddl: 7 different costs from 29 to 36
+ferry-strips:0-p011.pddl: 13 different costs from 46 to 64
+ferry-strips:0-p012.pddl: 4 different costs from 8 to 11
+ferry-strips:0-p014.pddl: 8 different costs from 22 to 29
+ferry-strips:0-p018.pddl: 8 different costs from 24 to 32
+ferry-strips:0-p022.pddl: 15 different costs from 46 to 66
+ferry-strips:0-p027.pddl: 9 different costs from 21 to 29
+ferry-strips:0-p033.pddl: 17 different costs from 47 to 68
+ferry-strips:0-p034.pddl: 8 different costs from 14 to 22
+ferry-strips:0-p044.pddl: 14 different costs from 49 to 64
+ferry-strips:0-p051.pddl: 13 different costs from 37 to 51
+ferry-strips:0-p055.pddl: 16 different costs from 48 to 66
+ferry-strips:0-p061.pddl: 15 different costs from 32 to 47
+ferry-strips:0-p063.pddl: 13 different costs from 36 to 51
+ferry-strips:0-p066.pddl: 16 different costs from 46 to 66
+ferry-strips:0-p072.pddl: 12 different costs from 35 to 47
+ferry-strips:0-p077.pddl: 17 different costs from 51 to 70
+ferry-strips:0-p079.pddl: 8 different costs from 15 to 24
+ferry-strips:0-p081.pddl: 13 different costs from 25 to 37
+ferry-strips:0-p083.pddl: 14 different costs from 29 to 43
+ferry-strips:0-p085.pddl: 17 different costs from 40 to 60
+ferry-strips:0-p088.pddl: 19 different costs from 52 to 75
+ferry-strips:0-p106.pddl: 13 different costs from 33 to 46
+ferry-strips:0-p110.pddl: 13 different costs from 48 to 64
+ferry-strips:0-p120.pddl: 19 different costs from 47 to 72
+ferry-strips:0-p124.pddl: 9 different costs from 22 to 30
+ferry-strips:0-p127.pddl: 12 different costs from 27 to 42
+ferry-strips:0-p130.pddl: 16 different costs from 46 to 67
+ferry-strips:0-p132.pddl: 18 different costs from 51 to 72
+flashfill-adl:0-p01.pddl: 2 different costs from 431 to 619
+flashfill-adl:0-p02.pddl: 4 different costs from 435 to 643
+flashfill-adl:0-p03.pddl: 5 different costs from 456 to 664
+flashfill-adl:0-p04.pddl: 4 different costs from 481 to 675
+flashfill-adl:0-p05.pddl: 3 different costs from 510 to 722
+flashfill-adl:0-p06.pddl: 2 different costs from 413 to 516
+flashfill-adl:0-p07.pddl: 4 different costs from 413 to 645
+flashfill-adl:0-p08.pddl: 4 different costs from 417 to 679
+flashfill-adl:0-p09.pddl: 5 different costs from 421 to 655
+flashfill-adl:0-p10.pddl: 5 different costs from 425 to 642
+flashfill-adl:0-p11.pddl: 1 different costs from 722 to 722
+flashfill-adl:0-p12.pddl: 2 different costs from 646 to 736
+flashfill-adl:0-p16.pddl: 3 different costs from 310 to 415
+flashfill-adl:0-p17.pddl: 2 different costs from 310 to 415
+flashfill-adl:0-p18.pddl: 2 different costs from 313 to 420
+floortile-strips:0-p09.pddl: 4 different costs from 86 to 134
+floortile-strips:0-p11.pddl: 6 different costs from 92 to 160
+floortile-strips:0-p12.pddl: 2 different costs from 88 to 98
+floortile-strips:0-p14.pddl: 1 different costs from 114 to 114
+floortile-strips:2-p01-5-4-2.pddl: 4 different costs from 110 to 128
+floortile-strips:2-p01-5-5-2.pddl: 1 different costs from 137 to 137
+floortile-strips:2-p01-6-4-2.pddl: 1 different costs from 142 to 142
+floortile-strips:2-p01-6-5-2.pddl: 2 different costs from 148 to 150
+floortile-strips:2-p02-5-4-2.pddl: 1 different costs from 120 to 120
+floortile-strips:2-p02-5-5-2.pddl: 1 different costs from 138 to 138
+floortile-strips:2-p02-6-4-2.pddl: 1 different costs from 150 to 150
+floortile-strips:2-p03-5-5-2.pddl: 7 different costs from 110 to 213
+floortile-strips:2-p03-6-4-2.pddl: 1 different costs from 151 to 151
+floortile-strips:2-p03-6-5-2.pddl: 1 different costs from 166 to 166
+floortile-strips:3-p01-6-5-3.pddl: 1 different costs from 149 to 149
+floortile-strips:3-p02-6-5-3.pddl: 1 different costs from 137 to 137
+floortile-strips:3-p04-5-4-2.pddl: 1 different costs from 131 to 131
+floortile-strips:3-p04-6-5-3.pddl: 1 different costs from 139 to 139
+floortile-strips:3-p05-6-5-2.pddl: 3 different costs from 147 to 165
+floortile-strips:4-opt-p05-010.pddl: 7 different costs from 107 to 194
+floortile-strips:4-opt-p06-011.pddl: 3 different costs from 117 to 133
+floortile-strips:4-opt-p06-012.pddl: 1 different costs from 139 to 139
+floortile-strips:4-opt-p07-013.pddl: 1 different costs from 140 to 140
+floortile-strips:4-opt-p07-014.pddl: 1 different costs from 136 to 136
+floortile-strips:4-opt-p08-015.pddl: 1 different costs from 141 to 141
+floortile-strips:5-seq-p04-007.pddl: 2 different costs from 105 to 114
+floortile-strips:5-seq-p05-009.pddl: 1 different costs from 139 to 139
+floortile-strips:5-seq-p05-010.pddl: 1 different costs from 137 to 137
+freecell-strips:0-p19.pddl: 11 different costs from 150 to 275
+freecell-strips:0-p20.pddl: 37 different costs from 124 to 335
+freecell-strips:0-p21.pddl: 25 different costs from 116 to 237
+freecell-strips:0-p23.pddl: 29 different costs from 101 to 465
+freecell-strips:0-p26.pddl: 12 different costs from 155 to 365
+freecell-strips:0-p28.pddl: 30 different costs from 118 to 283
+freecell-strips:0-p29.pddl: 26 different costs from 131 to 265
+freecell-strips:0-p30.pddl: 30 different costs from 133 to 320
+freecell-strips:1-p17.pddl: 35 different costs from 120 to 254
+freecell-strips:1-p18.pddl: 27 different costs from 114 to 302
+freecell-strips:1-p22.pddl: 21 different costs from 106 to 218
+freecell-strips:1-p23.pddl: 28 different costs from 134 to 272
+freecell-strips:1-p24.pddl: 33 different costs from 96 to 382
+freecell-strips:1-p25.pddl: 26 different costs from 163 to 404
+freecell-strips:1-p26.pddl: 18 different costs from 169 to 732
+freecell-strips:1-p28.pddl: 5 different costs from 182 to 311
+freecell-strips:1-p29.pddl: 6 different costs from 174 to 315
+freecell-strips:2-p16.pddl: 20 different costs from 65 to 128
+freecell-strips:2-p19.pddl: 15 different costs from 117 to 207
+freecell-strips:2-p20.pddl: 28 different costs from 95 to 153
+freecell-strips:2-probfreecell-10-5.pddl: 23 different costs from 66 to 202
+freecell-strips:2-probfreecell-11-1.pddl: 26 different costs from 72 to 153
+freecell-strips:2-probfreecell-11-4.pddl: 23 different costs from 75 to 187
+freecell-strips:2-probfreecell-11-5.pddl: 26 different costs from 78 to 338
+freecell-strips:2-probfreecell-12-1.pddl: 27 different costs from 86 to 168
+freecell-strips:2-probfreecell-12-4.pddl: 30 different costs from 83 to 242
+freecell-strips:2-probfreecell-12-5.pddl: 18 different costs from 105 to 319
+freecell-strips:2-probfreecell-13-2.pddl: 27 different costs from 79 to 242
+freecell-strips:2-probfreecell-13-4.pddl: 25 different costs from 92 to 206
+freecell-strips:2-probfreecell-13-5.pddl: 26 different costs from 103 to 327
+fsc-blocks-strips:0-p03.pddl: 12 different costs from 22 to 33
+fsc-blocks-strips:0-p04.pddl: 11 different costs from 32 to 43
+fsc-blocks-strips:0-p05.pddl: 14 different costs from 35 to 53
+fsc-blocks-strips:0-p06.pddl: 12 different costs from 38 to 63
+fsc-blocks-strips:0-p07.pddl: 13 different costs from 42 to 73
+fsc-blocks-strips:0-p08.pddl: 8 different costs from 46 to 82
+fsc-blocks-strips:0-p09.pddl: 11 different costs from 50 to 93
+fsc-blocks-strips:0-p10.pddl: 10 different costs from 54 to 102
+fsc-blocks-strips:0-p11.pddl: 10 different costs from 58 to 113
+fsc-blocks-strips:0-p12.pddl: 9 different costs from 62 to 122
+fsc-blocks-strips:0-p13.pddl: 9 different costs from 66 to 132
+fsc-blocks-strips:0-p14.pddl: 7 different costs from 95 to 142
+fsc-blocks-strips:0-p15.pddl: 8 different costs from 101 to 152
+fsc-blocks-strips:0-p16.pddl: 7 different costs from 140 to 162
+fsc-grid-a-strips:0-corner2x2_A2.pddl: 7 different costs from 9 to 15
+fsc-grid-a-strips:0-corner4x4_A2.pddl: 14 different costs from 31 to 84
+fsc-grid-a-strips:1-corner2x2_A.pddl: 7 different costs from 8 to 15
+fsc-grid-a-strips:1-corner3x2_A.pddl: 12 different costs from 13 to 25
+fsc-grid-a-strips:1-corner3x3_A.pddl: 20 different costs from 20 to 53
+fsc-grid-a-strips:1-corner4x2_A.pddl: 17 different costs from 15 to 39
+fsc-grid-a-strips:1-corner4x3_A.pddl: 20 different costs from 22 to 64
+fsc-grid-a-strips:1-corner4x4_A.pddl: 18 different costs from 27 to 77
+fsc-grid-a-strips:1-prize2x2_A.pddl: 5 different costs from 10 to 15
+fsc-grid-a-strips:1-prize3x2_A.pddl: 9 different costs from 16 to 29
+fsc-grid-a-strips:1-prize3x3_A.pddl: 13 different costs from 25 to 44
+fsc-grid-a-strips:1-prize4x2_A.pddl: 11 different costs from 20 to 33
+fsc-grid-a-strips:1-prize4x3_A.pddl: 12 different costs from 31 to 54
+fsc-grid-a-strips:1-prize4x4_A.pddl: 10 different costs from 40 to 58
+fsc-grid-a-strips:1-prize5x2_A.pddl: 10 different costs from 24 to 39
+fsc-grid-a-strips:1-prize5x3_A.pddl: 13 different costs from 37 to 55
+fsc-grid-a-strips:1-prize5x4_A.pddl: 8 different costs from 48 to 71
+fsc-grid-a-strips:1-prize5x5_A.pddl: 2 different costs from 71 to 74
+fsc-grid-r-strips:0-corner2x2_R.pddl: 11 different costs from 12 to 51
+fsc-grid-r-strips:0-corner3x2_R.pddl: 12 different costs from 14 to 38
+fsc-grid-r-strips:0-corner3x3_R.pddl: 11 different costs from 17 to 29
+fsc-grid-r-strips:0-corner4x2_R.pddl: 13 different costs from 16 to 48
+fsc-grid-r-strips:0-corner4x3_R.pddl: 11 different costs from 19 to 33
+fsc-grid-r-strips:0-corner4x4_R.pddl: 12 different costs from 21 to 50
+fsc-grid-r-strips:0-prize2x2_R.pddl: 5 different costs from 13 to 21
+fsc-grid-r-strips:0-prize3x2_R.pddl: 5 different costs from 19 to 28
+fsc-grid-r-strips:0-prize3x3_R.pddl: 4 different costs from 81 to 95
+fsc-grid-r-strips:0-prize4x2_R.pddl: 7 different costs from 23 to 53
+fsc-grid-r-strips:0-prize4x3_R.pddl: 4 different costs from 111 to 123
+fsc-grid-r-strips:0-prize4x4_R.pddl: 5 different costs from 95 to 163
+fsc-grid-r-strips:0-prize5x2_R.pddl: 7 different costs from 27 to 69
+fsc-grid-r-strips:0-prize5x3_R.pddl: 3 different costs from 159 to 183
+fsc-grid-r-strips:0-prize5x4_R.pddl: 3 different costs from 193 to 217
+fsc-hall-strips:0-p1x4_A.pddl: 9 different costs from 15 to 26
+fsc-visualmarker-strips:0-p-grid4x4-blocks5.pddl: 14 different costs from 23 to 41
+fsc-visualmarker-strips:0-p-grid5x5-blocks10.pddl: 6 different costs from 59 to 71
+fsc-visualmarker-strips:0-p-grid5x5-blocks7a.pddl: 10 different costs from 35 to 53
+fsc-visualmarker-strips:0-p-grid5x5-blocks7b.pddl: 10 different costs from 37 to 55
+fsc-visualmarker-strips:0-p-grid5x5-blocks8.pddl: 6 different costs from 40 to 59
+fsc-visualmarker-strips:0-p-grid5x5-blocks9.pddl: 6 different costs from 41 to 64
+fsc-visualmarker-strips:0-p-grid7x5-blocks10.pddl: 4 different costs from 55 to 79
+ged-strips:1-p08.pddl: 12 different costs from 31 to 79
+ged-strips:1-p09.pddl: 9 different costs from 30 to 66
+ged-strips:1-p10.pddl: 9 different costs from 26 to 86
+ged-strips:1-p11.pddl: 8 different costs from 47 to 79
+ged-strips:1-p12.pddl: 8 different costs from 42 to 112
+ged-strips:1-p13.pddl: 8 different costs from 40 to 88
+ged-strips:1-p14.pddl: 6 different costs from 75 to 141
+ged-strips:1-p15.pddl: 5 different costs from 76 to 146
+ged-strips:1-p16.pddl: 7 different costs from 61 to 137
+ged-strips:1-p17.pddl: 6 different costs from 72 to 100
+ged-strips:1-p18.pddl: 7 different costs from 52 to 106
+ged-strips:1-p19.pddl: 5 different costs from 61 to 143
+ged-strips:1-p20.pddl: 5 different costs from 95 to 131
+ged-strips:1-p21.pddl: 6 different costs from 83 to 117
+ged-strips:1-p22.pddl: 5 different costs from 113 to 159
+ged-strips:1-p23.pddl: 6 different costs from 67 to 123
+ged-strips:1-p24.pddl: 6 different costs from 89 to 147
+ged-strips:1-p25.pddl: 7 different costs from 48 to 122
+ged-strips:1-p26.pddl: 6 different costs from 73 to 118
+ged-strips:1-p27.pddl: 7 different costs from 67 to 151
+ged-strips:1-p28.pddl: 7 different costs from 75 to 149
+ged-strips:1-p29.pddl: 6 different costs from 71 to 113
+ged-strips:1-p30.pddl: 6 different costs from 58 to 90
+ged-strips:3-d-12-2.pddl: 11 different costs from 28 to 75
+ged-strips:3-d-12-3.pddl: 9 different costs from 34 to 77
+ged-strips:3-d-12-5.pddl: 11 different costs from 38 to 76
+ged-strips:3-d-12-6.pddl: 10 different costs from 26 to 75
+ged-strips:3-d-12-7.pddl: 9 different costs from 28 to 62
+ged-strips:3-d-12-8.pddl: 8 different costs from 53 to 81
+ged-strips:3-d-12-9.pddl: 8 different costs from 39 to 72
+gedp-ds2ndp-adl:0-d-1-2.pddl: 3 different costs from 1 to 5
+gedp-ds2ndp-adl:0-d-1-3.pddl: 15 different costs from 4 to 30
+gedp-ds2ndp-adl:0-d-1-8.pddl: 14 different costs from 4 to 68
+gedp-ds2ndp-adl:0-d-2-3.pddl: 13 different costs from 3 to 19
+gedp-ds2ndp-adl:0-d-2-4.pddl: 8 different costs from 2 to 12
+gedp-ds2ndp-adl:0-d-2-8.pddl: 10 different costs from 5 to 64
+gedp-ds2ndp-adl:0-d-3-1.pddl: 11 different costs from 4 to 38
+gedp-ds2ndp-adl:0-d-3-2.pddl: 8 different costs from 3 to 22
+gedp-ds2ndp-adl:0-d-3-4.pddl: 12 different costs from 5 to 50
+gedp-ds2ndp-adl:0-d-4-2.pddl: 9 different costs from 2 to 11
+gedp-ds2ndp-adl:0-d-4-3.pddl: 12 different costs from 5 to 86
+gedp-ds2ndp-adl:0-d-4-8.pddl: 11 different costs from 5 to 64
+gedp-ds2ndp-adl:0-d-5-7.pddl: 13 different costs from 4 to 59
+gedp-ds2ndp-adl:0-d-6-7.pddl: 9 different costs from 4 to 31
+gedp-ds2ndp-adl:0-d-7-5.pddl: 13 different costs from 4 to 77
+gedp-ds2ndp-adl:0-d-7-6.pddl: 12 different costs from 4 to 34
+gedp-ds2ndp-adl:0-d-8-1.pddl: 10 different costs from 4 to 75
+gedp-ds2ndp-adl:0-d-8-2.pddl: 14 different costs from 5 to 40
+gedp-ds2ndp-adl:0-d-8-4.pddl: 13 different costs from 5 to 40
+gedp-ds2ndp-adl:0-d-8-9.pddl: 11 different costs from 7 to 42
+gedp-ds2ndp-adl:0-d-9-8.pddl: 11 different costs from 7 to 72
+goldminer-strips:0-p046.pddl: 14 different costs from 55 to 223
+goldminer-strips:0-p048.pddl: 15 different costs from 59 to 343
+goldminer-strips:0-p058.pddl: 16 different costs from 48 to 269
+goldminer-strips:0-p059.pddl: 16 different costs from 65 to 310
+goldminer-strips:0-p060.pddl: 16 different costs from 63 to 339
+goldminer-strips:0-p070.pddl: 15 different costs from 58 to 334
+goldminer-strips:0-p072.pddl: 16 different costs from 61 to 294
+goldminer-strips:0-p081.pddl: 16 different costs from 60 to 296
+goldminer-strips:0-p082.pddl: 16 different costs from 61 to 332
+goldminer-strips:0-p084.pddl: 14 different costs from 73 to 409
+goldminer-strips:0-p091.pddl: 18 different costs from 46 to 206
+goldminer-strips:0-p093.pddl: 16 different costs from 66 to 248
+goldminer-strips:0-p095.pddl: 15 different costs from 80 to 592
+goldminer-strips:0-p096.pddl: 16 different costs from 61 to 435
+goldminer-strips:0-p105.pddl: 17 different costs from 52 to 212
+goldminer-strips:0-p108.pddl: 15 different costs from 62 to 360
+goldminer-strips:0-p112.pddl: 16 different costs from 47 to 209
+goldminer-strips:0-p114.pddl: 17 different costs from 58 to 277
+goldminer-strips:0-p117.pddl: 16 different costs from 62 to 238
+goldminer-strips:0-p119.pddl: 15 different costs from 65 to 320
+goldminer-strips:0-p120.pddl: 16 different costs from 63 to 444
+goldminer-strips:0-p128.pddl: 16 different costs from 69 to 281
+goldminer-strips:0-p131.pddl: 14 different costs from 85 to 311
+goldminer-strips:0-p132.pddl: 15 different costs from 80 to 381
+goldminer-strips:0-p135.pddl: 15 different costs from 37 to 193
+goldminer-strips:0-p136.pddl: 16 different costs from 46 to 149
+goldminer-strips:0-p141.pddl: 16 different costs from 66 to 298
+goldminer-strips:0-p142.pddl: 17 different costs from 73 to 454
+goldminer-strips:0-p143.pddl: 15 different costs from 69 to 349
+goldminer-strips:0-p144.pddl: 14 different costs from 55 to 286
+grid-strips:0-p21.pddl: 22 different costs from 59 to 105
+grid-strips:0-p29.pddl: 22 different costs from 117 to 874
+grid-strips:1-p05.pddl: 19 different costs from 164 to 349
+grid-strips:1-p06.pddl: 19 different costs from 71 to 179
+grid-strips:1-p07.pddl: 7 different costs from 154 to 218
+grid-strips:1-p08.pddl: 10 different costs from 248 to 360
+grid-strips:1-p09.pddl: 3 different costs from 630 to 650
+grid-strips:1-p10.pddl: 3 different costs from 484 to 729
+grid-strips:1-p11.pddl: 12 different costs from 107 to 196
+grid-strips:1-p12.pddl: 5 different costs from 526 to 706
+grid-strips:1-p13.pddl: 7 different costs from 369 to 626
+grid-strips:1-p14.pddl: 6 different costs from 546 to 651
+grid-strips:1-p15.pddl: 5 different costs from 953 to 1196
+grid-strips:1-p16.pddl: 5 different costs from 1100 to 1284
+grid-strips:1-p18.pddl: 5 different costs from 943 to 999
+grid-strips:1-p19.pddl: 3 different costs from 1679 to 1765
+grid-strips:1-p22.pddl: 4 different costs from 871 to 877
+grid-strips:2-prob03.pddl: 26 different costs from 54 to 776
+grid-strips:2-prob05.pddl: 28 different costs from 112 to 206
+grid-strips:3-p075.pddl: 24 different costs from 84 to 150
+grid-strips:3-p076.pddl: 24 different costs from 84 to 150
+grid-strips:3-p087.pddl: 18 different costs from 110 to 168
+grid-strips:3-p088.pddl: 18 different costs from 110 to 168
+grid-strips:3-p089.pddl: 11 different costs from 100 to 140
+grid-strips:3-p090.pddl: 11 different costs from 100 to 140
+grid-strips:3-p093.pddl: 22 different costs from 99 to 203
+grid-strips:3-p094.pddl: 22 different costs from 99 to 203
+grid-strips:3-p097.pddl: 19 different costs from 83 to 117
+grid-strips:3-p098.pddl: 19 different costs from 83 to 117
+gripper-strips:0-p12.pddl: 5 different costs from 57 to 75
+gripper-strips:0-p16.pddl: 5 different costs from 69 to 91
+gripper-strips:0-p18.pddl: 5 different costs from 75 to 99
+gripper-strips:0-p20.pddl: 5 different costs from 81 to 107
+gripper-strips:0-p21.pddl: 6 different costs from 83 to 111
+gripper-strips:0-p22.pddl: 5 different costs from 87 to 115
+gripper-strips:0-p24.pddl: 5 different costs from 93 to 123
+gripper-strips:0-p26.pddl: 5 different costs from 99 to 131
+gripper-strips:0-p27.pddl: 6 different costs from 101 to 135
+gripper-strips:0-p30.pddl: 5 different costs from 111 to 147
+gripper-strips:1-p05.pddl: 6 different costs from 119 to 159
+gripper-strips:1-p06.pddl: 5 different costs from 135 to 179
+gripper-strips:1-p07.pddl: 6 different costs from 149 to 199
+gripper-strips:1-p08.pddl: 5 different costs from 165 to 219
+gripper-strips:1-p09.pddl: 6 different costs from 179 to 239
+gripper-strips:1-p11.pddl: 6 different costs from 209 to 279
+gripper-strips:1-p12.pddl: 6 different costs from 225 to 299
+gripper-strips:1-p14.pddl: 5 different costs from 255 to 339
+gripper-strips:1-p17.pddl: 7 different costs from 299 to 399
+gripper-strips:1-p18.pddl: 5 different costs from 315 to 419
+gripper-strips:1-p20.pddl: 5 different costs from 345 to 459
+gripper-strips:1-p21.pddl: 6 different costs from 359 to 479
+gripper-strips:1-p22.pddl: 5 different costs from 375 to 499
+gripper-strips:1-p24.pddl: 5 different costs from 405 to 539
+gripper-strips:1-p25.pddl: 6 different costs from 419 to 559
+gripper-strips:1-p27.pddl: 6 different costs from 449 to 599
+gripper-strips:1-p28.pddl: 5 different costs from 465 to 619
+gripper-strips:1-p29.pddl: 6 different costs from 479 to 639
+gripper-strips:2-prob18.pddl: 6 different costs from 113 to 151
+gripper-strips:2-prob20.pddl: 6 different costs from 125 to 167
+hanoi-strips:0-p001.pddl: 8 different costs from 31 to 44
+hanoi-strips:0-p002.pddl: 11 different costs from 63 to 113
+hanoi-strips:0-p003.pddl: 17 different costs from 127 to 163
+hanoi-strips:0-p004.pddl: 21 different costs from 255 to 330
+hanoi-strips:0-p005.pddl: 26 different costs from 511 to 737
+hanoi-strips:0-p006.pddl: 29 different costs from 1023 to 1707
+hanoi-strips:0-p007.pddl: 30 different costs from 2047 to 4095
+hanoi-strips:0-p008.pddl: 31 different costs from 4095 to 10653
+hanoi-strips:0-p009.pddl: 33 different costs from 8191 to 24919
+hanoi-strips:0-p010.pddl: 21 different costs from 16383 to 60885
+hanoi-strips:0-p011.pddl: 9 different costs from 32767 to 38724
+hanoi-strips:0-p012.pddl: 1 different costs from 65535 to 65535
+hiking-strips:0-p21.pddl: 15 different costs from 151 to 418
+hiking-strips:0-p22.pddl: 10 different costs from 167 to 600
+hiking-strips:0-p23.pddl: 8 different costs from 220 to 266
+hiking-strips:0-p24.pddl: 5 different costs from 231 to 252
+hiking-strips:0-p25.pddl: 5 different costs from 243 to 264
+hiking-strips:0-p26.pddl: 4 different costs from 246 to 273
+hiking-strips:0-p27.pddl: 3 different costs from 256 to 278
+hiking-strips:0-p28.pddl: 1 different costs from 272 to 272
+hiking-strips:0-p29.pddl: 1 different costs from 280 to 280
+hiking-strips:0-p30.pddl: 1 different costs from 298 to 298
+hiking-strips:1-p07.pddl: 6 different costs from 160 to 177
+hiking-strips:1-p08.pddl: 3 different costs from 173 to 185
+hiking-strips:1-p09.pddl: 3 different costs from 183 to 196
+hiking-strips:1-p10.pddl: 2 different costs from 194 to 209
+hiking-strips:1-p11.pddl: 1 different costs from 205 to 205
+hiking-strips:1-p12.pddl: 2 different costs from 214 to 216
+hiking-strips:1-p21.pddl: 14 different costs from 74 to 293
+hiking-strips:1-p22.pddl: 5 different costs from 87 to 155
+hiking-strips:1-p23.pddl: 7 different costs from 92 to 214
+hiking-strips:1-p24.pddl: 6 different costs from 99 to 205
+hiking-strips:1-p25.pddl: 4 different costs from 135 to 235
+hiking-strips:1-p26.pddl: 2 different costs from 142 to 188
+hiking-strips:1-p27.pddl: 2 different costs from 150 to 197
+hiking-strips:1-p28.pddl: 1 different costs from 208 to 208
+hiking-strips:1-p29.pddl: 2 different costs from 166 to 217
+hiking-strips:1-p30.pddl: 1 different costs from 239 to 239
+hiking-strips:2-testing-5-6-8.pddl: 10 different costs from 63 to 93
+logistics-strips:1-p04.pddl: 14 different costs from 116 to 145
+logistics-strips:1-p05.pddl: 16 different costs from 156 to 190
+logistics-strips:1-p06.pddl: 16 different costs from 195 to 232
+logistics-strips:1-p07.pddl: 16 different costs from 219 to 269
+logistics-strips:1-p08.pddl: 14 different costs from 245 to 300
+logistics-strips:1-p09.pddl: 11 different costs from 287 to 357
+logistics-strips:1-p10.pddl: 10 different costs from 322 to 395
+logistics-strips:1-p11.pddl: 12 different costs from 344 to 416
+logistics-strips:1-p12.pddl: 8 different costs from 385 to 460
+logistics-strips:1-p13.pddl: 8 different costs from 418 to 521
+logistics-strips:1-p14.pddl: 8 different costs from 447 to 539
+logistics-strips:1-p15.pddl: 4 different costs from 488 to 540
+logistics-strips:1-p16.pddl: 4 different costs from 529 to 562
+logistics-strips:1-p17.pddl: 3 different costs from 549 to 599
+logistics-strips:2-prob12.pddl: 5 different costs from 41 to 46
+logistics-strips:2-prob14.pddl: 15 different costs from 93 to 126
+logistics-strips:2-prob18.pddl: 18 different costs from 167 to 188
+logistics-strips:2-prob19.pddl: 19 different costs from 151 to 205
+logistics-strips:2-prob20.pddl: 19 different costs from 145 to 176
+logistics-strips:2-prob21.pddl: 13 different costs from 103 to 119
+logistics-strips:2-prob22.pddl: 13 different costs from 293 to 347
+logistics-strips:2-prob25.pddl: 16 different costs from 188 to 233
+logistics-strips:2-prob26.pddl: 20 different costs from 193 to 234
+logistics-strips:2-prob27.pddl: 15 different costs from 147 to 194
+logistics-strips:2-prob28.pddl: 9 different costs from 281 to 326
+logistics-strips:2-prob29.pddl: 19 different costs from 326 to 403
+logistics-strips:2-prob30.pddl: 13 different costs from 136 to 163
+maintenance-adl:1-maintenance-1-3-200-500-5-002.pddl: 4 different costs from 127 to 168
+maintenance-adl:3-maintenance.1.3.080.240.5-012.pddl: 4 different costs from 57 to 73
+maintenance-adl:3-maintenance.1.3.100.300.5-000.pddl: 2 different costs from 70 to 74
+maintenance-adl:3-maintenance.1.3.100.300.5-001.pddl: 6 different costs from 68 to 91
+maintenance-adl:3-maintenance.1.3.100.300.5-004.pddl: 5 different costs from 70 to 83
+maintenance-adl:3-maintenance.1.3.100.300.5-013.pddl: 5 different costs from 71 to 81
+maintenance-adl:3-maintenance.1.3.100.300.5-015.pddl: 2 different costs from 78 to 79
+maintenance-adl:3-maintenance.1.3.120.360.5-000.pddl: 2 different costs from 88 to 90
+maintenance-adl:3-maintenance.1.3.120.360.5-004.pddl: 3 different costs from 86 to 95
+maintenance-adl:3-maintenance.1.3.120.360.5-006.pddl: 4 different costs from 83 to 101
+maintenance-adl:3-maintenance.1.3.120.360.5-007.pddl: 3 different costs from 81 to 107
+maintenance-adl:3-maintenance.1.3.120.360.5-009.pddl: 5 different costs from 81 to 95
+maintenance-adl:3-maintenance.1.3.120.360.5-011.pddl: 4 different costs from 84 to 94
+maintenance-adl:3-maintenance.1.3.120.360.5-017.pddl: 5 different costs from 87 to 96
+maintenance-adl:3-maintenance.1.3.120.360.5-018.pddl: 4 different costs from 85 to 94
+maintenance-adl:3-maintenance.1.3.140.420.5-002.pddl: 5 different costs from 96 to 111
+maintenance-adl:3-maintenance.1.3.140.420.5-003.pddl: 4 different costs from 99 to 115
+maintenance-adl:3-maintenance.1.3.140.420.5-004.pddl: 2 different costs from 97 to 101
+maintenance-adl:3-maintenance.1.3.140.420.5-006.pddl: 5 different costs from 96 to 101
+maintenance-adl:3-maintenance.1.3.140.420.5-007.pddl: 1 different costs from 103 to 103
+maintenance-adl:3-maintenance.1.3.140.420.5-008.pddl: 4 different costs from 101 to 112
+maintenance-adl:3-maintenance.1.3.140.420.5-009.pddl: 3 different costs from 101 to 107
+maintenance-adl:3-maintenance.1.3.140.420.5-010.pddl: 6 different costs from 97 to 102
+maintenance-adl:3-maintenance.1.3.140.420.5-013.pddl: 3 different costs from 103 to 114
+maintenance-adl:3-maintenance.1.3.140.420.5-014.pddl: 4 different costs from 100 to 111
+maintenance-adl:3-maintenance.1.3.140.420.5-015.pddl: 2 different costs from 103 to 110
+maintenance-adl:3-maintenance.1.3.140.420.5-016.pddl: 3 different costs from 98 to 104
+maintenance-adl:3-maintenance.1.3.140.420.5-017.pddl: 6 different costs from 96 to 114
+maintenance-adl:3-maintenance.1.3.140.420.5-018.pddl: 2 different costs from 99 to 106
+maintenance-adl:3-maintenance.1.3.140.420.5-019.pddl: 5 different costs from 98 to 103
+miconic-fulladl-adl:0-f19-1.pddl: 20 different costs from 50 to 130
+miconic-fulladl-adl:0-f19-2.pddl: 16 different costs from 58 to 122
+miconic-fulladl-adl:0-f19-4.pddl: 19 different costs from 54 to 148
+miconic-fulladl-adl:0-f20-2.pddl: 16 different costs from 62 to 148
+miconic-fulladl-adl:0-f20-4.pddl: 18 different costs from 56 to 103
+miconic-fulladl-adl:0-f21-0.pddl: 20 different costs from 62 to 121
+miconic-fulladl-adl:0-f22-1.pddl: 19 different costs from 66 to 131
+miconic-fulladl-adl:0-f22-2.pddl: 20 different costs from 62 to 114
+miconic-fulladl-adl:0-f22-3.pddl: 16 different costs from 66 to 111
+miconic-fulladl-adl:0-f22-4.pddl: 21 different costs from 62 to 160
+miconic-fulladl-adl:0-f23-0.pddl: 19 different costs from 70 to 177
+miconic-fulladl-adl:0-f23-1.pddl: 20 different costs from 70 to 171
+miconic-fulladl-adl:0-f23-2.pddl: 18 different costs from 64 to 104
+miconic-fulladl-adl:0-f23-3.pddl: 20 different costs from 68 to 131
+miconic-fulladl-adl:0-f23-4.pddl: 28 different costs from 68 to 142
+miconic-fulladl-adl:0-f25-3.pddl: 15 different costs from 82 to 203
+miconic-fulladl-adl:0-f25-4.pddl: 19 different costs from 70 to 114
+miconic-fulladl-adl:0-f26-0.pddl: 22 different costs from 68 to 126
+miconic-fulladl-adl:0-f26-1.pddl: 20 different costs from 80 to 178
+miconic-fulladl-adl:0-f26-3.pddl: 17 different costs from 80 to 151
+miconic-fulladl-adl:0-f27-3.pddl: 17 different costs from 74 to 134
+miconic-fulladl-adl:0-f27-4.pddl: 20 different costs from 74 to 134
+miconic-fulladl-adl:0-f28-1.pddl: 26 different costs from 78 to 221
+miconic-fulladl-adl:0-f28-2.pddl: 18 different costs from 72 to 145
+miconic-fulladl-adl:0-f28-3.pddl: 16 different costs from 76 to 152
+miconic-fulladl-adl:0-f29-1.pddl: 16 different costs from 80 to 150
+miconic-fulladl-adl:0-f29-4.pddl: 17 different costs from 84 to 251
+miconic-fulladl-adl:0-f30-0.pddl: 19 different costs from 84 to 147
+miconic-fulladl-adl:0-f30-1.pddl: 19 different costs from 92 to 168
+miconic-fulladl-adl:0-f30-3.pddl: 17 different costs from 86 to 147
+miconic-simpleadl-adl:0-s12-0.pddl: 14 different costs from 32 to 49
+miconic-simpleadl-adl:0-s12-1.pddl: 13 different costs from 32 to 52
+miconic-simpleadl-adl:0-s12-4.pddl: 15 different costs from 34 to 60
+miconic-simpleadl-adl:0-s15-3.pddl: 17 different costs from 40 to 70
+miconic-simpleadl-adl:0-s17-3.pddl: 18 different costs from 52 to 84
+miconic-simpleadl-adl:0-s18-0.pddl: 14 different costs from 46 to 81
+miconic-simpleadl-adl:0-s19-0.pddl: 14 different costs from 48 to 84
+miconic-simpleadl-adl:0-s20-1.pddl: 21 different costs from 53 to 103
+miconic-simpleadl-adl:0-s21-0.pddl: 19 different costs from 56 to 104
+miconic-simpleadl-adl:0-s23-0.pddl: 16 different costs from 60 to 108
+miconic-simpleadl-adl:0-s23-1.pddl: 17 different costs from 60 to 104
+miconic-simpleadl-adl:0-s24-2.pddl: 18 different costs from 60 to 112
+miconic-simpleadl-adl:0-s24-4.pddl: 19 different costs from 60 to 115
+miconic-simpleadl-adl:0-s25-2.pddl: 21 different costs from 59 to 105
+miconic-simpleadl-adl:0-s26-1.pddl: 17 different costs from 64 to 114
+miconic-simpleadl-adl:0-s26-4.pddl: 17 different costs from 62 to 101
+miconic-simpleadl-adl:0-s27-0.pddl: 20 different costs from 70 to 153
+miconic-simpleadl-adl:0-s27-4.pddl: 21 different costs from 70 to 128
+miconic-simpleadl-adl:0-s28-1.pddl: 14 different costs from 76 to 114
+miconic-simpleadl-adl:0-s3-0.pddl: 6 different costs from 8 to 13
+miconic-simpleadl-adl:0-s3-2.pddl: 4 different costs from 8 to 12
+miconic-simpleadl-adl:0-s30-1.pddl: 22 different costs from 77 to 130
+miconic-simpleadl-adl:0-s30-3.pddl: 17 different costs from 84 to 132
+miconic-simpleadl-adl:0-s30-4.pddl: 21 different costs from 79 to 150
+miconic-simpleadl-adl:0-s5-0.pddl: 8 different costs from 14 to 22
+miconic-simpleadl-adl:0-s5-2.pddl: 8 different costs from 10 to 18
+miconic-simpleadl-adl:0-s6-0.pddl: 9 different costs from 14 to 23
+miconic-simpleadl-adl:0-s7-2.pddl: 7 different costs from 17 to 23
+miconic-simpleadl-adl:0-s8-0.pddl: 9 different costs from 22 to 32
+miconic-simpleadl-adl:0-s9-2.pddl: 14 different costs from 24 to 46
+miconic-strips:0-p16.pddl: 23 different costs from 102 to 150
+miconic-strips:0-p24.pddl: 24 different costs from 141 to 205
+miconic-strips:0-p25.pddl: 29 different costs from 151 to 218
+miconic-strips:0-p26.pddl: 29 different costs from 155 to 220
+miconic-strips:0-p27.pddl: 24 different costs from 157 to 240
+miconic-strips:0-p29.pddl: 27 different costs from 171 to 252
+miconic-strips:1-p05.pddl: 20 different costs from 103 to 135
+miconic-strips:1-p06.pddl: 20 different costs from 114 to 161
+miconic-strips:1-p07.pddl: 26 different costs from 128 to 180
+miconic-strips:1-p08.pddl: 26 different costs from 139 to 209
+miconic-strips:1-p10.pddl: 24 different costs from 165 to 227
+miconic-strips:1-p11.pddl: 25 different costs from 179 to 249
+miconic-strips:1-p12.pddl: 23 different costs from 194 to 285
+miconic-strips:1-p13.pddl: 26 different costs from 205 to 286
+miconic-strips:1-p14.pddl: 27 different costs from 216 to 303
+miconic-strips:1-p15.pddl: 28 different costs from 231 to 344
+miconic-strips:1-p16.pddl: 26 different costs from 240 to 339
+miconic-strips:1-p17.pddl: 27 different costs from 258 to 383
+miconic-strips:1-p18.pddl: 26 different costs from 272 to 401
+miconic-strips:1-p19.pddl: 31 different costs from 283 to 412
+miconic-strips:1-p20.pddl: 28 different costs from 293 to 450
+miconic-strips:1-p21.pddl: 27 different costs from 307 to 433
+miconic-strips:1-p22.pddl: 31 different costs from 324 to 466
+miconic-strips:1-p23.pddl: 29 different costs from 339 to 486
+miconic-strips:1-p25.pddl: 28 different costs from 359 to 536
+miconic-strips:1-p26.pddl: 28 different costs from 378 to 569
+miconic-strips:1-p27.pddl: 30 different costs from 386 to 563
+miconic-strips:1-p28.pddl: 28 different costs from 432 to 595
+miconic-strips:1-p29.pddl: 25 different costs from 448 to 584
+miconic-strips:1-p30.pddl: 28 different costs from 466 to 664
+movie-strips:0-prob01.pddl: 2 different costs from 7 to 8
+movie-strips:0-prob02.pddl: 2 different costs from 7 to 8
+movie-strips:0-prob03.pddl: 2 different costs from 7 to 8
+movie-strips:0-prob04.pddl: 2 different costs from 7 to 8
+movie-strips:0-prob05.pddl: 2 different costs from 7 to 8
+movie-strips:0-prob06.pddl: 2 different costs from 7 to 8
+movie-strips:0-prob07.pddl: 2 different costs from 7 to 8
+movie-strips:0-prob08.pddl: 2 different costs from 7 to 8
+movie-strips:0-prob09.pddl: 2 different costs from 7 to 8
+movie-strips:0-prob10.pddl: 2 different costs from 7 to 8
+movie-strips:0-prob11.pddl: 2 different costs from 7 to 8
+movie-strips:0-prob12.pddl: 2 different costs from 7 to 8
+movie-strips:0-prob13.pddl: 2 different costs from 7 to 8
+movie-strips:0-prob14.pddl: 2 different costs from 7 to 8
+movie-strips:0-prob15.pddl: 2 different costs from 7 to 8
+movie-strips:0-prob16.pddl: 2 different costs from 7 to 8
+movie-strips:0-prob17.pddl: 2 different costs from 7 to 8
+movie-strips:0-prob18.pddl: 2 different costs from 7 to 8
+movie-strips:0-prob19.pddl: 2 different costs from 7 to 8
+movie-strips:0-prob20.pddl: 2 different costs from 7 to 8
+movie-strips:0-prob21.pddl: 2 different costs from 7 to 8
+movie-strips:0-prob22.pddl: 2 different costs from 7 to 8
+movie-strips:0-prob23.pddl: 2 different costs from 7 to 8
+movie-strips:0-prob24.pddl: 2 different costs from 7 to 8
+movie-strips:0-prob25.pddl: 2 different costs from 7 to 8
+movie-strips:0-prob26.pddl: 2 different costs from 7 to 8
+movie-strips:0-prob27.pddl: 2 different costs from 7 to 8
+movie-strips:0-prob28.pddl: 2 different costs from 7 to 8
+movie-strips:0-prob29.pddl: 2 different costs from 7 to 8
+movie-strips:0-prob30.pddl: 2 different costs from 7 to 8
+mprime-strips:0-p12.pddl: 3 different costs from 27 to 31
+mprime-strips:0-p15.pddl: 3 different costs from 24 to 28
+mprime-strips:0-p18.pddl: 5 different costs from 30 to 38
+mprime-strips:0-p21.pddl: 15 different costs from 32 to 78
+mprime-strips:0-p22.pddl: 12 different costs from 28 to 41
+mprime-strips:0-p26.pddl: 11 different costs from 29 to 42
+mprime-strips:0-p29.pddl: 8 different costs from 38 to 49
+mprime-strips:0-p30.pddl: 10 different costs from 29 to 39
+mprime-strips:1-p03.pddl: 14 different costs from 36 to 74
+mprime-strips:1-p08.pddl: 7 different costs from 66 to 121
+mprime-strips:1-p09.pddl: 11 different costs from 62 to 133
+mprime-strips:1-p10.pddl: 2 different costs from 168 to 170
+mprime-strips:1-p11.pddl: 10 different costs from 60 to 79
+mprime-strips:1-p12.pddl: 2 different costs from 150 to 159
+mprime-strips:1-p13.pddl: 2 different costs from 124 to 137
+mprime-strips:1-p15.pddl: 7 different costs from 35 to 44
+mprime-strips:1-p16.pddl: 4 different costs from 150 to 202
+mprime-strips:1-p17.pddl: 3 different costs from 183 to 200
+mprime-strips:1-p18.pddl: 5 different costs from 201 to 224
+mprime-strips:1-p19.pddl: 1 different costs from 185 to 185
+mprime-strips:1-p20.pddl: 6 different costs from 119 to 137
+mprime-strips:1-p21.pddl: 2 different costs from 206 to 207
+mprime-strips:1-p23.pddl: 1 different costs from 112 to 112
+mprime-strips:1-p26.pddl: 4 different costs from 34 to 42
+mprime-strips:1-p27.pddl: 6 different costs from 138 to 164
+mprime-strips:1-p29.pddl: 2 different costs from 223 to 224
+mprime-strips:1-p30.pddl: 4 different costs from 153 to 180
+mprime-strips:2-prob13.pddl: 6 different costs from 15 to 86
+mystery-strips:0-prob01.pddl: 1 different costs from 5 to 5
+mystery-strips:0-prob02.pddl: 10 different costs from 7 to 25
+mystery-strips:0-prob03.pddl: 3 different costs from 4 to 6
+mystery-strips:0-prob06.pddl: 8 different costs from 11 to 20
+mystery-strips:0-prob09.pddl: 4 different costs from 8 to 11
+mystery-strips:0-prob10.pddl: 1 different costs from 8 to 8
+mystery-strips:0-prob11.pddl: 2 different costs from 7 to 9
+mystery-strips:0-prob13.pddl: 10 different costs from 15 to 29
+mystery-strips:0-prob14.pddl: 3 different costs from 11 to 20
+mystery-strips:0-prob15.pddl: 5 different costs from 6 to 11
+mystery-strips:0-prob17.pddl: 3 different costs from 4 to 6
+mystery-strips:0-prob19.pddl: 3 different costs from 6 to 8
+mystery-strips:0-prob20.pddl: 3 different costs from 7 to 9
+mystery-strips:0-prob25.pddl: 3 different costs from 4 to 6
+mystery-strips:0-prob26.pddl: 2 different costs from 6 to 7
+mystery-strips:0-prob27.pddl: 3 different costs from 5 to 10
+mystery-strips:0-prob28.pddl: 6 different costs from 7 to 14
+mystery-strips:0-prob29.pddl: 3 different costs from 4 to 6
+mystery-strips:0-prob30.pddl: 7 different costs from 9 to 15
+no-mprime-strips:0-prob01.pddl: 1 different costs from 5 to 5
+no-mprime-strips:0-prob02.pddl: 8 different costs from 7 to 19
+no-mprime-strips:0-prob04.pddl: 3 different costs from 8 to 10
+no-mprime-strips:0-prob06.pddl: 10 different costs from 11 to 31
+no-mprime-strips:0-prob07.pddl: 5 different costs from 5 to 11
+no-mprime-strips:0-prob08.pddl: 2 different costs from 6 to 7
+no-mprime-strips:0-prob09.pddl: 5 different costs from 8 to 12
+no-mprime-strips:0-prob10.pddl: 4 different costs from 8 to 84
+no-mprime-strips:0-prob11.pddl: 5 different costs from 7 to 31
+no-mprime-strips:0-prob12.pddl: 7 different costs from 6 to 13
+no-mprime-strips:0-prob13.pddl: 5 different costs from 15 to 77
+no-mprime-strips:0-prob14.pddl: 3 different costs from 11 to 260
+no-mprime-strips:0-prob15.pddl: 2 different costs from 6 to 7
+no-mprime-strips:0-prob16.pddl: 5 different costs from 6 to 11
+no-mprime-strips:0-prob18.pddl: 6 different costs from 17 to 231
+no-mprime-strips:0-prob19.pddl: 4 different costs from 6 to 39
+no-mprime-strips:0-prob20.pddl: 2 different costs from 7 to 9
+no-mprime-strips:0-prob21.pddl: 6 different costs from 6 to 31
+no-mprime-strips:0-prob22.pddl: 7 different costs from 9 to 22
+no-mprime-strips:0-prob23.pddl: 4 different costs from 10 to 70
+no-mprime-strips:0-prob24.pddl: 5 different costs from 8 to 18
+no-mprime-strips:0-prob25.pddl: 3 different costs from 4 to 6
+no-mprime-strips:0-prob26.pddl: 1 different costs from 6 to 6
+no-mprime-strips:0-prob27.pddl: 2 different costs from 5 to 7
+no-mprime-strips:0-prob29.pddl: 2 different costs from 4 to 5
+no-mprime-strips:0-prob30.pddl: 3 different costs from 9 to 11
+no-mprime-strips:0-prob31.pddl: 1 different costs from 4 to 4
+no-mprime-strips:0-prob33.pddl: 3 different costs from 12 to 14
+no-mprime-strips:0-prob34.pddl: 2 different costs from 4 to 5
+no-mprime-strips:0-prob35.pddl: 2 different costs from 5 to 6
+no-mystery-strips:0-prob01.pddl: 1 different costs from 5 to 5
+no-mystery-strips:0-prob02.pddl: 7 different costs from 7 to 13
+no-mystery-strips:0-prob03.pddl: 3 different costs from 4 to 6
+no-mystery-strips:0-prob06.pddl: 10 different costs from 11 to 26
+no-mystery-strips:0-prob09.pddl: 4 different costs from 8 to 11
+no-mystery-strips:0-prob10.pddl: 1 different costs from 8 to 8
+no-mystery-strips:0-prob11.pddl: 4 different costs from 7 to 14
+no-mystery-strips:0-prob13.pddl: 7 different costs from 15 to 22
+no-mystery-strips:0-prob14.pddl: 3 different costs from 11 to 17
+no-mystery-strips:0-prob15.pddl: 4 different costs from 6 to 10
+no-mystery-strips:0-prob17.pddl: 3 different costs from 4 to 17
+no-mystery-strips:0-prob19.pddl: 6 different costs from 6 to 11
+no-mystery-strips:0-prob20.pddl: 3 different costs from 7 to 9
+no-mystery-strips:0-prob25.pddl: 3 different costs from 4 to 7
+no-mystery-strips:0-prob26.pddl: 1 different costs from 6 to 6
+no-mystery-strips:0-prob27.pddl: 2 different costs from 5 to 7
+no-mystery-strips:0-prob28.pddl: 6 different costs from 7 to 14
+no-mystery-strips:0-prob29.pddl: 4 different costs from 4 to 7
+no-mystery-strips:0-prob30.pddl: 5 different costs from 9 to 14
+nomystery-strips:0-p14.pddl: 2 different costs from 53 to 54
+nomystery-strips:0-p16.pddl: 4 different costs from 58 to 62
+nomystery-strips:0-p18.pddl: 5 different costs from 66 to 72
+nomystery-strips:0-p19.pddl: 3 different costs from 72 to 74
+nomystery-strips:0-p21.pddl: 5 different costs from 74 to 83
+nomystery-strips:0-p22.pddl: 6 different costs from 79 to 84
+nomystery-strips:0-p23.pddl: 5 different costs from 87 to 92
+nomystery-strips:0-p25.pddl: 5 different costs from 90 to 95
+nomystery-strips:0-p26.pddl: 3 different costs from 91 to 96
+nomystery-strips:0-p27.pddl: 3 different costs from 96 to 101
+nomystery-strips:0-p28.pddl: 2 different costs from 101 to 104
+nomystery-strips:0-p29.pddl: 5 different costs from 105 to 111
+nomystery-strips:1-p16.pddl: 3 different costs from 123 to 133
+nomystery-strips:1-p17.pddl: 3 different costs from 131 to 137
+nomystery-strips:1-p18.pddl: 2 different costs from 137 to 144
+nomystery-strips:1-p19.pddl: 1 different costs from 149 to 149
+nomystery-strips:1-p20.pddl: 3 different costs from 151 to 155
+nomystery-strips:1-p21.pddl: 1 different costs from 154 to 154
+nomystery-strips:1-p22.pddl: 3 different costs from 168 to 173
+nomystery-strips:1-p23.pddl: 2 different costs from 173 to 176
+nomystery-strips:1-p25.pddl: 2 different costs from 187 to 188
+nomystery-strips:1-p26.pddl: 4 different costs from 186 to 193
+nomystery-strips:1-p28.pddl: 1 different costs from 205 to 205
+nomystery-strips:1-p29.pddl: 1 different costs from 222 to 222
+nomystery-strips:1-p30.pddl: 2 different costs from 224 to 226
+nomystery-strips:2-p20.pddl: 2 different costs from 38 to 40
+nomystery-strips:3-p17.pddl: 2 different costs from 40 to 42
+nomystery-strips:3-p18.pddl: 4 different costs from 40 to 45
+nomystery-strips:3-p19.pddl: 2 different costs from 47 to 48
+nomystery-strips:3-p20.pddl: 2 different costs from 48 to 50
+npuzzle-strips:0-p001.pddl: 18 different costs from 18 to 110
+npuzzle-strips:0-p002.pddl: 22 different costs from 27 to 91
+npuzzle-strips:0-p003.pddl: 21 different costs from 23 to 85
+npuzzle-strips:0-p004.pddl: 26 different costs from 23 to 99
+npuzzle-strips:0-p005.pddl: 17 different costs from 24 to 76
+npuzzle-strips:0-p006.pddl: 17 different costs from 23 to 79
+npuzzle-strips:0-p007.pddl: 32 different costs from 56 to 288
+npuzzle-strips:0-p008.pddl: 36 different costs from 54 to 296
+npuzzle-strips:0-p009.pddl: 31 different costs from 50 to 312
+npuzzle-strips:0-p010.pddl: 32 different costs from 51 to 297
+npuzzle-strips:0-p011.pddl: 32 different costs from 46 to 238
+npuzzle-strips:0-p012.pddl: 35 different costs from 65 to 321
+npuzzle-strips:0-p013.pddl: 37 different costs from 125 to 757
+npuzzle-strips:0-p014.pddl: 33 different costs from 140 to 936
+npuzzle-strips:0-p015.pddl: 34 different costs from 143 to 781
+npuzzle-strips:0-p016.pddl: 34 different costs from 102 to 776
+npuzzle-strips:0-p017.pddl: 33 different costs from 136 to 834
+npuzzle-strips:0-p018.pddl: 36 different costs from 146 to 804
+npuzzle-strips:0-p019.pddl: 23 different costs from 313 to 1689
+npuzzle-strips:0-p020.pddl: 22 different costs from 351 to 1771
+npuzzle-strips:0-p021.pddl: 22 different costs from 348 to 2248
+npuzzle-strips:0-p022.pddl: 22 different costs from 401 to 1935
+npuzzle-strips:0-p023.pddl: 23 different costs from 327 to 2053
+npuzzle-strips:0-p024.pddl: 23 different costs from 315 to 1713
+npuzzle-strips:0-p025.pddl: 11 different costs from 1133 to 3071
+npuzzle-strips:0-p026.pddl: 18 different costs from 498 to 4076
+npuzzle-strips:0-p027.pddl: 16 different costs from 979 to 4457
+npuzzle-strips:0-p028.pddl: 14 different costs from 1039 to 3423
+npuzzle-strips:0-p029.pddl: 12 different costs from 929 to 3343
+npuzzle-strips:0-p030.pddl: 14 different costs from 988 to 2254
+nurikabe-adl:0-p01.pddl: 2 different costs from 7 to 11
+nurikabe-adl:0-p02.pddl: 1 different costs from 9 to 9
+nurikabe-adl:0-p03.pddl: 2 different costs from 11 to 13
+nurikabe-adl:0-p05.pddl: 3 different costs from 15 to 19
+nurikabe-adl:0-p08.pddl: 13 different costs from 39 to 58
+nurikabe-adl:0-p09.pddl: 12 different costs from 40 to 55
+nurikabe-adl:0-p10.pddl: 17 different costs from 47 to 80
+nurikabe-adl:0-p11.pddl: 17 different costs from 57 to 82
+nurikabe-adl:0-p12.pddl: 19 different costs from 62 to 95
+nurikabe-adl:0-p13.pddl: 21 different costs from 69 to 131
+nurikabe-adl:0-p14.pddl: 22 different costs from 77 to 133
+nurikabe-adl:0-p15.pddl: 15 different costs from 93 to 184
+nurikabe-adl:0-p16.pddl: 17 different costs from 90 to 166
+nurikabe-adl:0-p17.pddl: 1 different costs from 176 to 176
+nurikabe-adl:0-p18.pddl: 7 different costs from 117 to 158
+nurikabe-adl:1-p02.pddl: 9 different costs from 40 to 56
+nurikabe-adl:1-p04.pddl: 11 different costs from 52 to 69
+nurikabe-adl:1-p05.pddl: 18 different costs from 58 to 101
+nurikabe-adl:1-p08.pddl: 17 different costs from 80 to 115
+nurikabe-adl:1-p09.pddl: 11 different costs from 95 to 160
+nurikabe-adl:1-p10.pddl: 15 different costs from 96 to 169
+nurikabe-adl:1-p11.pddl: 2 different costs from 122 to 140
+nurikabe-adl:1-p12.pddl: 9 different costs from 107 to 156
+nurikabe-adl:1-p13.pddl: 7 different costs from 134 to 170
+nurikabe-adl:1-p14.pddl: 1 different costs from 119 to 119
+nurikabe-adl:1-p15.pddl: 1 different costs from 226 to 226
+nurikabe-adl:1-p16.pddl: 1 different costs from 268 to 268
+nurikabe-adl:1-p17.pddl: 1 different costs from 220 to 220
+nurikabe-adl:1-p19.pddl: 1 different costs from 244 to 244
+openstacks-adl:1-p06.pddl: 5 different costs from 163 to 186
+openstacks-adl:1-p07.pddl: 5 different costs from 203 to 225
+openstacks-adl:1-p08.pddl: 5 different costs from 240 to 261
+openstacks-adl:1-p09.pddl: 5 different costs from 277 to 301
+openstacks-adl:1-p10.pddl: 5 different costs from 312 to 338
+openstacks-adl:1-p11.pddl: 5 different costs from 355 to 379
+openstacks-adl:1-p12.pddl: 6 different costs from 387 to 416
+openstacks-adl:1-p13.pddl: 4 different costs from 428 to 452
+openstacks-adl:1-p14.pddl: 2 different costs from 489 to 491
+openstacks-adl:1-p21.pddl: 8 different costs from 93 to 169
+openstacks-adl:1-p22.pddl: 6 different costs from 167 to 211
+openstacks-adl:1-p23.pddl: 5 different costs from 180 to 250
+openstacks-adl:1-p24.pddl: 6 different costs from 235 to 282
+openstacks-adl:1-p25.pddl: 5 different costs from 255 to 326
+openstacks-adl:1-p26.pddl: 6 different costs from 283 to 351
+openstacks-adl:1-p27.pddl: 6 different costs from 313 to 388
+openstacks-adl:1-p28.pddl: 4 different costs from 364 to 437
+openstacks-adl:1-p29.pddl: 2 different costs from 479 to 481
+openstacks-adl:1-p30.pddl: 1 different costs from 520 to 520
+openstacks-adl:3-p28.pddl: 15 different costs from 43 to 72
+openstacks-adl:3-p30.pddl: 12 different costs from 44 to 76
+openstacks-adl:4-p18.pddl: 7 different costs from 183 to 194
+openstacks-adl:4-p22.pddl: 7 different costs from 138 to 150
+openstacks-adl:4-p23.pddl: 3 different costs from 145 to 150
+openstacks-adl:4-p24.pddl: 2 different costs from 249 to 250
+openstacks-adl:4-p25.pddl: 2 different costs from 249 to 250
+openstacks-adl:4-p27.pddl: 4 different costs from 358 to 375
+openstacks-adl:4-p28.pddl: 2 different costs from 497 to 500
+openstacks-adl:4-p29.pddl: 2 different costs from 499 to 500
+openstacks-adl:4-p30.pddl: 6 different costs from 482 to 500
+openstacks-strips:0-p150_3.pddl: 7 different costs from 131 to 143
+openstacks-strips:0-p170_3.pddl: 5 different costs from 146 to 162
+openstacks-strips:0-p190_1.pddl: 10 different costs from 72 to 132
+openstacks-strips:0-p190_2.pddl: 11 different costs from 102 to 143
+openstacks-strips:0-p190_3.pddl: 7 different costs from 170 to 185
+openstacks-strips:0-p210_1.pddl: 10 different costs from 88 to 144
+openstacks-strips:0-p210_2.pddl: 9 different costs from 109 to 156
+openstacks-strips:0-p230_1.pddl: 8 different costs from 99 to 155
+openstacks-strips:0-p230_2.pddl: 6 different costs from 139 to 182
+openstacks-strips:0-p250_1.pddl: 6 different costs from 123 to 186
+openstacks-strips:0-p250_2.pddl: 7 different costs from 160 to 200
+openstacks-strips:0-p270_1.pddl: 7 different costs from 155 to 208
+openstacks-strips:0-p270_2.pddl: 6 different costs from 179 to 227
+openstacks-strips:0-p290_1.pddl: 7 different costs from 175 to 223
+openstacks-strips:0-p290_2.pddl: 5 different costs from 205 to 246
+openstacks-strips:2-p210_3.pddl: 5 different costs from 187 to 201
+openstacks-strips:2-p230_3.pddl: 5 different costs from 210 to 223
+openstacks-strips:2-p250_3.pddl: 4 different costs from 230 to 243
+openstacks-strips:2-p270_3.pddl: 3 different costs from 246 to 262
+openstacks-strips:2-p290_3.pddl: 5 different costs from 265 to 278
+openstacks-strips:4-p14.pddl: 5 different costs from 137 to 154
+openstacks-strips:4-p15.pddl: 8 different costs from 103 to 139
+openstacks-strips:4-p16.pddl: 6 different costs from 167 to 180
+openstacks-strips:4-p17.pddl: 8 different costs from 123 to 171
+openstacks-strips:4-p18.pddl: 5 different costs from 196 to 213
+openstacks-strips:4-p19.pddl: 7 different costs from 168 to 208
+openstacks-strips:4-p20.pddl: 5 different costs from 226 to 243
+openstacks-strips:7-p24.pddl: 2 different costs from 245 to 250
+openstacks-strips:7-p28.pddl: 2 different costs from 498 to 500
+openstacks-strips:7-p29.pddl: 2 different costs from 487 to 500
+optical-telegraphs-adl:0-p02-opt3.pddl: 3 different costs from 42 to 154
+optical-telegraphs-adl:0-p03-opt4.pddl: 2 different costs from 56 to 104
+optical-telegraphs-adl:0-p04-opt5.pddl: 3 different costs from 70 to 342
+optical-telegraphs-adl:0-p05-opt6.pddl: 3 different costs from 84 to 292
+optical-telegraphs-adl:0-p06-opt7.pddl: 2 different costs from 98 to 306
+optical-telegraphs-adl:0-p07-opt8.pddl: 1 different costs from 112 to 112
+optical-telegraphs-adl:0-p08-opt9.pddl: 1 different costs from 126 to 126
+optical-telegraphs-adl:0-p09-opt10.pddl: 1 different costs from 140 to 140
+optical-telegraphs-adl:0-p10-opt11.pddl: 1 different costs from 154 to 154
+optical-telegraphs-adl:0-p11-opt12.pddl: 1 different costs from 168 to 168
+optical-telegraphs-adl:0-p12-opt13.pddl: 1 different costs from 182 to 182
+optical-telegraphs-adl:0-p13-opt14.pddl: 1 different costs from 196 to 196
+optical-telegraphs-adl:0-p14-opt15.pddl: 1 different costs from 210 to 210
+optical-telegraphs-adl:0-p15-opt16.pddl: 1 different costs from 224 to 224
+optical-telegraphs-adl:0-p16-opt17.pddl: 1 different costs from 238 to 238
+optical-telegraphs-adl:0-p17-opt18.pddl: 1 different costs from 252 to 252
+optical-telegraphs-adl:0-p18-opt19.pddl: 1 different costs from 266 to 266
+optical-telegraphs-adl:0-p19-opt20.pddl: 1 different costs from 280 to 280
+optical-telegraphs-adl:0-p20-opt21.pddl: 1 different costs from 294 to 294
+optical-telegraphs-adl:0-p21-opt22.pddl: 1 different costs from 308 to 308
+optical-telegraphs-adl:0-p22-opt23.pddl: 1 different costs from 322 to 322
+optical-telegraphs-adl:0-p23-opt24.pddl: 1 different costs from 336 to 336
+optical-telegraphs-adl:0-p24-opt25.pddl: 1 different costs from 350 to 350
+optical-telegraphs-adl:0-p25-opt26.pddl: 1 different costs from 364 to 364
+optical-telegraphs-adl:0-p26-opt27.pddl: 1 different costs from 378 to 378
+optical-telegraphs-adl:0-p27-opt28.pddl: 1 different costs from 392 to 392
+organic-synthesis-split-strips:0-p01.pddl: 1 different costs from 252 to 252
+organic-synthesis-split-strips:0-p05.pddl: 1 different costs from 252 to 252
+organic-synthesis-split-strips:0-p07.pddl: 1 different costs from 252 to 252
+organic-synthesis-split-strips:0-p09.pddl: 1 different costs from 252 to 252
+organic-synthesis-split-strips:0-p10.pddl: 1 different costs from 252 to 252
+organic-synthesis-split-strips:0-p12.pddl: 1 different costs from 252 to 252
+organic-synthesis-split-strips:0-p13.pddl: 1 different costs from 252 to 252
+organic-synthesis-split-strips:0-p14.pddl: 1 different costs from 252 to 252
+organic-synthesis-split-strips:0-p15.pddl: 1 different costs from 252 to 252
+organic-synthesis-split-strips:0-p16.pddl: 1 different costs from 252 to 252
+organic-synthesis-split-strips:0-p17.pddl: 3 different costs from 252 to 504
+organic-synthesis-split-strips:0-p18.pddl: 1 different costs from 252 to 252
+organic-synthesis-split-strips:0-p19.pddl: 1 different costs from 504 to 504
+organic-synthesis-split-strips:0-p20.pddl: 1 different costs from 882 to 882
+organic-synthesis-split-strips:0-p21.pddl: 1 different costs from 1008 to 1008
+organic-synthesis-split-strips:0-p22.pddl: 1 different costs from 378 to 378
+organic-synthesis-split-strips:0-p23.pddl: 1 different costs from 630 to 630
+organic-synthesis-split-strips:0-p24.pddl: 3 different costs from 378 to 630
+organic-synthesis-split-strips:0-p25.pddl: 1 different costs from 378 to 378
+organic-synthesis-split-strips:0-p26.pddl: 1 different costs from 630 to 630
+organic-synthesis-split-strips:0-p27.pddl: 1 different costs from 630 to 630
+organic-synthesis-split-strips:0-p28.pddl: 1 different costs from 756 to 756
+organic-synthesis-split-strips:0-p30.pddl: 1 different costs from 504 to 504
+organic-synthesis-split-strips:2-p01.pddl: 1 different costs from 41 to 41
+organic-synthesis-split-strips:2-p02.pddl: 1 different costs from 41 to 41
+organic-synthesis-split-strips:2-p11.pddl: 1 different costs from 82 to 82
+organic-synthesis-split-strips:2-p12.pddl: 1 different costs from 82 to 82
+organic-synthesis-split-strips:2-p14.pddl: 1 different costs from 82 to 82
+organic-synthesis-split-strips:3-p06.pddl: 1 different costs from 82 to 82
+organic-synthesis-split-strips:3-p07.pddl: 1 different costs from 82 to 82
+organic-synthesis-strips:0-p01.pddl: 1 different costs from 1 to 1
+organic-synthesis-strips:0-p02.pddl: 1 different costs from 1 to 1
+organic-synthesis-strips:0-p03.pddl: 1 different costs from 2 to 2
+organic-synthesis-strips:0-p07.pddl: 1 different costs from 2 to 2
+organic-synthesis-strips:0-p09.pddl: 1 different costs from 2 to 2
+organic-synthesis-strips:0-p10.pddl: 1 different costs from 2 to 2
+organic-synthesis-strips:0-p14.pddl: 1 different costs from 2 to 2
+organic-synthesis-strips:1-p06.pddl: 1 different costs from 2 to 2
+organic-synthesis-strips:1-p07.pddl: 1 different costs from 2 to 2
+organic-synthesis-strips:1-p16.pddl: 1 different costs from 8 to 8
+parcprinter-strips:0-p01.pddl: 4 different costs from 143411 to 232509
+parcprinter-strips:0-p05.pddl: 8 different costs from 510256 to 530792
+parcprinter-strips:0-p06.pddl: 14 different costs from 693064 to 1003279
+parcprinter-strips:0-p09.pddl: 9 different costs from 1216462 to 1395054
+parcprinter-strips:0-p10.pddl: 3 different costs from 1145132 to 1345190
+parcprinter-strips:0-p12.pddl: 11 different costs from 1270874 to 1627563
+parcprinter-strips:0-p14.pddl: 11 different costs from 1681282 to 1860072
+parcprinter-strips:0-p15.pddl: 4 different costs from 1383121 to 1883266
+parcprinter-strips:0-p16.pddl: 3 different costs from 1852217 to 2152304
+parcprinter-strips:0-p17.pddl: 15 different costs from 1556448 to 2111137
+parcprinter-strips:0-p18.pddl: 16 different costs from 2376643 to 2585433
+parcprinter-strips:0-p19.pddl: 4 different costs from 2121255 to 2421342
+parcprinter-strips:0-p20.pddl: 3 different costs from 2490322 to 2690380
+parcprinter-strips:0-p21.pddl: 12 different costs from 2377265 to 2576155
+parcprinter-strips:0-p22.pddl: 13 different costs from 3072626 to 3301516
+parcprinter-strips:0-p23.pddl: 19 different costs from 1675408 to 1881656
+parcprinter-strips:0-p24.pddl: 13 different costs from 2021893 to 2566877
+parcprinter-strips:0-p25.pddl: 5 different costs from 2828340 to 3228456
+parcprinter-strips:0-p26.pddl: 14 different costs from 2308715 to 3031895
+parcprinter-strips:0-p27.pddl: 22 different costs from 2330304 to 2653944
+parcprinter-strips:0-p28.pddl: 24 different costs from 3160821 to 4370395
+parcprinter-strips:0-p29.pddl: 20 different costs from 3119803 to 4206104
+parcprinter-strips:0-p30.pddl: 23 different costs from 3526437 to 5026089
+parcprinter-strips:1-p10.pddl: 21 different costs from 1695507 to 2011775
+parcprinter-strips:1-p13.pddl: 21 different costs from 1713576 to 2354143
+parcprinter-strips:1-p15.pddl: 4 different costs from 1891203 to 2191290
+parcprinter-strips:1-p23.pddl: 6 different costs from 3335367 to 4035570
+parcprinter-strips:1-p24.pddl: 21 different costs from 2754187 to 3570137
+parcprinter-strips:1-p26.pddl: 25 different costs from 3353256 to 3868404
+parcprinter-strips:2-p05.pddl: 9 different costs from 519232 to 697527
+parking-strips:1-p09.pddl: 16 different costs from 77 to 126
+parking-strips:1-p11.pddl: 14 different costs from 88 to 137
+parking-strips:1-p12.pddl: 14 different costs from 86 to 141
+parking-strips:1-p13.pddl: 16 different costs from 84 to 155
+parking-strips:1-p14.pddl: 11 different costs from 90 to 159
+parking-strips:1-p15.pddl: 7 different costs from 119 to 167
+parking-strips:1-p16.pddl: 7 different costs from 99 to 169
+parking-strips:1-p17.pddl: 6 different costs from 112 to 156
+parking-strips:1-p18.pddl: 4 different costs from 128 to 167
+parking-strips:1-p20.pddl: 1 different costs from 151 to 151
+parking-strips:3-p_32_1.pddl: 17 different costs from 72 to 103
+parking-strips:3-p_32_2.pddl: 22 different costs from 63 to 118
+parking-strips:3-p_32_3.pddl: 17 different costs from 75 to 117
+parking-strips:3-p_34_1.pddl: 20 different costs from 73 to 114
+parking-strips:3-p_34_2.pddl: 13 different costs from 83 to 118
+parking-strips:3-p_34_3.pddl: 18 different costs from 76 to 113
+parking-strips:3-p_36_1.pddl: 18 different costs from 74 to 121
+parking-strips:3-p_36_2.pddl: 19 different costs from 79 to 121
+parking-strips:3-p_36_3.pddl: 18 different costs from 66 to 108
+parking-strips:3-p_38_1.pddl: 13 different costs from 84 to 131
+parking-strips:3-p_38_2.pddl: 11 different costs from 82 to 145
+parking-strips:3-p_38_3.pddl: 18 different costs from 80 to 125
+parking-strips:3-p_40_1.pddl: 13 different costs from 71 to 134
+parking-strips:3-p_40_2.pddl: 14 different costs from 79 to 121
+parking-strips:3-p_40_3.pddl: 15 different costs from 94 to 137
+parking-strips:5-pfile12-045.pddl: 22 different costs from 67 to 102
+parking-strips:5-pfile12-048.pddl: 21 different costs from 68 to 112
+parking-strips:5-pfile13-050.pddl: 18 different costs from 67 to 113
+pathways-noneg-adl:0-p01.pddl: 3 different costs from 6 to 8
+pathways-noneg-adl:0-p02.pddl: 1 different costs from 12 to 12
+pathways-noneg-adl:0-p03.pddl: 1 different costs from 18 to 18
+pathways-noneg-adl:0-p04.pddl: 3 different costs from 17 to 19
+pathways-noneg-adl:0-p05.pddl: 4 different costs from 30 to 33
+pathways-noneg-adl:0-p06.pddl: 6 different costs from 55 to 61
+pathways-noneg-adl:0-p07.pddl: 9 different costs from 63 to 161
+pathways-noneg-adl:0-p08.pddl: 11 different costs from 89 to 112
+pathways-noneg-adl:0-p09.pddl: 12 different costs from 68 to 83
+pathways-noneg-adl:0-p10.pddl: 12 different costs from 74 to 90
+pathways-noneg-adl:0-p11.pddl: 9 different costs from 82 to 526
+pathways-noneg-adl:0-p12.pddl: 7 different costs from 103 to 124
+pathways-noneg-adl:0-p13.pddl: 11 different costs from 97 to 1024
+pathways-noneg-adl:0-p14.pddl: 13 different costs from 109 to 191
+pathways-noneg-adl:0-p15.pddl: 9 different costs from 102 to 265
+pathways-noneg-adl:0-p16.pddl: 8 different costs from 135 to 155
+pathways-noneg-adl:0-p17.pddl: 6 different costs from 149 to 159
+pathways-noneg-adl:0-p18.pddl: 3 different costs from 162 to 171
+pathways-noneg-adl:0-p19.pddl: 6 different costs from 161 to 198
+pathways-noneg-adl:0-p20.pddl: 7 different costs from 190 to 204
+pathways-noneg-adl:0-p21.pddl: 3 different costs from 193 to 208
+pathways-noneg-adl:0-p22.pddl: 4 different costs from 159 to 172
+pathways-noneg-adl:0-p23.pddl: 10 different costs from 183 to 326
+pathways-noneg-adl:0-p24.pddl: 13 different costs from 220 to 329
+pathways-noneg-adl:0-p25.pddl: 14 different costs from 191 to 323
+pathways-noneg-adl:0-p26.pddl: 13 different costs from 219 to 246
+pathways-noneg-adl:0-p27.pddl: 12 different costs from 244 to 261
+pathways-noneg-adl:0-p28.pddl: 13 different costs from 209 to 235
+pathways-noneg-adl:0-p29.pddl: 10 different costs from 261 to 789
+pathways-noneg-adl:0-p30.pddl: 10 different costs from 288 to 311
+pathways-strips:0-p16.pddl: 7 different costs from 44 to 67
+pathways-strips:0-p19.pddl: 4 different costs from 44 to 48
+pathways-strips:0-p24.pddl: 6 different costs from 44 to 69
+pathways-strips:0-p28.pddl: 9 different costs from 44 to 117
+pathways-strips:0-p30.pddl: 15 different costs from 190 to 650
+pathways-strips:1-p06.pddl: 6 different costs from 55 to 61
+pathways-strips:1-p07.pddl: 9 different costs from 63 to 161
+pathways-strips:1-p08.pddl: 11 different costs from 89 to 112
+pathways-strips:1-p09.pddl: 12 different costs from 68 to 83
+pathways-strips:1-p10.pddl: 12 different costs from 74 to 90
+pathways-strips:1-p11.pddl: 9 different costs from 82 to 526
+pathways-strips:1-p12.pddl: 7 different costs from 103 to 124
+pathways-strips:1-p13.pddl: 11 different costs from 97 to 1024
+pathways-strips:1-p14.pddl: 13 different costs from 109 to 191
+pathways-strips:1-p15.pddl: 10 different costs from 102 to 946
+pathways-strips:1-p16.pddl: 8 different costs from 135 to 155
+pathways-strips:1-p17.pddl: 6 different costs from 149 to 159
+pathways-strips:1-p18.pddl: 3 different costs from 162 to 171
+pathways-strips:1-p19.pddl: 6 different costs from 161 to 198
+pathways-strips:1-p20.pddl: 7 different costs from 190 to 204
+pathways-strips:1-p21.pddl: 3 different costs from 193 to 208
+pathways-strips:1-p22.pddl: 4 different costs from 159 to 172
+pathways-strips:1-p23.pddl: 10 different costs from 183 to 326
+pathways-strips:1-p24.pddl: 13 different costs from 220 to 329
+pathways-strips:1-p25.pddl: 14 different costs from 191 to 323
+pathways-strips:1-p26.pddl: 13 different costs from 219 to 246
+pathways-strips:1-p27.pddl: 12 different costs from 244 to 261
+pathways-strips:1-p28.pddl: 13 different costs from 209 to 235
+pathways-strips:1-p29.pddl: 10 different costs from 261 to 789
+pathways-strips:1-p30.pddl: 10 different costs from 288 to 311
+pegsol-strips:0-p03.pddl: 7 different costs from 6 to 12
+pegsol-strips:0-p05.pddl: 1 different costs from 5 to 5
+pegsol-strips:0-p08.pddl: 4 different costs from 4 to 7
+pegsol-strips:0-p09.pddl: 1 different costs from 5 to 5
+pegsol-strips:0-p12.pddl: 6 different costs from 6 to 11
+pegsol-strips:0-p13.pddl: 8 different costs from 3 to 10
+pegsol-strips:0-p16.pddl: 3 different costs from 7 to 9
+pegsol-strips:0-p17.pddl: 7 different costs from 4 to 10
+pegsol-strips:0-p18.pddl: 3 different costs from 9 to 11
+pegsol-strips:0-p21.pddl: 6 different costs from 7 to 12
+pegsol-strips:0-p22.pddl: 7 different costs from 6 to 12
+pegsol-strips:0-p28.pddl: 15 different costs from 12 to 26
+pegsol-strips:0-p29.pddl: 10 different costs from 13 to 24
+pegsol-strips:0-p30.pddl: 11 different costs from 20 to 31
+pegsol-strips:1-p03.pddl: 9 different costs from 3 to 12
+pegsol-strips:1-p04.pddl: 4 different costs from 7 to 10
+pegsol-strips:1-p09.pddl: 4 different costs from 7 to 10
+pegsol-strips:1-p13.pddl: 2 different costs from 5 to 6
+pegsol-strips:1-p17.pddl: 4 different costs from 12 to 15
+pegsol-strips:1-p19.pddl: 5 different costs from 6 to 10
+pegsol-strips:1-p21.pddl: 9 different costs from 8 to 16
+pegsol-strips:1-p22.pddl: 9 different costs from 3 to 11
+pegsol-strips:1-p26.pddl: 5 different costs from 5 to 9
+pegsol-strips:2-p02.pddl: 6 different costs from 10 to 15
+pegsol-strips:2-p08.pddl: 10 different costs from 7 to 16
+pegsol-strips:2-p11.pddl: 11 different costs from 6 to 16
+pegsol-strips:2-p13.pddl: 10 different costs from 8 to 17
+pegsol-strips:3-p15.pddl: 8 different costs from 7 to 14
+pegsol-strips:4-p12.pddl: 6 different costs from 8 to 13
+pegsol-strips:4-p15.pddl: 7 different costs from 8 to 14
+petri-net-alignment-strips:0-p01.pddl: 21 different costs from 18 to 228
+petri-net-alignment-strips:0-p02.pddl: 24 different costs from 87 to 289
+petri-net-alignment-strips:0-p03.pddl: 20 different costs from 152 to 351
+petri-net-alignment-strips:0-p04.pddl: 20 different costs from 154 to 364
+petri-net-alignment-strips:0-p05.pddl: 17 different costs from 99 to 286
+petri-net-alignment-strips:0-p06.pddl: 18 different costs from 230 to 379
+petri-net-alignment-strips:0-p07.pddl: 19 different costs from 173 to 355
+petri-net-alignment-strips:0-p08.pddl: 18 different costs from 233 to 372
+petri-net-alignment-strips:0-p09.pddl: 16 different costs from 253 to 348
+petri-net-alignment-strips:0-p10.pddl: 14 different costs from 336 to 445
+petri-net-alignment-strips:0-p11.pddl: 19 different costs from 318 to 392
+petri-net-alignment-strips:0-p12.pddl: 18 different costs from 418 to 520
+petri-net-alignment-strips:0-p13.pddl: 19 different costs from 381 to 448
+petri-net-alignment-strips:0-p14.pddl: 17 different costs from 358 to 476
+petri-net-alignment-strips:0-p15.pddl: 21 different costs from 274 to 435
+petri-net-alignment-strips:0-p16.pddl: 16 different costs from 352 to 486
+petri-net-alignment-strips:0-p17.pddl: 16 different costs from 345 to 495
+petri-net-alignment-strips:0-p18.pddl: 16 different costs from 389 to 480
+petri-net-alignment-strips:0-p19.pddl: 18 different costs from 398 to 491
+petri-net-alignment-strips:0-p20.pddl: 15 different costs from 436 to 516
+philosophers-adl:0-p13-phil14.pddl: 4 different costs from 126 to 206
+philosophers-adl:0-p14-phil15.pddl: 5 different costs from 135 to 199
+philosophers-adl:0-p16-phil17.pddl: 6 different costs from 153 to 249
+philosophers-adl:0-p17-phil18.pddl: 4 different costs from 162 to 242
+philosophers-adl:0-p18-phil19.pddl: 5 different costs from 171 to 299
+philosophers-adl:0-p20-phil21.pddl: 7 different costs from 189 to 333
+philosophers-adl:0-p21-phil22.pddl: 6 different costs from 198 to 390
+philosophers-adl:0-p22-phil23.pddl: 7 different costs from 207 to 463
+philosophers-adl:0-p24-phil25.pddl: 6 different costs from 225 to 433
+philosophers-adl:0-p25-phil26.pddl: 6 different costs from 234 to 442
+philosophers-adl:0-p26-phil27.pddl: 4 different costs from 243 to 451
+philosophers-adl:0-p30-phil31.pddl: 6 different costs from 279 to 423
+philosophers-adl:0-p31-phil32.pddl: 5 different costs from 288 to 432
+philosophers-adl:0-p32-phil33.pddl: 4 different costs from 297 to 409
+philosophers-adl:0-p33-phil34.pddl: 5 different costs from 306 to 450
+philosophers-adl:0-p34-phil35.pddl: 3 different costs from 315 to 379
+philosophers-adl:0-p35-phil36.pddl: 4 different costs from 324 to 500
+philosophers-adl:0-p36-phil37.pddl: 6 different costs from 333 to 461
+philosophers-adl:0-p37-phil38.pddl: 5 different costs from 342 to 518
+philosophers-adl:0-p38-phil39.pddl: 5 different costs from 351 to 479
+philosophers-adl:0-p39-phil40.pddl: 4 different costs from 360 to 520
+philosophers-adl:0-p40-phil41.pddl: 4 different costs from 369 to 417
+philosophers-adl:0-p41-phil42.pddl: 3 different costs from 378 to 458
+philosophers-adl:0-p42-phil43.pddl: 5 different costs from 387 to 483
+philosophers-adl:0-p43-phil44.pddl: 4 different costs from 396 to 476
+philosophers-adl:0-p44-phil45.pddl: 4 different costs from 405 to 565
+philosophers-adl:0-p45-phil46.pddl: 4 different costs from 414 to 510
+philosophers-adl:0-p46-phil47.pddl: 6 different costs from 423 to 599
+philosophers-adl:0-p47-phil48.pddl: 5 different costs from 432 to 1184
+philosophers-adl:0-p48-phil49.pddl: 4 different costs from 441 to 697
+pipesworld-notankage-strips:0-p02.pddl: 2 different costs from 12 to 14
+pipesworld-notankage-strips:0-p03.pddl: 6 different costs from 8 to 13
+pipesworld-notankage-strips:0-p04.pddl: 8 different costs from 11 to 34
+pipesworld-notankage-strips:0-p08.pddl: 6 different costs from 10 to 16
+pipesworld-notankage-strips:0-p09.pddl: 11 different costs from 13 to 24
+pipesworld-notankage-strips:0-p11.pddl: 9 different costs from 20 to 124
+pipesworld-notankage-strips:0-p14.pddl: 20 different costs from 30 to 335
+pipesworld-notankage-strips:0-p16.pddl: 21 different costs from 42 to 202
+pipesworld-notankage-strips:0-p20.pddl: 25 different costs from 30 to 204
+pipesworld-notankage-strips:0-p21.pddl: 29 different costs from 30 to 169
+pipesworld-notankage-strips:0-p24.pddl: 20 different costs from 32 to 108
+pipesworld-notankage-strips:0-p25.pddl: 29 different costs from 36 to 179
+pipesworld-notankage-strips:0-p29.pddl: 21 different costs from 31 to 126
+pipesworld-notankage-strips:0-p30.pddl: 20 different costs from 22 to 1036
+pipesworld-notankage-strips:1-p01.pddl: 14 different costs from 14 to 128
+pipesworld-notankage-strips:1-p07.pddl: 24 different costs from 26 to 616
+pipesworld-notankage-strips:1-p08.pddl: 27 different costs from 34 to 185
+pipesworld-notankage-strips:1-p09.pddl: 22 different costs from 31 to 430
+pipesworld-notankage-strips:1-p10.pddl: 26 different costs from 40 to 138
+pipesworld-notankage-strips:1-p16.pddl: 25 different costs from 28 to 673
+pipesworld-notankage-strips:1-p17.pddl: 19 different costs from 28 to 713
+pipesworld-notankage-strips:1-p18.pddl: 22 different costs from 31 to 605
+pipesworld-notankage-strips:1-p19.pddl: 14 different costs from 30 to 760
+pipesworld-notankage-strips:1-p20.pddl: 19 different costs from 34 to 224
+pipesworld-notankage-strips:1-p21.pddl: 10 different costs from 12 to 34
+pipesworld-notankage-strips:1-p23.pddl: 1 different costs from 437 to 437
+pipesworld-notankage-strips:1-p25.pddl: 10 different costs from 59 to 154
+pipesworld-notankage-strips:1-p26.pddl: 1 different costs from 136 to 136
+pipesworld-notankage-strips:1-p29.pddl: 17 different costs from 38 to 98
+pipesworld-notankage-strips:1-p30.pddl: 17 different costs from 57 to 141
+pipesworld-tankage-strips:0-p12.pddl: 16 different costs from 24 to 138
+pipesworld-tankage-strips:0-p13.pddl: 10 different costs from 16 to 72
+pipesworld-tankage-strips:0-p14.pddl: 17 different costs from 38 to 194
+pipesworld-tankage-strips:0-p16.pddl: 19 different costs from 48 to 136
+pipesworld-tankage-strips:0-p17.pddl: 20 different costs from 44 to 212
+pipesworld-tankage-strips:0-p18.pddl: 15 different costs from 30 to 82
+pipesworld-tankage-strips:0-p19.pddl: 13 different costs from 24 to 394
+pipesworld-tankage-strips:0-p21.pddl: 27 different costs from 31 to 1209
+pipesworld-tankage-strips:0-p22.pddl: 9 different costs from 26 to 277
+pipesworld-tankage-strips:0-p23.pddl: 14 different costs from 44 to 347
+pipesworld-tankage-strips:0-p24.pddl: 12 different costs from 37 to 94
+pipesworld-tankage-strips:0-p25.pddl: 11 different costs from 43 to 86
+pipesworld-tankage-strips:0-p26.pddl: 9 different costs from 14 to 82
+pipesworld-tankage-strips:1-p10.pddl: 17 different costs from 30 to 72
+pipesworld-tankage-strips:1-p17.pddl: 19 different costs from 28 to 376
+pipesworld-tankage-strips:1-p18.pddl: 3 different costs from 68 to 518
+pipesworld-tankage-strips:1-p19.pddl: 17 different costs from 38 to 108
+pipesworld-tankage-strips:1-p20.pddl: 17 different costs from 48 to 131
+pipesworld-tankage-strips:1-p22.pddl: 22 different costs from 36 to 179
+pipesworld-tankage-strips:1-p23.pddl: 18 different costs from 34 to 159
+pipesworld-tankage-strips:1-p24.pddl: 22 different costs from 33 to 207
+pipesworld-tankage-strips:1-p25.pddl: 8 different costs from 30 to 52
+pipesworld-tankage-strips:1-p26.pddl: 10 different costs from 34 to 159
+pipesworld-tankage-strips:1-p27.pddl: 11 different costs from 32 to 66
+pipesworld-tankage-strips:1-p28.pddl: 11 different costs from 36 to 141
+pipesworld-tankage-strips:1-p29.pddl: 17 different costs from 29 to 74
+pipesworld-tankage-strips:1-p30.pddl: 14 different costs from 35 to 117
+pipesworld-tankage-strips:2-p49-net5-b30-g6-t50.pddl: 13 different costs from 38 to 85
+pipesworld-tankage-strips:2-p50-net5-b30-g8-t50.pddl: 12 different costs from 58 to 173
+psr-large-adl:0-p10-s93-n6-l5-f30.pddl: 15 different costs from 17 to 43
+psr-large-adl:0-p15-s114-n8-l2-f50.pddl: 11 different costs from 11 to 31
+psr-large-adl:0-p17-s129-n9-l2-f30.pddl: 6 different costs from 14 to 33
+psr-large-adl:0-p18-s133-n9-l3-f30.pddl: 8 different costs from 16 to 30
+psr-large-adl:0-p20-s149-n10-l3-f30.pddl: 8 different costs from 11 to 36
+psr-large-adl:0-p22-s162-n12-l3-f10.pddl: 11 different costs from 9 to 25
+psr-large-adl:0-p23-s164-n15-l2-f10.pddl: 9 different costs from 19 to 35
+psr-large-adl:0-p24-s166-n15-l3-f10.pddl: 8 different costs from 13 to 31
+psr-large-adl:0-p25-s168-n20-l2-f10.pddl: 8 different costs from 9 to 27
+psr-large-adl:0-p26-s170-n20-l3-f10.pddl: 13 different costs from 20 to 44
+psr-large-adl:0-p27-s172-n25-l2-f10.pddl: 13 different costs from 17 to 41
+psr-large-adl:0-p28-s174-n25-l3-f10.pddl: 10 different costs from 23 to 45
+psr-large-adl:0-p29-s177-n30-l2-f30.pddl: 9 different costs from 51 to 70
+psr-large-adl:0-p30-s179-n30-l3-f30.pddl: 8 different costs from 43 to 57
+psr-large-adl:0-p31-s181-n35-l2-f30.pddl: 11 different costs from 52 to 83
+psr-large-adl:0-p32-s183-n35-l3-f30.pddl: 7 different costs from 61 to 81
+psr-large-adl:0-p33-s185-n40-l2-f30.pddl: 11 different costs from 61 to 95
+psr-large-adl:0-p34-s187-n40-l3-f30.pddl: 4 different costs from 80 to 92
+psr-large-adl:0-p35-s189-n45-l2-f30.pddl: 5 different costs from 59 to 75
+psr-large-adl:0-p36-s191-n45-l3-f30.pddl: 4 different costs from 102 to 115
+psr-large-adl:0-p37-s193-n50-l2-f30.pddl: 7 different costs from 95 to 114
+psr-large-adl:0-p38-s195-n50-l3-f30.pddl: 7 different costs from 80 to 97
+psr-large-adl:0-p39-s197-n55-l2-f30.pddl: 1 different costs from 119 to 119
+psr-large-adl:0-p41-s201-n60-l2-f30.pddl: 8 different costs from 87 to 115
+psr-large-adl:0-p42-s203-n60-l3-f30.pddl: 1 different costs from 145 to 145
+psr-large-adl:0-p43-s205-n70-l2-f30.pddl: 1 different costs from 128 to 128
+psr-middle-adl:0-p01-s17-n2-l2-f30.pddl: 4 different costs from 4 to 8
+psr-middle-adl:0-p02-s23-n2-l3-f70.pddl: 3 different costs from 3 to 7
+psr-middle-adl:0-p03-s28-n2-l5-f10.pddl: 6 different costs from 5 to 14
+psr-middle-adl:0-p06-s37-n3-l3-f30.pddl: 10 different costs from 10 to 20
+psr-middle-adl:0-p07-s38-n3-l3-f50.pddl: 4 different costs from 3 to 7
+psr-middle-adl:0-p08-s40-n3-l4-f10.pddl: 6 different costs from 3 to 9
+psr-middle-adl:0-p09-s42-n3-l4-f50.pddl: 3 different costs from 5 to 9
+psr-middle-adl:0-p10-s45-n3-l5-f30.pddl: 6 different costs from 9 to 18
+psr-middle-adl:0-p14-s55-n4-l3-f70.pddl: 5 different costs from 6 to 17
+psr-middle-adl:0-p16-s60-n4-l5-f10.pddl: 7 different costs from 6 to 22
+psr-middle-adl:0-p17-s61-n4-l5-f30.pddl: 5 different costs from 5 to 13
+psr-middle-adl:0-p18-s62-n4-l5-f50.pddl: 6 different costs from 8 to 15
+psr-middle-adl:0-p21-s72-n5-l4-f10.pddl: 7 different costs from 13 to 41
+psr-middle-adl:0-p23-s76-n5-l5-f10.pddl: 9 different costs from 9 to 27
+psr-middle-adl:0-p24-s77-n5-l5-f30.pddl: 4 different costs from 3 to 7
+psr-middle-adl:0-p26-s85-n6-l3-f30.pddl: 10 different costs from 13 to 25
+psr-middle-adl:0-p27-s86-n6-l3-f50.pddl: 12 different costs from 13 to 37
+psr-middle-adl:0-p28-s88-n6-l4-f10.pddl: 9 different costs from 7 to 23
+psr-middle-adl:0-p29-s89-n6-l4-f30.pddl: 23 different costs from 13 to 54
+psr-middle-adl:0-p31-s92-n6-l5-f10.pddl: 11 different costs from 7 to 24
+psr-middle-adl:0-p34-s102-n7-l3-f50.pddl: 6 different costs from 13 to 25
+psr-middle-adl:0-p38-s109-n7-l5-f30.pddl: 16 different costs from 19 to 59
+psr-middle-adl:0-p41-s116-n8-l3-f10.pddl: 8 different costs from 13 to 39
+psr-middle-adl:0-p42-s120-n8-l4-f10.pddl: 5 different costs from 12 to 20
+psr-middle-adl:0-p43-s123-n8-l4-f70.pddl: 6 different costs from 9 to 15
+psr-middle-adl:0-p44-s131-n9-l2-f70.pddl: 4 different costs from 8 to 15
+psr-middle-adl:0-p45-s132-n9-l3-f10.pddl: 5 different costs from 8 to 22
+psr-middle-adl:0-p46-s135-n9-l3-f70.pddl: 2 different costs from 5 to 6
+psr-middle-adl:0-p47-s139-n9-l4-f70.pddl: 4 different costs from 5 to 11
+psr-middle-adl:0-p50-s153-n10-l4-f30.pddl: 14 different costs from 11 to 35
+psr-small-strips:0-p01-s2-n1-l2-f50.pddl: 1 different costs from 8 to 8
+psr-small-strips:0-p02-s5-n1-l3-f30.pddl: 1 different costs from 11 to 11
+psr-small-strips:0-p04-s8-n1-l4-f10.pddl: 1 different costs from 10 to 10
+psr-small-strips:0-p07-s11-n1-l4-f70.pddl: 1 different costs from 11 to 11
+psr-small-strips:0-p08-s12-n1-l5-f10.pddl: 2 different costs from 8 to 10
+psr-small-strips:0-p09-s13-n1-l5-f30.pddl: 1 different costs from 8 to 8
+psr-small-strips:0-p10-s17-n2-l2-f30.pddl: 3 different costs from 7 to 12
+psr-small-strips:0-p12-s21-n2-l3-f30.pddl: 2 different costs from 16 to 20
+psr-small-strips:0-p13-s22-n2-l3-f50.pddl: 1 different costs from 15 to 15
+psr-small-strips:0-p18-s31-n2-l5-f70.pddl: 3 different costs from 12 to 16
+psr-small-strips:0-p19-s33-n3-l2-f30.pddl: 6 different costs from 25 to 43
+psr-small-strips:0-p20-s34-n3-l2-f50.pddl: 1 different costs from 17 to 17
+psr-small-strips:0-p22-s37-n3-l3-f30.pddl: 4 different costs from 33 to 53
+psr-small-strips:0-p23-s38-n3-l3-f50.pddl: 1 different costs from 12 to 12
+psr-small-strips:0-p24-s39-n3-l3-f70.pddl: 2 different costs from 10 to 14
+psr-small-strips:0-p25-s40-n3-l4-f10.pddl: 3 different costs from 9 to 81
+psr-small-strips:0-p27-s42-n3-l4-f50.pddl: 2 different costs from 21 to 26
+psr-small-strips:0-p28-s43-n3-l4-f70.pddl: 1 different costs from 14 to 14
+psr-small-strips:0-p32-s50-n4-l2-f50.pddl: 1 different costs from 24 to 24
+psr-small-strips:0-p34-s55-n4-l3-f70.pddl: 1 different costs from 21 to 21
+psr-small-strips:0-p35-s57-n5-l2-f30.pddl: 4 different costs from 22 to 31
+psr-small-strips:0-p36-s65-n6-l2-f30.pddl: 3 different costs from 22 to 27
+psr-small-strips:0-p37-s67-n6-l2-f70.pddl: 2 different costs from 23 to 28
+psr-small-strips:0-p38-s78-n3-l3-f50.pddl: 2 different costs from 13 to 18
+psr-small-strips:0-p39-s79-n3-l3-f70.pddl: 5 different costs from 23 to 38
+psr-small-strips:0-p40-s80-n3-l4-f10.pddl: 5 different costs from 20 to 34
+psr-small-strips:0-p41-s81-n3-l4-f30.pddl: 1 different costs from 10 to 10
+psr-small-strips:0-p44-s89-n4-l2-f30.pddl: 1 different costs from 19 to 19
+psr-small-strips:0-p49-s105-n6-l2-f30.pddl: 2 different costs from 47 to 57
+psr-small-strips:0-p50-s107-n6-l2-f70.pddl: 2 different costs from 23 to 27
+rovers-strips:0-p22.pddl: 22 different costs from 156 to 308
+rovers-strips:1-p11.pddl: 11 different costs from 75 to 305
+rovers-strips:1-p14.pddl: 23 different costs from 133 to 595
+rovers-strips:1-p15.pddl: 19 different costs from 140 to 681
+rovers-strips:1-p16.pddl: 23 different costs from 170 to 430
+rovers-strips:1-p17.pddl: 19 different costs from 174 to 355
+rovers-strips:1-p18.pddl: 17 different costs from 156 to 186
+rovers-strips:1-p19.pddl: 15 different costs from 155 to 193
+rovers-strips:1-p20.pddl: 17 different costs from 142 to 337
+rovers-strips:1-p21.pddl: 12 different costs from 159 to 231
+rovers-strips:1-p23.pddl: 21 different costs from 213 to 302
+rovers-strips:1-p24.pddl: 12 different costs from 148 to 220
+rovers-strips:1-p25.pddl: 21 different costs from 90 to 502
+rovers-strips:1-p27.pddl: 22 different costs from 114 to 535
+rovers-strips:1-p28.pddl: 16 different costs from 97 to 118
+rovers-strips:2-p19.pddl: 13 different costs from 67 to 921
+rovers-strips:2-p22.pddl: 13 different costs from 67 to 111
+rovers-strips:2-p24.pddl: 20 different costs from 107 to 960
+rovers-strips:2-p27.pddl: 18 different costs from 87 to 483
+rovers-strips:2-p30.pddl: 19 different costs from 103 to 749
+rovers-strips:2-p31.pddl: 20 different costs from 121 to 1066
+rovers-strips:2-p32.pddl: 18 different costs from 160 to 1182
+rovers-strips:2-p33.pddl: 15 different costs from 235 to 799
+rovers-strips:2-p34.pddl: 18 different costs from 143 to 211
+rovers-strips:2-p35.pddl: 16 different costs from 361 to 437
+rovers-strips:2-p36.pddl: 14 different costs from 227 to 453
+rovers-strips:2-p37.pddl: 13 different costs from 340 to 411
+rovers-strips:2-p38.pddl: 13 different costs from 288 to 327
+rovers-strips:2-p39.pddl: 14 different costs from 342 to 405
+rovers-strips:2-p40.pddl: 12 different costs from 332 to 391
+satellite-strips:1-p08.pddl: 5 different costs from 46 to 66
+satellite-strips:1-p09.pddl: 9 different costs from 51 to 71
+satellite-strips:1-p10.pddl: 5 different costs from 50 to 55
+satellite-strips:1-p11.pddl: 8 different costs from 59 to 81
+satellite-strips:1-p12.pddl: 6 different costs from 62 to 71
+satellite-strips:1-p13.pddl: 5 different costs from 61 to 66
+satellite-strips:1-p14.pddl: 3 different costs from 68 to 72
+satellite-strips:1-p15.pddl: 7 different costs from 72 to 105
+satellite-strips:1-p16.pddl: 7 different costs from 79 to 89
+satellite-strips:1-p17.pddl: 12 different costs from 85 to 111
+satellite-strips:1-p18.pddl: 5 different costs from 89 to 126
+satellite-strips:1-p19.pddl: 11 different costs from 96 to 134
+satellite-strips:1-p20.pddl: 3 different costs from 103 to 106
+satellite-strips:1-p21.pddl: 6 different costs from 101 to 143
+satellite-strips:1-p22.pddl: 4 different costs from 102 to 117
+satellite-strips:1-p23.pddl: 8 different costs from 114 to 162
+satellite-strips:1-p24.pddl: 4 different costs from 116 to 165
+satellite-strips:2-p20-pfile20.pddl: 14 different costs from 88 to 109
+satellite-strips:2-p24-HC-pfile4.pddl: 11 different costs from 138 to 204
+satellite-strips:2-p25-HC-pfile5.pddl: 13 different costs from 126 to 182
+satellite-strips:2-p26-HC-pfile6.pddl: 15 different costs from 136 to 178
+satellite-strips:2-p28-HC-pfile8.pddl: 17 different costs from 193 to 240
+satellite-strips:2-p29-HC-pfile9.pddl: 11 different costs from 186 to 227
+satellite-strips:2-p30-HC-pfile10.pddl: 13 different costs from 228 to 296
+satellite-strips:2-p31-HC-pfile11.pddl: 11 different costs from 269 to 347
+satellite-strips:2-p32-HC-pfile12.pddl: 10 different costs from 366 to 411
+satellite-strips:2-p33-HC-pfile13.pddl: 3 different costs from 554 to 563
+satellite-strips:2-p34-HC-pfile14.pddl: 8 different costs from 287 to 328
+satellite-strips:2-p35-HC-pfile15.pddl: 17 different costs from 377 to 498
+satellite-strips:2-p36-HC-pfile16.pddl: 6 different costs from 359 to 433
+scanalyzer-strips:0-p13.pddl: 11 different costs from 64 to 96
+scanalyzer-strips:0-p23.pddl: 13 different costs from 78 to 150
+scanalyzer-strips:0-p24.pddl: 18 different costs from 84 to 162
+scanalyzer-strips:0-p25.pddl: 17 different costs from 90 to 174
+scanalyzer-strips:0-p26.pddl: 15 different costs from 96 to 186
+scanalyzer-strips:0-p27.pddl: 15 different costs from 102 to 198
+scanalyzer-strips:0-p28.pddl: 12 different costs from 142 to 222
+scanalyzer-strips:0-p29.pddl: 10 different costs from 150 to 230
+scanalyzer-strips:0-p30.pddl: 8 different costs from 180 to 250
+scanalyzer-strips:1-p05.pddl: 11 different costs from 74 to 106
+scanalyzer-strips:1-p06.pddl: 9 different costs from 84 to 120
+scanalyzer-strips:1-p07.pddl: 8 different costs from 94 to 132
+scanalyzer-strips:1-p08.pddl: 8 different costs from 104 to 148
+scanalyzer-strips:1-p09.pddl: 8 different costs from 116 to 160
+scanalyzer-strips:1-p10.pddl: 10 different costs from 122 to 180
+scanalyzer-strips:1-p11.pddl: 7 different costs from 136 to 188
+scanalyzer-strips:1-p12.pddl: 8 different costs from 144 to 206
+scanalyzer-strips:1-p13.pddl: 8 different costs from 148 to 216
+scanalyzer-strips:1-p14.pddl: 8 different costs from 164 to 232
+scanalyzer-strips:1-p15.pddl: 7 different costs from 174 to 244
+scanalyzer-strips:1-p16.pddl: 8 different costs from 176 to 260
+scanalyzer-strips:1-p17.pddl: 5 different costs from 184 to 272
+scanalyzer-strips:1-p18.pddl: 6 different costs from 194 to 286
+scanalyzer-strips:1-p19.pddl: 5 different costs from 210 to 300
+scanalyzer-strips:1-p20.pddl: 5 different costs from 226 to 314
+scanalyzer-strips:1-p21.pddl: 3 different costs from 234 to 282
+scanalyzer-strips:1-p22.pddl: 1 different costs from 246 to 246
+scanalyzer-strips:1-p23.pddl: 1 different costs from 256 to 256
+scanalyzer-strips:3-p19.pddl: 18 different costs from 55 to 235
+scanalyzer-strips:3-p20.pddl: 21 different costs from 63 to 171
+schedule-adl:0-probschedule-23-1.pddl: 14 different costs from 30 to 73
+schedule-adl:0-probschedule-35-0.pddl: 14 different costs from 48 to 66
+schedule-adl:0-probschedule-35-1.pddl: 16 different costs from 42 to 79
+schedule-adl:0-probschedule-36-2.pddl: 12 different costs from 44 to 78
+schedule-adl:0-probschedule-37-0.pddl: 16 different costs from 52 to 77
+schedule-adl:0-probschedule-37-2.pddl: 15 different costs from 45 to 72
+schedule-adl:0-probschedule-38-0.pddl: 13 different costs from 52 to 76
+schedule-adl:0-probschedule-38-2.pddl: 15 different costs from 48 to 72
+schedule-adl:0-probschedule-39-1.pddl: 18 different costs from 47 to 77
+schedule-adl:0-probschedule-40-1.pddl: 15 different costs from 52 to 80
+schedule-adl:0-probschedule-40-2.pddl: 13 different costs from 53 to 77
+schedule-adl:0-probschedule-41-1.pddl: 13 different costs from 53 to 80
+schedule-adl:0-probschedule-42-0.pddl: 15 different costs from 49 to 78
+schedule-adl:0-probschedule-43-0.pddl: 14 different costs from 56 to 80
+schedule-adl:0-probschedule-43-2.pddl: 15 different costs from 59 to 93
+schedule-adl:0-probschedule-44-0.pddl: 15 different costs from 57 to 78
+schedule-adl:0-probschedule-44-1.pddl: 16 different costs from 56 to 98
+schedule-adl:0-probschedule-44-2.pddl: 16 different costs from 57 to 80
+schedule-adl:0-probschedule-45-0.pddl: 15 different costs from 58 to 83
+schedule-adl:0-probschedule-45-2.pddl: 14 different costs from 56 to 110
+schedule-adl:0-probschedule-46-1.pddl: 14 different costs from 61 to 87
+schedule-adl:0-probschedule-46-2.pddl: 15 different costs from 62 to 93
+schedule-adl:0-probschedule-48-0.pddl: 14 different costs from 62 to 92
+schedule-adl:0-probschedule-48-2.pddl: 14 different costs from 63 to 93
+schedule-adl:0-probschedule-49-1.pddl: 13 different costs from 63 to 109
+schedule-adl:0-probschedule-49-2.pddl: 13 different costs from 64 to 89
+schedule-adl:0-probschedule-50-0.pddl: 15 different costs from 63 to 98
+schedule-adl:0-probschedule-50-1.pddl: 13 different costs from 64 to 91
+schedule-adl:0-probschedule-50-2.pddl: 15 different costs from 66 to 97
+schedule-adl:0-probschedule-51-2.pddl: 15 different costs from 59 to 85
+settlers-adl:0-p07.pddl: 13 different costs from 355 to 655
+settlers-adl:0-p08.pddl: 12 different costs from 200 to 335
+settlers-adl:0-p09.pddl: 8 different costs from 350 to 480
+settlers-adl:0-p10.pddl: 14 different costs from 260 to 340
+settlers-adl:0-p15.pddl: 20 different costs from 350 to 1095
+settlers-adl:0-p16.pddl: 12 different costs from 185 to 295
+settlers-adl:0-p17.pddl: 13 different costs from 320 to 710
+settlers-adl:0-p18.pddl: 13 different costs from 365 to 495
+settlers-adl:0-p19.pddl: 7 different costs from 300 to 510
+settlers-adl:0-p20.pddl: 12 different costs from 340 to 450
+settlers-adl:1-p01.pddl: 10 different costs from 440 to 630
+settlers-adl:1-p02.pddl: 13 different costs from 640 to 1195
+settlers-adl:1-p03.pddl: 16 different costs from 555 to 1300
+settlers-adl:1-p04.pddl: 17 different costs from 485 to 745
+settlers-adl:1-p05.pddl: 10 different costs from 985 to 1460
+settlers-adl:1-p06.pddl: 6 different costs from 1030 to 1280
+settlers-adl:1-p07.pddl: 7 different costs from 1205 to 1405
+settlers-adl:1-p08.pddl: 14 different costs from 505 to 2285
+settlers-adl:1-p09.pddl: 10 different costs from 515 to 670
+settlers-adl:1-p10.pddl: 10 different costs from 565 to 900
+settlers-adl:1-p11.pddl: 6 different costs from 970 to 1330
+settlers-adl:1-p12.pddl: 1 different costs from 1405 to 1405
+settlers-adl:1-p13.pddl: 3 different costs from 2010 to 2305
+settlers-adl:1-p14.pddl: 5 different costs from 1460 to 1930
+settlers-adl:1-p15.pddl: 11 different costs from 575 to 935
+settlers-adl:1-p16.pddl: 7 different costs from 875 to 1370
+settlers-adl:1-p17.pddl: 1 different costs from 1855 to 1855
+settlers-adl:1-p18.pddl: 3 different costs from 1925 to 2035
+settlers-adl:1-p20.pddl: 5 different costs from 1280 to 1825
+snake-strips:0-p15.pddl: 11 different costs from 113 to 250
+snake-strips:0-p17.pddl: 9 different costs from 101 to 292
+snake-strips:0-p18.pddl: 3 different costs from 133 to 212
+snake-strips:0-p28.pddl: 10 different costs from 104 to 325
+snake-strips:0-p29.pddl: 12 different costs from 87 to 327
+snake-strips:0-p30.pddl: 10 different costs from 117 to 283
+snake-strips:1-p10.pddl: 10 different costs from 95 to 230
+snake-strips:1-p11.pddl: 3 different costs from 119 to 138
+snake-strips:1-p12.pddl: 2 different costs from 135 to 183
+snake-strips:1-p13.pddl: 2 different costs from 152 to 184
+snake-strips:1-p14.pddl: 2 different costs from 131 to 209
+snake-strips:2-p08.pddl: 15 different costs from 83 to 185
+snake-strips:2-p14.pddl: 10 different costs from 122 to 242
+snake-strips:2-p18.pddl: 12 different costs from 108 to 243
+snake-strips:2-p19.pddl: 7 different costs from 172 to 257
+snake-strips:3-p04.pddl: 11 different costs from 116 to 455
+snake-strips:3-p08.pddl: 10 different costs from 110 to 383
+snake-strips:3-p09.pddl: 8 different costs from 116 to 355
+snake-strips:3-p10.pddl: 5 different costs from 183 to 298
+snake-strips:3-p11.pddl: 10 different costs from 96 to 216
+snake-strips:3-p12.pddl: 3 different costs from 159 to 175
+snake-strips:3-p13.pddl: 2 different costs from 218 to 254
+snake-strips:3-p14.pddl: 2 different costs from 264 to 292
+snake-strips:3-p16.pddl: 2 different costs from 192 to 220
+snake-strips:3-p17.pddl: 2 different costs from 267 to 270
+sokoban-strips:0-p05.pddl: 12 different costs from 29 to 63
+sokoban-strips:0-p07.pddl: 15 different costs from 70 to 218
+sokoban-strips:0-p09.pddl: 12 different costs from 23 to 77
+sokoban-strips:0-p10.pddl: 8 different costs from 38 to 45
+sokoban-strips:0-p12.pddl: 4 different costs from 123 to 141
+sokoban-strips:0-p18.pddl: 3 different costs from 41 to 44
+sokoban-strips:0-p19.pddl: 22 different costs from 80 to 198
+sokoban-strips:0-p21.pddl: 12 different costs from 39 to 73
+sokoban-strips:0-p22.pddl: 3 different costs from 14 to 24
+sokoban-strips:0-p24.pddl: 8 different costs from 18 to 36
+sokoban-strips:0-p25.pddl: 9 different costs from 42 to 114
+sokoban-strips:0-p26.pddl: 15 different costs from 60 to 90
+sokoban-strips:0-p27.pddl: 10 different costs from 55 to 101
+sokoban-strips:0-p28.pddl: 2 different costs from 24 to 30
+sokoban-strips:0-p29.pddl: 18 different costs from 43 to 93
+sokoban-strips:0-p30.pddl: 16 different costs from 101 to 161
+sokoban-strips:1-p14.pddl: 15 different costs from 26 to 116
+sokoban-strips:1-p15.pddl: 16 different costs from 10 to 71
+sokoban-strips:1-p17.pddl: 7 different costs from 78 to 162
+sokoban-strips:1-p18.pddl: 13 different costs from 58 to 90
+sokoban-strips:1-p19.pddl: 18 different costs from 65 to 119
+sokoban-strips:1-p21.pddl: 17 different costs from 18 to 86
+sokoban-strips:1-p23.pddl: 6 different costs from 118 to 158
+sokoban-strips:1-p27.pddl: 5 different costs from 36 to 52
+sokoban-strips:1-p28.pddl: 6 different costs from 29 to 42
+sokoban-strips:3-p01.pddl: 18 different costs from 52 to 86
+sokoban-strips:3-p05.pddl: 20 different costs from 50 to 126
+sokoban-strips:5-p21.pddl: 17 different costs from 51 to 101
+spanner-strips:0-p013.pddl: 1 different costs from 40 to 40
+spanner-strips:0-p016.pddl: 2 different costs from 55 to 56
+spanner-strips:0-p018.pddl: 2 different costs from 65 to 66
+spanner-strips:0-p031.pddl: 2 different costs from 40 to 41
+spanner-strips:0-p033.pddl: 1 different costs from 50 to 50
+spanner-strips:0-p039.pddl: 1 different costs from 52 to 52
+spanner-strips:0-p042.pddl: 2 different costs from 67 to 68
+spanner-strips:0-p043.pddl: 1 different costs from 44 to 44
+spanner-strips:0-p048.pddl: 1 different costs from 69 to 69
+spanner-strips:0-p056.pddl: 2 different costs from 45 to 46
+spanner-strips:0-p063.pddl: 1 different costs from 52 to 52
+spanner-strips:0-p064.pddl: 2 different costs from 57 to 58
+spanner-strips:0-p073.pddl: 1 different costs from 46 to 46
+spanner-strips:0-p075.pddl: 1 different costs from 56 to 56
+spanner-strips:0-p077.pddl: 1 different costs from 66 to 66
+spanner-strips:0-p079.pddl: 1 different costs from 48 to 48
+spanner-strips:0-p081.pddl: 1 different costs from 58 to 58
+spanner-strips:0-p083.pddl: 1 different costs from 68 to 68
+spanner-strips:0-p091.pddl: 2 different costs from 40 to 41
+spanner-strips:0-p092.pddl: 1 different costs from 45 to 45
+spanner-strips:0-p097.pddl: 2 different costs from 42 to 43
+spanner-strips:0-p100.pddl: 2 different costs from 58 to 59
+spanner-strips:0-p103.pddl: 1 different costs from 44 to 44
+spanner-strips:0-p116.pddl: 2 different costs from 53 to 55
+spanner-strips:0-p120.pddl: 2 different costs from 73 to 74
+spanner-strips:0-p121.pddl: 2 different costs from 50 to 51
+spanner-strips:0-p122.pddl: 1 different costs from 55 to 55
+spanner-strips:0-p127.pddl: 1 different costs from 52 to 52
+spanner-strips:0-p129.pddl: 1 different costs from 62 to 62
+spanner-strips:0-p130.pddl: 1 different costs from 67 to 67
+spider-strips:0-p04.pddl: 14 different costs from 31 to 78
+spider-strips:0-p05.pddl: 13 different costs from 50 to 114
+spider-strips:0-p06.pddl: 11 different costs from 49 to 80
+spider-strips:0-p10.pddl: 16 different costs from 27 to 61
+spider-strips:0-p11.pddl: 17 different costs from 34 to 115
+spider-strips:0-p12.pddl: 16 different costs from 40 to 80
+spider-strips:0-p13.pddl: 14 different costs from 41 to 74
+spider-strips:0-p17.pddl: 18 different costs from 24 to 60
+spider-strips:0-p18.pddl: 17 different costs from 30 to 109
+spider-strips:0-p19.pddl: 15 different costs from 32 to 69
+spider-strips:0-p20.pddl: 16 different costs from 38 to 75
+spider-strips:1-p01.pddl: 15 different costs from 33 to 86
+spider-strips:1-p02.pddl: 9 different costs from 43 to 59
+spider-strips:1-p03.pddl: 10 different costs from 42 to 66
+spider-strips:1-p04.pddl: 3 different costs from 60 to 87
+spider-strips:1-p05.pddl: 2 different costs from 59 to 71
+spider-strips:1-p07.pddl: 22 different costs from 29 to 66
+spider-strips:1-p08.pddl: 18 different costs from 34 to 72
+spider-strips:1-p09.pddl: 16 different costs from 36 to 133
+spider-strips:1-p10.pddl: 13 different costs from 37 to 62
+spider-strips:1-p11.pddl: 14 different costs from 49 to 70
+spider-strips:1-p12.pddl: 11 different costs from 46 to 68
+spider-strips:1-p13.pddl: 4 different costs from 62 to 93
+spider-strips:1-p14.pddl: 18 different costs from 24 to 79
+spider-strips:1-p15.pddl: 16 different costs from 27 to 63
+spider-strips:1-p16.pddl: 14 different costs from 37 to 63
+spider-strips:1-p17.pddl: 16 different costs from 37 to 63
+spider-strips:1-p18.pddl: 15 different costs from 40 to 61
+spider-strips:1-p19.pddl: 8 different costs from 51 to 81
+spider-strips:1-p20.pddl: 7 different costs from 49 to 58
+storage-strips:0-p29.pddl: 9 different costs from 40 to 88
+storage-strips:1-p04.pddl: 9 different costs from 22 to 41
+storage-strips:1-p05.pddl: 6 different costs from 30 to 37
+storage-strips:1-p06.pddl: 7 different costs from 29 to 37
+storage-strips:1-p07.pddl: 4 different costs from 35 to 59
+storage-strips:1-p08.pddl: 8 different costs from 41 to 51
+storage-strips:1-p09.pddl: 9 different costs from 52 to 101
+storage-strips:1-p10.pddl: 7 different costs from 47 to 62
+storage-strips:1-p11.pddl: 2 different costs from 59 to 63
+storage-strips:1-p12.pddl: 6 different costs from 55 to 63
+storage-strips:1-p13.pddl: 5 different costs from 60 to 68
+storage-strips:1-p14.pddl: 2 different costs from 67 to 69
+storage-strips:1-p16.pddl: 2 different costs from 83 to 85
+storage-strips:1-p25.pddl: 8 different costs from 54 to 92
+storage-strips:1-p26.pddl: 4 different costs from 65 to 130
+storage-strips:1-p27.pddl: 1 different costs from 83 to 83
+storage-strips:1-p28.pddl: 1 different costs from 90 to 90
+storage-strips:2-p17.pddl: 10 different costs from 26 to 48
+storage-strips:2-p18.pddl: 21 different costs from 31 to 142
+storage-strips:2-p19.pddl: 18 different costs from 31 to 154
+storage-strips:2-p20.pddl: 8 different costs from 38 to 293
+storage-strips:2-p21.pddl: 5 different costs from 51 to 101
+storage-strips:2-p22.pddl: 7 different costs from 52 to 337
+storage-strips:2-p23.pddl: 15 different costs from 55 to 153
+storage-strips:2-p24.pddl: 1 different costs from 130 to 130
+storage-strips:2-p25.pddl: 4 different costs from 68 to 194
+storage-strips:2-p26.pddl: 2 different costs from 81 to 121
+storage-strips:2-p27.pddl: 3 different costs from 71 to 172
+t0-adder-adl:0-adder-01.pddl: 2 different costs from 15 to 31
+t0-coins-adl:0-coins_p-01.pddl: 3 different costs from 12 to 14
+t0-coins-adl:0-coins_p-03.pddl: 5 different costs from 13 to 17
+t0-coins-adl:0-coins_p-05.pddl: 5 different costs from 13 to 17
+t0-coins-adl:0-coins_p-06.pddl: 8 different costs from 33 to 63
+t0-coins-adl:0-coins_p-07.pddl: 11 different costs from 31 to 64
+t0-coins-adl:0-coins_p-08.pddl: 8 different costs from 31 to 61
+t0-coins-adl:0-coins_p-09.pddl: 6 different costs from 30 to 35
+t0-coins-adl:0-coins_p-10.pddl: 12 different costs from 31 to 44
+t0-coins-adl:0-coins_p-11.pddl: 13 different costs from 80 to 244
+t0-coins-adl:0-coins_p-12.pddl: 17 different costs from 73 to 321
+t0-coins-adl:0-coins_p-13.pddl: 13 different costs from 75 to 185
+t0-coins-adl:0-coins_p-14.pddl: 12 different costs from 80 to 319
+t0-coins-adl:0-coins_p-15.pddl: 12 different costs from 73 to 220
+t0-coins-adl:0-coins_p-16.pddl: 17 different costs from 91 to 314
+t0-coins-adl:0-coins_p-17.pddl: 12 different costs from 98 to 359
+t0-coins-adl:0-coins_p-18.pddl: 16 different costs from 95 to 322
+t0-coins-adl:0-coins_p-19.pddl: 20 different costs from 93 to 352
+t0-coins-adl:0-coins_p-20.pddl: 19 different costs from 90 to 243
+t0-coins-adl:0-coins_p-21.pddl: 8 different costs from 261 to 484
+t0-coins-adl:0-coins_p-22.pddl: 11 different costs from 288 to 660
+t0-coins-adl:0-coins_p-23.pddl: 9 different costs from 318 to 758
+t0-coins-adl:0-coins_p-24.pddl: 9 different costs from 321 to 634
+t0-coins-adl:0-coins_p-25.pddl: 8 different costs from 354 to 583
+t0-coins-adl:0-coins_p-26.pddl: 12 different costs from 327 to 668
+t0-coins-adl:0-coins_p-27.pddl: 12 different costs from 371 to 627
+t0-coins-adl:0-coins_p-28.pddl: 10 different costs from 395 to 802
+t0-coins-adl:0-coins_p-29.pddl: 10 different costs from 402 to 619
+t0-coins-adl:0-coins_p-30.pddl: 8 different costs from 399 to 968
+t0-comm-adl:0-comm_c-01.pddl: 3 different costs from 15 to 17
+t0-comm-adl:0-comm_c-02.pddl: 5 different costs from 23 to 29
+t0-comm-adl:0-comm_c-03.pddl: 7 different costs from 31 to 39
+t0-comm-adl:0-comm_c-04.pddl: 7 different costs from 39 to 49
+t0-comm-adl:0-comm_c-05.pddl: 9 different costs from 47 to 61
+t0-comm-adl:0-comm_c-06.pddl: 10 different costs from 55 to 70
+t0-comm-adl:0-comm_c-07.pddl: 11 different costs from 63 to 81
+t0-comm-adl:0-comm_c-08.pddl: 13 different costs from 71 to 96
+t0-comm-adl:0-comm_c-09.pddl: 12 different costs from 79 to 109
+t0-comm-adl:0-comm_c-10.pddl: 12 different costs from 87 to 113
+t0-comm-adl:0-comm_c-11.pddl: 12 different costs from 95 to 131
+t0-comm-adl:0-comm_c-12.pddl: 14 different costs from 103 to 158
+t0-comm-adl:0-comm_c-13.pddl: 16 different costs from 111 to 145
+t0-comm-adl:0-comm_c-14.pddl: 13 different costs from 119 to 155
+t0-comm-adl:0-comm_c-15.pddl: 13 different costs from 127 to 166
+t0-comm-adl:0-comm_c-16.pddl: 14 different costs from 159 to 211
+t0-comm-adl:0-comm_c-17.pddl: 15 different costs from 199 to 264
+t0-comm-adl:0-comm_c-18.pddl: 16 different costs from 239 to 320
+t0-comm-adl:0-comm_c-19.pddl: 16 different costs from 279 to 379
+t0-comm-adl:0-comm_c-20.pddl: 16 different costs from 319 to 430
+t0-comm-adl:0-comm_c-21.pddl: 16 different costs from 359 to 485
+t0-comm-adl:0-comm_c-22.pddl: 14 different costs from 399 to 538
+t0-comm-adl:0-comm_c-23.pddl: 15 different costs from 439 to 593
+t0-comm-adl:0-comm_c-24.pddl: 18 different costs from 479 to 647
+t0-comm-adl:0-comm_c-25.pddl: 16 different costs from 519 to 703
+t0-grid-dispose-adl:0-family-grid-new_dispose-12-1.pddl: 33 different costs from 316 to 2062
+t0-grid-dispose-adl:0-family-grid-new_dispose-12-2.pddl: 31 different costs from 518 to 4457
+t0-grid-dispose-adl:0-family-grid-new_dispose-12-3.pddl: 26 different costs from 704 to 6834
+t0-grid-dispose-adl:0-family-grid-new_dispose-16-1.pddl: 25 different costs from 548 to 5342
+t0-grid-dispose-adl:0-family-grid-new_dispose-16-2.pddl: 24 different costs from 907 to 10750
+t0-grid-dispose-adl:0-family-grid-new_dispose-16-3.pddl: 22 different costs from 1204 to 3030
+t0-grid-dispose-adl:0-family-grid-new_dispose-20-1.pddl: 23 different costs from 833 to 9799
+t0-grid-dispose-adl:0-family-grid-new_dispose-20-2.pddl: 22 different costs from 1352 to 3989
+t0-grid-dispose-adl:0-family-grid-new_dispose-20-3.pddl: 18 different costs from 1887 to 4361
+t0-grid-dispose-adl:0-family-grid-new_dispose-4-1.pddl: 20 different costs from 36 to 131
+t0-grid-dispose-adl:0-family-grid-new_dispose-4-2.pddl: 25 different costs from 54 to 255
+t0-grid-dispose-adl:0-family-grid-new_dispose-4-3.pddl: 26 different costs from 72 to 373
+t0-grid-dispose-adl:0-family-grid-new_dispose-8-1.pddl: 32 different costs from 143 to 676
+t0-grid-dispose-adl:0-family-grid-new_dispose-8-2.pddl: 36 different costs from 223 to 903
+t0-grid-dispose-adl:0-family-grid-new_dispose-8-3.pddl: 32 different costs from 309 to 1544
+t0-grid-push-adl:0-family-grid-new_push-to-4-1.pddl: 24 different costs from 37 to 121
+t0-grid-push-adl:0-family-grid-new_push-to-4-2.pddl: 19 different costs from 42 to 122
+t0-grid-push-adl:0-family-grid-new_push-to-4-3.pddl: 22 different costs from 43 to 135
+t0-grid-push-adl:0-family-grid-new_push-to-8-1.pddl: 11 different costs from 347 to 870
+t0-grid-push-adl:0-family-grid-new_push-to-8-2.pddl: 11 different costs from 351 to 982
+t0-grid-trash-adl:0-family-grid-new_to-trash-8-1-disappear.pddl: 12 different costs from 293 to 1067
+t0-sortnet-adl:0-sortnet_03.pddl: 2 different costs from 9 to 10
+t0-sortnet-adl:0-sortnet_04.pddl: 2 different costs from 14 to 15
+t0-sortnet-adl:0-sortnet_05.pddl: 3 different costs from 19 to 21
+t0-sortnet-adl:0-sortnet_06.pddl: 4 different costs from 25 to 28
+t0-sortnet-adl:0-sortnet_07.pddl: 2 different costs from 32 to 36
+t0-sortnet-alt-adl:0-sort-num_s-2.pddl: 1 different costs from 1 to 1
+t0-sortnet-alt-adl:0-sort-num_s-3.pddl: 1 different costs from 3 to 3
+t0-sortnet-alt-adl:0-sort-num_s-4.pddl: 1 different costs from 6 to 6
+t0-sortnet-alt-adl:0-sort-num_s-5.pddl: 1 different costs from 10 to 10
+t0-sortnet-alt-adl:0-sort-num_s-6.pddl: 1 different costs from 15 to 15
+t0-sortnet-alt-adl:0-sort-num_s-7.pddl: 1 different costs from 21 to 21
+t0-uts-adl:0-uts_k-01.pddl: 1 different costs from 7 to 7
+t0-uts-adl:0-uts_k-02.pddl: 4 different costs from 13 to 17
+t0-uts-adl:0-uts_k-03.pddl: 7 different costs from 19 to 28
+t0-uts-adl:0-uts_k-04.pddl: 7 different costs from 25 to 40
+t0-uts-adl:0-uts_k-05.pddl: 7 different costs from 31 to 52
+t0-uts-adl:0-uts_k-06.pddl: 7 different costs from 37 to 62
+t0-uts-adl:0-uts_k-07.pddl: 4 different costs from 43 to 59
+t0-uts-adl:0-uts_k-08.pddl: 8 different costs from 49 to 81
+t0-uts-adl:0-uts_k-09.pddl: 7 different costs from 55 to 89
+t0-uts-adl:0-uts_k-10.pddl: 6 different costs from 61 to 106
+t0-uts-adl:0-uts_l-02.pddl: 6 different costs from 13 to 18
+t0-uts-adl:0-uts_l-03.pddl: 12 different costs from 19 to 32
+t0-uts-adl:0-uts_l-04.pddl: 15 different costs from 25 to 58
+t0-uts-adl:0-uts_l-05.pddl: 18 different costs from 31 to 79
+t0-uts-adl:0-uts_l-06.pddl: 23 different costs from 37 to 136
+t0-uts-adl:0-uts_l-07.pddl: 22 different costs from 50 to 164
+t0-uts-adl:0-uts_l-08.pddl: 20 different costs from 58 to 241
+t0-uts-adl:0-uts_l-09.pddl: 17 different costs from 64 to 212
+t0-uts-adl:0-uts_l-10.pddl: 14 different costs from 76 to 259
+t0-uts-adl:0-uts_r-03.pddl: 6 different costs from 19 to 25
+t0-uts-adl:0-uts_r-04.pddl: 10 different costs from 25 to 38
+t0-uts-adl:0-uts_r-05.pddl: 8 different costs from 31 to 44
+t0-uts-adl:0-uts_r-06.pddl: 10 different costs from 37 to 59
+t0-uts-adl:0-uts_r-07.pddl: 13 different costs from 43 to 90
+t0-uts-adl:0-uts_r-08.pddl: 15 different costs from 51 to 138
+t0-uts-adl:0-uts_r-09.pddl: 16 different costs from 56 to 156
+t0-uts-adl:0-uts_r-10.pddl: 16 different costs from 62 to 166
+termes-strips:0-p14.pddl: 19 different costs from 172 to 460
+termes-strips:0-p16.pddl: 22 different costs from 170 to 574
+termes-strips:0-p17.pddl: 13 different costs from 300 to 620
+termes-strips:0-p18.pddl: 12 different costs from 246 to 502
+termes-strips:0-p20.pddl: 4 different costs from 686 to 738
+termes-strips:1-p03.pddl: 15 different costs from 390 to 1340
+termes-strips:1-p04.pddl: 11 different costs from 570 to 2026
+termes-strips:1-p06.pddl: 11 different costs from 1294 to 1678
+termes-strips:1-p07.pddl: 14 different costs from 1202 to 1962
+termes-strips:1-p08.pddl: 10 different costs from 1890 to 2242
+termes-strips:1-p09.pddl: 13 different costs from 1692 to 2472
+termes-strips:1-p20.pddl: 17 different costs from 322 to 1044
+termes-strips:1-p21.pddl: 14 different costs from 570 to 1094
+termes-strips:1-p22.pddl: 12 different costs from 1444 to 2430
+termes-strips:1-p23.pddl: 17 different costs from 680 to 2488
+termes-strips:1-p24.pddl: 12 different costs from 2038 to 2894
+termes-strips:1-p25.pddl: 12 different costs from 1706 to 2060
+termes-strips:1-p26.pddl: 16 different costs from 1836 to 3494
+termes-strips:1-p27.pddl: 8 different costs from 2144 to 2826
+termes-strips:3-p03.pddl: 15 different costs from 270 to 748
+termes-strips:3-p05.pddl: 11 different costs from 342 to 416
+termes-strips:3-p07.pddl: 7 different costs from 618 to 1094
+termes-strips:3-p12.pddl: 19 different costs from 392 to 1716
+termes-strips:3-p13.pddl: 10 different costs from 614 to 2018
+termes-strips:3-p14.pddl: 14 different costs from 1918 to 2944
+termes-strips:3-p16.pddl: 24 different costs from 340 to 1436
+termes-strips:3-p17.pddl: 18 different costs from 554 to 1962
+termes-strips:3-p18.pddl: 12 different costs from 1176 to 1862
+termes-strips:3-p19.pddl: 13 different costs from 1834 to 2976
+tetris-strips:0-p07.pddl: 10 different costs from 55 to 91
+tetris-strips:0-p18.pddl: 2 different costs from 75 to 94
+tetris-strips:0-p19.pddl: 10 different costs from 40 to 120
+tetris-strips:0-p27.pddl: 3 different costs from 51 to 101
+tetris-strips:0-p30.pddl: 3 different costs from 76 to 112
+tetris-strips:1-p06.pddl: 16 different costs from 50 to 554
+tetris-strips:1-p09.pddl: 5 different costs from 99 to 126
+tetris-strips:1-p10.pddl: 11 different costs from 88 to 229
+tetris-strips:1-p11.pddl: 9 different costs from 44 to 218
+tetris-strips:1-p12.pddl: 3 different costs from 51 to 53
+tetris-strips:1-p22.pddl: 14 different costs from 43 to 1387
+tetris-strips:3-p023.pddl: 14 different costs from 110 to 246
+tetris-strips:3-p024.pddl: 8 different costs from 107 to 388
+tetris-strips:3-p025.pddl: 17 different costs from 63 to 959
+tetris-strips:3-p026.pddl: 10 different costs from 135 to 325
+tetris-strips:3-p027.pddl: 15 different costs from 122 to 297
+tetris-strips:3-p028.pddl: 17 different costs from 117 to 322
+tetris-strips:3-p029.pddl: 8 different costs from 107 to 195
+tetris-strips:3-p031.pddl: 5 different costs from 159 to 294
+tetris-strips:3-p032.pddl: 7 different costs from 78 to 247
+tetris-strips:3-p033.pddl: 18 different costs from 165 to 490
+tetris-strips:3-p035.pddl: 11 different costs from 134 to 309
+tetris-strips:3-p036.pddl: 16 different costs from 105 to 277
+tetris-strips:3-p037.pddl: 5 different costs from 153 to 758
+tetris-strips:3-p038.pddl: 11 different costs from 131 to 237
+tetris-strips:3-p039.pddl: 5 different costs from 176 to 305
+tetris-strips:3-p040.pddl: 3 different costs from 224 to 663
+thoughtful-strips:0-p07.pddl: 20 different costs from 83 to 128
+thoughtful-strips:0-p08.pddl: 17 different costs from 91 to 150
+thoughtful-strips:0-p12.pddl: 14 different costs from 109 to 131
+thoughtful-strips:0-p13.pddl: 14 different costs from 91 to 117
+thoughtful-strips:0-p14.pddl: 13 different costs from 94 to 119
+thoughtful-strips:0-p15.pddl: 20 different costs from 113 to 151
+thoughtful-strips:0-p17.pddl: 8 different costs from 98 to 164
+thoughtful-strips:0-p23.pddl: 21 different costs from 107 to 157
+thoughtful-strips:0-p24.pddl: 18 different costs from 102 to 144
+thoughtful-strips:0-p26.pddl: 8 different costs from 118 to 165
+thoughtful-strips:0-p27.pddl: 22 different costs from 112 to 180
+thoughtful-strips:0-p30.pddl: 14 different costs from 116 to 165
+thoughtful-strips:1-p16.pddl: 15 different costs from 121 to 198
+thoughtful-strips:1-p18.pddl: 19 different costs from 132 to 203
+thoughtful-strips:1-p19.pddl: 16 different costs from 94 to 119
+thoughtful-strips:1-p20.pddl: 4 different costs from 104 to 122
+thoughtful-strips:1-p22.pddl: 3 different costs from 119 to 160
+thoughtful-strips:1-p23.pddl: 13 different costs from 116 to 146
+thoughtful-strips:1-p24.pddl: 5 different costs from 116 to 144
+thoughtful-strips:1-p25.pddl: 16 different costs from 99 to 124
+thoughtful-strips:1-p28.pddl: 7 different costs from 88 to 127
+thoughtful-strips:1-p29.pddl: 17 different costs from 96 to 156
+thoughtful-strips:1-p30.pddl: 6 different costs from 121 to 155
+thoughtful-strips:3-target-typed-21.pddl: 8 different costs from 123 to 200
+thoughtful-strips:3-target-typed-22.pddl: 19 different costs from 125 to 170
+thoughtful-strips:3-target-typed-23.pddl: 20 different costs from 110 to 149
+thoughtful-strips:3-target-typed-24.pddl: 17 different costs from 111 to 140
+thoughtful-strips:3-target-typed-26.pddl: 14 different costs from 110 to 148
+thoughtful-strips:3-target-typed-27.pddl: 22 different costs from 108 to 205
+thoughtful-strips:3-target-typed-28.pddl: 16 different costs from 112 to 161
+tidybot-strips:0-p19.pddl: 11 different costs from 77 to 555
+tidybot-strips:0-p21.pddl: 4 different costs from 132 to 1666
+tidybot-strips:0-p23.pddl: 11 different costs from 41 to 337
+tidybot-strips:0-p24.pddl: 11 different costs from 68 to 397
+tidybot-strips:0-p27.pddl: 18 different costs from 77 to 173
+tidybot-strips:0-p28.pddl: 4 different costs from 140 to 264
+tidybot-strips:0-p29.pddl: 3 different costs from 159 to 797
+tidybot-strips:0-p30.pddl: 1 different costs from 606 to 606
+tidybot-strips:1-p04.pddl: 23 different costs from 54 to 431
+tidybot-strips:1-p05.pddl: 8 different costs from 79 to 446
+tidybot-strips:1-p09.pddl: 20 different costs from 71 to 797
+tidybot-strips:1-p11.pddl: 21 different costs from 96 to 658
+tidybot-strips:1-p13.pddl: 8 different costs from 191 to 1681
+tidybot-strips:1-p14.pddl: 22 different costs from 101 to 1574
+tidybot-strips:1-p15.pddl: 18 different costs from 76 to 1852
+tidybot-strips:1-p16.pddl: 12 different costs from 162 to 1278
+tidybot-strips:1-p17.pddl: 13 different costs from 105 to 729
+tidybot-strips:1-p18.pddl: 3 different costs from 164 to 208
+tidybot-strips:1-p19.pddl: 2 different costs from 130 to 141
+tidybot-strips:1-p20.pddl: 1 different costs from 936 to 936
+tidybot-strips:1-p21.pddl: 1 different costs from 668 to 668
+tidybot-strips:1-p22.pddl: 4 different costs from 140 to 949
+tidybot-strips:1-p23.pddl: 3 different costs from 226 to 1214
+tidybot-strips:2-p15.pddl: 15 different costs from 45 to 317
+tidybot-strips:4-p12.pddl: 22 different costs from 37 to 821
+tidybot-strips:4-p13.pddl: 17 different costs from 71 to 419
+tidybot-strips:4-p16.pddl: 14 different costs from 68 to 466
+tidybot-strips:4-p18.pddl: 12 different costs from 62 to 813
+tidybot-strips:4-p19.pddl: 7 different costs from 195 to 418
+tidybot-strips:4-p20.pddl: 2 different costs from 704 to 1945
+tpp-strips:0-p14.pddl: 10 different costs from 348 to 545
+tpp-strips:0-p15.pddl: 8 different costs from 439 to 454
+tpp-strips:0-p16.pddl: 8 different costs from 496 to 520
+tpp-strips:0-p17.pddl: 8 different costs from 628 to 661
+tpp-strips:0-p18.pddl: 7 different costs from 591 to 614
+tpp-strips:0-p19.pddl: 6 different costs from 720 to 732
+tpp-strips:0-p20.pddl: 3 different costs from 930 to 938
+tpp-strips:0-p21.pddl: 3 different costs from 1005 to 1011
+tpp-strips:0-p22.pddl: 3 different costs from 1013 to 1017
+tpp-strips:0-p23.pddl: 1 different costs from 1305 to 1305
+tpp-strips:0-p24.pddl: 1 different costs from 1111 to 1111
+tpp-strips:1-p12.pddl: 7 different costs from 181 to 227
+tpp-strips:1-p13.pddl: 11 different costs from 255 to 297
+tpp-strips:1-p14.pddl: 9 different costs from 332 to 387
+tpp-strips:1-p15.pddl: 11 different costs from 269 to 302
+tpp-strips:1-p16.pddl: 7 different costs from 246 to 287
+tpp-strips:1-p17.pddl: 7 different costs from 433 to 480
+tpp-strips:1-p18.pddl: 5 different costs from 401 to 478
+tpp-strips:1-p19.pddl: 8 different costs from 243 to 267
+tpp-strips:1-p20.pddl: 6 different costs from 433 to 522
+tpp-strips:1-p21.pddl: 1 different costs from 493 to 493
+tpp-strips:2-p25.pddl: 13 different costs from 179 to 453
+tpp-strips:2-p26.pddl: 13 different costs from 190 to 449
+tpp-strips:2-p27.pddl: 9 different costs from 220 to 440
+tpp-strips:2-p28.pddl: 10 different costs from 232 to 377
+tpp-strips:2-p29.pddl: 10 different costs from 251 to 494
+tpp-strips:2-p30.pddl: 9 different costs from 264 to 429
+transport-strips:1-p10.pddl: 22 different costs from 2704 to 6761
+transport-strips:1-p12.pddl: 21 different costs from 4128 to 6336
+transport-strips:3-p02.pddl: 20 different costs from 2653 to 5443
+transport-strips:3-p04.pddl: 2 different costs from 8355 to 8946
+transport-strips:3-p07.pddl: 4 different costs from 6030 to 9011
+transport-strips:3-p08.pddl: 1 different costs from 6800 to 6800
+transport-strips:3-p10.pddl: 6 different costs from 6084 to 7899
+transport-strips:3-p12.pddl: 21 different costs from 2213 to 3590
+transport-strips:3-p16.pddl: 3 different costs from 7291 to 9251
+transport-strips:3-p17.pddl: 4 different costs from 7647 to 8929
+transport-strips:3-p18.pddl: 5 different costs from 6108 to 9769
+transport-strips:3-p19.pddl: 6 different costs from 5267 to 7063
+transport-strips:5-p03.pddl: 25 different costs from 3555 to 6733
+transport-strips:5-p04.pddl: 20 different costs from 2540 to 6123
+transport-strips:5-p05.pddl: 18 different costs from 4038 to 6582
+transport-strips:5-p06.pddl: 14 different costs from 4133 to 7441
+transport-strips:5-p07.pddl: 10 different costs from 4669 to 10007
+transport-strips:5-p09.pddl: 8 different costs from 5589 to 9522
+transport-strips:5-p10.pddl: 21 different costs from 4396 to 7550
+transport-strips:5-p13.pddl: 22 different costs from 2124 to 3702
+transport-strips:5-p14.pddl: 2 different costs from 8038 to 8147
+transport-strips:5-p15.pddl: 1 different costs from 7300 to 7300
+transport-strips:5-p16.pddl: 1 different costs from 10257 to 10257
+transport-strips:5-p17.pddl: 11 different costs from 5212 to 8157
+transport-strips:5-p18.pddl: 11 different costs from 4583 to 6933
+transport-strips:5-p19.pddl: 7 different costs from 5534 to 7159
+transport-strips:5-p20.pddl: 7 different costs from 4776 to 6306
+trucks-adl:0-p01.pddl: 4 different costs from 13 to 17
+trucks-adl:0-p02.pddl: 3 different costs from 17 to 20
+trucks-adl:0-p03.pddl: 6 different costs from 20 to 26
+trucks-adl:0-p04.pddl: 5 different costs from 23 to 27
+trucks-adl:0-p05.pddl: 9 different costs from 25 to 35
+trucks-adl:0-p06.pddl: 6 different costs from 31 to 36
+trucks-adl:0-p07.pddl: 3 different costs from 24 to 30
+trucks-adl:0-p08.pddl: 8 different costs from 27 to 37
+trucks-adl:0-p09.pddl: 7 different costs from 28 to 38
+trucks-adl:0-p10.pddl: 8 different costs from 34 to 45
+trucks-adl:0-p11.pddl: 11 different costs from 37 to 48
+trucks-adl:0-p12.pddl: 10 different costs from 41 to 59
+trucks-adl:0-p13.pddl: 6 different costs from 33 to 41
+trucks-adl:0-p14.pddl: 10 different costs from 38 to 49
+trucks-adl:0-p15.pddl: 12 different costs from 42 to 56
+trucks-adl:0-p16.pddl: 10 different costs from 47 to 59
+trucks-adl:0-p17.pddl: 11 different costs from 52 to 67
+trucks-adl:0-p18.pddl: 6 different costs from 57 to 65
+trucks-adl:0-p19.pddl: 5 different costs from 46 to 56
+trucks-adl:0-p20.pddl: 1 different costs from 56 to 56
+trucks-adl:0-p21.pddl: 2 different costs from 60 to 64
+trucks-adl:0-p22.pddl: 1 different costs from 63 to 63
+trucks-adl:0-p23.pddl: 2 different costs from 66 to 68
+trucks-adl:0-p26.pddl: 2 different costs from 68 to 69
+trucks-strips:0-p01.pddl: 2 different costs from 14 to 15
+trucks-strips:0-p02.pddl: 3 different costs from 17 to 20
+trucks-strips:0-p03.pddl: 6 different costs from 21 to 26
+trucks-strips:0-p04.pddl: 5 different costs from 23 to 29
+trucks-strips:0-p05.pddl: 9 different costs from 25 to 35
+trucks-strips:0-p06.pddl: 8 different costs from 30 to 40
+trucks-strips:0-p07.pddl: 3 different costs from 24 to 28
+trucks-strips:0-p08.pddl: 8 different costs from 27 to 35
+trucks-strips:0-p09.pddl: 7 different costs from 28 to 38
+trucks-strips:0-p10.pddl: 9 different costs from 34 to 47
+trucks-strips:0-p11.pddl: 9 different costs from 36 to 50
+trucks-strips:0-p12.pddl: 8 different costs from 40 to 57
+trucks-strips:0-p13.pddl: 8 different costs from 34 to 44
+trucks-strips:0-p14.pddl: 12 different costs from 37 to 51
+trucks-strips:0-p15.pddl: 9 different costs from 41 to 56
+trucks-strips:0-p16.pddl: 7 different costs from 45 to 57
+trucks-strips:0-p17.pddl: 10 different costs from 49 to 61
+trucks-strips:0-p18.pddl: 9 different costs from 54 to 65
+trucks-strips:0-p19.pddl: 9 different costs from 46 to 58
+trucks-strips:0-p21.pddl: 4 different costs from 58 to 61
+trucks-strips:0-p23.pddl: 5 different costs from 67 to 74
+trucks-strips:0-p24.pddl: 1 different costs from 73 to 73
+trucks-strips:0-p26.pddl: 2 different costs from 64 to 69
+trucks-strips:0-p28.pddl: 1 different costs from 73 to 73
+visitall-strips:1-p14.pddl: 15 different costs from 2013 to 3940
+visitall-strips:1-p15.pddl: 15 different costs from 2360 to 3884
+visitall-strips:1-p16.pddl: 15 different costs from 2628 to 4475
+visitall-strips:1-p17.pddl: 13 different costs from 3033 to 4426
+visitall-strips:1-p18.pddl: 13 different costs from 3269 to 4259
+visitall-strips:1-p19.pddl: 12 different costs from 3718 to 4520
+visitall-strips:1-p20.pddl: 12 different costs from 4154 to 4997
+visitall-strips:1-p21.pddl: 12 different costs from 4394 to 5676
+visitall-strips:1-p22.pddl: 12 different costs from 4919 to 6519
+visitall-strips:1-p23.pddl: 11 different costs from 5425 to 6391
+visitall-strips:1-p24.pddl: 9 different costs from 5987 to 7045
+visitall-strips:1-p25.pddl: 9 different costs from 6412 to 7484
+visitall-strips:1-p26.pddl: 7 different costs from 6833 to 8101
+visitall-strips:1-p27.pddl: 8 different costs from 7312 to 8817
+visitall-strips:1-p28.pddl: 2 different costs from 7952 to 8730
+visitall-strips:1-p29.pddl: 2 different costs from 8557 to 9263
+visitall-strips:1-p30.pddl: 3 different costs from 8758 to 10157
+visitall-strips:3-pfile51.pddl: 14 different costs from 2640 to 6646
+visitall-strips:3-pfile54.pddl: 13 different costs from 2957 to 4054
+visitall-strips:3-pfile55.pddl: 11 different costs from 3068 to 4242
+visitall-strips:3-pfile56.pddl: 13 different costs from 3179 to 6439
+visitall-strips:3-pfile57.pddl: 11 different costs from 3294 to 4718
+visitall-strips:3-pfile58.pddl: 12 different costs from 3409 to 4675
+visitall-strips:3-pfile59.pddl: 11 different costs from 3528 to 4990
+visitall-strips:3-pfile60.pddl: 12 different costs from 3647 to 4997
+visitall-strips:3-pfile61.pddl: 11 different costs from 3770 to 5270
+visitall-strips:3-pfile62.pddl: 13 different costs from 3893 to 5348
+visitall-strips:3-pfile63.pddl: 11 different costs from 4020 to 5581
+visitall-strips:3-pfile64.pddl: 12 different costs from 4147 to 5618
+visitall-strips:3-pfile65.pddl: 11 different costs from 4278 to 5963
+woodworking-strips:0-p11.pddl: 15 different costs from 640 to 950
+woodworking-strips:0-p13.pddl: 13 different costs from 845 to 1765
+woodworking-strips:0-p14.pddl: 21 different costs from 1025 to 1410
+woodworking-strips:0-p15.pddl: 23 different costs from 965 to 1480
+woodworking-strips:0-p16.pddl: 11 different costs from 980 to 1505
+woodworking-strips:0-p17.pddl: 21 different costs from 1370 to 2105
+woodworking-strips:0-p23.pddl: 18 different costs from 905 to 2220
+woodworking-strips:0-p25.pddl: 13 different costs from 915 to 1365
+woodworking-strips:0-p26.pddl: 17 different costs from 970 to 1545
+woodworking-strips:0-p28.pddl: 16 different costs from 1045 to 1350
+woodworking-strips:1-p04.pddl: 20 different costs from 1520 to 2850
+woodworking-strips:1-p05.pddl: 21 different costs from 1815 to 2545
+woodworking-strips:1-p06.pddl: 16 different costs from 2360 to 3255
+woodworking-strips:1-p07.pddl: 16 different costs from 2485 to 3670
+woodworking-strips:1-p08.pddl: 14 different costs from 3275 to 4390
+woodworking-strips:1-p09.pddl: 7 different costs from 3485 to 4070
+woodworking-strips:1-p10.pddl: 6 different costs from 3890 to 4600
+woodworking-strips:1-p11.pddl: 4 different costs from 4525 to 5285
+woodworking-strips:1-p12.pddl: 1 different costs from 5505 to 5505
+woodworking-strips:1-p13.pddl: 1 different costs from 5980 to 5980
+woodworking-strips:1-p21.pddl: 2 different costs from 4810 to 5095
+woodworking-strips:1-p23.pddl: 2 different costs from 6195 to 6445
+woodworking-strips:3-p13.pddl: 21 different costs from 1880 to 2635
+woodworking-strips:3-p15.pddl: 23 different costs from 2115 to 3245
+woodworking-strips:3-p16.pddl: 19 different costs from 1840 to 3510
+woodworking-strips:3-p20.pddl: 14 different costs from 1300 to 1980
+zenotravel-strips:0-p05.pddl: 11 different costs from 34 to 48
+zenotravel-strips:0-p10.pddl: 12 different costs from 42 to 62
+zenotravel-strips:0-p29.pddl: 10 different costs from 38 to 62
+zenotravel-strips:0-p30.pddl: 10 different costs from 44 to 62
+zenotravel-strips:1-p02.pddl: 4 different costs from 28 to 32
+zenotravel-strips:1-p03.pddl: 5 different costs from 44 to 52
+zenotravel-strips:1-p04.pddl: 10 different costs from 48 to 70
+zenotravel-strips:1-p05.pddl: 4 different costs from 52 to 60
+zenotravel-strips:1-p06.pddl: 7 different costs from 58 to 80
+zenotravel-strips:1-p07.pddl: 8 different costs from 58 to 76
+zenotravel-strips:1-p08.pddl: 13 different costs from 80 to 108
+zenotravel-strips:1-p09.pddl: 14 different costs from 78 to 103
+zenotravel-strips:1-p10.pddl: 13 different costs from 96 to 136
+zenotravel-strips:1-p11.pddl: 12 different costs from 102 to 130
+zenotravel-strips:1-p12.pddl: 7 different costs from 98 to 108
+zenotravel-strips:1-p13.pddl: 10 different costs from 118 to 152
+zenotravel-strips:1-p14.pddl: 12 different costs from 124 to 168
+zenotravel-strips:1-p15.pddl: 11 different costs from 130 to 168
+zenotravel-strips:1-p16.pddl: 13 different costs from 138 to 194
+zenotravel-strips:1-p17.pddl: 10 different costs from 142 to 174
+zenotravel-strips:1-p18.pddl: 9 different costs from 154 to 186
+zenotravel-strips:1-p19.pddl: 9 different costs from 174 to 226
+zenotravel-strips:1-p20.pddl: 5 different costs from 178 to 236
+zenotravel-strips:2-p14.pddl: 13 different costs from 30 to 51
+zenotravel-strips:2-p15.pddl: 13 different costs from 41 to 55
+zenotravel-strips:2-p16.pddl: 17 different costs from 45 to 68
+zenotravel-strips:2-p17.pddl: 22 different costs from 67 to 107
+zenotravel-strips:2-p18.pddl: 20 different costs from 66 to 93
+zenotravel-strips:2-p19.pddl: 20 different costs from 80 to 119
+zenotravel-strips:2-p20.pddl: 23 different costs from 87 to 134
+2405 problems
+49 configs
+117845 results
+2339 problems solved by someone
+1841 problems solved by fdss-2018-01
+1122 problems solved by fdss-2018-02
+1763 problems solved by fdss-2018-03
+1568 problems solved by fdss-2018-04
+1738 problems solved by fdss-2018-05
+1068 problems solved by fdss-2018-06
+1554 problems solved by fdss-2018-07
+1631 problems solved by fdss-2018-08
+1514 problems solved by fdss-2018-09
+1355 problems solved by fdss-2018-10
+1203 problems solved by fdss-2018-11
+1410 problems solved by fdss-2018-12
+1311 problems solved by fdss-2018-13
+1416 problems solved by fdss-2018-14
+1319 problems solved by fdss-2018-15
+1102 problems solved by fdss-2018-16
+1348 problems solved by fdss-2018-17
+1312 problems solved by fdss-2018-18
+1217 problems solved by fdss-2018-19
+1126 problems solved by fdss-2018-20
+1211 problems solved by fdss-2018-21
+1188 problems solved by fdss-2018-22
+1158 problems solved by fdss-2018-23
+1066 problems solved by fdss-2018-24
+1111 problems solved by fdss-2018-25
+1011 problems solved by fdss-2018-26
+784 problems solved by fdss-2018-27
+980 problems solved by fdss-2018-28
+1113 problems solved by fdss-2018-29
+811 problems solved by fdss-2018-30
+1040 problems solved by fdss-2018-31
+927 problems solved by fdss-2018-32
+1091 problems solved by fdss-2018-33
+684 problems solved by fdss-2018-34
+864 problems solved by fdss-2018-35
+837 problems solved by fdss-2018-36
+748 problems solved by fdss-2018-37
+949 problems solved by fdss-2018-38
+794 problems solved by fdss-2018-39
+596 problems solved by fdss-2018-40
+480 problems solved by fdss-2018-41
+1776 problems solved by lama-first
+1821 problems solved by lama-novelty-1-reset-clear-prefops
+1826 problems solved by lama-novelty-1-reset-move-prefops
+1848 problems solved by lama-novelty-2-reset-clear-prefops
+1849 problems solved by lama-novelty-2-reset-move-prefops
+1897 problems solved by lama-type-based-novelty-1-reset-move-prefops
+1913 problems solved by lama-type-based-novelty-2-reset-move-prefops
+1883 problems solved by lama-type-based-prefops
+1340.44 score by fdss-2018-01
+820.19 score by fdss-2018-02
+1283.30 score by fdss-2018-03
+1126.81 score by fdss-2018-04
+1267.88 score by fdss-2018-05
+795.78 score by fdss-2018-06
+1123.14 score by fdss-2018-07
+1159.85 score by fdss-2018-08
+1142.64 score by fdss-2018-09
+970.78 score by fdss-2018-10
+873.95 score by fdss-2018-11
+1025.33 score by fdss-2018-12
+955.94 score by fdss-2018-13
+1078.61 score by fdss-2018-14
+968.55 score by fdss-2018-15
+791.53 score by fdss-2018-16
+1058.23 score by fdss-2018-17
+950.63 score by fdss-2018-18
+876.79 score by fdss-2018-19
+807.23 score by fdss-2018-20
+938.23 score by fdss-2018-21
+905.17 score by fdss-2018-22
+821.19 score by fdss-2018-23
+796.03 score by fdss-2018-24
+833.20 score by fdss-2018-25
+754.53 score by fdss-2018-26
+548.95 score by fdss-2018-27
+729.12 score by fdss-2018-28
+846.19 score by fdss-2018-29
+575.02 score by fdss-2018-30
+818.80 score by fdss-2018-31
+704.98 score by fdss-2018-32
+787.07 score by fdss-2018-33
+489.12 score by fdss-2018-34
+595.01 score by fdss-2018-35
+562.45 score by fdss-2018-36
+561.44 score by fdss-2018-37
+698.68 score by fdss-2018-38
+577.42 score by fdss-2018-39
+480.39 score by fdss-2018-40
+363.90 score by fdss-2018-41
+1332.12 score by lama-first
+1357.71 score by lama-novelty-1-reset-clear-prefops
+1356.65 score by lama-novelty-1-reset-move-prefops
+1353.85 score by lama-novelty-2-reset-clear-prefops
+1356.24 score by lama-novelty-2-reset-move-prefops
+1408.14 score by lama-type-based-novelty-1-reset-move-prefops
+1402.67 score by lama-type-based-novelty-2-reset-move-prefops
+1405.49 score by lama-type-based-prefops
+Max problems solved by single config: 1913
+Max score by single config: 1408.1426176992895
+Computing portfolio...
+portfolio for 0.00 seconds solves 0 problems with score 0.00
+
+run config 48 for 1 seconds
+portfolio for 1.00 seconds solves 906 problems with score 906.00
+
+run config 17 for 1 seconds
+portfolio for 2.00 seconds solves 966 problems with score 962.41
+
+run config 42 for 3 seconds
+portfolio for 5.00 seconds solves 1109 problems with score 1072.41
+
+run config 20 for 1 seconds
+portfolio for 6.00 seconds solves 1136 problems with score 1091.24
+
+run config 7 for 1 seconds
+portfolio for 7.00 seconds solves 1158 problems with score 1105.97
+
+run config 48 for 8 seconds
+portfolio for 15.00 seconds solves 1322 problems with score 1198.78
+
+run config 2 for 1 seconds
+portfolio for 16.00 seconds solves 1336 problems with score 1206.05
+
+run config 0 for 1 seconds
+portfolio for 17.00 seconds solves 1348 problems with score 1212.16
+
+run config 20 for 3 seconds
+portfolio for 20.00 seconds solves 1376 problems with score 1225.75
+
+run config 42 for 20 seconds
+portfolio for 40.00 seconds solves 1542 problems with score 1289.66
+
+run config 30 for 1 seconds
+portfolio for 41.00 seconds solves 1548 problems with score 1291.77
+
+run config 26 for 1 seconds
+portfolio for 42.00 seconds solves 1554 problems with score 1293.84
+
+run config 9 for 3 seconds
+portfolio for 45.00 seconds solves 1569 problems with score 1298.90
+
+run config 17 for 12 seconds
+portfolio for 57.00 seconds solves 1619 problems with score 1314.18
+
+run config 37 for 1 seconds
+portfolio for 58.00 seconds solves 1622 problems with score 1315.05
+
+run config 28 for 3 seconds
+portfolio for 61.00 seconds solves 1630 problems with score 1317.32
+
+run config 45 for 42 seconds
+portfolio for 103.00 seconds solves 1756 problems with score 1344.18
+
+run config 4 for 2 seconds
+portfolio for 105.00 seconds solves 1760 problems with score 1344.92
+
+run config 32 for 2 seconds
+portfolio for 107.00 seconds solves 1764 problems with score 1345.64
+
+run config 30 for 2 seconds
+portfolio for 109.00 seconds solves 1768 problems with score 1346.36
+
+run config 21 for 2 seconds
+portfolio for 111.00 seconds solves 1772 problems with score 1347.05
+
+run config 14 for 4 seconds
+portfolio for 115.00 seconds solves 1777 problems with score 1347.91
+
+run config 12 for 4 seconds
+portfolio for 119.00 seconds solves 1782 problems with score 1348.73
+
+run config 6 for 1 seconds
+portfolio for 120.00 seconds solves 1783 problems with score 1348.89
+
+run config 26 for 2 seconds
+portfolio for 122.00 seconds solves 1785 problems with score 1349.21
+
+run config 28 for 9 seconds
+portfolio for 131.00 seconds solves 1793 problems with score 1350.40
+
+run config 6 for 8 seconds
+portfolio for 139.00 seconds solves 1800 problems with score 1351.37
+
+run config 38 for 7 seconds
+portfolio for 146.00 seconds solves 1806 problems with score 1352.15
+
+run config 17 for 38 seconds
+portfolio for 184.00 seconds solves 1839 problems with score 1355.40
+
+run config 0 for 3 seconds
+portfolio for 187.00 seconds solves 1841 problems with score 1355.57
+
+run config 34 for 11 seconds
+portfolio for 198.00 seconds solves 1848 problems with score 1356.10
+
+run config 12 for 18 seconds
+portfolio for 216.00 seconds solves 1858 problems with score 1356.74
+
+run config 39 for 4 seconds
+portfolio for 220.00 seconds solves 1860 problems with score 1356.85
+
+run config 9 for 7 seconds
+portfolio for 227.00 seconds solves 1863 problems with score 1357.00
+
+run config 23 for 10 seconds
+portfolio for 237.00 seconds solves 1867 problems with score 1357.17
+
+run config 32 for 24 seconds
+portfolio for 261.00 seconds solves 1878 problems with score 1357.47
+
+run config 15 for 7 seconds
+portfolio for 268.00 seconds solves 1880 problems with score 1357.51
+
+run config 20 for 7 seconds
+portfolio for 275.00 seconds solves 1882 problems with score 1357.54
+
+run config 18 for 4 seconds
+portfolio for 279.00 seconds solves 1883 problems with score 1357.56
+
+run config 1 for 4 seconds
+portfolio for 283.00 seconds solves 1884 problems with score 1357.57
+
+run config 33 for 5 seconds
+portfolio for 288.00 seconds solves 1885 problems with score 1357.57
+
+run config 24 for 5 seconds
+portfolio for 293.00 seconds solves 1886 problems with score 1357.58
+
+run config 27 for 5 seconds
+portfolio for 298.00 seconds solves 1887 problems with score 1357.58
+
+Improvement below 0.0001
+portfolio for 298.00 seconds solves 1887 problems with score 1357.58
+
+Time for computing portfolio: 4.39s
+
+Configs: 43
+Unique configs: 29
+Min time limit: 1
+Max time limit: 42
+Final score:  1357.5793630226765
+
+"""
+Coverage: 1887
+Runtime: 298s
+Score: 1357.5793630226765
+"""
+
+TRACK = "agl"
+CONFIGS = [
+    # lama-type-based-prefops
+    (1, ['--evaluator', 'hlm=lmcount(lm_factory=lm_reasonable_orders_hps(lm_rhw()),transform=adapt_costs(one),pref=false)', '--evaluator', 'hff=ff(transform=adapt_costs(one))', '--search', 'lazy(alt([single(hff), single(hff, pref_only=true), single(hlm), single(hlm, pref_only=true), type_based([hff, g()])], boost=1000),preferred=[hff,hlm], cost_type=one,reopen_closed=false)']),
+    # fdss-2018-18
+    (1, ['--search', 'let(hcg, cg(transform=adapt_costs(plusone)),lazy(alt([type_based([g()]),single(hcg),single(hcg,pref_only=true)],boost=0),preferred=[hcg],reopen_closed=true,cost_type=plusone,bound=infinity, verbosity=silent))']),
+    # lama-novelty-1-reset-clear-prefops
+    (3, ['--evaluator', 'hlm=lmcount(lm_factory=lm_reasonable_orders_hps(lm_rhw()),transform=adapt_costs(one),pref=false)', '--evaluator', 'hff=ff(transform=adapt_costs(one))', '--search', 'lazy(alt([single(hff), single(hff, pref_only=true), single(hlm), single(hlm, pref_only=true), novelty_open_list(novelty(width=1, consider_only_novel_states=true, reset_after_progress=True), break_ties_randomly=False, handle_progress=clear)], boost=1000), preferred=[hff,hlm], cost_type=one,reopen_closed=false)']),
+    # fdss-2018-21
+    (1, ['--search', 'let(hcea, cea(transform=adapt_costs(one)),eager_greedy([hcea],preferred=[hcea],cost_type=one,bound=infinity, verbosity=silent))']),
+    # fdss-2018-08
+    (1, ['--search', 'let(hadd, add(transform=adapt_costs(one)),let(hlm, lmcount(lm_reasonable_orders_hps(lm_rhw()),transform=adapt_costs(one)),lazy(alt([type_based([g()]),single(hadd),single(hadd,pref_only=true),single(hlm),single(hlm,pref_only=true)]),preferred=[hadd,hlm],cost_type=one,bound=infinity, verbosity=silent)))']),
+    # lama-type-based-prefops
+    (8, ['--evaluator', 'hlm=lmcount(lm_factory=lm_reasonable_orders_hps(lm_rhw()),transform=adapt_costs(one),pref=false)', '--evaluator', 'hff=ff(transform=adapt_costs(one))', '--search', 'lazy(alt([single(hff), single(hff, pref_only=true), single(hlm), single(hlm, pref_only=true), type_based([hff, g()])], boost=1000),preferred=[hff,hlm], cost_type=one,reopen_closed=false)']),
+    # fdss-2018-03
+    (1, ['--search', 'let(hlm, lmcount(lm_reasonable_orders_hps(lm_rhw()),transform=adapt_costs(one)),let(hff, ff(transform=adapt_costs(one)),lazy(alt([single(hff),single(hff,pref_only=true),single(hlm),single(hlm,pref_only=true)],boost=1000),preferred=[hff,hlm],cost_type=one,reopen_closed=false,randomize_successors=false,preferred_successors_first=true,bound=infinity, verbosity=silent)))']),
+    # fdss-2018-01
+    (1, ['--search', 'let(hlm, lmcount(lm_reasonable_orders_hps(lm_rhw()),transform=adapt_costs(one)),let(hff, ff(transform=adapt_costs(one)),lazy(alt([single(hff),single(hff,pref_only=true),single(hlm),single(hlm,pref_only=true),type_based([hff,g()])],boost=1000),preferred=[hff,hlm],cost_type=one,reopen_closed=false,randomize_successors=true,preferred_successors_first=false,bound=infinity, verbosity=silent)))']),
+    # fdss-2018-21
+    (3, ['--search', 'let(hcea, cea(transform=adapt_costs(one)),eager_greedy([hcea],preferred=[hcea],cost_type=one,bound=infinity, verbosity=silent))']),
+    # lama-novelty-1-reset-clear-prefops
+    (20, ['--evaluator', 'hlm=lmcount(lm_factory=lm_reasonable_orders_hps(lm_rhw()),transform=adapt_costs(one),pref=false)', '--evaluator', 'hff=ff(transform=adapt_costs(one))', '--search', 'lazy(alt([single(hff), single(hff, pref_only=true), single(hlm), single(hlm, pref_only=true), novelty_open_list(novelty(width=1, consider_only_novel_states=true, reset_after_progress=True), break_ties_randomly=False, handle_progress=clear)], boost=1000), preferred=[hff,hlm], cost_type=one,reopen_closed=false)']),
+    # fdss-2018-31
+    (1, ['--search', 'let(hff, ff(transform=adapt_costs(one)),lazy(alt([single(sum([weight(g(),2),weight(hff,3)])),single(sum([weight(g(),2),weight(hff,3)]),pref_only=true)],boost=5000),preferred=[hff],reopen_closed=true,cost_type=one,bound=infinity, verbosity=silent))']),
+    # fdss-2018-27
+    (1, ['--search', 'let(lmg, lm_reasonable_orders_hps(lm_rhw(only_causal_landmarks=true,disjunctive_landmarks=true,use_orders=true)),let(hblind, blind(),let(hadd, add(),let(hlm, lmcount(lmg,admissible=false,pref=true,transform=adapt_costs(plusone)),let(hff, ff(),lazy(alt([single(sum([weight(g(),2),weight(hblind,3)])),single(sum([weight(g(),2),weight(hblind,3)]),pref_only=true),single(sum([weight(g(),2),weight(hff,3)])),single(sum([weight(g(),2),weight(hff,3)]),pref_only=true),single(sum([weight(g(),2),weight(hlm,3)])),single(sum([weight(g(),2),weight(hlm,3)]),pref_only=true),single(sum([weight(g(),2),weight(hadd,3)])),single(sum([weight(g(),2),weight(hadd,3)]),pref_only=true)],boost=2474),preferred=[hadd],reopen_closed=false,cost_type=one,bound=infinity, verbosity=silent))))))']),
+    # fdss-2018-10
+    (3, ['--search', 'let(hcg, cg(transform=adapt_costs(one)),let(hlm, lmcount(lm_reasonable_orders_hps(lm_rhw()),transform=adapt_costs(one)),eager(alt([type_based([g()]),single(hcg),single(hcg,pref_only=true),single(hlm),single(hlm,pref_only=true)]),preferred=[hcg,hlm],cost_type=one,bound=infinity, verbosity=silent)))']),
+    # fdss-2018-18
+    (12, ['--search', 'let(hcg, cg(transform=adapt_costs(plusone)),lazy(alt([type_based([g()]),single(hcg),single(hcg,pref_only=true)],boost=0),preferred=[hcg],reopen_closed=true,cost_type=plusone,bound=infinity, verbosity=silent))']),
+    # fdss-2018-38
+    (1, ['--search', 'let(lmg, lm_merged([lm_rhw(only_causal_landmarks=false,disjunctive_landmarks=false,use_orders=true),lm_hm(m=1,conjunctive_landmarks=true,use_orders=true)]),let(hff, ff(),let(hlm, lmcount(lmg,admissible=true),lazy(alt([single(sum([g(),weight(hff,10)])),single(sum([g(),weight(hff,10)]),pref_only=true),single(sum([g(),weight(hlm,10)])),single(sum([g(),weight(hlm,10)]),pref_only=true)],boost=500),preferred=[hff],reopen_closed=false,cost_type=plusone,bound=infinity, verbosity=silent))))']),
+    # fdss-2018-29
+    (3, ['--search', 'let(hadd, add(transform=adapt_costs(plusone)),let(hff, ff(),lazy(alt([tiebreaking([sum([weight(g(),4),weight(hff,5)]),hff]),tiebreaking([sum([weight(g(),4),weight(hff,5)]),hff],pref_only=true),tiebreaking([sum([weight(g(),4),weight(hadd,5)]),hadd]),tiebreaking([sum([weight(g(),4),weight(hadd,5)]),hadd],pref_only=true)],boost=2537),preferred=[hff,hadd],reopen_closed=true,bound=infinity, verbosity=silent)))']),
+    # lama-novelty-2-reset-move-prefops
+    (42, ['--evaluator', 'hlm=lmcount(lm_factory=lm_reasonable_orders_hps(lm_rhw()),transform=adapt_costs(one),pref=false)', '--evaluator', 'hff=ff(transform=adapt_costs(one))', '--search', 'lazy(alt([single(hff), single(hff, pref_only=true), single(hlm), single(hlm, pref_only=true), novelty_open_list(novelty(width=2, consider_only_novel_states=true, reset_after_progress=True), break_ties_randomly=False, handle_progress=move)], boost=1000), preferred=[hff,hlm], cost_type=one,reopen_closed=false)']),
+    # fdss-2018-05
+    (2, ['--search', 'let(hlm, lmcount(lm_reasonable_orders_hps(lm_rhw()),transform=adapt_costs(one)),let(hff, ff(transform=adapt_costs(one)),lazy(alt([single(hff),single(hff,pref_only=true),single(hlm),single(hlm,pref_only=true)],boost=1000),preferred=[hff,hlm],cost_type=one,reopen_closed=false,randomize_successors=true,preferred_successors_first=true,bound=infinity, verbosity=silent)))']),
+    # fdss-2018-33
+    (2, ['--search', 'let(lmg, lm_hm(conjunctive_landmarks=false,use_orders=false,m=1),let(hlm, lmcount(lmg,admissible=true),let(hff, ff(),lazy(alt([type_based([g()]),single(hlm),single(hlm,pref_only=true),single(hff),single(hff,pref_only=true)],boost=1000),preferred=[hlm,hff],reopen_closed=false,cost_type=one,bound=infinity, verbosity=silent))))']),
+    # fdss-2018-31
+    (2, ['--search', 'let(hff, ff(transform=adapt_costs(one)),lazy(alt([single(sum([weight(g(),2),weight(hff,3)])),single(sum([weight(g(),2),weight(hff,3)]),pref_only=true)],boost=5000),preferred=[hff],reopen_closed=true,cost_type=one,bound=infinity, verbosity=silent))']),
+    # fdss-2018-22
+    (2, ['--search', 'let(hff, ff(transform=adapt_costs(one)),eager(alt([single(sum([g(),weight(hff,3)])),single(sum([g(),weight(hff,3)]),pref_only=true)]),preferred=[hff],cost_type=one,bound=infinity, verbosity=silent))']),
+    # fdss-2018-15
+    (4, ['--search', 'let(hff, ff(transform=adapt_costs(one)),let(hlm, lmcount(lm_reasonable_orders_hps(lm_rhw()),transform=adapt_costs(one)),eager(alt([type_based([g()]),single(sum([g(),weight(hff,3)])),single(sum([g(),weight(hff,3)]),pref_only=true),single(sum([g(),weight(hlm,3)])),single(sum([g(),weight(hlm,3)]),pref_only=true)]),preferred=[hff,hlm],cost_type=one,bound=infinity, verbosity=silent)))']),
+    # fdss-2018-13
+    (4, ['--search', 'let(hcg, cg(transform=adapt_costs(one)),let(hff, ff(transform=adapt_costs(one)),lazy(alt([single(sum([g(),weight(hff,10)])),single(sum([g(),weight(hff,10)]),pref_only=true),single(sum([g(),weight(hcg,10)])),single(sum([g(),weight(hcg,10)]),pref_only=true)],boost=100),preferred=[hcg],reopen_closed=false,cost_type=one,bound=infinity, verbosity=silent)))']),
+    # fdss-2018-07
+    (1, ['--search', 'let(hcea, cea(transform=adapt_costs(one)),let(hlm, lmcount(lm_reasonable_orders_hps(lm_rhw()),transform=adapt_costs(one)),lazy_greedy([hcea,hlm],preferred=[hcea,hlm],cost_type=one,bound=infinity, verbosity=silent)))']),
+    # fdss-2018-27
+    (2, ['--search', 'let(lmg, lm_reasonable_orders_hps(lm_rhw(only_causal_landmarks=true,disjunctive_landmarks=true,use_orders=true)),let(hblind, blind(),let(hadd, add(),let(hlm, lmcount(lmg,admissible=false,pref=true,transform=adapt_costs(plusone)),let(hff, ff(),lazy(alt([single(sum([weight(g(),2),weight(hblind,3)])),single(sum([weight(g(),2),weight(hblind,3)]),pref_only=true),single(sum([weight(g(),2),weight(hff,3)])),single(sum([weight(g(),2),weight(hff,3)]),pref_only=true),single(sum([weight(g(),2),weight(hlm,3)])),single(sum([weight(g(),2),weight(hlm,3)]),pref_only=true),single(sum([weight(g(),2),weight(hadd,3)])),single(sum([weight(g(),2),weight(hadd,3)]),pref_only=true)],boost=2474),preferred=[hadd],reopen_closed=false,cost_type=one,bound=infinity, verbosity=silent))))))']),
+    # fdss-2018-29
+    (9, ['--search', 'let(hadd, add(transform=adapt_costs(plusone)),let(hff, ff(),lazy(alt([tiebreaking([sum([weight(g(),4),weight(hff,5)]),hff]),tiebreaking([sum([weight(g(),4),weight(hff,5)]),hff],pref_only=true),tiebreaking([sum([weight(g(),4),weight(hadd,5)]),hadd]),tiebreaking([sum([weight(g(),4),weight(hadd,5)]),hadd],pref_only=true)],boost=2537),preferred=[hff,hadd],reopen_closed=true,bound=infinity, verbosity=silent)))']),
+    # fdss-2018-07
+    (8, ['--search', 'let(hcea, cea(transform=adapt_costs(one)),let(hlm, lmcount(lm_reasonable_orders_hps(lm_rhw()),transform=adapt_costs(one)),lazy_greedy([hcea,hlm],preferred=[hcea,hlm],cost_type=one,bound=infinity, verbosity=silent)))']),
+    # fdss-2018-39
+    (7, ['--search', 'let(lmg, lm_exhaust(only_causal_landmarks=false),let(hgoalcount, goalcount(transform=adapt_costs(plusone)),let(hlm, lmcount(lmg,admissible=false),let(hff, ff(),let(hblind, blind(),eager(alt([tiebreaking([sum([weight(g(),8),weight(hblind,9)]),hblind]),tiebreaking([sum([weight(g(),8),weight(hlm,9)]),hlm]),tiebreaking([sum([weight(g(),8),weight(hff,9)]),hff]),tiebreaking([sum([weight(g(),8),weight(hgoalcount,9)]),hgoalcount])],boost=2005),preferred=[],reopen_closed=true,bound=infinity, verbosity=silent))))))']),
+    # fdss-2018-18
+    (38, ['--search', 'let(hcg, cg(transform=adapt_costs(plusone)),lazy(alt([type_based([g()]),single(hcg),single(hcg,pref_only=true)],boost=0),preferred=[hcg],reopen_closed=true,cost_type=plusone,bound=infinity, verbosity=silent))']),
+    # fdss-2018-01
+    (3, ['--search', 'let(hlm, lmcount(lm_reasonable_orders_hps(lm_rhw()),transform=adapt_costs(one)),let(hff, ff(transform=adapt_costs(one)),lazy(alt([single(hff),single(hff,pref_only=true),single(hlm),single(hlm,pref_only=true),type_based([hff,g()])],boost=1000),preferred=[hff,hlm],cost_type=one,reopen_closed=false,randomize_successors=true,preferred_successors_first=false,bound=infinity, verbosity=silent)))']),
+    # fdss-2018-35
+    (11, ['--search', 'let(lmg, lm_hm(conjunctive_landmarks=false,use_orders=false,m=1),let(hcg, cg(transform=adapt_costs(one)),let(hlm, lmcount(lmg,admissible=true),lazy(alt([single(hlm),single(hlm,pref_only=true),single(hcg),single(hcg,pref_only=true)],boost=0),preferred=[hcg],reopen_closed=false,cost_type=one,bound=infinity, verbosity=silent))))']),
+    # fdss-2018-13
+    (18, ['--search', 'let(hcg, cg(transform=adapt_costs(one)),let(hff, ff(transform=adapt_costs(one)),lazy(alt([single(sum([g(),weight(hff,10)])),single(sum([g(),weight(hff,10)]),pref_only=true),single(sum([g(),weight(hcg,10)])),single(sum([g(),weight(hcg,10)]),pref_only=true)],boost=100),preferred=[hcg],reopen_closed=false,cost_type=one,bound=infinity, verbosity=silent)))']),
+    # fdss-2018-40
+    (4, ['--search', 'let(lmg, lm_zg(use_orders=false),let(hlm, lmcount(lmg,admissible=true,pref=false),eager(single(sum([g(),weight(hlm,3)])),preferred=[],reopen_closed=true,cost_type=one,bound=infinity, verbosity=silent)))']),
+    # fdss-2018-10
+    (7, ['--search', 'let(hcg, cg(transform=adapt_costs(one)),let(hlm, lmcount(lm_reasonable_orders_hps(lm_rhw()),transform=adapt_costs(one)),eager(alt([type_based([g()]),single(hcg),single(hcg,pref_only=true),single(hlm),single(hlm,pref_only=true)]),preferred=[hcg,hlm],cost_type=one,bound=infinity, verbosity=silent)))']),
+    # fdss-2018-24
+    (10, ['--search', 'let(hgoalcount, goalcount(transform=adapt_costs(one)),let(hff, ff(transform=adapt_costs(plusone)),let(hblind, blind(),let(hcg, cg(),lazy(alt([single(sum([weight(g(),2),weight(hblind,3)])),single(sum([weight(g(),2),weight(hblind,3)]),pref_only=true),single(sum([weight(g(),2),weight(hff,3)])),single(sum([weight(g(),2),weight(hff,3)]),pref_only=true),single(sum([weight(g(),2),weight(hcg,3)])),single(sum([weight(g(),2),weight(hcg,3)]),pref_only=true),single(sum([weight(g(),2),weight(hgoalcount,3)])),single(sum([weight(g(),2),weight(hgoalcount,3)]),pref_only=true)],boost=3662),preferred=[hff],reopen_closed=true,bound=infinity, verbosity=silent)))))']),
+    # fdss-2018-33
+    (24, ['--search', 'let(lmg, lm_hm(conjunctive_landmarks=false,use_orders=false,m=1),let(hlm, lmcount(lmg,admissible=true),let(hff, ff(),lazy(alt([type_based([g()]),single(hlm),single(hlm,pref_only=true),single(hff),single(hff,pref_only=true)],boost=1000),preferred=[hlm,hff],reopen_closed=false,cost_type=one,bound=infinity, verbosity=silent))))']),
+    # fdss-2018-16
+    (7, ['--search', 'let(lmg, lm_rhw(only_causal_landmarks=false,disjunctive_landmarks=false,use_orders=true),let(hlm, lmcount(lmg,admissible=false,transform=adapt_costs(one)),let(hff, ff(transform=adapt_costs(one)),let(hblind, blind(),lazy(alt([type_based([g()]),single(sum([g(),weight(hblind,2)])),single(sum([g(),weight(hblind,2)]),pref_only=true),single(sum([g(),weight(hlm,2)])),single(sum([g(),weight(hlm,2)]),pref_only=true),single(sum([g(),weight(hff,2)])),single(sum([g(),weight(hff,2)]),pref_only=true)],boost=4419),preferred=[hlm],reopen_closed=true,cost_type=one,bound=infinity, verbosity=silent)))))']),
+    # fdss-2018-21
+    (7, ['--search', 'let(hcea, cea(transform=adapt_costs(one)),eager_greedy([hcea],preferred=[hcea],cost_type=one,bound=infinity, verbosity=silent))']),
+    # fdss-2018-19
+    (4, ['--search', 'let(hcg, cg(transform=adapt_costs(one)),let(hlm, lmcount(lm_reasonable_orders_hps(lm_rhw()),transform=adapt_costs(one)),lazy(alt([type_based([g()]),single(sum([g(),weight(hcg,3)])),single(sum([g(),weight(hcg,3)]),pref_only=true),single(sum([g(),weight(hlm,3)])),single(sum([g(),weight(hlm,3)]),pref_only=true)]),preferred=[hcg,hlm],cost_type=one,bound=infinity, verbosity=silent)))']),
+    # fdss-2018-02
+    (4, ['--search', 'let(lmg, lm_rhw(only_causal_landmarks=false,disjunctive_landmarks=true,use_orders=false),let(hlm, lmcount(lmg,admissible=true,transform=adapt_costs(one)),let(hff, ff(transform=adapt_costs(one)),lazy(alt([type_based([g()]),single(hlm),single(hlm,pref_only=true),single(hff),single(hff,pref_only=true)],boost=0),preferred=[hlm],reopen_closed=false,cost_type=plusone,bound=infinity, verbosity=silent))))']),
+    # fdss-2018-34
+    (5, ['--search', 'let(lmg, lm_hm(conjunctive_landmarks=true,use_orders=true,m=1),let(hlm, lmcount(lmg,admissible=true),let(hff, ff(),lazy(alt([tiebreaking([sum([g(),weight(hlm,10)]),hlm]),tiebreaking([sum([g(),weight(hlm,10)]),hlm],pref_only=true),tiebreaking([sum([g(),weight(hff,10)]),hff]),tiebreaking([sum([g(),weight(hff,10)]),hff],pref_only=true)],boost=200),preferred=[hlm],reopen_closed=true,cost_type=plusone,bound=infinity, verbosity=silent))))']),
+    # fdss-2018-25
+    (5, ['--search', 'let(hcg, cg(transform=adapt_costs(plusone)),lazy(alt([single(sum([g(),weight(hcg,10)])),single(sum([g(),weight(hcg,10)]),pref_only=true)],boost=0),preferred=[hcg],reopen_closed=false,cost_type=plusone,bound=infinity, verbosity=silent))']),
+    # fdss-2018-28
+    (5, ['--search', 'let(hblind, blind(),let(hadd, add(),let(hcg, cg(transform=adapt_costs(one)),let(hhmax, hmax(),eager(alt([tiebreaking([sum([g(),weight(hblind,7)]),hblind]),tiebreaking([sum([g(),weight(hhmax,7)]),hhmax]),tiebreaking([sum([g(),weight(hadd,7)]),hadd]),tiebreaking([sum([g(),weight(hcg,7)]),hcg])],boost=2142),preferred=[],reopen_closed=true,bound=infinity, verbosity=silent)))))']),
+]
