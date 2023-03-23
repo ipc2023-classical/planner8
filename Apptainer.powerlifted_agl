@@ -48,8 +48,30 @@ Stage: run
 
     pypy3 /planner/ext/powerlifted/powerlifted.py \
               -d $DOMAINFILE -i $PROBLEMFILE --plan-file $PLANFILE \
-              --unit-cost --preprocess-task
-   echo "TODO: Use correct aliases and configs!"
+              --iteration alt-bfws1,ff,yannakakis,1 \
+              --iteration bfws1,blind,yannakakis,1 \
+              --iteration lazy-po,add,yannakakis,2 \
+              --iteration bfws1,blind,yannakakis,2 \
+              --iteration lazy-po,ff,yannakakis,3 \
+              --iteration alt-bfws1,ff,yannakakis,9 \
+              --iteration bfws2,blind,yannakakis,9 \
+              --iteration lazy-po,ff,yannakakis,9 \
+              --iteration alt-bfws1,add,yannakakis,17 \
+              --iteration bfws2,blind,yannakakis,35 \
+              --iteration lazy-prune,ff,yannakakis,23 \
+              --iteration lazy-po,add,yannakakis,5 \
+              --iteration alt-bfws1,ff,yannakakis,40 \
+              --iteration gbfs,add,yannakakis,3 \
+              --iteration lazy-prune,add,yannakakis,30 \
+              --iteration bfws1,blind,yannakakis,47 \
+              --iteration lazy-po,rff,yannakakis,9 \
+              --iteration gbfs,rff,yannakakis,6 \
+              --iteration alt-bfws2,rff,yannakakis,7 \
+              --iteration gbfs,add,yannakakis,7 \
+              --iteration lazy-po,add,yannakakis,7 \
+              --iteration gbfs,rff,yannakakis,9 \
+              --iteration alt-bfws1,rff,yannakakis,10 \
+              --unit-cost --preprocess-task --only-effects-novelty-check
 
 # Define meta data
 %labels

@@ -12,8 +12,10 @@ def compute_run_time(timeout, relative_times, pos):
     print("remaining time: {}".format(remaining_time))
     relative_time = relative_times[pos]
     remaining_relative_time = sum(t for t in relative_times[pos:])
-    print("config {}: relative time {}, remaining {}".format(
+    print("config {}: relative time {} seconds, remaining sum of relative times {}".format(
           pos, relative_time, remaining_relative_time))
+    time_given = round_time_limit(remaining_time * relative_time / remaining_relative_time)
+    print("run time given: %d seconds" % time_given)
     return round_time_limit(remaining_time * relative_time / remaining_relative_time)
 
 
@@ -36,12 +38,12 @@ def run(build_dir, options, extra):
 
         if count == len(options.iteration) - 1:
             print("Last iteration can use all remaining time.")
-            relative_times[-1] = 100
+            relative_times[-1] = options.time_limit = get_elapsed_time()
             run_time = compute_run_time(timeout, relative_times, count)
         else:
             run_time = compute_run_time(timeout, relative_times, count)
 
-        plan_name = options.plan_file+str(count+1)
+        plan_name = ".".join([options.plan_file,str(count+1)])
         code = run_single_search(build_dir,
                                  run_time,
                                  options.translator_file,
