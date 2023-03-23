@@ -53,11 +53,11 @@ Stage: run
 
 # Define meta data
 %labels
-Name        Powerlifted Satisficing Track
-Description TODO
-Authors     Augusto Blaas Corrêa <augusto.blaascorrea@unibas.ch>, Jendrik Seipp <jendrik.seipp@liu.se>, Guillem Frances <>
+Name        Powerlifted Satisficing
+Description Powerlifted planner using a sequential portfolio configuration
+Authors     Augusto B. Corrêa <augusto.blaascorrea@unibas.ch>, Jendrik Seipp <jendrik.seipp@liu.se>, Guillem Francès <guillem.frances@gmail.com>, Markus Hecher <hecher@mit.edu>, Davide Mario Longo <davidem.longo@gmail.com>
 License     GPL 3
-Tracks      agile
+Tracks      satisficing
 SupportsDerivedPredicates                       no
 SupportsUniversallyQuantifiedPreconditions      yes
 SupportsExistentiallyQuantifiedPreconditions    yes

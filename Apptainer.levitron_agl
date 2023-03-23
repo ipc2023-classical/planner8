@@ -57,7 +57,7 @@ Stage: run
     pypy3 /planner/fast-downward.py \
         --overall-memory-limit 7680M \
         --overall-time-limit 5m \
-        --translate-time-limit 2m \
+        --translate-time-limit 150 \
         --alias seq-sat-lama-2011 \
         --plan-file "$PLANFILE" \
         "$DOMAINFILE" "$PROBLEMFILE" || pypy3 /planner/ext/powerlifted/powerlifted.py \
@@ -67,9 +67,9 @@ Stage: run
 
 # Define meta data
 %labels
-Name        Scorpion Novelty Satisficing Track
-Description TODO
-Authors     Augusto Blaas Corrêa <augusto.blaascorrea@unibas.ch>, Jendrik Seipp <jendrik.seipp@liu.se>, Guillem Frances <>, Markus Hecher <>, Davide Mario Longo <>
+Name        Levitron Agile
+Description Hybrid planner using both the grounded planner Scorpion Maidu and the lifted planner Powerlifted
+Authors     Augusto B. Corrêa <augusto.blaascorrea@unibas.ch>, Jendrik Seipp <jendrik.seipp@liu.se>, Guillem Francès <guillem.frances@gmail.com>, Markus Hecher <hecher@mit.edu>, Davide Mario Longo <davidem.longo@gmail.com>
 License     GPL 3
 Tracks      agile
 SupportsDerivedPredicates                       yes

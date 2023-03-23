@@ -53,9 +53,9 @@ Stage: run
 
 # Define meta data
 %labels
-Name        Scorpion Novelty Satisficing Track
-Description TODO
-Authors     Augusto Blaas Corrêa <augusto.blaascorrea@unibas.ch>, Jendrik Seipp <jendrik.seipp@liu.se>, Markus Hecher <>, Davide Mario Longo <>
+Name        Scorpion Maidu Agile
+Description Version of the Scorpion planner using width-search algorithms
+Authors     Augusto B. Corrêa <augusto.blaascorrea@unibas.ch>, Jendrik Seipp <jendrik.seipp@liu.se>, Guillem Francès <guillem.frances@gmail.com>, Markus Hecher <hecher@mit.edu>, Davide Mario Longo <davidem.longo@gmail.com>
 License     GPL 3
 Tracks      agile
 SupportsDerivedPredicates                       yes
