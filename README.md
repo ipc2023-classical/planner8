@@ -232,10 +232,11 @@ This version of Fast Downward has been tested with the following software versio
 
 | OS           | Python | C++ compiler                                                     | CMake |
 | ------------ | ------ | ---------------------------------------------------------------- | ----- |
+| Ubuntu 22.04 | 3.10   | GCC 11, GCC 12, Clang 14                                         | 3.22  |
 | Ubuntu 20.04 | 3.8    | GCC 9, GCC 10, Clang 10, Clang 11                                | 3.16  |
-| Ubuntu 18.04 | 3.6    | GCC 7, Clang 6                                                   | 3.10  |
-| macOS 10.15  | 3.6    | AppleClang 12                                                    | 3.19  |
-| Windows 10   | 3.6    | Visual Studio Enterprise 2019 (MSVC 19.29) and 2022 (MSVC 19.31) | 3.22  |
+| macOS 12     | 3.10   | AppleClang 14                                                    | 3.24  |
+| macOS 11     | 3.8    | AppleClang 13                                                    | 3.24  |
+| Windows 10   | 3.8    | Visual Studio Enterprise 2019 (MSVC 19.29) and 2022 (MSVC 19.31) | 3.22  |
 
 We test LP support with CPLEX 12.9, SoPlex 3.1.1 and Osi 0.107.9.
 On Ubuntu, we test both CPLEX and SoPlex. On Windows, we currently
@@ -258,11 +259,11 @@ contributing, and finally by last name.
 - 2010-2011, 2013-2022 Silvan Sievers
 - 2012-2022 Florian Pommerening
 - 2013, 2015-2022 Salomé Eriksson
+- 2015, 2021-2022 Thomas Keller
 - 2018-2022 Patrick Ferber
 - 2021-2022 Clemens Büchner
 - 2021-2022 Dominik Drexler
 - 2022 Remo Christen
-- 2015, 2021 Thomas Keller
 - 2016-2020 Cedric Geissmann
 - 2017-2020 Guillem Francès
 - 2018-2020 Augusto B. Corrêa
