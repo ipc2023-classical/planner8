@@ -47,7 +47,6 @@ Stage: run
     pypy3 /planner/fast-downward.py \
         --overall-memory-limit 7680M \
         --overall-time-limit 5m \
-        --translate-time-limit 2m \
         --alias seq-agl-maidu \
         --plan-file "$PLANFILE" \
         "$DOMAINFILE" "$PROBLEMFILE" \

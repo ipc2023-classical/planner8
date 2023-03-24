@@ -47,7 +47,6 @@ Stage: run
     pypy3 /planner/fast-downward.py \
         --overall-memory-limit 7680M \
         --overall-time-limit 30m \
-        --translate-time-limit 15m \
         --transform-task preprocess-h2 \
         --transform-task-options h2_time_limit,180 \
         --alias seq-sat-maidu \
