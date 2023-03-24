@@ -36,7 +36,7 @@ Stage: run
     rm -rf /var/lib/apt/lists/*
 
 %environment
-    export gringo=/planner/ext/clingo/gringo
+    export PATH=$PATH:/planner/ext/clingo
 
 # The runscript is called whenever the container is used to solve an instance.
 %runscript
