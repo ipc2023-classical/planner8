@@ -5,6 +5,7 @@ __pycache__/
 /builds/
 /experiments/*/.venv/
 /experiments/*/data/
+/images/
 /misc/.tox/
 /misc/autodoc/downward-xmlrpc.secret
 /output.lifted
