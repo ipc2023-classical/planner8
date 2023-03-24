@@ -17,7 +17,7 @@ Stage: build
     ## Build planner.
     cd /planner
     pypy3 build.py -j8
-    strip --strip-all /planner/ext/powerlifted/builds/release/search/search
+    strip --strip-all /planner/builds/release/bin/downward
 
     cd /planner/ext/powerlifted
     pypy3 build.py
