@@ -72,7 +72,7 @@ Stage: run
         --plan-file "$PLANFILE" \
         "$DOMAINFILE" "$PROBLEMFILE" || pypy3 /planner/ext/powerlifted/powerlifted.py \
         -d $DOMAINFILE -i $PROBLEMFILE --plan-file $PLANFILE \
-        --iteration alt-bfws1,rff,yannak     akis,476 \
+        --iteration alt-bfws1,rff,yannakakis,476 \
         --iteration alt-bfws1,add,yannakakis,38 \
         --iteration alt-bfws2,ff,yannakakis,74 \
         --iteration alt-bfws2,add,yannakakis,359 \
