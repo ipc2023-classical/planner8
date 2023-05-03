@@ -1,6 +1,5 @@
 from . import conditions
 
-axiom_counter = 0
 
 class Axiom:
     def __init__(self, name, parameters, num_external_parameters, condition):
@@ -9,18 +8,16 @@ class Axiom:
         # always equals the arity of the derived predicate.
         assert 0 <= num_external_parameters <= len(parameters)
         self.name = name
-
-        global axiom_counter
-        self.repr_name = "axiom_%s" % (axiom_counter)
-        axiom_counter = axiom_counter + 1
-
         self.parameters = parameters
         self.num_external_parameters = num_external_parameters
         self.condition = condition
         self.uniquify_variables()
 
     def __repr__(self):
-        return self.repr_name
+        name = "axiom_%s_%s" % (self.name, self.__hash__())
+        for rep in (('__', '_DOUBLEUNDERSCORE_'), ('-', '_HYPHEN_')):
+            name = name.replace(*rep)
+        return name
 
     def dump(self):
         args = map(str, self.parameters[:self.num_external_parameters])

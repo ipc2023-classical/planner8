@@ -2,19 +2,12 @@ import copy
 
 from . import conditions
 
-action_counter = 0
 
 class Action:
-
     def __init__(self, name, parameters, num_external_parameters,
                  precondition, effects, cost):
         assert 0 <= num_external_parameters <= len(parameters)
         self.name = name
-
-        global action_counter
-        self.repr_name = "action_%s" % (action_counter)
-        action_counter = action_counter + 1
-
         self.parameters = parameters
         # num_external_parameters denotes how many of the parameters
         # are "external", i.e., should be part of the grounded action
@@ -28,7 +21,10 @@ class Action:
         self.uniquify_variables() # TODO: uniquify variables in cost?
 
     def __repr__(self):
-        return self.repr_name
+        name = "action_%s_%s" % (self.name, id(self))
+        for rep in (('__', '_DOUBLEUNDERSCORE_'), ('-', '_HYPHEN_')):
+            name = name.replace(*rep)
+        return name
 
     def get_object_str_repr(self):
         return "<Action %r at %#x>" % (self.name, id(self))
@@ -41,7 +37,7 @@ class Action:
         for eff in self.effects:
             eff.dump()
         print("Cost:")
-        if self.cost:
+        if(self.cost):
             self.cost.dump()
         else:
             print("  None")

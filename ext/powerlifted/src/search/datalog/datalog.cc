@@ -10,6 +10,7 @@
 #include "transformations/remove_equivalent_rules.h"
 #include "transformations/variable_renaming.h"
 
+#include <cassert>
 #include <iostream>
 #include <memory>
 #include <stack>
@@ -52,9 +53,15 @@ void Datalog::create_rules(AnnotationGenerator ann) {
 void Datalog::generate_action_rule(const ActionSchema &schema,
                                    std::vector<size_t> nullary_preconds, AnnotationGenerator &annotation_generator) {
     string action_predicate = "action-" + schema.get_name();
-    int idx = get_next_auxiliary_predicate_idx();
-    map_new_predicates_to_idx.emplace(action_predicate, idx);
-    predicate_names.push_back(action_predicate);
+    int idx = -1;
+    if (map_new_predicates_to_idx.count(action_predicate) > 0) {
+      idx = map_new_predicates_to_idx[action_predicate];
+    }
+    else {
+      idx = get_next_auxiliary_predicate_idx();
+      map_new_predicates_to_idx.emplace(action_predicate, idx);
+      predicate_names.push_back(action_predicate);
+    }
     DatalogAtom eff(schema, idx);
     vector<DatalogAtom> body = get_atoms_in_rule_body(schema, nullary_preconds);
     // We reverse the body because this apparently has an affect in performance for some domains

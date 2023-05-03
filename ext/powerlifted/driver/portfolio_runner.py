@@ -33,8 +33,9 @@ def run(build_dir, options, extra):
     for count, it in enumerate(options.iteration):
         search, evaluator, generator, relative_time_str = it.split(',')
         relative_time = int(relative_time_str)
-        assert relative_time == relative_times[count]
+        print(f"Next iteration: {search}, {evaluator}, {generator}, {relative_time}")
 
+        assert relative_time == relative_times[count]
 
         if count == len(options.iteration) - 1:
             print("Last iteration can use all remaining time.")
