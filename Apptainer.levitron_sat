@@ -63,7 +63,7 @@ Stage: run
     PLANFILE="$3"
 
     pypy3 /planner/fast-downward.py \
-        --overall-memory-limit 7680M \
+        --overall-memory-limit 6G \
         --overall-time-limit 30m \
         --translate-time-limit 15m \
         --transform-task preprocess-h2 \
