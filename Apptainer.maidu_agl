@@ -45,7 +45,7 @@ Stage: run
     PLANFILE="$3"
 
     pypy3 /planner/fast-downward.py \
-        --overall-memory-limit 6G \
+        --search-memory-limit 6G \
         --overall-time-limit 5m \
         --alias seq-agl-maidu \
         --plan-file "$PLANFILE" \
