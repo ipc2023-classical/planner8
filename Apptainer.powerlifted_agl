@@ -78,6 +78,7 @@ Stage: run
               --iteration gbfs,rff,yannakakis,9 \
               --iteration alt-bfws1,rff,yannakakis,10 \
               --unit-cost --preprocess-task --only-effects-novelty-check \
+              --stop-after-first-plan \
               --time-limit 300
 
 # Define meta data

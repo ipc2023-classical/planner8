@@ -66,6 +66,7 @@ Stage: run
         --overall-time-limit 5m \
         --translate-time-limit 150 \
         --alias seq-agl-maidu \
+        --portfolio-single-plan \
         --plan-file "$PLANFILE" \
         "$DOMAINFILE" "$PROBLEMFILE" \
         --translate-options --invariant-generation-max-candidates 0 || \
@@ -95,6 +96,7 @@ Stage: run
         --iteration gbfs,rff,yannakakis,9 \
         --iteration alt-bfws1,rff,yannakakis,10 \
         --unit-cost --preprocess-task --only-effects-novelty-check \
+        --stop-after-first-plan \
         --time-limit 300
 
 # Define meta data

@@ -48,6 +48,7 @@ Stage: run
         --search-memory-limit 6G \
         --overall-time-limit 5m \
         --alias seq-agl-maidu \
+        --portfolio-single-plan \
         --plan-file "$PLANFILE" \
         "$DOMAINFILE" "$PROBLEMFILE" \
         --translate-options --invariant-generation-max-candidates 0
